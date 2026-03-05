@@ -1,0 +1,59 @@
+baseURL = 'https://kevinalliswell.github.io/'
+languageCode = 'zh-cn'
+title = "Kevin's Blog"
+theme = 'PaperMod'
+
+# 默认设置
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+
+# 导航菜单
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
+
+[params]
+  # 主题设置
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # 首页设置
+  [params.homeInfoParams]
+    Title = "你好 👋"
+    Content = "这里是我的个人博客，记录技术、生活与思考。"
+
+  # 社交链接
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kevinalliswell"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
