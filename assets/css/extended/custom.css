@@ -1,0 +1,225 @@
+/* 自定义样式 - 极简主义增强 */
+
+/* 全局字体优化 */
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --code-font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+}
+
+/* 正文优化 */
+.post-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* 标题样式 */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content h1 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0.5rem;
+}
+
+.post-content h2 {
+    font-size: 1.5rem;
+}
+
+.post-content h3 {
+    font-size: 1.25rem;
+}
+
+/* 链接样式 */
+.post-content a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.post-content a:hover {
+    border-bottom-color: var(--primary);
+}
+
+/* 代码块优化 */
+.post-content pre {
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+}
+
+.post-content code {
+    font-family: var(--code-font-family);
+    font-size: 0.9em;
+}
+
+.post-content p code {
+    background-color: var(--code-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+/* 引用块样式 */
+.post-content blockquote {
+    border-left: 4px solid var(--primary);
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--blockquote-bg);
+    border-radius: 0 8px 8px 0;
+}
+
+/* 列表样式 */
+.post-content ul,
+.post-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin: 0.5rem 0;
+}
+
+/* 表格样式 */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.post-content th,
+.post-content td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-content th {
+    font-weight: 600;
+    background-color: var(--code-bg);
+}
+
+/* 图片样式 */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+/* 任务列表 */
+.post-content input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* 首页优化 */
+.home-info {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.home-info .entry-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home-info .entry-content {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 文章卡片优化 */
+.post-entry {
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 标签样式 */
+.post-tags a {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin: 0.25rem;
+    background-color: var(--code-bg);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease;
+}
+
+.post-tags a:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* 阅读时间 */
+.post-meta {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+/* 分页导航 */
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+/* 页脚优化 */
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+/* 社交图标 */
+.social-icons a {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--code-bg);
+}
+
+/* 暗色模式优化 */
+.dark {
+    --code-bg: #2d2d2d;
+    --blockquote-bg: #2a2a2a;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    .post-content {
+        font-size: 1rem;
+    }
+    
+    .home-info .entry-title {
+        font-size: 2rem;
+    }
+    
+    .post-entry {
+        padding: 1rem;
+    }
+}

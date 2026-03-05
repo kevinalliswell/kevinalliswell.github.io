@@ -41,13 +41,30 @@ paginate = 10
   
   # 首页设置
   [params.homeInfoParams]
-    Title = "你好 👋"
-    Content = "这里是我的个人博客，记录技术、生活与思考。"
+    Title = "你好，我是 Kevin 👋"
+    Content = """
+    这里是我的数字花园，记录：
+    
+    📝 **工作笔记** - 技术学习、项目总结
+    🌟 **热点观察** - AI、科技趋势分析  
+    📸 **生活随笔** - 日常思考、读书笔记
+    
+    欢迎订阅 RSS 或通过邮件交流。
+    """
 
   # 社交链接
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/kevinalliswell"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:your-email@example.com"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
 
   # 禁用 RSS
   disableRSS = true
