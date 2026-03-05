@@ -6,6 +6,11 @@ theme = 'PaperMod'
 # 默认设置
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
+paginate = 10
+
+# 作者信息
+[author]
+  name = "Kevin"
 
 # 导航菜单
 [menu]
@@ -44,6 +49,9 @@ hasCJKLanguage = true
     name = "github"
     url = "https://github.com/kevinalliswell"
 
+  # 禁用 RSS
+  disableRSS = true
+
 [privacy]
   [privacy.disqus]
     disable = true
@@ -51,7 +59,7 @@ hasCJKLanguage = true
     disable = true
   [privacy.instagram]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
   [privacy.vimeo]
     disable = true
