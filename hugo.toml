@@ -6,7 +6,10 @@ theme = 'PaperMod'
 # 默认设置
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
-paginate = 10
+
+# 分页设置 (Hugo v0.128.0+)
+[pagination]
+  pagerSize = 10
 
 # 作者信息
 [author]
