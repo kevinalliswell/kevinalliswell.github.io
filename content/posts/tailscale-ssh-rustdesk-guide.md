@@ -1,6 +1,6 @@
 ---
 title: "Tailscale + SSH + RustDesk：打造零配置远程访问方案"
-date: 2026-03-18T20:00:00+08:00
+date: 2026-03-18T15:54:22+08:00
 draft: false
 tags: ["Tailscale", "SSH", "RustDesk", "远程访问", "WireGuard", "VPN"]
 categories: ["工具"]
