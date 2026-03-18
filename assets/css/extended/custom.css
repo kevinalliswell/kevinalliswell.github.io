@@ -50,22 +50,54 @@
 }
 
 /* 代码块优化 */
-.post-content pre {
-    border-radius: 8px;
-    padding: 1.2rem;
-    margin: 1.5rem 0;
-    overflow-x: auto;
-}
-
 .post-content code {
     font-family: var(--code-font-family);
-    font-size: 0.9em;
+    font-variant-ligatures: none;
 }
 
-.post-content p code {
+.post-content :not(pre) > code {
+    font-size: 0.9em;
     background-color: var(--code-bg);
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
+}
+
+.post-content pre {
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-family: var(--code-font-family);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    white-space: pre;
+    word-break: normal;
+    overflow-wrap: normal;
+    tab-size: 4;
+    -moz-tab-size: 4;
+}
+
+.post-content pre code {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    white-space: inherit;
+    word-break: inherit;
+    overflow-wrap: inherit;
+}
+
+.post-content .highlight pre,
+.post-content .highlight pre code,
+.post-content .highlighttable td .linenodiv pre {
+    font-family: var(--code-font-family);
+    font-size: 0.92rem;
+    line-height: 1.65;
 }
 
 /* 引用块样式 */
