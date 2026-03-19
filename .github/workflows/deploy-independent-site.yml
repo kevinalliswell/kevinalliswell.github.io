@@ -1,0 +1,77 @@
+name: Deploy blog to independent site
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_VERSION: 0.157.0
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Validate deployment settings
+        env:
+          SITE_BASE_URL: ${{ vars.INDEPENDENT_SITE_BASE_URL }}
+          DEPLOY_HOST: ${{ vars.INDEPENDENT_SITE_HOST }}
+          DEPLOY_USER: ${{ vars.INDEPENDENT_SITE_USER }}
+          DEPLOY_PATH: ${{ vars.INDEPENDENT_SITE_PATH }}
+          SSH_PRIVATE_KEY: ${{ secrets.INDEPENDENT_SITE_SSH_KEY }}
+        run: |
+          test -n "${SITE_BASE_URL}"
+          test -n "${DEPLOY_HOST}"
+          test -n "${DEPLOY_USER}"
+          test -n "${DEPLOY_PATH}"
+          test -n "${SSH_PRIVATE_KEY}"
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O "${RUNNER_TEMP}/hugo.deb" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build site
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+          SITE_BASE_URL: ${{ vars.INDEPENDENT_SITE_BASE_URL }}
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${SITE_BASE_URL%/}/"
+
+      - name: Package site
+        run: tar -C public -czf "${RUNNER_TEMP}/site.tar.gz" .
+
+      - name: Deploy site
+        env:
+          ARCHIVE_PATH: ${{ runner.temp }}/site.tar.gz
+          SSH_PRIVATE_KEY: ${{ secrets.INDEPENDENT_SITE_SSH_KEY }}
+          DEPLOY_HOST: ${{ vars.INDEPENDENT_SITE_HOST }}
+          DEPLOY_PORT: ${{ vars.INDEPENDENT_SITE_PORT }}
+          DEPLOY_USER: ${{ vars.INDEPENDENT_SITE_USER }}
+          DEPLOY_PATH: ${{ vars.INDEPENDENT_SITE_PATH }}
+          RELEASE_ID: ${{ github.run_number }}-${{ github.sha }}
+        run: bash scripts/deploy/deploy_independent_site.sh
