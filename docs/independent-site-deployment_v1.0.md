@@ -123,5 +123,15 @@ ln -sfn /var/www/kevin-blog/releases/<旧版本目录> current
 
 - `.github/workflows/deploy-independent-site.yml`
 - `scripts/deploy/deploy_independent_site.sh`
+- `scripts/deploy/bootstrap_independent_site.sh`
+- `scripts/deploy/examples/nginx-independent-site.conf.example`
+- `docs/independent-site-cutover-checklist_v1.0.md`
 
-这两个文件已经组成一条可执行的发布骨架，后续只需补齐独立站点域名、服务器目录和部署密钥。
+当前已经具备：
+
+- GitHub Actions 构建并 SSH 发布骨架
+- 服务器目录初始化脚本
+- Nginx 站点配置模板
+- 切换前检查清单
+
+后续只需补齐独立站点域名、服务器目录和部署密钥。
