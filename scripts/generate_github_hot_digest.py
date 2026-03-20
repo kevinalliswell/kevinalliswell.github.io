@@ -111,6 +111,7 @@ class Settings:
     window_days: int = 7
     minimum_stars: int = 80
     per_query_limit: int = 12
+    per_owner_limit: int = 20
     top_n: int = 10
     max_per_owner: int = 2
 
@@ -129,6 +130,7 @@ class Settings:
             window_days=load_int_env("HOT_REPOS_WINDOW_DAYS", 7),
             minimum_stars=load_int_env("HOT_REPOS_MIN_STARS", 80),
             per_query_limit=load_int_env("HOT_REPOS_PER_QUERY_LIMIT", 12),
+            per_owner_limit=load_int_env("HOT_REPOS_PER_OWNER_LIMIT", 20),
             top_n=load_int_env("HOT_REPOS_TOP_N", 10),
             max_per_owner=load_int_env("HOT_REPOS_MAX_PER_OWNER", 2),
         )
@@ -241,12 +243,13 @@ def build_queries(settings: Settings, since_date: date) -> list[tuple[str, str, 
         )
 
     for owner in dedupe_keep_order(settings.priority_owners + settings.influential_people):
+        per_owner_limit = settings.per_owner_limit if owner in settings.priority_owners else min(8, settings.per_owner_limit)
         queries.append(
             (
                 f"owner:{owner}",
                 f"user:{owner} pushed:>={since} archived:false",
                 "updated",
-                min(8, settings.per_query_limit),
+                per_owner_limit,
             )
         )
     return queries
@@ -317,13 +320,13 @@ def score_repo(repo: RepositorySnapshot, settings: Settings, report_time: dateti
             reasons.append("最近一周有明显活跃度")
 
     if repo.priority_owner:
-        score += 24
+        score += 36
         reasons.append("来自重点官方组织")
     if repo.influential_owner:
-        score += 16
+        score += 24
         reasons.append("来自重点人物仓库")
     if repo.focus_hits:
-        score += len(repo.focus_hits) * 10
+        score += len(repo.focus_hits) * 12
         reasons.append(f"直接命中重点主题：{', '.join(repo.focus_hits)}")
     if repo.ai_hits:
         score += min(len(repo.ai_hits) * 5, 15)
@@ -339,6 +342,18 @@ def score_repo(repo: RepositorySnapshot, settings: Settings, report_time: dateti
         score += 2
 
     return score, reasons[:4]
+
+
+def relevance_tier(repo: RepositorySnapshot) -> int:
+    if (repo.priority_owner or repo.influential_owner) and repo.focus_hits:
+        return 0
+    if repo.priority_owner or repo.influential_owner:
+        return 1
+    if repo.focus_hits:
+        return 2
+    if repo.ai_hits:
+        return 3
+    return 4
 
 
 def collect_candidates(client: GitHubClient, settings: Settings, report_date: date) -> list[RepositorySnapshot]:
@@ -358,9 +373,14 @@ def collect_candidates(client: GitHubClient, settings: Settings, report_date: da
     relevant = [repo for repo in repos.values() if is_relevant(repo, settings)]
     prefetch = sorted(
         relevant,
-        key=lambda repo: (repo.stargazers_count, repo.forks_count, repo.pushed_at or datetime.min),
+        key=lambda repo: (
+            -relevance_tier(repo),
+            repo.stargazers_count,
+            repo.forks_count,
+            repo.pushed_at or datetime.min,
+        ),
         reverse=True,
-    )[: max(settings.top_n * 2, 20)]
+    )[: max(settings.top_n * 3, 30)]
 
     for repo in prefetch:
         repo.latest_release = client.latest_release(repo.full_name)
@@ -380,8 +400,13 @@ def rank_repositories(
         ranked.append(repo)
 
     ranked.sort(
-        key=lambda repo: (repo.score, repo.stargazers_count, repo.forks_count, repo.pushed_at or datetime.min),
-        reverse=True,
+        key=lambda repo: (
+            relevance_tier(repo),
+            -repo.score,
+            -repo.stargazers_count,
+            -repo.forks_count,
+            -(repo.pushed_at.timestamp() if repo.pushed_at else 0),
+        ),
     )
 
     selected: list[RepositorySnapshot] = []
