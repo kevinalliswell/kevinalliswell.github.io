@@ -1,0 +1,107 @@
+name: GitHub Hot Digest
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-hot-digest
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      HOT_REPOS_FOCUS_KEYWORDS: ${{ vars.HOT_REPOS_FOCUS_KEYWORDS }}
+      HOT_REPOS_AI_KEYWORDS: ${{ vars.HOT_REPOS_AI_KEYWORDS }}
+      HOT_REPOS_PRIORITY_OWNERS: ${{ vars.HOT_REPOS_PRIORITY_OWNERS }}
+      HOT_REPOS_ALWAYS_INCLUDE_OWNERS: ${{ vars.HOT_REPOS_ALWAYS_INCLUDE_OWNERS }}
+      HOT_REPOS_INFLUENTIAL_PEOPLE: ${{ vars.HOT_REPOS_INFLUENTIAL_PEOPLE }}
+      HOT_REPOS_WINDOW_DAYS: ${{ vars.HOT_REPOS_WINDOW_DAYS }}
+      HOT_REPOS_MIN_STARS: ${{ vars.HOT_REPOS_MIN_STARS }}
+      HOT_REPOS_PER_QUERY_LIMIT: ${{ vars.HOT_REPOS_PER_QUERY_LIMIT }}
+      HOT_REPOS_TOP_N: ${{ vars.HOT_REPOS_TOP_N }}
+      HOT_REPOS_MAX_PER_OWNER: ${{ vars.HOT_REPOS_MAX_PER_OWNER }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      HUGO_VERSION: 0.157.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compute publish date
+        id: vars
+        run: echo "publish_date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate digest post
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/generate_github_hot_digest.py \
+            "${{ steps.vars.outputs.publish_date }}" \
+            "content/posts/news/github-hot-${{ steps.vars.outputs.publish_date }}.md"
+
+      - name: Commit digest post
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "content/posts/news/github-hot-${{ steps.vars.outputs.publish_date }}.md"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "feat: publish GitHub hot digest for ${{ steps.vars.outputs.publish_date }}"
+          git push
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+          TZ: Asia/Shanghai
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
