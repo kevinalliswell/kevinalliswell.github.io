@@ -97,6 +97,37 @@ def keyword_hits(text: str, keywords: list[str]) -> list[str]:
     return dedupe_keep_order(hits)
 
 
+def infer_use_case(repo: "RepositorySnapshot") -> str:
+    text = normalized_text(repo.full_name, repo.description, " ".join(repo.topics))
+    owner_repo = repo.full_name.lower()
+
+    if "learn" in text or "lesson" in text or "tutorial" in text or "beginners" in text:
+        return "更适合作为学习资料和入门教程，帮助团队系统了解相关 AI 工具链与实践方法。"
+    if "processor" in text or "processing" in text:
+        return "用于批量内容处理与数据流水线，适合把模型能力接入文档、媒体或数据处理任务。"
+    if "package manager" in text or "apm" in owner_repo:
+        return "用于管理 AI Agent 相关依赖和组件，适合统一维护团队内部的 Agent 资产和能力包。"
+    if "cli" in text or "terminal" in text or "shell" in text:
+        return "主要用于在终端中直接调用 AI 能力，适合本地开发、脚本化工作流和命令行协作场景。"
+    if "copilot" in text or "awesome-copilot" in owner_repo:
+        return "面向 GitHub Copilot 生态，提供提示词、技能、说明或最佳实践，帮助团队提升 AI 编程效率。"
+    if "sdk" in text:
+        return "提供 SDK 或开发接口，方便开发者把对应模型能力接入自己的应用、服务或自动化流程。"
+    if "workflow" in text or "agentic" in text or "agent " in f"{text} " or "agents" in text:
+        return "聚焦智能体与工作流编排，适合搭建多步骤自动化、协作式 AI Agent 或业务流程系统。"
+    if "prompt" in text or "prompts" in text:
+        return "主要沉淀提示词模板和交互资产，适合快速复用成熟提示策略或搭建提示词资产库。"
+    if "voice" in text or "audio" in text or "speech" in text:
+        return "偏向语音或多模态交互，适合语音助手、实时通话和多模态输入输出场景。"
+    if "openai" in owner_repo and "agents" in owner_repo:
+        return "提供 OpenAI Agent 开发框架，适合构建可编排、可扩展的多智能体应用。"
+    if "claude" in owner_repo:
+        return "围绕 Claude 生态提供开发或调用能力，适合在工程流程中接入 Claude 的代码与智能体能力。"
+    if "gemini" in owner_repo:
+        return "围绕 Gemini 生态提供开发工具或处理框架，适合把 Gemini 能力接入开发与内容处理流程。"
+    return "这是一个面向 AI 开发与自动化场景的热门项目，适合评估其在研发提效、内容处理或智能体搭建中的落地价值。"
+
+
 @dataclass
 class Settings:
     focus_keywords: list[str] = field(default_factory=lambda: DEFAULT_FOCUS_KEYWORDS.copy())
@@ -456,6 +487,7 @@ def render_digest(repositories: list[RepositorySnapshot], settings: Settings, re
             f"Stars {repo.stargazers_count:,} | Forks {repo.forks_count:,} | "
             f"语言 {repo.language} | 最近更新 {pushed_at}"
         )
+        use_case = infer_use_case(repo)
         source_links = [f"[仓库]({repo.html_url})", f"[Owner]({repo.owner_url})"]
         if repo.latest_release and repo.latest_release.html_url:
             source_links.append(f"[最新 Release]({repo.latest_release.html_url})")
@@ -469,6 +501,7 @@ def render_digest(repositories: list[RepositorySnapshot], settings: Settings, re
                 "",
                 repo.description or "仓库描述缺失，但从元数据看具备较强关注度与活跃度。",
                 "",
+                f"- 功能/用途：{use_case}",
                 f"- 关注理由：{'；'.join(repo.reasons)}",
                 f"- 关键指标：{metrics}",
                 f"- 命中主题：{hit_text}",

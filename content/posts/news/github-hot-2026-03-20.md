@@ -24,6 +24,7 @@ summary: "聚合 GitHub 最近活跃且最具价值和影响力的 10 个 AI 热
 
 GitHub Agentic Workflows
 
+- 功能/用途：面向 GitHub Copilot 生态，提供提示词、技能、说明或最佳实践，帮助团队提升 AI 编程效率。
 - 关注理由：星标基础扎实；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
 - 关键指标：Stars 4,146 | Forks 302 | 语言 Go | 最近更新 2026-03-20
 - 命中主题：claude, copilot
@@ -33,8 +34,9 @@ GitHub Agentic Workflows
 
 A lightweight, powerful framework for multi-agent workflows
 
+- 功能/用途：聚焦智能体与工作流编排，适合搭建多步骤自动化、协作式 AI Agent 或业务流程系统。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 20,132 | Forks 3,293 | 语言 Python | 最近更新 2026-03-20
+- 关键指标：Stars 20,133 | Forks 3,293 | 语言 Python | 最近更新 2026-03-20
 - 命中主题：openai
 - 引用来源：[仓库](https://github.com/openai/openai-agents-python) · [Owner](https://github.com/openai) · [最新 Release](https://github.com/openai/openai-agents-python/releases/tag/v0.12.5) · [Homepage](https://openai.github.io/openai-agents-python/)
 
@@ -42,8 +44,9 @@ A lightweight, powerful framework for multi-agent workflows
 
 An open-source AI agent that brings the power of Gemini directly into your terminal.
 
+- 功能/用途：主要用于在终端中直接调用 AI 能力，适合本地开发、脚本化工作流和命令行协作场景。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 98,401 | Forks 12,432 | 语言 TypeScript | 最近更新 2026-03-20
+- 关键指标：Stars 98,403 | Forks 12,434 | 语言 TypeScript | 最近更新 2026-03-20
 - 命中主题：gemini
 - 引用来源：[仓库](https://github.com/google-gemini/gemini-cli) · [Owner](https://github.com/google-gemini) · [最新 Release](https://github.com/google-gemini/gemini-cli/releases/tag/v0.34.0) · [Homepage](https://geminicli.com)
 
@@ -51,6 +54,7 @@ An open-source AI agent that brings the power of Gemini directly into your termi
 
 A lightweight, powerful framework for multi-agent workflows and voice agents
 
+- 功能/用途：聚焦智能体与工作流编排，适合搭建多步骤自动化、协作式 AI Agent 或业务流程系统。
 - 关注理由：星标基础扎实；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
 - 关键指标：Stars 2,492 | Forks 652 | 语言 TypeScript | 最近更新 2026-03-20
 - 命中主题：openai
@@ -60,6 +64,7 @@ A lightweight, powerful framework for multi-agent workflows and voice agents
 
 GenAI Processors is a lightweight Python library that enables efficient, parallel content processing.
 
+- 功能/用途：用于批量内容处理与数据流水线，适合把模型能力接入文档、媒体或数据处理任务。
 - 关注理由：星标基础扎实；近 48 小时仍在活跃更新；来自重点官方组织；直接命中重点主题：gemini
 - 关键指标：Stars 2,079 | Forks 213 | 语言 Python | 最近更新 2026-03-19
 - 命中主题：gemini
@@ -69,8 +74,9 @@ GenAI Processors is a lightweight Python library that enables efficient, paralle
 
 Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
 
+- 功能/用途：面向 GitHub Copilot 生态，提供提示词、技能、说明或最佳实践，帮助团队提升 AI 编程效率。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 26,109 | Forks 3,004 | 语言 Python | 最近更新 2026-03-20
+- 关键指标：Stars 26,114 | Forks 3,006 | 语言 Python | 最近更新 2026-03-20
 - 命中主题：copilot
 - 引用来源：[仓库](https://github.com/github/awesome-copilot) · [Owner](https://github.com/github) · [Homepage](https://awesome-copilot.github.com/)
 
@@ -78,8 +84,9 @@ Community-contributed instructions, agents, skills, and configurations to help y
 
 21 Lessons, Get Started Building with Generative AI
 
+- 功能/用途：更适合作为学习资料和入门教程，帮助团队系统了解相关 AI 工具链与实践方法。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 108,271 | Forks 58,031 | 语言 Jupyter Notebook | 最近更新 2026-03-19
+- 关键指标：Stars 108,271 | Forks 58,032 | 语言 Jupyter Notebook | 最近更新 2026-03-19
 - 命中主题：openai
 - 引用来源：[仓库](https://github.com/microsoft/generative-ai-for-beginners) · [Owner](https://github.com/microsoft)
 
@@ -87,8 +94,9 @@ Community-contributed instructions, agents, skills, and configurations to help y
 
 Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
+- 功能/用途：主要用于在终端中直接调用 AI 能力，适合本地开发、脚本化工作流和命令行协作场景。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 80,148 | Forks 6,623 | 语言 Shell | 最近更新 2026-03-20
+- 关键指标：Stars 80,150 | Forks 6,624 | 语言 Shell | 最近更新 2026-03-20
 - 命中主题：claude
 - 引用来源：[仓库](https://github.com/anthropics/claude-code) · [Owner](https://github.com/anthropics) · [最新 Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) · [Homepage](https://code.claude.com/docs/en/overview)
 
@@ -96,6 +104,7 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 
 A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of all Copilots
 
+- 功能/用途：面向 GitHub Copilot 生态，提供提示词、技能、说明或最佳实践，帮助团队提升 AI 编程效率。
 - 关注理由：近 48 小时仍在活跃更新；来自重点官方组织；直接命中重点主题：copilot；具备 AI/Agent 信号：agent, agents, prompt
 - 关键指标：Stars 879 | Forks 113 | 语言 PowerShell | 最近更新 2026-03-20
 - 命中主题：copilot
@@ -105,8 +114,9 @@ A refined collection of Hypervelocity Engineering components (instructions, prom
 
 仓库描述缺失，但从元数据看具备较强关注度与活跃度。
 
+- 功能/用途：提供 SDK 或开发接口，方便开发者把对应模型能力接入自己的应用、服务或自动化流程。
 - 关注理由：社区关注度高；开发者参与度强；近 48 小时仍在活跃更新；来自重点官方组织
-- 关键指标：Stars 5,594 | Forks 748 | 语言 Python | 最近更新 2026-03-20
+- 关键指标：Stars 5,595 | Forks 748 | 语言 Python | 最近更新 2026-03-20
 - 命中主题：claude
 - 引用来源：[仓库](https://github.com/anthropics/claude-agent-sdk-python) · [Owner](https://github.com/anthropics) · [最新 Release](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.48)
 
