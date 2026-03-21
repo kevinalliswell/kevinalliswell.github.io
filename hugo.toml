@@ -60,11 +60,8 @@ hasCJKLanguage = true
     name = "github"
     url = "https://github.com/kevinalliswell"
   [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/"
-  [[params.socialIcons]]
     name = "email"
-    url = "mailto:your-email@example.com"
+    url = "mailto:kevin.alliswell@gmail.com"
   [[params.socialIcons]]
     name = "rss"
     url = "index.xml"
