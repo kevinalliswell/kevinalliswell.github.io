@@ -3,7 +3,7 @@ title: "CrewAI 深度解析：多代理协作框架"
 date: 2026-03-03T00:00:00+08:00
 draft: false
 tags: ["CrewAI", "AI Agent", "多代理", "Python", "开源"]
-categories: ["AI"]
+categories: ["技术"]
 author: "Kevin"
 description: "多代理协作框架的技术解析与应用指南"
 ---

@@ -3,7 +3,7 @@ title: "Obsidian + Git 实现笔记自动同步"
 date: 2026-03-03T00:00:00+08:00
 draft: false
 tags: ["Obsidian", "Git", "笔记同步", "效率工具"]
-categories: ["工具"]
+categories: ["技术"]
 author: "Kevin"
 description: "完成 GitHub 同步的完整配置指南"
 ---

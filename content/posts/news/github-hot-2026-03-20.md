@@ -3,7 +3,7 @@ title: "GitHub 热点项目日报 2026-03-20"
 date: "2026-03-20T07:00:00+08:00"
 draft: false
 tags: ["GitHub", "AI", "日报", "OpenAI", "Claude", "Gemini", "Copilot"]
-categories: ["热点观察"]
+categories: ["日报"]
 summary: "聚合 GitHub 最近活跃且最具价值和影响力的 10 个 AI 热点仓库，附引用来源。"
 ---
 

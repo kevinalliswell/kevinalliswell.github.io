@@ -3,7 +3,7 @@ title: "一文搞懂 OpenClaw：从入门到精通"
 date: 2026-03-06T00:00:00+08:00
 draft: false
 tags: ["OpenClaw", "AI Agent", "教程", "效率工具", "自动化"]
-categories: ["AI", "技术"]
+categories: ["技术"]
 author: "Kevin"
 description: "OpenClaw 完全指南：安装部署、核心概念、应用场景和最佳实践"
 ---

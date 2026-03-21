@@ -462,7 +462,7 @@ def render_digest(repositories: list[RepositorySnapshot], settings: Settings, re
         f'date: "{report_time.isoformat()}"',
         "draft: false",
         'tags: ["GitHub", "AI", "日报", "OpenAI", "Claude", "Gemini", "Copilot"]',
-        'categories: ["热点观察"]',
+        'categories: ["日报"]',
         f'summary: "{summary}"',
         "---",
         "",

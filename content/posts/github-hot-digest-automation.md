@@ -3,7 +3,7 @@ title: "用 GitHub Actions 自动生成并发布 GitHub 热点项目日报"
 date: 2026-03-20T10:20:00+08:00
 draft: false
 tags: ["GitHub Actions", "Hugo", "自动化", "AI", "GitHub", "博客"]
-categories: ["技术", "自动化"]
+categories: ["技术"]
 author: "Kevin"
 description: "把 GitHub 热点项目抓取、筛选、写作和博客发布串成一条每天自动运行的工作流"
 ---

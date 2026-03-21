@@ -3,7 +3,7 @@ title: "Tailscale + SSH + RustDesk：打造零配置远程访问方案"
 date: 2026-03-18T15:54:22+08:00
 draft: false
 tags: ["Tailscale", "SSH", "RustDesk", "远程访问", "WireGuard", "VPN"]
-categories: ["工具"]
+categories: ["技术"]
 author: "Kevin"
 description: "结合 Tailscale 组网、SSH 命令行和 RustDesk 远程桌面，实现零端口转发、端到端加密的远程访问方案"
 ---

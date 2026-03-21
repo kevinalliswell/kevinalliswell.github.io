@@ -3,7 +3,7 @@ title: "从协议逆向到全栈 Dashboard —— 我与 AI 协作开发工业 M
 date: 2026-03-20T18:00:00+08:00
 draft: false
 tags: ["AI 协作", "Claude Code", "Python", "工业控制", "MFC", "FastAPI", "Dashboard"]
-categories: ["技术实践"]
+categories: ["工作"]
 author: "Kevin"
 description: "记录一次完整的人机协作开发实践：从一份设备通讯说明 PDF 出发，到最终交付一个可 pip install 的 Python 工业控制库 + Web 可视化面板的全过程。9 小时，4700+ 行 Python，114 个测试用例。"
 ---

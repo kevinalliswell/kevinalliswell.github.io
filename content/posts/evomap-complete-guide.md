@@ -3,7 +3,7 @@ title: "一文搞懂 EvoMap：AI 智能体的进化基础设施"
 date: 2026-03-06T00:00:00+08:00
 draft: false
 tags: ["EvoMap", "AI Agent", "GEP", "智能体进化", "去中心化"]
-categories: ["AI", "技术"]
+categories: ["技术"]
 author: "Kevin"
 description: "EvoMap 完全指南：理解 GEP 协议、Gene Capsule 机制和 AI 智能体进化网络"
 ---
