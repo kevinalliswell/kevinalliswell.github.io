@@ -1,0 +1,295 @@
+{
+  "date": "2026-03-22",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报-监测版-AI机器人能源黄金",
+  "source_label": "GPT-5.3-codex",
+  "summary": "结论先行：截至北京时间2026-03-22，过去24小时未出现足以触发组合结构重排的新增一级信号；本期发布监测版。边际变化主要来自已落地的2026-03-18 FOMC、2026-03-19/03-18 EIA周度数据与2026-03-20 Fed H.15更新，方向上继续支持黄金偏防守、能源与机器人维持观察、AI基础设施等待下一轮财报/订单级确认。以下动作均为主观判断，不构成个性化投资建议。",
+  "macro": {
+    "regime": "高不确定性+实际利率仍偏高，风险资产分化",
+    "bullets": [
+      "2026-03-18 FOMC维持联邦基金利率目标区间在3.50%-3.75%，并明确Middle East变化对美国经济影响仍不确定。",
+      "Fed H.15于2026-03-20更新：10年期美债4.25%，10年期TIPS实际利率1.88%，黄金机会成本未见进一步恶化但仍处高位。",
+      "EIA截至2026-03-13当周数据显示美国商业原油库存+620万桶、天然气库存+35 Bcf，能源板块短线仍受库存与地缘溢价拉扯。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury (H.15)",
+      "ticker": "UST10Y",
+      "price": "4.25%",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS Real Yield (H.15)",
+      "ticker": "TIPS10Y",
+      "price": "1.88%",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US Commercial Crude Inventories",
+      "ticker": "EIA-WPSR",
+      "price": "449.3 million bbl",
+      "change_pct": "Week +6.2 million bbl",
+      "source_url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "name": "US Working Gas in Storage",
+      "ticker": "EIA-NGS",
+      "price": "1,883 Bcf",
+      "change_pct": "Week +35 Bcf",
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 79,
+      "thesis": "在2026-03-22这个窗口，黄金主逻辑仍是“宏观不确定性+资金配置需求”，而不是“宽松交易”。",
+      "why_now": "2026-03-18 FOMC强调不确定性；2026-03-20 H.15显示10Y实际利率1.88%并未继续明显抬升；WGC在2026-03-05发布、数据截至2026-03-13的月度页仍显示黄金ETF净流入延续。",
+      "catalysts": [
+        "2026-04-09 08:30（美东）：BEA发布Personal Income and Outlays（2026年2月），对应通胀路径再验证。",
+        "2026-04-28至2026-04-29：下一次FOMC会议，若政策表述再偏谨慎，黄金防守属性可能再被定价。"
+      ],
+      "risks": [
+        "若2026-04-09之后核心通胀重新走强并推升实际利率，黄金机会成本将上升。",
+        "若地缘风险在2026年二季度快速降温，避险溢价可能回吐。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve issues FOMC statement (Mar 18, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+        },
+        {
+          "title": "H.15 Selected Interest Rates (Last Update: March 20, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "Gold ETF holdings and flows: March 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "SPDR Gold Shares official page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "能源仍有地缘与供给端支撑，但库存与需求端确认不足，使追价胜率一般。",
+      "why_now": "EIA在2026-03-18发布（数据截至2026-03-13）的WPSR显示商业原油库存增加620万桶；2026-03-19天然气库存周报显示库存增加35 Bcf。ETF层面，XLE官方页截至2026-03-19/03-21的更新反映板块集中度仍高。",
+      "catalysts": [
+        "2026-03-25：EIA下一次Weekly Petroleum Status Report发布日。",
+        "2026-03-26：EIA下一次Weekly Natural Gas Storage Report发布日。"
+      ],
+      "risks": [
+        "若库存继续累积且需求端没有同步走强，能源股估值扩张空间受限。",
+        "若地缘风险溢价在短期快速回落，油价与板块Beta可能同步回撤。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report page (Release Date: Mar 18, 2026; Next: Mar 25, 2026)",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Summary of Weekly Petroleum Data for week ending March 13, 2026",
+          "publisher": "EIA",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report (Released: March 19, 2026)",
+          "publisher": "EIA",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        },
+        {
+          "title": "XLE official page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 63,
+      "thesis": "机器人长期逻辑不变，但过去24小时缺少财报或订单级新证据，短线以等待确认为主。",
+      "why_now": "BOTZ官方页面在2026-03-20更新了Top Holdings（含ISRG、KEYENCE、ABB、NVDA、FANUC），但该更新主要是持仓快照刷新，不构成新增基本面拐点。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC会议结果将继续影响高估值自动化资产贴现率。",
+        "2026年4月至5月：成分股财报季将提供订单/利润率再验证。"
+      ],
+      "risks": [
+        "若实际利率再上行，高估值成长篮子波动会被放大。",
+        "若工业终端需求弱于预期，机器人链订单确认将继续后移。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "BOTZ official page (Top Holdings as of Mar 20, 2026)",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz/"
+        },
+        {
+          "title": "FOMC meeting calendars and information (2026 schedule)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "Micron Technology",
+      "ticker": "MU",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 61,
+      "thesis": "AI内存链核心逻辑仍由2026-03-18财报确认支撑，但过去24小时没有新增一手信号，边际信息进入空窗。",
+      "why_now": "最新可验证的公司级催化仍是Micron在2026-03-18发布的FY2026 Q2结果与FY2026 Q3指引；截至2026-03-22未见新的同等级官方披露。",
+      "catalysts": [
+        "2026年4月至5月：半导体与云基础设施公司后续财报窗口将决定景气斜率是否延续。",
+        "2026-04-28至2026-04-29：FOMC会议对成长风格估值约束仍是关键宏观变量。"
+      ],
+      "risks": [
+        "若估值先行透支而订单验证滞后，股价易进入高波动整理。",
+        "若上游供给扩张快于终端AI需求兑现，内存价格弹性可能回落。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 10,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Micron reports results for fiscal Q2 2026 (Mar 18, 2026)",
+          "publisher": "Micron Investor Relations",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026"
+        },
+        {
+          "title": "Micron prepared remarks (FY2026 Q2)",
+          "publisher": "Micron Investor Relations",
+          "url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357"
+        },
+        {
+          "title": "FOMC calendar (2026 meetings)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观通胀",
+      "asset": "US Personal Income and Outlays (PCE)",
+      "ticker": "BEA",
+      "note": "BEA日程显示2026-04-09发布2月数据，直接影响实际利率与黄金/成长风格定价。"
+    },
+    {
+      "theme": "能源周频",
+      "asset": "EIA WPSR / NGS",
+      "ticker": "EIA",
+      "note": "2026-03-25与2026-03-26两次周报是短线能源仓位再决策时间点。"
+    },
+    {
+      "theme": "政策路径",
+      "asset": "FOMC April Meeting",
+      "ticker": "FOMC",
+      "note": "2026-04-28至2026-04-29会议是二季度风险资产再定价关键窗口。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Fed FOMC statement (2026-03-18)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+    },
+    {
+      "label": "Fed H.15 (Last Update: 2026-03-20)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "FOMC calendar (2026 meetings)",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "EIA WPSR page (Release: 2026-03-18; Next: 2026-03-25)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR summary PDF (week ending 2026-03-13)",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report (Released 2026-03-19)",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "WGC Gold ETF flows (March 2026 page)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "GLD official page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "XLE official page",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "label": "BOTZ official page",
+      "url": "https://www.globalxetfs.com/funds/botz/"
+    },
+    {
+      "label": "BEA release schedule (Page last modified 2026-03-21)",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "label": "Micron FY2026 Q2 results (2026-03-18)",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}
