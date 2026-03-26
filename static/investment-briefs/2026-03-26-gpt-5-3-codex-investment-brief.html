@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报-监测版-AI机器人能源黄金</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报-监测版-AI机器人能源黄金</h1>
+      <p class="meta">2026-03-26 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026年3月26日（Asia/Shanghai），过去24小时内出现了能源与利率层面的常规增量（EIA周报与Fed H.15更新），但尚未出现足以触发组合结构重排的一级信号。AI/机器人方向的新增一级信息主要是NVIDIA在2026年3月23日发布的“AI工厂与电网协同”合作公告，方向积极但财务可验证性仍待后续订单与资本开支披露确认。黄金主线仍由实际利率与资金流共同驱动，当前更适合按条件分批而非追涨。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>名义利率与实际利率均处偏高区间，能源价格韧性抬升短端通胀噪音，风险资产以择时和仓位纪律为先。</strong></p>
+      <ul><li>Fed H.15（Release date: 2026-03-25）显示联邦基金有效利率在2026-03-24为3.64%，10年期名义利率为4.39%，10年期TIPS实际利率为2.06%。</li><li>EIA WPSR（Release Date: 2026-03-25）对应截至2026-03-20当周，美国商业原油库存增加690万桶至4.562亿桶；WTI Cushing现货为98.71美元/桶。</li><li>BEA发布日程显示下一批关键宏观确认点为2026-04-02贸易数据，以及2026-04-09的GDP三读与2月PCE相关发布。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Fed Funds Effective</td>
+          <td>EFFR</td>
+          <td>3.64% (2026-03-24)</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y Treasury</td>
+          <td>UST10Y</td>
+          <td>4.39% (2026-03-24)</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y TIPS Real Yield</td>
+          <td>UST10Y_REAL</td>
+          <td>2.06% (2026-03-24)</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>WTI Cushing Spot</td>
+          <td>WTI</td>
+          <td>$98.71/bbl (2026-03-20 week)</td>
+          <td>n/a</td>
+          <td><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>BOTZ NAV</td>
+          <td>BOTZ</td>
+          <td>$33.82 (as of 2026-03-24)</td>
+          <td>n/a</td>
+          <td><a href="https://www.globalxetfs.com/funds/botz/">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实物资产</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Accumulate</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>黄金仍具对冲宏观尾部风险与政策路径不确定性的组合价值，但在10年期实际利率仍高位（2.06%）背景下，趋势上行需要新的资金流与通胀预期共振确认。</p>
+              <p><strong>Why now:</strong> 2026-03-25 Fed H.15确认实际利率维持高位；WGC页面显示黄金ETF流向数据更新至2026-03-20，尚无“爆发式增量”信号，结论维持“回撤分批”。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-09 BEA发布GDP三读与2月Personal Income and Outlays（含PCE框架）。</li><li>若后续WGC周度/月底流量显示北美与欧洲同步净流入扩大，黄金资产弹性更高。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续抬升会压制无息资产估值弹性。</li><li>若美元指数与增长预期同步走强，黄金短期可能转入盘整。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates (Release date: March 25, 2026)</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03">Gold ETF flows, March 2026 (Published: 5 March, 2026; Data as of 20 March, 2026)</a></li><li><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">SPDR Gold Shares (GLD) official page</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施与电力协同</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>AI算力扩张正在与电力系统约束耦合，NVIDIA推动的“可调度AI工厂”框架强化了其生态位，但当前仍偏战略与合作声明阶段，需要后续项目落地和财务口径验证。</p>
+              <p><strong>Why now:</strong> NVIDIA于2026-03-23发布与Emerald AI及多家能源公司的合作公告，强化“time-to-power”与“grid flexibility”叙事，属于主题正向增量但非盈利预测上修级别。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>公告提及DSX Flex计划在2026年内商业规模部署，后续项目并网/订单披露将决定是否上调评级。</li><li>下一轮公司财报或投资者活动若给出AI工厂落地节奏与资本效率指标，可形成估值再定价触发点。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>当前关键信息以公司新闻稿为主，尚需更多第三方与财务数据交叉验证。</li><li>若电力基础设施扩容慢于算力投资节奏，交付节奏可能受限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets">NVIDIA and Emerald AI Join Leading Energy Companies...</a></li><li><a href="https://www.globalxetfs.com/funds/botz/">BOTZ official page (Top holdings / NAV as of Mar 24, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>短期油价与库存数据对能源板块仍有支撑，但高位波动环境下，行业Beta回报更依赖库存与需求数据的连续确认。</p>
+              <p><strong>Why now:</strong> EIA于2026-03-25发布周报：截至2026-03-20当周商业原油库存+690万桶，WTI现货98.71美元/桶；结构信号偏“供需再平衡中的噪音上行”，未到单边提仓条件。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-01下一期EIA WPSR发布。</li><li>若后续成品油去库与需求端数据同步改善，能源股现金流预期可能上修。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>库存若连续累积且需求走弱，油价可能回撤并压缩板块估值。</li><li>地缘或政策扰动导致波动率抬升，仓位管理难度增加。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report (Release Date: Mar. 25, 2026)</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf">WPSR Highlights PDF (week ending 3/20/26)</a></li><li><a href="https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle">XLE official page</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与自动化</p>
+                  <h2>Global X Robotics &amp; AI ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>机器人链条受益于AI基础设施外溢，但近期可量化增量仍主要来自主题叙事与成分股结构，缺少行业级订单与利润率拐点的统一确认。</p>
+              <p><strong>Why now:</strong> BOTZ页面显示截至2026-03-24的净值与持仓更新，但在过去24-72小时内未见足以改变板块仓位等级的新增一级数据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>主要成分股下一轮财报对自动化订单与库存周转的指引。</li><li>若AI工厂建设转化为工业自动化设备订单，机器人链条有望获得二阶验证。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>估值端对未来增长预期较高，若订单兑现滞后易触发回撤。</li><li>海外制造业景气度若再走弱，会延后资本开支周期。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.globalxetfs.com/funds/botz/">BOTZ official page (Top holdings and key information as of Mar 24, 2026)</a></li><li><a href="https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets">NVIDIA and Emerald AI energy collaboration (March 23, 2026)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
