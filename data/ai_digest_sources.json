@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "site_url": "https://openai.com/news/",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "mode": "feed_items",
+      "category": "厂商发布",
+      "include_keywords": [
+        "ai",
+        "agent",
+        "api",
+        "chatgpt",
+        "codex",
+        "gpt",
+        "model",
+        "openai",
+        "release",
+        "safety",
+        "模型",
+        "发布"
+      ]
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "site_url": "https://deepmind.google/blog/",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "mode": "feed_items",
+      "category": "厂商发布",
+      "include_keywords": [
+        "ai",
+        "agent",
+        "deepmind",
+        "gemini",
+        "google",
+        "model",
+        "发布",
+        "模型"
+      ]
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "site_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "mode": "feed_items",
+      "category": "行业大事",
+      "include_keywords": [
+        "ai",
+        "artificial intelligence",
+        "industry",
+        "model",
+        "policy",
+        "regulation",
+        "创业",
+        "监管"
+      ]
+    },
+    {
+      "name": "宝玉的分享",
+      "site_url": "https://baoyu.io",
+      "feed_url": "https://baoyu.io/feed.xml",
+      "mode": "feed_items",
+      "category": "KOL观点",
+      "include_keywords": [
+        "ai",
+        "agent",
+        "anthropic",
+        "claude",
+        "codex",
+        "cursor",
+        "gpt",
+        "llm",
+        "openai",
+        "人工智能",
+        "大模型",
+        "模型"
+      ]
+    },
+    {
+      "name": "AI资讯速览",
+      "site_url": "https://ai-digest.liziran.com/zh/",
+      "feed_url": "https://ai-digest.liziran.com/zh/feed.xml",
+      "mode": "ai_digest_sections",
+      "category": "行业大事",
+      "include_keywords": []
+    }
+  ]
+}

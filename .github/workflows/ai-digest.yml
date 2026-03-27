@@ -1,0 +1,57 @@
+name: AI Digest
+
+on:
+  schedule:
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-digest
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compute publish date
+        id: vars
+        run: echo "publish_date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate digest post
+        run: |
+          python3 scripts/generate_ai_digest.py \
+            "${{ steps.vars.outputs.publish_date }}" \
+            "content/posts/news/ai-digest-${{ steps.vars.outputs.publish_date }}.md"
+
+      - name: Commit digest post
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "content/posts/news/ai-digest-${{ steps.vars.outputs.publish_date }}.md"
+          git add "data/ai_digest_sources.json"
+          git add "scripts/generate_ai_digest.py"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "feat: publish AI digest for ${{ steps.vars.outputs.publish_date }}"
+          git push
