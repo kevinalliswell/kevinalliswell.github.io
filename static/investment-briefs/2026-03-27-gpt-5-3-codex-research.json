@@ -1,0 +1,276 @@
+{
+  "date": "2026-03-27",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报-监测版-AI机器人能源黄金",
+  "summary": "截至2026年3月27日（Asia/Shanghai）本次运行未检出可验证的‘组合重排级’新增一级信号，结论维持监测版。最近一次已验证的关键一级来源更新集中在2026-03-25（Fed H.15、EIA WPSR）与2026-03-23（NVIDIA能源协同公告），当前更适合执行条件化分批与事件驱动观察，而非追涨扩仓。若后续出现新的官方数据发布，将优先按发布日期重估黄金、AI基础设施与能源仓位。",
+  "macro": {
+    "regime": "实际利率仍偏高，能源价格韧性与增长预期拉扯并存；跨主题仓位以节奏管理为先。",
+    "bullets": [
+      "Federal Reserve H.15（Release date: 2026-03-25）给出的最近可核验读数：EFFR 3.64%（2026-03-24），10Y Treasury 4.39%，10Y TIPS 2.06%。",
+      "EIA WPSR（Release Date: 2026-03-25）对应截至2026-03-20当周美国商业原油库存增加690万桶至4.562亿桶。",
+      "本次运行网络环境无法直连外部网站进行增量抓取，故仅基于最近一次已验证一级来源做监测版更新，并维持事件观察清单。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Funds Effective",
+      "ticker": "EFFR",
+      "price": "3.64% (2026-03-24)",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y Treasury",
+      "ticker": "UST10Y",
+      "price": "4.39% (2026-03-24)",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS Real Yield",
+      "ticker": "UST10Y_REAL",
+      "price": "2.06% (2026-03-24)",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "WTI Cushing Spot",
+      "ticker": "WTI",
+      "price": "$98.71/bbl (week ending 2026-03-20)",
+      "change_pct": "n/a",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 78,
+      "thesis": "黄金在不确定宏观路径下仍具组合对冲价值，但高位实际利率环境要求更严格的入场纪律。",
+      "why_now": "最近已验证增量仍来自2026-03-25的Fed H.15与截至2026-03-20的WGC数据窗口，尚无足以改变仓位等级的新一级信号。",
+      "catalysts": [
+        "2026-04-09：BEA GDP三读与Personal Income and Outlays（含PCE框架）。",
+        "后续WGC若出现北美与欧洲同步净流入扩张，黄金弹性可能上修。"
+      ],
+      "risks": [
+        "10Y实际利率若继续抬升，黄金估值弹性受压。",
+        "美元走强与增长预期回升并行时，黄金可能转为区间震荡。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "H.15 Selected Interest Rates (Release date: March 25, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "Gold ETF flows, March 2026 (Published: 2026-03-05; Data as of 2026-03-20)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "SPDR Gold Shares (GLD) official page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施与电力协同",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "AI算力建设与电网调度耦合的主线成立，但估值兑现仍依赖可量化订单与资本效率披露。",
+      "why_now": "NVIDIA 2026-03-23公告属于方向性正增量，但截至本次运行未检出新的可验证一级披露来上调评级。",
+      "catalysts": [
+        "2026年内DSX Flex商业部署进度与签约披露。",
+        "后续财报披露AI工厂相关订单、毛利率与资本开支效率。"
+      ],
+      "risks": [
+        "当前信息以公司新闻稿为主，财务口径验证不足。",
+        "电力基础设施扩容慢于算力投资，可能压制交付节奏。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "NVIDIA and Emerald AI Join Leading Energy Companies... (2026-03-23)",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+        },
+        {
+          "title": "BOTZ official page (holdings/NAV reference)",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz/"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "油价韧性对能源股盈利预期有支撑，但库存与需求数据未形成单边确认。",
+      "why_now": "最近已验证一级增量是2026-03-25 EIA周报，暂不足以触发板块提仓。",
+      "catalysts": [
+        "2026-04-01：下一期EIA WPSR。",
+        "若成品油去库与需求端同步改善，板块现金流预期可能上修。"
+      ],
+      "risks": [
+        "库存连续累积将压制油价与板块估值。",
+        "地缘扰动导致波动率抬升，回撤风险加大。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (Release Date: Mar. 25, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "WPSR Highlights PDF (week ending 2026-03-20)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+        },
+        {
+          "title": "XLE official page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 62,
+      "thesis": "机器人链条受益于AI资本开支外溢，但缺少行业级订单拐点的一级确认。",
+      "why_now": "过去24-72小时内未检出新的官方订单/业绩增量披露，维持观察评级。",
+      "catalysts": [
+        "核心成分股下一轮财报的订单与库存周转指引。",
+        "AI工厂建设若外溢为工业自动化设备订单，可形成二阶验证。"
+      ],
+      "risks": [
+        "成长预期较高，若兑现滞后则估值回撤弹性较大。",
+        "制造业景气走弱会延后资本开支周期。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "BOTZ official page",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国GDP/PCE确认窗口",
+      "ticker": "MACRO",
+      "note": "关注2026-04-09 BEA GDP三读与2月Personal Income and Outlays。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA周度库存",
+      "ticker": "EIA-WPSR",
+      "note": "关注2026-04-01 WPSR是否延续库存方向。"
+    },
+    {
+      "theme": "货币政策",
+      "asset": "FOMC会议",
+      "ticker": "FOMC",
+      "note": "下一次FOMC会议窗口为2026-04-28至2026-04-29。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Release date: 2026-03-25)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report (Release Date: 2026-03-25)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Highlights PDF (week ending 2026-03-20)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "label": "Federal Reserve FOMC calendars",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "BEA release schedule",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "label": "NVIDIA newsroom (2026-03-23 energy collaboration)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+    },
+    {
+      "label": "WGC Gold ETF flows March 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "Global X BOTZ page",
+      "url": "https://www.globalxetfs.com/funds/botz/"
+    },
+    {
+      "label": "SSGA GLD page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "SSGA XLE page",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "gpt-5.3-codex"
+  ]
+}
