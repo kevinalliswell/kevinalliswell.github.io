@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-03-29（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-03-29（监测版）</h1>
+      <p class="meta">2026-03-29 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-03-29（Asia/Shanghai），最近24小时未出现足以触发组合结构重排的新增一级信号。最新可验证增量仍集中在2026-03-27（Fed H.15利率与实际利率）、2026-03-25/2026-03-26（EIA油气周报）与2026-03-23（NVIDIA电网协同公告）；因此维持监测版，执行条件化分批与事件日历驱动。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>实际利率维持高位，成长估值与黄金配置的机会成本约束仍在；能源数据短期偏紧平衡但库存波动加大。</strong></p>
+      <ul><li>Fed H.15（Release date: March 27, 2026）显示截至2026-03-26：EFFR 3.64%、10Y名义利率4.42%、10Y TIPS实际利率2.08%。</li><li>EIA WPSR（Release Date: Mar. 25, 2026）对应截至2026-03-20当周：美国商业原油库存+690万桶至4.562亿桶；WTI Cushing现货为98.71美元/桶（2026-03-20）。</li><li>EIA天然气周报（Released: March 26, 2026）显示工作气库存较前周-54 Bcf至1,829 Bcf；高于去年同期90 Bcf。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>US Effective Fed Funds Rate</td>
+          <td>EFFR</td>
+          <td>3.64%</td>
+          <td>as of 2026-03-26</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y Treasury (Nominal)</td>
+          <td>US10Y</td>
+          <td>4.42%</td>
+          <td>as of 2026-03-26</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y Treasury (TIPS Real)</td>
+          <td>US10Y_REAL</td>
+          <td>2.08%</td>
+          <td>as of 2026-03-26</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>SPDR Gold Shares</td>
+          <td>GLD</td>
+          <td>$400.64</td>
+          <td>closing price as of 2026-03-26</td>
+          <td><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Energy Select Sector SPDR</td>
+          <td>XLE</td>
+          <td>$61.52</td>
+          <td>closing price as of 2026-03-26</td>
+          <td><a href="https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Global X Robotics &amp; Artificial Intelligence ETF</td>
+          <td>BOTZ</td>
+          <td>$32.46</td>
+          <td>market price as of 2026-03-27</td>
+          <td><a href="https://www.globalxetfs.com/funds/botz">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实物资产</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Accumulate</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>在政策路径仍不确定且风险资产波动可回升的背景下，黄金维持组合对冲价值；但2%以上的10Y实际利率要求以回撤分批而非追高。</p>
+              <p><strong>Why now:</strong> WGC页面（Published 2026-03-05）仍指向2月连续第9个月净流入，且周频数据截至2026-03-20；最新利率环境（2026-03-27 H.15）未改变‘对冲需求在、机会成本高’的并存结构。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-03：BLS发布3月非农就业（Employment Situation）。</li><li>2026-04-09：BEA发布Personal Income and Outlays（February 2026），将更新PCE路径。</li><li>2026-04-28至2026-04-29：FOMC会议，利率路径措辞可能再定价黄金。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若10Y实际利率继续上行，黄金估值弹性会被压缩。</li><li>若美元与风险偏好同步反弹，ETF净流入边际可能放缓。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates (Release date: March 27, 2026)</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03">Gold ETF Flows, March 2026 (Published: 5 March, 2026; Data as of 20 March, 2026)</a></li><li><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">SPDR Gold Shares (Fund Market Price as of Mar 26 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施与电力协同</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>AI工厂与电网协同的长期方向明确，但当前增量主要是新闻稿与合作框架，尚未形成可验证的利润表级兑现节点。</p>
+              <p><strong>Why now:</strong> NVIDIA于2026-03-23披露与Emerald AI及多家能源公司协同推进灵活AI工厂；在高实际利率（2026-03-27 H.15）背景下，估值交易仍需等待订单与利用率验证。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29：FOMC会议对成长资产贴现率敏感度高。</li><li>后续财报季若披露AI工厂相关订单和交付节奏，可上调评级。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>当前信息以公司公告为主，缺少同口径财务落地。</li><li>电力互联与基础设施建设节奏若滞后，项目兑现时点可能后移。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets">NVIDIA and Emerald AI... (March 23, 2026)</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC Meeting calendars and information (2026 meeting schedule)</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates (Release date: March 27, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源</p>
+                  <h2>Energy Select Sector SPDR ETF <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>需求韧性与高油价对现金流有支撑，但库存周频波动较大，短线更适合事件驱动而非单向加仓。</p>
+              <p><strong>Why now:</strong> EIA周报显示截至2026-03-20原油库存增加690万桶，但WTI Cushing仍在98.71美元/桶，说明供需仍处高波动平衡。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-01：EIA下一次Weekly Petroleum Status Report。</li><li>2026-04-02：EIA下一次Weekly Natural Gas Storage Report。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若库存连续超预期累库，能源股估值可能被动下修。</li><li>地缘或政策冲击引发油价快速反转时，板块波动率会放大。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report (Release Date: Mar. 25, 2026; Next Release Date: Apr. 1, 2026)</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf">Weekly Petroleum Status Report Highlights (week ending March 20, 2026)</a></li><li><a href="https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle">XLE fund page (Fund Market Price as of Mar 26 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与自动化</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 63/100</p>
+              <div class="bar"><span class="fill" style="width:63%"></span></div>
+              <p>机器人长期渗透逻辑不变，但近期缺少订单或财报级新增一级催化，继续以观察仓位应对。</p>
+              <p><strong>Why now:</strong> BOTZ官方页面截至2026-03-27显示市场价32.46美元，前五大持仓仍集中于ABB/KEYENCE/NVDA/ISRG/FANUC，结构未发生方向性变化。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-03：BLS就业数据可作为制造业景气和自动化投资节奏的间接观测点。</li><li>后续成分股财报若披露订单回升，可上调至B级观察。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>主题估值对利率敏感，若实际利率维持高位则弹性受限。</li><li>若制造业资本开支放缓，机器人链条兑现节奏可能延后。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.globalxetfs.com/funds/botz">BOTZ ETF page (As of Mar 27 2026, Top Holdings &amp; Prices)</a></li><li><a href="https://www.bls.gov/schedule/news_release/empsit.htm">Schedule of Releases for the Employment Situation (March 2026 released Apr. 03, 2026)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
