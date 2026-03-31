@@ -72,6 +72,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("output_path", help="Markdown file to write.")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--count", type=int, default=10)
+    parser.add_argument("--minimum-count", type=int, default=5)
     parser.add_argument("--days", type=int, default=10)
     parser.add_argument("--timezone", default=DEFAULT_TIMEZONE)
     parser.add_argument("--title-prefix", default="AI 信息源日报")
@@ -428,6 +429,8 @@ def normalize_markdown_for_comparison(markdown: str) -> str:
 def main() -> int:
     args = parse_args()
     tz = ZoneInfo(args.timezone)
+    if args.minimum_count < 1 or args.minimum_count > args.count:
+        raise ValueError("--minimum-count must be between 1 and --count.")
     output_path = (ROOT / args.output_path).resolve() if not Path(args.output_path).is_absolute() else Path(args.output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -438,8 +441,10 @@ def main() -> int:
     candidates = collect_candidates(sources, tz, now)
     historical_citations = load_historical_citation_urls(output_path.parent, output_path.name)
     items = select_items(candidates, args.count, args.days, now, historical_citations)
-    if len(items) < args.count:
-        raise RuntimeError(f"Only found {len(items)} items, fewer than requested {args.count}.")
+    if len(items) < args.minimum_count:
+        raise RuntimeError(
+            f"Only found {len(items)} items, fewer than minimum required {args.minimum_count}."
+        )
 
     markdown = build_markdown(items, sources, args.title_prefix, now)
     if output_path.exists():
