@@ -1,0 +1,289 @@
+{
+  "date": "2026-03-31",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-03-31（监测版）",
+  "summary": "截至2026-03-31，过去24小时未出现足以触发组合重排的新增一级信号。宏观端新增的是美联储H.15在2026-03-30更新后的长端利率抬升，能源与天然气仍停留在上周已发布的周频数据窗口，黄金ETF周频数据更新到2026-03-27。当前阶段维持监测版：黄金保留对冲权重，能源等待EIA 2026-04-01/2026-04-02新周报，AI与机器人等待财报级或订单级新催化。",
+  "macro": {
+    "regime": "名义利率与实际利率仍偏高，风险资产估值扩张需要更强盈利验证",
+    "bullets": [
+      "美联储H.15在2026-03-30发布，10Y名义利率列值到4.44%，10Y TIPS列值到2.13%，对应实际利率仍对高估值资产形成约束。",
+      "EIA石油周报当前最新仍为2026-03-25发布（数据周截至2026-03-20），下一次发布时间是2026-04-01。",
+      "EIA天然气周报当前最新为2026-03-26发布（数据周截至2026-03-20），下一次发布时间是2026-04-02。",
+      "BLS就业报告日程显示2026年3月非农将于2026-04-03 08:30 AM发布，是本周最关键宏观事件窗口。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury (H.15)",
+      "ticker": "UST10Y",
+      "price": "4.44%",
+      "change_pct": "vs 2026-03-27: +0.11pct",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "$400.64 (Fund Market Price as of Mar 26, 2026)",
+      "change_pct": "n/a",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "name": "Energy Select Sector SPDR ETF",
+      "ticker": "XLE",
+      "price": "NAV $62.59 (as of Mar 27, 2026)",
+      "change_pct": "n/a",
+      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 79,
+      "thesis": "黄金ETF维持资金与仓位支撑，但在实际利率维持高位背景下，上行节奏更可能呈现事件驱动而非单边加速。",
+      "why_now": "WGC页面显示金ETF流量数据更新到2026-03-27，且2月延续净流入；与此同时，美联储H.15在2026-03-30显示10Y TIPS为2.13%，对金价形成机会成本约束。",
+      "catalysts": [
+        "2026-04-03：BLS就业报告，若弱于预期有利于利率下行交易。",
+        "2026-04-28至2026-04-29：FOMC会议窗口，政策表述变化可能触发金价再定价。"
+      ],
+      "risks": [
+        "若后续H.15继续显示长端利率和实际利率上行，黄金持有成本上升。",
+        "若4月初宏观数据强于预期，避险需求可能阶段性回落。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: February 2026（Published: 5 March, 2026; Data as of 27 March, 2026）",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "H.15 Selected Interest Rates（Release date: March 30, 2026）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "GLD fund page（Fund Market Price as of Mar 26, 2026; Fund Net Asset Value as of Mar 26, 2026）",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "AI算力-电力耦合逻辑仍成立，但过去24小时缺少新的财报或订单级一级披露，现阶段更适合等待事件确认后加仓。",
+      "why_now": "近端可确认的一手公司事件仍停留在2026-03-23的NVIDIA与Emerald AI合作公告；BOTZ持仓页面截至2026-03-27仍显示NVDA为第一梯队核心权重。",
+      "catalysts": [
+        "2026-04-03：非农数据影响长端利率与高估值成长股贴现率。",
+        "2026-04-28至2026-04-29：FOMC会议可能改变市场对中期利率路径定价。"
+      ],
+      "risks": [
+        "若实际利率继续上行，高估值AI资产估值弹性受压。",
+        "若行业缺少新增订单与资本开支披露，短期可能转为交易拥挤回撤。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 11,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "NVIDIA and Emerald AI announcement（March 23, 2026）",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+        },
+        {
+          "title": "BOTZ holdings（As of Mar 27 2026）",
+          "publisher": "Global X",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "H.15 Selected Interest Rates（Release date: March 30, 2026）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR ETF",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "能源板块目前处于周频数据真空期，等待新一周库存与供需数据确认方向，暂不宜在无新数据时追价。",
+      "why_now": "EIA WPSR页面显示当前仍是2026-03-25发布、数据截至2026-03-20，下一次发布为2026-04-01；XLE页面最新NAV口径为2026-03-27。",
+      "catalysts": [
+        "2026-04-01：EIA Weekly Petroleum Status Report。",
+        "2026-04-23：Baker Hughes 2026Q1业绩发布（公司在2026-03-20公告日期）。"
+      ],
+      "risks": [
+        "若4月初库存数据超预期累库，能源板块可能受压。",
+        "宏观增长预期下修将压缩上游需求预期。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report（Data week ending Mar. 20, 2026; Release Mar. 25, 2026; Next Apr. 1, 2026）",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "XLE fund page（Fund Net Asset Value as of Mar 27 2026）",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        },
+        {
+          "title": "Baker Hughes Q1 earnings date announcement（03/20/2026; earnings release on April 23, 2026）",
+          "publisher": "Baker Hughes Investor Relations",
+          "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Dates-for-First-quarter-Earnings-Release-and-Webcast-/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 63,
+      "thesis": "机器人主线长期逻辑稳定，但短期缺乏新增一手经营数据，资金更可能在宏观事件前维持观望。",
+      "why_now": "BOTZ持仓披露更新到2026-03-27，结构仍由ABB、Keyence、NVDA等龙头主导；但过去24小时无新增公司财报或监管级事件。",
+      "catalysts": [
+        "2026-04-03：美国就业数据决定利率预期，影响成长风格估值。",
+        "2026-04-28至2026-04-29：FOMC会议，影响全球成长资产贴现率。"
+      ],
+      "risks": [
+        "若高利率维持时间超预期，机器人板块估值修复速度放缓。",
+        "若全球制造业景气回落，订单兑现节奏可能延后。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "BOTZ holdings（As of Mar 27 2026）",
+          "publisher": "Global X",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "2026 FOMC meeting calendar（includes Apr 28-29）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "title": "Employment Situation release schedule（March 2026 data release on Apr. 03, 2026 at 08:30 AM）",
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国非农就业",
+      "ticker": "NFP",
+      "note": "BLS日程显示2026-04-03 08:30 AM发布，是本周最关键宏观增量信号。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA周频油气数据",
+      "ticker": "EIA-WEEKLY",
+      "note": "关注2026-04-01石油周报与2026-04-02天然气周报是否出现方向性变化。"
+    },
+    {
+      "theme": "货币政策",
+      "asset": "FOMC 4月会议",
+      "ticker": "FOMC",
+      "note": "2026-04-28至2026-04-29会议对二季度风险偏好具有锚定作用。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Release date: March 30, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report (Release Mar. 25, 2026; Next Apr. 1, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report (Released March 26, 2026; Next Release April 2, 2026)",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows (Published 5 March, 2026; Data as of 27 March, 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "BLS Employment Situation schedule (March 2026 release on Apr. 03, 2026)",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "label": "Federal Reserve FOMC meeting calendar (2026 meetings include Apr 28-29)",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "NVIDIA & Emerald AI release (March 23, 2026)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+    },
+    {
+      "label": "Baker Hughes Q1 date announcement (03/20/2026)",
+      "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Dates-for-First-quarter-Earnings-Release-and-Webcast-/default.aspx"
+    },
+    {
+      "label": "BOTZ holdings page (As of Mar 27 2026)",
+      "url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "label": "XLE fund page (Fund Net Asset Value as of Mar 27 2026)",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "label": "GLD fund page (Fund Market Price as of Mar 26 2026)",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "gpt-5.3-codex"
+  ]
+}
