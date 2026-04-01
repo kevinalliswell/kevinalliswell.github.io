@@ -11,9 +11,6 @@ hasCJKLanguage = true
 [pagination]
   pagerSize = 10
 
-# 作者信息
-[author]
-  name = "Kevin"
 
 # 导航菜单
 [menu]
@@ -34,6 +31,8 @@ hasCJKLanguage = true
     weight = 30
 
 [params]
+  # 作者信息
+  author = "Kevin"
   # 主题设置
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -66,8 +65,11 @@ hasCJKLanguage = true
     name = "rss"
     url = "index.xml"
 
-  # 禁用 RSS
-  disableRSS = true
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 [privacy]
   [privacy.disqus]
