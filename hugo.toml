@@ -25,6 +25,11 @@ hasCJKLanguage = true
     url = "/archives/"
     weight = 20
   [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 25
+  [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
@@ -66,7 +71,7 @@ hasCJKLanguage = true
     url = "index.xml"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML"]
