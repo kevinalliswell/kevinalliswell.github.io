@@ -1,0 +1,306 @@
+{
+  "date": "2026-04-10",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-10（监测版）",
+  "summary": "过去24小时未出现足以触发组合重配的新增一级信号。当前可验证增量仍集中在已发布的3月-4月初宏观与商品框架：Fed 维持数据依赖、能源周度供需继续高波动、黄金资金面高分歧、AI/机器人等待4月中下旬财报验证。维持监测版与事件驱动节奏。",
+  "macro": {
+    "regime": "高不确定性延续，等待通胀与财报窗口给出方向",
+    "bullets": [
+      "Federal Reserve 2026-04 月度日历显示：FOMC 会议为 2026-04-28 至 2026-04-29，Beige Book 发布日为 2026-04-15。",
+      "Fed H.15 页面显示已抓取到的最新发布日为 2026-04-08，短端与长端利率仍处限制性区间。",
+      "EIA WPSR 调度页确认常规发布时间为每周三；当前能源判断继续依赖周度库存与产量更新。",
+      "WGC 于 2026-04 发布的 3 月回顾显示：全球黄金ETF 单月净流出 US$12bn（历史最大），但 Q1 仍保持净流入。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Funds Effective Rate",
+      "ticker": "EFFR",
+      "price": "3.64% (latest captured: 2026-04-07)",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y Treasury Constant Maturity",
+      "ticker": "UST10Y",
+      "price": "4.33% (latest captured: 2026-04-07)",
+      "change_pct": -0.01,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS",
+      "ticker": "UST10Y_TIPS",
+      "price": "1.96% (latest captured: 2026-04-07)",
+      "change_pct": -0.02,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "Global Gold ETF Monthly Flow",
+      "ticker": "GOLD_ETF_FLOW",
+      "price": "US$12bn net outflow in March 2026",
+      "change_pct": "record monthly outflow",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 78,
+      "thesis": "黄金仍是组合中的宏观不确定性对冲工具，但资金面分歧与高实际利率环境意味着节奏应以分批为主。",
+      "why_now": "WGC 在 2026-04 披露的 2026-03 数据确认单月历史级流出，但季度层面未被完全逆转，说明并非单边风险偏好重建。",
+      "catalysts": [
+        "2026-04-10（ET 08:30）BLS CPI（2026年3月）",
+        "2026-04-15 Federal Reserve Beige Book",
+        "2026-04-28 至 2026-04-29 FOMC 会议"
+      ],
+      "risks": [
+        "若通胀上修推动实际利率上行，黄金估值承压",
+        "若美元指数继续走强，黄金被动回撤",
+        "ETF流出若延续至4月中旬，短线波动放大"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: March 2026 (Published April 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "GLD Official Fund Page",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR ETF",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 75,
+      "thesis": "能源仍具事件驱动交易价值，但方向性确认仍依赖周度库存与产量节奏，追涨胜率一般。",
+      "why_now": "EIA 官方发布节奏未变，过去24小时未见足够改变供需叙事的新一级披露，维持观察位次。",
+      "catalysts": [
+        "2026-04-15 下一次 WPSR",
+        "2026-05-12 下一次 STEO",
+        "若天然气与原油库存连续去化，板块盈利预期可能再上修"
+      ],
+      "risks": [
+        "地缘风险溢价回落导致油价回撤",
+        "需求侧走弱导致库存再累积",
+        "宏观风险偏好下降拖累高Beta能源资产"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "WPSR Release Schedule",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+        },
+        {
+          "title": "Short-Term Energy Outlook",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 74,
+      "thesis": "AI基础设施主线未被破坏，当前关键是等待4月中旬晶圆与设备龙头财报验证订单与资本开支延续性。",
+      "why_now": "短周期内没有新的经营级披露改变中期逻辑，最关键验证点集中在 2026-04-15 至 2026-04-16 的 ASML/TSMC 财报窗口。",
+      "catalysts": [
+        "2026-04-15 ASML Q1 2026 业绩",
+        "2026-04-16 TSMC Q1 2026 业绩会",
+        "2026-04-28 至 2026-04-29 FOMC 对估值折现率的影响"
+      ],
+      "risks": [
+        "若指引弱于预期，AI链条估值回调",
+        "地缘与出口管制扰动供需节奏",
+        "高利率环境压制成长资产估值弹性"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "TSMC 2026 Q1 Quarterly Results",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+        },
+        {
+          "title": "ASML Q1 2026 Financial Results",
+          "publisher": "ASML Investor Relations",
+          "url": "https://www.asml.com/en/investors/financial-results/q1-2026"
+        },
+        {
+          "title": "Federal Reserve April 2026 Calendar",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 62,
+      "thesis": "机器人方向中线需求趋势仍在，但当前新增信息密度不足，策略上更适合等待财报和订单级确认。",
+      "why_now": "过去24小时没有新的机器人龙头经营披露；下一关键可验证节点为 ABB 2026Q1 业绩电话会。",
+      "catalysts": [
+        "2026-04-22 ABB Q1 2026 results webcast",
+        "2026-04-15 至 2026-04-16 半导体链条财报外溢",
+        "IFR 后续年度统计更新"
+      ],
+      "risks": [
+        "缺少新增经营信号时易受风险偏好主导",
+        "制造业资本开支转弱压制自动化需求",
+        "ETF内部估值分化带来跟踪误差"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "BOTZ Official Fund Page",
+          "publisher": "Global X",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "ABB Quarterly Results Webcast",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/results-and-reports/quarterly-results-webcast"
+        },
+        {
+          "title": "Top 5 Global Robotics Trends 2026",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/ifr-press-releases/top-5-global-robotics-trends-2026"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "US CPI (March 2026)",
+      "ticker": "CPI",
+      "note": "2026-04-10（ET 08:30）发布；是否改变实际利率路径是当日核心。"
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "ASML + TSMC Q1",
+      "ticker": "ASML/TSM",
+      "note": "2026-04-15 至 2026-04-16：验证二季度AI资本开支兑现度。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA WPSR",
+      "ticker": "WPSR",
+      "note": "2026-04-15 周报：若连续去库，XLE 可能获盈利预期上修。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve April 2026 Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "Federal Reserve FOMC calendars",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve H.4.1 current",
+      "url": "https://www.federalreserve.gov/releases/h41/current/"
+    },
+    {
+      "label": "BLS CPI release schedule",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "label": "BLS April 2026 release schedule",
+      "url": "https://www.bls.gov/schedule/2026/04_sched_list.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR schedule",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows (March 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    },
+    {
+      "label": "TSMC Q1 2026 quarterly results page",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+    },
+    {
+      "label": "ASML Q1 2026 results page",
+      "url": "https://www.asml.com/en/investors/financial-results/q1-2026"
+    },
+    {
+      "label": "ABB Q1 2026 webcast invitation",
+      "url": "https://global.abb/group/en/investors/results-and-reports/quarterly-results-webcast"
+    },
+    {
+      "label": "IFR Top 5 global robotics trends 2026",
+      "url": "https://ifr.org/ifr-press-releases/top-5-global-robotics-trends-2026"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring", "gpt-5.3-codex"]
+}
