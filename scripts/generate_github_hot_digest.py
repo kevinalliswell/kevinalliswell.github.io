@@ -194,6 +194,7 @@ class RepositorySnapshot:
     latest_release: ReleaseInfo | None = None
     score: float = 0.0
     reasons: list[str] = field(default_factory=list)
+    consecutive_days: int = 0  # how many consecutive days this repo appeared before today
 
 
 class GitHubClient:
@@ -247,6 +248,49 @@ class GitHubClient:
             html_url=payload.get("html_url", ""),
             published_at=parse_datetime(payload.get("published_at")),
         )
+
+
+# Penalty deducted from score for repos that appeared N consecutive days before today.
+# Repos pushed within 24h are exempt (genuinely active today).
+_REPEAT_PENALTY: dict[int, float] = {1: 25.0, 2: 50.0, 3: 70.0, 4: 85.0}
+_REPEAT_PENALTY_MAX = 100.0
+
+
+def load_recent_digest_repos(report_date: date, digest_dir: Path, days_back: int = 5) -> dict[str, int]:
+    """Return {full_name: consecutive_days} counting how many days in a row each repo
+    appeared in previous digests immediately before *report_date*.
+    """
+    repo_day_presence: dict[str, list[bool]] = {}
+
+    for offset in range(1, days_back + 1):
+        check_date = report_date - timedelta(days=offset)
+        digest_path = digest_dir / f"github-hot-{check_date.isoformat()}.md"
+        if not digest_path.exists():
+            # Gap in history — stop looking further back
+            break
+        text = digest_path.read_text(encoding="utf-8")
+        repos_in_digest = {
+            m.strip()
+            for m in re.findall(r"^### \d+\. ([^|]+?) \|", text, re.MULTILINE)
+        }
+        for name in repos_in_digest:
+            presence = repo_day_presence.setdefault(name, [])
+            # Pad with False for any skipped earlier offsets
+            while len(presence) < offset - 1:
+                presence.append(False)
+            presence.append(True)
+
+    consecutive: dict[str, int] = {}
+    for name, presence in repo_day_presence.items():
+        count = 0
+        for appeared in presence:  # presence[0] == yesterday, presence[1] == day before, …
+            if appeared:
+                count += 1
+            else:
+                break
+        if count > 0:
+            consecutive[name] = count
+    return consecutive
 
 
 def build_queries(settings: Settings, since_date: date) -> list[tuple[str, str, str, int]]:
@@ -420,14 +464,29 @@ def collect_candidates(client: GitHubClient, settings: Settings, report_date: da
 
 
 def rank_repositories(
-    repositories: list[RepositorySnapshot], settings: Settings, report_date: date
+    repositories: list[RepositorySnapshot],
+    settings: Settings,
+    report_date: date,
+    recent_repos: dict[str, int] | None = None,
 ) -> list[RepositorySnapshot]:
     report_time = datetime.combine(report_date, time(7, 0), SHANGHAI_TZ)
+    if recent_repos is None:
+        recent_repos = {}
+
     ranked: list[RepositorySnapshot] = []
     for repo in repositories:
         if not is_relevant(repo, settings):
             continue
         repo.score, repo.reasons = score_repo(repo, settings, report_time)
+        repo.consecutive_days = recent_repos.get(repo.full_name, 0)
+
+        # Apply repeat penalty unless the repo was pushed today (genuinely active).
+        if repo.consecutive_days > 0:
+            pushed_days = days_since(repo.pushed_at, report_time)
+            if pushed_days is None or pushed_days > 0:
+                penalty = _REPEAT_PENALTY.get(repo.consecutive_days, _REPEAT_PENALTY_MAX)
+                repo.score -= penalty
+
         ranked.append(repo)
 
     ranked.sort(
@@ -476,6 +535,7 @@ def render_digest(repositories: list[RepositorySnapshot], settings: Settings, re
         "- 重点方向：Claude、Gemini、OpenAI、Copilot，以及重点人物相关仓库。",
         "- 评分信号：Stars、Forks、最近更新时间、关键词命中、重点 owner 加权、近期 Release。",
         "- 去重规则：同一 owner 最多保留 2 个项目，避免单一组织占满榜单。",
+        "- 新鲜度惩罚：连续出现的项目会被扣分（1/2/3/4+ 天分别扣 25/50/70/85 分），当天有推送的项目免于惩罚，优先展示新上榜内容。",
         "",
         "## 今日 Top 10",
         "",
@@ -495,9 +555,16 @@ def render_digest(repositories: list[RepositorySnapshot], settings: Settings, re
             source_links.append(f"[Homepage]({repo.homepage})")
         hit_text = ", ".join(repo.focus_hits or repo.ai_hits or ["general-ai"])
 
+        if repo.consecutive_days == 0:
+            status_badge = "🆕 新上榜"
+        elif repo.consecutive_days == 1:
+            status_badge = "🔥 连续上榜 2 天"
+        else:
+            status_badge = f"📌 持续热门（连续 {repo.consecutive_days + 1} 天）"
+
         lines.extend(
             [
-                f"### {index}. {repo.full_name} | 综合评分 {repo.score:.1f}",
+                f"### {index}. {repo.full_name} | {status_badge} | 综合评分 {repo.score:.1f}",
                 "",
                 repo.description or "仓库描述缺失，但从元数据看具备较强关注度与活跃度。",
                 "",
@@ -537,8 +604,9 @@ def main(argv: list[str]) -> int:
 
     settings = Settings.from_env()
     client = GitHubClient(os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN"))
+    recent_repos = load_recent_digest_repos(report_date, output_path.parent)
     candidates = collect_candidates(client, settings, report_date)
-    ranked = rank_repositories(candidates, settings, report_date)
+    ranked = rank_repositories(candidates, settings, report_date, recent_repos)
     if not ranked:
         raise RuntimeError("No repositories matched the current GitHub hot digest rules.")
 
