@@ -1,0 +1,287 @@
+{
+  "date": "2026-04-13",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-13（监测版）",
+  "summary": "截至2026年4月13日（周一）亚洲时段，过去24-72小时未出现足以改变组合方向的一手重大增量信号。已披露的核心变化仍集中在2026-04-08至2026-04-10窗口：美国通胀与利率水平维持高位、油气库存结构分化、TSMC 3月营收继续高增长。当前策略以监测与等待4月中下旬财报/联储事件验证为主。",
+  "macro": {
+    "regime": "高实际利率+通胀黏性，风险资产等待财报与政策窗口确认",
+    "bullets": [
+      "BLS于2026-04-10发布3月CPI：环比+0.9%、同比+3.3%，能源分项环比+10.9%、汽油环比+21.2%。",
+      "美联储H.15（发布日期2026-04-10）显示：有效联邦基金利率3.64%，10年期美债4.29%，10年期TIPS实际利率1.95%。",
+      "EIA周报（2026-04-08/09）显示：美国商业原油库存464.7百万桶（周增3.1百万桶），天然气工作气库存1,911 Bcf（周增50 Bcf）。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "美国有效联邦基金利率",
+      "ticker": "EFFR",
+      "price": "3.64%",
+      "change_pct": "截至2026-04-09",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "美国10Y名义收益率",
+      "ticker": "US10Y",
+      "price": "4.29%",
+      "change_pct": "2026-04-03至04-09: 4.35%→4.29%",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "美国10Y实际利率(TIPS)",
+      "ticker": "US10Y-REAL",
+      "price": "1.95%",
+      "change_pct": "2026-04-03至04-09: 1.99%→1.95%",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "美国商业原油库存",
+      "ticker": "US-CRUDE-STOCK",
+      "price": "464.7m bbl",
+      "change_pct": "周增+3.1m bbl",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "region": "TW/US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "TSMC 3月营收继续给出高增长读数，AI算力需求主线仍在；但短线定价已较充分，性价比依赖4月中下旬业绩会对二季度指引的再确认。",
+      "why_now": "TSMC于2026-04-10在SEC 6-K披露3月营收NT$415.19bn，同比+45.2%，一季度累计NT$1,134.10bn，同比+35.1%；公司财报日历显示2026-04-16召开1Q26业绩会。",
+      "catalysts": [
+        "2026-04-16：TSMC 1Q26 Results - Earnings Conference and Conference Call",
+        "2026-04-22：ABB Q1 2026 results（自动化资本开支侧面验证）"
+      ],
+      "risks": [
+        "若1Q26指引或评论低于预期，AI链条估值回撤",
+        "高实际利率环境下成长板块估值弹性受限"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "TSMC March 2026 Revenue Report (SEC 6-K, Date: April 10, 2026)",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000136/tsm-revenue20260410.htm"
+        },
+        {
+          "title": "TSMC Financial Calendar",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/financial-calendar"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 75,
+      "thesis": "黄金短线面临高实际利率压力，但资金配置需求与宏观不确定性仍提供底部支撑；更优策略是回撤分批而非追涨。",
+      "why_now": "WGC于2026-04-08发布3月黄金ETF流向：全球黄金ETF月度净流出约US$12.0bn；同时H.15显示10Y实际利率仍在1.95%的高位区间。",
+      "catalysts": [
+        "2026-04-15：美联储褐皮书",
+        "2026-04-28 至 2026-04-29：FOMC会议"
+      ],
+      "risks": [
+        "若实际利率再上行，黄金机会成本上升",
+        "美元指数走强可能压制金价弹性"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: March 2026 (Published 8 April, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        },
+        {
+          "title": "Selected Interest Rates (H.15, Release date: April 10, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 72,
+      "thesis": "油气链条仍处于库存与需求分化阶段：原油累库压制预期，但成品油与馏分油去库尚未支持“全面走弱”判断。",
+      "why_now": "EIA在2026-04-08发布WPSR：商业原油库存464.7m bbl（+3.1m），汽油库存239.3m（-1.6m），馏分油库存114.7m（-3.1m）；EIA在2026-04-09发布天然气库存1,911 Bcf（+50 Bcf）。",
+      "catalysts": [
+        "2026-04-15：下一期EIA WPSR",
+        "2026-04-16：下一期EIA天然气库存周报"
+      ],
+      "risks": [
+        "若后续连续累库且需求同比回落，盈利预期下修",
+        "油价波动放大导致板块回撤"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (week ending April 3, 2026)",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report (Released: April 9, 2026)",
+          "publisher": "EIA",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        },
+        {
+          "title": "Rig Count Overview & Summary Count",
+          "publisher": "Baker Hughes",
+          "url": "https://rigcount.bakerhughes.com/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 61,
+      "thesis": "机器人长期渗透率逻辑不变，但过去24-72小时缺乏新增经营级披露，交易驱动仍偏事件前等待。",
+      "why_now": "ABB财务日历显示Q1 2026结果将于2026-04-22发布；IFR公开页面最近机器人行业趋势稿发布日期为2026-02-10，说明短期信息增量有限。",
+      "catalysts": [
+        "2026-04-22：ABB Q1 2026 results",
+        "2026-06-01 至 2026-06-05：ICRA 2026 / IERA Award session"
+      ],
+      "risks": [
+        "制造业资本开支弱于预期，订单兑现延后",
+        "主题ETF估值偏高时对利率与风险偏好更敏感"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "ABB Financial Calendar (Q1 2026 results on April 22)",
+          "publisher": "ABB",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        },
+        {
+          "title": "Top 5 Global Robotics Trends 2026 (Published Feb 10, 2026)",
+          "publisher": "International Federation of Robotics",
+          "url": "https://go4robotics.org/ifr-press-releases/news/top-5-global-robotics-trends-2026"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美联储事件窗口",
+      "ticker": "FED",
+      "note": "关注2026-04-15褐皮书与2026-04-28/29 FOMC对实际利率与风险偏好的再定价。"
+    },
+    {
+      "theme": "AI",
+      "asset": "TSMC",
+      "ticker": "TSM",
+      "note": "重点观察2026-04-16业绩会对二季度收入与先进制程需求表述。"
+    },
+    {
+      "theme": "能源",
+      "asset": "美国油气库存结构",
+      "ticker": "EIA-WPSR",
+      "note": "若出现连续原油累库且汽柴油库存同步转升，需下调能源beta。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "实际利率",
+      "ticker": "US10Y-REAL",
+      "note": "若10Y实际利率显著高于2.0%，黄金仓位仅保留防守配置。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "BLS CPI News Release (Mar 2026, Released Apr 10, 2026)",
+      "url": "https://www.bls.gov/news.release/archives/cpi_04102026.htm"
+    },
+    {
+      "label": "Federal Reserve H.15 (Release date: April 10, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve April 2026 Calendar (Beige Book/FOMC dates)",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report (week ended Apr 3, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report (Released Apr 9, 2026)",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows (March 2026, published Apr 8, 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    },
+    {
+      "label": "TSMC March 2026 Revenue Report (SEC 6-K, Apr 10, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000136/tsm-revenue20260410.htm"
+    },
+    {
+      "label": "TSMC Financial Calendar",
+      "url": "https://investor.tsmc.com/english/financial-calendar"
+    },
+    {
+      "label": "ABB Financial Calendar",
+      "url": "https://global.abb/group/en/investors/financial-calendar"
+    },
+    {
+      "label": "IFR Top 5 Global Robotics Trends 2026 (Feb 10, 2026)",
+      "url": "https://go4robotics.org/ifr-press-releases/news/top-5-global-robotics-trends-2026"
+    }
+  ],
+  "tags": [
+    "投资",
+    "晨报",
+    "AI",
+    "机器人",
+    "能源",
+    "黄金",
+    "宏观",
+    "自动化",
+    "监测版",
+    "GPT-5.3-codex"
+  ]
+}
