@@ -18,7 +18,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 
 熵增定律可能是物理学中最被低估的人生指南。
 
-![熵增定律：万物走向混乱](imgs/01-infographic-entropy-intro.png)
+![熵增定律：万物走向混乱](imgs/01-infographic-entropy-intro.jpg)
 
 它告诉我们：**如果不主动干预，一切都会自发走向混乱**——房间会变乱、关系会变淡、公司会僵化、身体会变差。这不是运气不好，而是宇宙的基本法则。
 
@@ -63,7 +63,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 
 熵增的过程，就是系统从"可预测、有结构、有差异"走向"随机、均匀、混沌"的过程。
 
-![熵的本质：从有序走向无序](imgs/02-infographic-entropy-concept.png)
+![熵的本质：从有序走向无序](imgs/02-infographic-entropy-concept.jpg)
 
 ---
 
@@ -119,7 +119,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 
 技术系统的熵增，表现为"越来越复杂、越来越难维护"。
 
-![熵增无处不在：四大领域](imgs/03-infographic-entropy-everywhere.png)
+![熵增无处不在：四大领域](imgs/03-infographic-entropy-everywhere.jpg)
 
 ---
 
@@ -156,7 +156,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 
 地球整体的熵是增加的，但生命在局部创造了负熵的奇迹。
 
-![生命：宇宙中的负熵奇迹](imgs/04-infographic-life-negentropy.png)
+![生命：宇宙中的负熵奇迹](imgs/04-infographic-life-negentropy.jpg)
 
 ---
 
@@ -231,7 +231,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 
 **持续做功，是维持有序的代价。这不是 bug，这是 feature。**
 
-![对抗熵增的五大策略](imgs/05-infographic-anti-entropy-strategies.png)
+![对抗熵增的五大策略](imgs/05-infographic-anti-entropy-strategies.jpg)
 
 ---
 
@@ -254,7 +254,7 @@ description: "熵增定律不仅是物理学的基石，更是理解个人成长
 - **避免知识孤岛**：建立分享机制，文档化关键信息
 - **对抗官僚主义**：保持扁平，缩短决策链条，贴近客户
 
-![熵增思维：个人成长五大领域](imgs/06-infographic-application-domains.png)
+![熵增思维：个人成长五大领域](imgs/06-infographic-application-domains.jpg)
 
 ### 产品设计
 
