@@ -68,10 +68,10 @@ hasCJKLanguage = true
     url = "mailto:kevin.alliswell@gmail.com"
   [[params.socialIcons]]
     name = "rss"
-    url = "index.xml"
+    url = "/posts/index.xml"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML"]
