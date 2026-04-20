@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-04-20（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-04-20（监测版）</h1>
+      <p class="meta">2026-04-20 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-04-20 08:00（Asia/Shanghai），跨主题一级信号较上个交易日未出现方向性突变：宏观端仍以Fed H.15的利率路径和4月28-29日FOMC预期为主，能源端等待4月22-23日EIA周度更新，AI硬件端仍在消化4月15-17日已发布的ASML与TSMC关键信息。当前更适合维持监测与分批纪律，而非追逐短线噪音。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>一级增量偏弱、事件驱动为主，市场进入周中数据验证窗口</strong></p>
+      <ul><li>Federal Reserve H.15当前发布日为2026-04-17，显示10Y名义利率在4月16日读数为4.32%、10Y TIPS为1.93%，较4月15日（4.29%/1.90%）边际上行，说明实际利率对黄金与长久期估值仍有压制。</li><li>EIA Weekly Petroleum Status Report当前页显示最近发布日为2026-04-15（对应week ending 2026-04-10），下一次为2026-04-22；周中是能源板块下一轮定价锚点。</li><li>Baker Hughes North America Rig Count在2026-04-17更新：美国543台（周环比-2），加拿大130台（周环比-5），显示上游扩张节奏并未再加速。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>US 10Y Treasury Yield (Apr 16 print)</td>
+          <td>UST10Y</td>
+          <td>4.32%</td>
+          <td>+0.03%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y TIPS Yield (Apr 16 print)</td>
+          <td>UST10Y_REAL</td>
+          <td>1.93%</td>
+          <td>+0.03%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Rotary Rig Count</td>
+          <td>BKR_US_RIG</td>
+          <td>543</td>
+          <td>-0.37%</td>
+          <td><a href="https://rigcount.bakerhughes.com/">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>Taiwan Semiconductor Manufacturing <span>TSM</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>AI算力资本开支主线未变，先进制程供需仍偏紧，TSMC在制程与产能兑现上的领先地位未被削弱。</p>
+              <p><strong>Why now:</strong> 截至2026-04-20未见新的方向性一级披露；最近可核验增量仍是TSMC在2026-04-17提交的6-K事项更新，以及2026年3月月度营收同比+45.2%（NT$415,191mn）。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-05上旬：TSMC 2026年4月月度营收披露（通常月初公布）。</li><li>2026-06-11：TSMC公告的除息日（来自2026-04管理层报告事件列表）。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率继续上行，高估值科技链估值弹性受限。</li><li>地缘与出口限制变量仍可能影响下游订单可见度。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.tsmc.com/english/monthly-revenue/2026">TSMC 2026 Monthly Revenue</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1046179/000104617926000203/tsm-boardx20260417x6k.htm">TSMC Form 6-K (April 17, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI设备链</p>
+                  <h2>ASML Holding <span>ASML</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>EUV设备护城河与AI资本开支周期共振仍在，但短期交易需要等待订单兑现与出口限制讨论的进一步明朗。</p>
+              <p><strong>Why now:</strong> 最新一级信息仍为2026-04-15业绩：Q1净销售€8.8bn、净利润€2.8bn，并上修全年净销售预期至€36-40bn。之后尚无新的结构性披露。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07（公司下一次季度披露窗口）：验证订单与交付节奏。</li><li>2026Q2：客户扩产执行与High-NA导入进度更新。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>出口管制讨论若超预期收紧，将影响部分地区需求兑现。</li><li>若下游资本开支节奏放缓，设备交付会后移。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results">ASML Q1 2026 Press Release</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">能源</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>库存与活跃钻机的边际变化显示上游扩张并未失控，油品库存去化对能源盈利预期仍有支撑，但需要新一周EIA确认持续性。</p>
+              <p><strong>Why now:</strong> EIA周报（发布2026-04-15）显示商业原油库存环比-0.9百万桶至463.8百万桶，总商业石油库存环比-9.0百万桶；Baker Hughes于2026-04-17显示美国钻机数543（周环比-2）。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-22：EIA Weekly Petroleum Status Report下一次发布。</li><li>2026-04-23：EIA Weekly Natural Gas Storage Report下一次发布。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若需求端走弱，库存改善可能中断。</li><li>地缘冲击可放大油气价格波动并提高持仓回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">EIA Weekly Petroleum Status Report</a></li><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">EIA WPSR Summary PDF (week ending Apr 10, 2026)</a></li><li><a href="https://rigcount.bakerhughes.com/">Baker Hughes Rig Count Overview</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实际利率</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>黄金中期配置逻辑仍在，但短线方向取决于实际利率与资金流共振；当前一级数据未给出新增强信号。</p>
+              <p><strong>Why now:</strong> WGC最新月度页面（发布2026-04-08，数据截至2026-04-10）显示3月出现US$12bn创纪录流出；与此同时Fed H.15显示10Y TIPS在4月16日回到1.93%，机会成本约束仍在。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29：FOMC会议。</li><li>2026-05上旬：WGC下一次月度ETF流向更新窗口。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续上行将压制金价弹性。</li><li>若风险偏好回升，避险资金可能回流权益而非黄金。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">Federal Reserve H.15</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04">WGC Gold ETF Flows (April 2026 page)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
