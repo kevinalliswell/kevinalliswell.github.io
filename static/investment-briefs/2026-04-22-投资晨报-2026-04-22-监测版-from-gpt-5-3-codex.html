@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-04-22（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-04-22（监测版）</h1>
+      <p class="meta">2026-04-22 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-04-22 09:20（Asia/Shanghai），跨AI、机器人、能源、黄金与宏观主题未出现足以改变仓位框架的重大新增一级信号，当前仍处事件窗口前夜。最新可确认的增量是Fed H.15在2026-04-21发布并更新至2026-04-20利率行，10Y名义利率4.26%、10Y TIPS 1.91%。策略上维持监测版：等待2026-04-22 EIA石油周报与ABB Q1披露、2026-04-23 EIA天然气库存后再决定是否提升风险敞口。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>事件前夜的中性偏防守：实际利率高位震荡，商品与成长主线都在等待周内数据验证</strong></p>
+      <ul><li>Fed H.15发布日为2026-04-21，最新行显示2026-04-20的10Y名义利率4.26%、10Y TIPS 1.91%，对应实际利率未出现趋势性下破。</li><li>EIA石油周报页面显示上次发布日期2026-04-15、下一次2026-04-22，能源交易主线进入周度再定价窗口。</li><li>EIA天然气库存页面显示截至2026-04-10库存1,970 Bcf、周增59 Bcf；下一次发布日期为2026-04-23。</li><li>FOMC会议日程已排定在2026-04-28至2026-04-29，周内数据将直接影响会议前的风险偏好。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>US 10Y Treasury</td>
+          <td>DGS10</td>
+          <td>4.26%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y TIPS</td>
+          <td>DFII10</td>
+          <td>1.91%</td>
+          <td>+0.01%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Working Gas Storage</td>
+          <td>NATGAS-US</td>
+          <td>1,970 Bcf</td>
+          <td>+3.09%</td>
+          <td><a href="https://ir.eia.gov/ngs/ngs.html?featureclicked=5">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>ASML Holding <span>ASML</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>ASML仍是先进制程资本开支节奏的高质量映射器。2026-04-15披露的一季度销售额€8.8bn、毛利率54.0%、二季度指引销售€7.2-7.7bn与毛利率50%-53%，说明AI相关需求并未逆转，但短期节奏与估值弹性仍受客户拉货节拍与宏观利率约束。</p>
+              <p><strong>Why now:</strong> 上一份核心公司级一级信号仍是2026-04-15财报包，过去24小时无新增公司披露改变方向，当前以等待更多供应链交叉验证为主。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29 FOMC会议前后，实际利率变化将影响高估值AI设备链折现率。</li><li>主要晶圆厂与设计公司后续业绩会对2026H2设备需求给出二次确认。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率重新上行，估值压缩可能快于基本面兑现。</li><li>客户资本开支节奏若再延后，短期订单可见度下降。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results">Q1 2026 Financial Results</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">Selected market rates (H.15)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>ABB Ltd <span>ABB</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>机器人自动化链条的新增信息密度将在2026-04-22显著提升。当前尚无当日财务正文可用，投资动作应围绕结果披露后的订单、利润率与区域需求评论做条件化触发。</p>
+              <p><strong>Why now:</strong> ABB官网已明确Q1 2026结果与管理层webcast时间为2026-04-22 08:00 CET，这是机器人主线最近的一级催化。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-22 08:00 CET：ABB Q1 2026 Results。</li><li>2026-04-22 09:00 CET：ABB Q1 2026 webcast（管理层口径）。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若订单或利润率低于市场预期，自动化链条估值可能同步回调。</li><li>欧洲工业需求若继续偏弱，订单恢复节奏可能慢于预期。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://global.abb/group/en/investors/results-and-reports/quarterly-results-webcast">Quarterly results and webcast schedule</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>能源板块短线方向高度依赖周度库存数据。当前一级源显示石油周报下一次在2026-04-22发布、天然气库存下一次在2026-04-23发布，在结果落地前不宜追击。</p>
+              <p><strong>Why now:</strong> 最近24小时内并无新的官方库存数据公布，处于典型的数据空窗期。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-22：EIA Weekly Petroleum Status Report。</li><li>2026-04-23：EIA Weekly Natural Gas Storage Report。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若原油与成品油库存意外累库，能源股短线可能回撤。</li><li>全球增长预期走弱会压制需求预期与估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html?featureclicked=5">Weekly Natural Gas Storage Report</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实际利率</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>黄金方向仍由实际利率与资金流共同决定。当前H.15显示实际利率高位震荡，WGC最新页面仅更新到2026-04-17数据窗口，未出现新的趋势级增量。</p>
+              <p><strong>Why now:</strong> 2026-04-21的H.15更新与WGC 2026-04月页面共同指向“信号未扩散”的状态，维持观察优先。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29 FOMC会议前后的利率路径。</li><li>WGC后续周度ETF流向更新是否出现持续净流入。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率上行，黄金持有成本劣势会再度放大。</li><li>美元阶段性走强可能压制金价弹性。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">Selected market rates (H.15)</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04">Gold ETF holdings and flows (April 2026)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
