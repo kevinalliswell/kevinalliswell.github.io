@@ -1,0 +1,285 @@
+{
+  "date": "2026-04-26",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-26（监测版）",
+  "summary": "截至2026-04-26（Asia/Shanghai）过去24小时内，AI、机器人、能源、黄金主线未出现足以重定价的新增一级披露，市场进入4月28-30日事件密集窗口前的等待期。可验证的最近主源仍集中在Fed H.15（2026-04-24发布）、EIA石油/天然气周报（2026-04-22与2026-04-23发布）以及企业端的业绩日程公告。结论维持监测版：不追价，围绕2026-04-28至2026-04-30的高确定性时间点做条件化决策。",
+  "macro": {
+    "regime": "周末信息真空 + 下周事件密集，仓位管理优先于方向押注",
+    "bullets": [
+      "Federal Reserve H.15在2026-04-24更新，显示至2026-04-23的有效联邦基金利率为3.64%，短端利率黏性仍强。",
+      "Federal Reserve日程显示FOMC会议在2026-04-28至2026-04-29，为本周最高权重宏观事件。",
+      "BLS在2026-04-10发布3月CPI：同比3.3%、环比0.9%，通胀粘性仍限制宽松预期。",
+      "EIA最新发布时间仍为：石油周报2026-04-22、天然气库存周报2026-04-23（工作气2,063 Bcf，周增103 Bcf）。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Effective Funds Rate",
+      "ticker": "EFFR",
+      "price": "3.64%",
+      "change_pct": 0,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y Treasury (H.15)",
+      "ticker": "DGS10",
+      "price": "4.34%",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US Working Gas Storage",
+      "ticker": "EIA NG",
+      "price": "2,063 Bcf",
+      "change_pct": 5.26,
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施（云与算力）",
+      "asset": "大型云平台业绩窗口",
+      "ticker": "MSFT/AMZN/META",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 79,
+      "thesis": "AI基础设施主线的下一个定价拐点不在周末消息，而在4月29日集中披露的云与广告平台财报。当前最优动作是维持观察仓位，等待业绩与资本开支口径给出可验证增量。",
+      "why_now": "Microsoft、Amazon、Meta均已在官方IR公告确认2026-04-29业绩披露与电话会时点，构成明确事件催化。",
+      "catalysts": [
+        "2026-04-29：Microsoft FY2026 Q3业绩发布与电话会。",
+        "2026-04-29：Amazon Q1 2026业绩电话会。",
+        "2026-04-29：Meta Q1 2026业绩发布。"
+      ],
+      "risks": [
+        "若CapEx/AI投入指引低于市场预期，AI算力链估值可能回撤。",
+        "若宏观口径偏鹰，成长资产折现率上行会压制估值弹性。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Microsoft announces quarterly earnings release date (Apr 8, 2026)",
+          "publisher": "Microsoft Source",
+          "url": "https://news.microsoft.com/source/2026/04/08/microsoft-announces-quarterly-earnings-release-date-67/"
+        },
+        {
+          "title": "Amazon.com to Webcast First Quarter 2026 Financial Results Conference Call (Apr 15, 2026)",
+          "publisher": "Amazon IR",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-First-Quarter-2026-Financial-Results-Conference-Call-57c6bd583/default.aspx"
+        },
+        {
+          "title": "Meta to Announce First Quarter 2026 Results (Apr 13, 2026)",
+          "publisher": "Meta IR",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-First-Quarter-2026-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "测试与工控业绩窗口",
+      "ticker": "TER/ROK",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "机器人与自动化链条同样进入财报验证区间。Teradyne与Rockwell均已给出明确财报时点，适合在结果前控制追高冲动，以事件后确认替代预判。",
+      "why_now": "官方公告显示两家公司披露时间集中在2026-04-28至2026-05-05。",
+      "catalysts": [
+        "2026-04-28：Teradyne公布Q1 2026结果；2026-04-29举行电话会。",
+        "2026-05-05：Rockwell Automation公布FY2026 Q2结果并召开电话会。"
+      ],
+      "risks": [
+        "若企业客户资本开支延迟，自动化订单节奏或弱于预期。",
+        "AI相关需求若集中在少数客户，订单可持续性存在波动。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Teradyne to Announce First Quarter 2026 Results (Released Apr 14, 2026)",
+          "publisher": "Teradyne IR",
+          "url": "https://investors.teradyne.com/news-events/press-releases/detail/438/teradyne-to-announce-first-quarter-2026-results"
+        },
+        {
+          "title": "Rockwell Automation to Report Second Quarter Fiscal 2026 Results (Apr 21, 2026)",
+          "publisher": "Rockwell Automation",
+          "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-to-Report-Second-Quarter-Fiscal-2026-Results.html"
+        }
+      ]
+    },
+    {
+      "theme": "能源与油气库存结构",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "库存主源在周末无新增发布，当前信号仍来自4月22-23日数据。信息优势有限，维持观察优于主动加仓。",
+      "why_now": "EIA最新石油/天然气周报发布时间分别停留在2026-04-22与2026-04-23。",
+      "catalysts": [
+        "2026-04-29：EIA石油周报下一次发布。",
+        "2026-04-30：EIA天然气库存周报下一次发布。"
+      ],
+      "risks": [
+        "若原油与成品油库存方向反转，能源权益短线波动加大。",
+        "地缘风险导致油气价格与风险资产相关性异常。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (Release date: April 22, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report (Released: April 23, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实际利率",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "真实利率约束与黄金配置需求并存，但周末缺乏新的一级流量数据，边际胜率不足以支持提高仓位。",
+      "why_now": "黄金主源最近公开更新仍以WGC 2026-04-08页面与Fed 2026-04-24利率更新为主。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC会议与新闻发布会。",
+        "WGC下一次ETF流向页面更新（待官方发布时间）。"
+      ],
+      "risks": [
+        "若美国实际利率继续上行，黄金ETF资金面可能继续承压。",
+        "若避险情绪降温，金价风险溢价回落。"
+      ],
+      "components": {
+        "theme_strength": 12,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve H.15 (Release date: April 24, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "Gold ETF Flows April 2026 page (Published: April 8, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        },
+        {
+          "title": "Central Bank Gold Statistics: February 2026 (Published: April 2, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/04/central-bank-gold-statistics-central-banks-stay-course-gold-february"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "FOMC Meeting",
+      "ticker": "FED",
+      "note": "2026-04-28至2026-04-29为核心事件窗口，重点观察声明与发布会措辞。"
+    },
+    {
+      "theme": "AI",
+      "asset": "US Mega-cap earnings cluster",
+      "ticker": "MSFT/AMZN/META",
+      "note": "2026-04-29集中披露，关注CapEx、AI基础设施投资强度与利润率指引。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA weekly releases",
+      "ticker": "EIA",
+      "note": "2026-04-29与2026-04-30的新周报决定是否从监测升级到主动仓位。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve April 2026 Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "BLS CPI News Release (March 2026 CPI)",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "Microsoft earnings release date announcement",
+      "url": "https://news.microsoft.com/source/2026/04/08/microsoft-announces-quarterly-earnings-release-date-67/"
+    },
+    {
+      "label": "Amazon Q1 2026 earnings call announcement",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-First-Quarter-2026-Financial-Results-Conference-Call-57c6bd583/default.aspx"
+    },
+    {
+      "label": "Meta Q1 2026 results announcement",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "Teradyne Q1 2026 results date",
+      "url": "https://investors.teradyne.com/news-events/press-releases/detail/438/teradyne-to-announce-first-quarter-2026-results"
+    },
+    {
+      "label": "Rockwell FY2026 Q2 results date",
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-to-Report-Second-Quarter-Fiscal-2026-Results.html"
+    },
+    {
+      "label": "WGC Gold ETF Flows April 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    },
+    {
+      "label": "WGC Central Bank Gold Statistics (Feb 2026)",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/04/central-bank-gold-statistics-central-banks-stay-course-gold-february"
+    }
+  ],
+  "tags": [
+    "投资",
+    "晨报",
+    "AI",
+    "机器人",
+    "能源",
+    "黄金",
+    "宏观",
+    "自动化",
+    "监测版",
+    "GPT-5.3-codex"
+  ]
+}
