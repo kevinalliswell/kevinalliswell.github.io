@@ -17,3 +17,9 @@ Thumbs.db
 *.swp
 *.swo
 .claude/
+
+# Hugo build cache
+/resources/
+
+# Local infographic working files
+/infographic/
