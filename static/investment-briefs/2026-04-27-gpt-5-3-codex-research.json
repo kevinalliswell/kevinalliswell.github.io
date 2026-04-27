@@ -1,0 +1,250 @@
+{
+  "date": "2026-04-27",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-27（监测版）",
+  "summary": "截至2026-04-27（Asia/Shanghai）近24小时内，AI、机器人、能源、黄金主线未出现足以重定价的新增一级披露，结论继续维持监测版。过去72小时内的有效增量主要来自Intel一季报、Fed H.4.1与EIA周报，显示增长与流动性信号仍偏分化：AI需求端有营收支撑，但宏观利率与库存框架尚未给出单边趋势。执行上以等待4月29日至4月30日事件落地为主，不追高。",
+  "macro": {
+    "regime": "增量信息有限，等待4月末宏观与行业周频数据再定方向",
+    "bullets": [
+      "Federal Reserve H.4.1（2026-04-23）显示‘Reserve balances with Federal Reserve Banks’为2,901,825百万美元（截至2026-04-22）。",
+      "Federal Reserve H.15（2026-04-25发布）显示2026-04-23有效联邦基金利率3.64%，10年期国债常到期收益率4.34%。",
+      "Federal Reserve日程确认FOMC会议日期为2026-04-28至2026-04-29，是本周宏观定价核心锚点。",
+      "EIA周报（2026-04-23）显示美国商业原油库存周增0.2百万桶，炼厂开工率88.1%，能源链条缺乏单边库存信号。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Effective Funds Rate (2026-04-23)",
+      "ticker": "EFFR",
+      "price": "3.64%",
+      "change_pct": 0,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y Treasury CMT (2026-04-23)",
+      "ticker": "DGS10",
+      "price": "4.34%",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "Fed Reserve Balances (2026-04-22)",
+      "ticker": "H4.1",
+      "price": "2,901,825 million USD",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/releases/h41/20260423/"
+    },
+    {
+      "name": "US Commercial Crude Inventories",
+      "ticker": "EIA WPSR",
+      "price": "+0.2 million bbl w/w",
+      "change_pct": "n/a",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "Intel",
+      "ticker": "INTC",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "AI算力与数据中心相关需求仍在支撑龙头半导体收入，但盈利质量与指引可持续性仍需后续季度确认，适合保留观察仓位而非追价。",
+      "why_now": "Intel在2026-04-23发布Q1 2026财报：营收127亿美元，GAAP EPS为-0.19美元，Non-GAAP EPS为0.13美元，显示营收韧性与利润端分化并存。",
+      "catalysts": [
+        "2026-04-29至2026-04-30：美股大型科技财报密集披露，验证AI资本开支与需求持续性。",
+        "下一个季度指引与数据中心相关订单披露。"
+      ],
+      "risks": [
+        "若AI基础设施投资节奏放缓，半导体链条估值可能回撤。",
+        "利率维持高位时，成长板块折现率约束仍在。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Intel reports first-quarter 2026 financial results (Apr 23, 2026)",
+          "publisher": "Intel IR",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "Rockwell Automation",
+      "ticker": "ROK",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 72,
+      "thesis": "工业软件与自动化平台继续向生成式AI集成推进，但当前增量主要是产品与生态层面的落地，尚未形成明确盈利再定价信号。",
+      "why_now": "Rockwell在2026-04-22发布汉诺威工博会公告，披露FactoryTalk Design Studio Copilot将采用Azure OpenAI Service并扩展工业AI应用。",
+      "catalysts": [
+        "企业后续财报中披露工业AI产品商业化与订单贡献。",
+        "制造业资本开支周期与自动化项目转化率数据。"
+      ],
+      "risks": [
+        "若工业客户IT/OT预算收缩，AI功能商业化节奏可能低于预期。",
+        "新功能落地若以试点为主，短期收入弹性有限。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Rockwell Automation at Hannover Messe 2026 (Published Apr 22, 2026)",
+          "publisher": "Rockwell Automation",
+          "url": "https://www.rockwellautomation.com/en-hu/company/news/press-releases/ai-orchestrated-factory-engineering-at-hannover.html"
+        }
+      ]
+    },
+    {
+      "theme": "能源与库存结构",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "能源链条仍由周频库存数据主导，当前EIA读数未显示强趋势性供需缺口，维持中性观察更优。",
+      "why_now": "EIA于2026-04-23发布周报摘要：商业原油库存周增0.2百万桶、炼厂开工率88.1%、汽油库存周减4.5百万桶，信号相互对冲。",
+      "catalysts": [
+        "2026-04-29：下一次EIA Weekly Petroleum Status Report。",
+        "地缘供给扰动与炼厂检修节奏变化。"
+      ],
+      "risks": [
+        "若库存结构快速反转，能源权益波动率可能上升。",
+        "宏观风险偏好下降时，油价与权益可能共振回撤。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report (Released Apr 23, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+        },
+        {
+          "title": "EIA Weekly Petroleum Status Report landing page",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实际利率",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 61,
+      "thesis": "黄金配置逻辑仍受实际利率与风险对冲需求拉扯，最新可得一级流量数据显示3月ETF继续净流出，短线提升仓位性价比不高。",
+      "why_now": "World Gold Council在2026-04页面披露：3月全球实物支持黄金ETF净流出约92吨（约86亿美元）；在FOMC前缺少新的高频增量。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC会议与发布会措辞。",
+        "WGC下一次黄金ETF流向更新。"
+      ],
+      "risks": [
+        "若实际利率上行，黄金ETF资金面可能继续承压。",
+        "若避险需求回落，金价风险溢价可能压缩。"
+      ],
+      "components": {
+        "theme_strength": 12,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Gold ETF flows: April 2026 update",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        },
+        {
+          "title": "Federal Reserve H.15 (Release date Apr 25, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "FOMC Meeting",
+      "ticker": "FED",
+      "note": "2026-04-28至2026-04-29为本周最大宏观变量，重点看政策措辞与点阵路径预期变化。"
+    },
+    {
+      "theme": "AI",
+      "asset": "US Mega-cap earnings cluster",
+      "ticker": "MSFT/AMZN/META",
+      "note": "2026-04-29财报密集披露，关注AI资本开支、云需求与利润率指引。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly releases",
+      "ticker": "EIA",
+      "note": "2026-04-29新石油周报将决定能源链条是否从中性监测切换为方向性交易。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "WGC gold ETF flow update",
+      "ticker": "GLD/GDX",
+      "note": "若后续周频流向由净流出转为净流入，黄金和金矿股的战术胜率将提升。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Intel Q1 2026 earnings release",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Rockwell Hannover Messe 2026 press release",
+      "url": "https://www.rockwellautomation.com/en-hu/company/news/press-releases/ai-orchestrated-factory-engineering-at-hannover.html"
+    },
+    {
+      "label": "Federal Reserve H.4.1 (2026-04-23)",
+      "url": "https://www.federalreserve.gov/releases/h41/20260423/"
+    },
+    {
+      "label": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve April 2026 calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report PDF",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report landing",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows April 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    }
+  ],
+  "tags": ["投资", "晨报", "AI", "机器人", "能源", "黄金", "宏观", "自动化", "监测版", "GPT-5.3-codex"]
+}
