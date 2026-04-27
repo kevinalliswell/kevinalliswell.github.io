@@ -20,5 +20,5 @@ draft: false
 ## 博客技术栈
 
 - 框架：[Hugo](https://gohugo.io/)
-- 主题：[PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- 主题：[Stack](https://github.com/CaiJimmy/hugo-theme-stack)
 - 部署：GitHub Pages
