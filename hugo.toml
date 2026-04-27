@@ -6,8 +6,6 @@ theme = 'stack'
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 
-mainSections = ["posts"]
-
 [pagination]
   pagerSize = 10
 
@@ -83,7 +81,8 @@ mainSections = ["posts"]
       icon = "rss"
 
 [params]
-  author = "Kevin"
+  author       = "Kevin"
+  mainSections = ["posts"]
 
   [params.sidebar]
     compact  = false
