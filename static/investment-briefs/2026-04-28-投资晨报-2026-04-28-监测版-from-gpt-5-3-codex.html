@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-04-28（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-04-28（监测版）</h1>
+      <p class="meta">2026-04-28 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-04-28（Asia/Shanghai）近24小时内，AI、机器人、能源、黄金主线未出现足以触发仓位方向切换的新增一级披露，继续维持监测版。可验证的核心增量仍集中在4月22日至4月25日的公司财报与宏观数据，以及4月28日至4月30日即将落地的宏观事件窗口。策略上维持低换手，等待FOMC与美国GDP初值、EIA新周报给出方向确认。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>事件前静默期，增量不足以改变中性偏防守配置</strong></p>
+      <ul><li>Federal Reserve FOMC日历显示2026-04-28至2026-04-29为议息会议窗口。</li><li>BEA发布日历显示2026-04-30 08:30 ET公布2026年一季度GDP advance estimate。</li><li>BLS于2026-04-10发布CPI：All items同比+2.4%、环比+0.4%，Energy环比+2.4%。</li><li>World Gold Council 2026-04页面披露：3月全球实物支持黄金ETF净流出92吨（约86亿美元），Q1累计净流出115吨。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>FOMC Meeting Window</td>
+          <td>FED</td>
+          <td>2026-04-28 to 2026-04-29</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US GDP Advance Estimate (Q1 2026)</td>
+          <td>BEA</td>
+          <td>2026-04-30 08:30 ET</td>
+          <td>n/a</td>
+          <td><a href="https://www.bea.gov/news/schedule">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>EIA Weekly Petroleum Status Report</td>
+          <td>EIA WPSR</td>
+          <td>Next: 2026-04-29 10:30 ET</td>
+          <td>n/a</td>
+          <td><a href="https://www.eia.gov/petroleum/supply/weekly/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Gold ETF Flows (March 2026)</td>
+          <td>WGC</td>
+          <td>-92 tonnes</td>
+          <td>n/a</td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>Texas Instruments <span>TXN</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>模拟与嵌入式龙头仍处于库存与需求再平衡阶段，财报显示现金流质量仍稳，但短期缺乏新订单级别催化，适合保留观察或回调分批。</p>
+              <p><strong>Why now:</strong> TI于2026-04-22发布Q1 2026业绩：营收40.7亿美元、EPS 1.28美元、经营现金流18亿美元，自由现金流14亿美元；近24小时未见新的一级披露改写该基线。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07财报季对终端需求与库存周期的二次验证。</li><li>若FOMC后长端利率回落，半导体估值约束有望边际缓解。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>工业与汽车需求修复慢于预期将压制估值扩张。</li><li>若宏观风险偏好回落，半导体板块弹性可能先回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.ti.com/news-releases/news-release-details/ti-reports-first-quarter-2026-financial-results-and-shareholder">TI reports first quarter 2026 financial results and shareholder returns (Apr 22, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>ABB <span>ABB</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>工业自动化基本面维持稳健，订单和利润率表现支持中期逻辑，但在新增订单趋势确认前不宜激进加仓。</p>
+              <p><strong>Why now:</strong> ABB在2026-04-22发布Q1 2026：可比口径订单同比+5%至92亿美元，Operational EBITA利润率20.2%，经营现金流6.52亿美元；近24小时无新增一级披露改变判断。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>后续季度订单可见度与离散制造资本开支回暖信号。</li><li>欧美制造业景气指标若回升，将提升自动化资产重估概率。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>欧洲制造业需求若继续偏弱，订单增速可能回落。</li><li>汇率和区域政策不确定性影响盈利兑现节奏。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108470A3176&amp;LanguageCode=en&amp;DocumentPartId=&amp;Action=Launch">ABB Q1 2026 results (Apr 22, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>能源交易仍受周频库存数据主导，在下一次EIA周报落地前，方向性优势不明确，维持观察优先。</p>
+              <p><strong>Why now:</strong> EIA页面显示下一次WPSR发布时间为2026-04-29 10:30 ET；当前窗口内没有新的官方库存周报增量。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-29 EIA WPSR：关注原油/汽油库存是否形成同向趋势。</li><li>若供给端出现突发扰动，油气权益波动与方向性将同步上升。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若库存数据与价格背离扩大，短线波动将加剧。</li><li>宏观增长预期下修可能压制能源需求定价。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">EIA Weekly Petroleum Status Report landing page</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 60/100</p>
+              <div class="bar"><span class="fill" style="width:60%"></span></div>
+              <p>黄金短线仍受实际利率与资金流共同约束，在ETF资金面重回净流入前，战术仓位以防守配置为主。</p>
+              <p><strong>Why now:</strong> WGC 2026-04更新显示3月全球实物支持黄金ETF净流出92吨（约86亿美元）；FOMC前缺少新的一级流量改善信号。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29 FOMC：若政策沟通偏鸽，黄金压力有望缓解。</li><li>WGC下一次黄金ETF流向更新。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率上行，黄金ETF资金可能继续承压。</li><li>若避险需求下降，金价风险溢价可能收缩。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04">Gold ETF flows: April 2026 update</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC calendars and information</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
