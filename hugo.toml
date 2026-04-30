@@ -1,80 +1,142 @@
 baseURL = 'https://kevinalliswell.github.io/'
 languageCode = 'zh-cn'
 title = "Kevin's Blog"
-theme = 'PaperMod'
+theme = 'stack'
 
-# 默认设置
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 
-# 分页设置 (Hugo v0.128.0+)
 [pagination]
   pagerSize = 10
 
-
-# 导航菜单
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 20
-  [[menu.main]]
-    identifier = "search"
-    name = "搜索"
-    url = "/search/"
-    weight = 25
-  [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
-    weight = 30
-
-[params]
-  # 作者信息
-  author = "Kevin"
-  # 主题设置
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  
-  # 首页设置
-  [params.homeInfoParams]
-    Title = "你好，我是 Kevin 👋"
-    Content = """
-这里是我的数字花园，记录：
-
-📝 **工作笔记** - 技术学习、项目总结
-🌟 **热点观察** - AI、科技趋势分析
-📸 **生活随笔** - 日常思考、读书笔记
-
-欢迎订阅 RSS 或通过邮件交流。
-"""
-
-  # 社交链接
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/kevinalliswell"
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:kevin.alliswell@gmail.com"
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/posts/index.xml"
-
 [outputs]
-  home = ["HTML", "JSON"]
+  home    = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
-  term = ["HTML"]
+  term     = ["HTML"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "首页"
+    url        = "/"
+    weight     = 1
+    [menu.main.params]
+      icon = "home"
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "文章"
+    url        = "/posts/"
+    weight     = 2
+    [menu.main.params]
+      icon = "archives"
+
+  [[menu.main]]
+    identifier = "archives"
+    name       = "归档"
+    url        = "/archives/"
+    weight     = 3
+    [menu.main.params]
+      icon = "archives"
+
+  [[menu.main]]
+    identifier = "search"
+    name       = "搜索"
+    url        = "/search/"
+    weight     = 4
+    [menu.main.params]
+      icon = "search"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "关于"
+    url        = "/about/"
+    weight     = 5
+    [menu.main.params]
+      icon = "user"
+
+  [[menu.social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/kevinalliswell"
+    weight     = 1
+    [menu.social.params]
+      icon = "brand-github"
+
+  [[menu.social]]
+    identifier = "email"
+    name       = "Email"
+    url        = "mailto:kevin.alliswell@gmail.com"
+    weight     = 2
+    [menu.social.params]
+      icon = "mail"
+
+  [[menu.social]]
+    identifier = "rss"
+    name       = "RSS"
+    url        = "/posts/index.xml"
+    weight     = 3
+    [menu.social.params]
+      icon = "rss"
+
+[params]
+  author       = "Kevin"
+  mainSections = ["posts"]
+
+  [params.sidebar]
+    compact  = false
+    subtitle = "这里是我的数字花园，记录工作笔记、热点观察与生活随笔。"
+    avatar   = ""
+
+  [params.footer]
+    since      = 2026
+    customText = ""
+
+  [params.dateFormat]
+    published   = "2006-01-02"
+    lastUpdated = "2006-01-02"
+
+  [params.article]
+    headingAnchor = true
+    math          = false
+    toc           = true
+    readingTime   = true
+
+    [params.article.list]
+      showTags = true
+
+    [params.article.license]
+      enabled = false
+
+  [params.widgets]
+    homepage = [
+      {type = "search"},
+      {type = "archives", params = {limit = 5}},
+      {type = "categories"},
+      {type = "tag-cloud"},
+    ]
+    page = [
+      {type = "toc"},
+    ]
+
+  [params.colorScheme]
+    toggle  = true
+    default = "auto"
+
+  [params.imageProcessing]
+    autoOrient = false
+    [params.imageProcessing.content]
+      enabled = true
+      widths  = [800, 1600, 2400]
+    [params.imageProcessing.thumbnail]
+      enabled = true
+
+  [params.comments]
+    enabled = false
+
+  [params.cookies]
+    enabled = false
 
 [privacy]
   [privacy.disqus]
