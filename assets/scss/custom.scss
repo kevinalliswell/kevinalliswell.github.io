@@ -6,9 +6,9 @@
     --code-font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
 }
 
-/* 正文内容区 - Stack 使用 .article-content */
+/* 正文内容区 - Stack 设置 html{font-size:62.5%}，1rem=10px */
 .article-content {
-    font-size: 1.05rem;
+    font-size: 1.7rem;   /* 17px */
     line-height: 1.8;
 }
 
@@ -22,13 +22,13 @@
 }
 
 .article-content h1 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;   /* 28px */
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.5rem;
 }
 
-.article-content h2 { font-size: 1.5rem; }
-.article-content h3 { font-size: 1.25rem; }
+.article-content h2 { font-size: 2.4rem; }   /* 24px */
+.article-content h3 { font-size: 2.0rem; }   /* 20px */
 
 /* 链接样式 */
 .article-content a {
@@ -63,7 +63,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     font-family: var(--code-font-family);
-    font-size: 0.92rem;
+    font-size: 1.4rem;   /* 14px */
     line-height: 1.65;
     white-space: pre;
     word-break: normal;
@@ -89,7 +89,7 @@
 .article-content .highlight pre,
 .article-content .highlight pre code {
     font-family: var(--code-font-family);
-    font-size: 0.92rem;
+    font-size: 1.4rem;   /* 14px */
     line-height: 1.65;
 }
 
@@ -152,6 +152,6 @@
 /* 移动端优化 */
 @media (max-width: 768px) {
     .article-content {
-        font-size: 1rem;
+        font-size: 1.6rem;   /* 16px */
     }
 }
