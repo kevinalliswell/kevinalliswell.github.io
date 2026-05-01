@@ -1,5 +1,8 @@
 ---
 title: "搜索"
 layout: "search"
-placeholder: "搜索文章标题、内容..."
+type: "page"
+outputs:
+  - html
+  - json
 ---
