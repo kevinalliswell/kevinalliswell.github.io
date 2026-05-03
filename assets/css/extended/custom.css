@@ -1,15 +1,22 @@
-/* 自定义样式 - 极简主义增强 */
+/* 自定义样式 - 极简主义增强（PaperMod 主题用）*/
+
+/* 基础字号：显式声明，防止环境差异 */
+html {
+    font-size: 16px;
+}
 
 /* 全局字体优化 */
 :root {
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --code-font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+    --article-font-size: 1.125rem;   /* 18px：中文长文推荐值 */
+    --article-line-height: 1.9;
 }
 
 /* 正文优化 */
 .post-content {
-    font-size: 1.05rem;
-    line-height: 1.8;
+    font-size: var(--article-font-size);
+    line-height: var(--article-line-height);
     max-width: 720px;
     margin: 0 auto;
 }
@@ -243,14 +250,14 @@
 
 /* 移动端优化 */
 @media (max-width: 768px) {
-    .post-content {
-        font-size: 1rem;
+    :root {
+        --article-font-size: 1.0625rem;  /* 17px */
     }
-    
+
     .home-info .entry-title {
         font-size: 2rem;
     }
-    
+
     .post-entry {
         padding: 1rem;
     }

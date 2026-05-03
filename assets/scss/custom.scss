@@ -1,15 +1,23 @@
 /* 自定义样式 - 从 PaperMod 迁移并适配 Stack */
 
+/* 基础字号：显式声明，防止浏览器/环境差异导致字体偏小
+   修改字体大小只需调整 --article-font-size，其余 rem 单位随之缩放 */
+html {
+    font-size: 16px;
+}
+
 /* 全局字体变量 */
 :root {
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --code-font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+    --article-font-size: 1.125rem;   /* 18px：中文长文推荐值，改这里即可全局生效 */
+    --article-line-height: 1.9;
 }
 
 /* 正文内容区 - Stack 使用 .article-content */
 .article-content {
-    font-size: 1.05rem;
-    line-height: 1.8;
+    font-size: var(--article-font-size);
+    line-height: var(--article-line-height);
 }
 
 /* 标题样式 */
@@ -151,7 +159,7 @@
 
 /* 移动端优化 */
 @media (max-width: 768px) {
-    .article-content {
-        font-size: 1rem;
+    :root {
+        --article-font-size: 1.0625rem;  /* 17px：移动端保持可读性同时不占空间 */
     }
 }
