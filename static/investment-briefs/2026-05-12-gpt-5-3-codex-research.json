@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-12",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-12（监测版）",
+  "summary": "截至2026-05-12（Asia/Shanghai）早间，过去24小时未出现足以改写当前配置框架的新增一级重磅信号。官方高影响增量集中在日内待发布窗口：美国CPI（2026-05-12 08:30 ET）与EIA短期能源展望（2026-05-12）。在数据落地前，维持‘AI主线分批+黄金对冲保留+久期等待确认’的仓位纪律。",
+  "macro": {
+    "regime": "事件驱动窗口前夜，方向判断等待日内官方数据确认",
+    "bullets": [
+      "BLS现有CPI新闻稿（2026-04-10发布，覆盖2026年3月）明确下一次CPI为2026-05-12 08:30 ET。",
+      "Federal Reserve H.4.1发布页显示Current Release日期为2026-05-07。",
+      "EIA周度石油报告最近一次发布日期为2026-05-06，下一次为2026-05-13；STEO页面显示下一次发布时间为2026-05-12。",
+      "World Gold Council黄金ETF月报最新为2026-05-07发布（4月数据，数据截至2026-05-08）。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "BLS CPI Next Scheduled Release",
+      "ticker": "CPI",
+      "price": "2026-05-12 08:30 ET",
+      "change_pct": "N/A",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm"
+    },
+    {
+      "name": "Federal Reserve H.4.1 Current Release",
+      "ticker": "H4.1",
+      "price": "Release Date: 2026-05-07",
+      "change_pct": "N/A",
+      "source_url": "https://www.federalreserve.gov/Releases/H41/Current/"
+    },
+    {
+      "name": "EIA Weekly Petroleum Status Report",
+      "ticker": "WPSR",
+      "price": "Release Date: 2026-05-06; Next: 2026-05-13",
+      "change_pct": "N/A",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "name": "EIA Short-Term Energy Outlook",
+      "ticker": "STEO",
+      "price": "Next Release Date: 2026-05-12",
+      "change_pct": "N/A",
+      "source_url": "https://www.eia.gov/outlooks/steo/outlook.php"
+    },
+    {
+      "name": "WGC Gold ETF Flows (April 2026)",
+      "ticker": "Gold ETF",
+      "price": "Published: 2026-05-07",
+      "change_pct": "N/A",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 77,
+      "thesis": "在宏观数据落地前，黄金仍是组合中最直接的政策与增长不确定性对冲工具。最新一级资金流证据仍显示4月ETF流向转正，支撑底仓保留。",
+      "why_now": "过去24小时未见新的官方黄金月度流向或央行储备更新，维持‘不追涨、分批配置’。",
+      "catalysts": [
+        "2026-05-12美国CPI若弱于预期，实际利率回落通常利好黄金估值。",
+        "若地缘风险升温，避险配置可能继续支撑ETF净流入。"
+      ],
+      "risks": [
+        "若美元与实际利率同步上行，金价可能阶段性承压。",
+        "若后续ETF流向再转负，短线拥挤交易可能放大波动。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: April 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 74,
+      "thesis": "AI算力主线中期逻辑未变，但短线缺乏新的官方增量披露，赔率更依赖回调后的风险回报比而非追涨。",
+      "why_now": "截至2026-05-12早间，近24-72小时未见足以改写判断的AMD/上游新增一级披露，维持财报后验证节奏。",
+      "catalysts": [
+        "下一轮公司公开披露对数据中心需求与出货节奏的更新。",
+        "若利率波动导致成长板块回撤，基本面兑现强弱将决定修复弹性。"
+      ],
+      "risks": [
+        "高估值板块对贴现率与流动性预期敏感。",
+        "若AI资本开支边际放缓，盈利预期存在下修风险。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "AMD Reports First Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+        },
+        {
+          "title": "Monthly Revenue 2026",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        }
+      ]
+    },
+    {
+      "theme": "宏观利率与久期资产",
+      "asset": "20+ Year Treasury Bond ETF",
+      "ticker": "TLT",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 66,
+      "thesis": "在通胀数据与再融资拍卖结果落地前，久期方向胜率仍偏中性，适合等待确认而非前置重仓。",
+      "why_now": "Treasury在2026-05-06再融资声明中已给出2026-05-11/12/13拍卖安排，但截至本轮监测未见新的拍卖结果一级披露。",
+      "catalysts": [
+        "2026-05-12 CPI结果对实际利率与降息路径重定价。",
+        "2026-05-11至2026-05-13国债拍卖尾差与投标倍数。"
+      ],
+      "risks": [
+        "若通胀超预期，长端利率上行将压制久期资产。",
+        "期限溢价抬升会放大TLT净值波动。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 13,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0489"
+        },
+        {
+          "title": "Minutes of the Meeting of the Treasury Borrowing Advisory Committee May 5, 2026",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0491"
+        },
+        {
+          "title": "Consumer Price Index News Release (March 2026 issue, with next release schedule)",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "U.S. CPI (April 2026)",
+      "ticker": "CPI",
+      "note": "北京时间2026-05-12晚20:30（08:30 ET）发布，是当日最关键增量信号。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA STEO",
+      "ticker": "STEO",
+      "note": "2026-05-12官方月度展望更新，重点看油气价格与电力需求路径。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly Petroleum Status Report",
+      "ticker": "WPSR",
+      "note": "下一次发布日期为2026-05-13，关注库存与成品油分项同向性。"
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Rockwell Automation",
+      "ticker": "ROK",
+      "note": "维持财报后订单可持续性跟踪，等待新一轮管理层披露。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "BLS CPI News Release (March 2026 issue; next release time listed)",
+      "url": "https://www.bls.gov/news.release/cpi.htm"
+    },
+    {
+      "label": "BLS May 2026 Release Calendar",
+      "url": "https://www.bls.gov/schedule/news_release/"
+    },
+    {
+      "label": "Federal Reserve H.4.1 Release Dates (Last Update: May 07, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h41/"
+    },
+    {
+      "label": "Federal Reserve H.4.1 Current Release (Release Date: May 07, 2026)",
+      "url": "https://www.federalreserve.gov/Releases/H41/Current/"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows April 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+    },
+    {
+      "label": "U.S. Treasury Quarterly Refunding Statement (May 6, 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0489"
+    },
+    {
+      "label": "U.S. Treasury TBAC Minutes (May 6, 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0491"
+    },
+    {
+      "label": "AMD Q1 2026 Results (May 5, 2026)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "TSMC Monthly Revenue 2026",
+      "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
+      "label": "Rockwell Automation Q2 FY2026 Results",
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Second-Quarter-2026-Results.html"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring"
+  ]
+}
