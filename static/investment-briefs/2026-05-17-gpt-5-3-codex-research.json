@@ -1,0 +1,191 @@
+{
+  "date": "2026-05-17",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-17（监测版）",
+  "summary": "截至2026-05-17（周日）监测窗口，一级信源未出现足以改变仓位框架的新披露，市场仍主要交易4月通胀反弹、5月13日PPI上行与EIA库存去化的组合。结论维持：黄金用于组合对冲，能源等待回调分批，AI链条等待2026-05-20 NVIDIA业绩与指引再定方向。",
+  "macro": {
+    "regime": "通胀韧性与政策观望并存，商品分化强于成长风格追价",
+    "bullets": [
+      "美联储在2026-04-29维持联邦基金利率目标区间3.5%-3.75%，延续数据依赖措辞。",
+      "BLS显示4月CPI同比3.8%、核心同比2.8%（发布于2026-05-12），通胀回落斜率放缓。",
+      "BLS显示4月PPI最终需求环比+1.4%、同比+6.0%（发布于2026-05-13），上游价格压力再抬升。",
+      "EIA周报（发布于2026-05-13）显示美国商业原油库存周降430万桶至4.529亿桶，下一次周报日期为2026-05-20。"
+    ]
+  },
+  "market_snapshot": [],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 78,
+      "thesis": "在通胀与增长预期分歧并存阶段，黄金继续承担组合波动缓冲与政策不确定性对冲功能。",
+      "why_now": "2026-04-29 FOMC按兵不动且保留观望；2026-05-07 WGC月报显示4月黄金ETF流向结构发生再平衡，短期未见新的负面一级冲击。",
+      "catalysts": [
+        "2026-06-10 08:30 ET：BLS发布2026年5月CPI",
+        "后续FOMC沟通若出现降息路径再定价，黄金弹性可能放大"
+      ],
+      "risks": [
+        "若后续通胀数据超预期回落且实际利率上行，黄金可能阶段承压",
+        "若风险偏好快速修复，避险需求边际下降"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve issues FOMC statement (April 29, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+        },
+        {
+          "title": "Gold ETF flows report (Published: 7 May, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+        },
+        {
+          "title": "Schedule of Releases for CPI",
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 74,
+      "thesis": "库存去化与高油价区间共同支撑能源板块盈利预期，但短线波动加大，优先用回撤分批而非追涨。",
+      "why_now": "EIA在2026-05-13发布的周报显示商业原油库存减少430万桶至4.529亿桶，WTI（Cushing）在2026-05-08为98.87美元/桶，供需仍偏紧。",
+      "catalysts": [
+        "2026-05-20：EIA下一期Weekly Petroleum Status Report",
+        "2026-06月上旬：后续美国通胀与需求数据验证成品油消费韧性"
+      ],
+      "risks": [
+        "若宏观增长预期快速下修，油品需求侧可能走弱",
+        "地缘与政策变量导致油价双向大幅波动"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report page (week ending May 8, 2026; release May 13, 2026; next release May 20, 2026)",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Weekly Petroleum Status Report full PDF",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施与自动化",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 66,
+      "thesis": "AI主线长期逻辑未变，但短期交易拥挤与业绩前波动并存，等待指引确认后再提高仓位效率。",
+      "why_now": "NVIDIA于2026-04-29公告将于2026-05-20 2:00 p.m. PT召开FY2027Q1业绩电话会；在新财报前，缺乏新增一级财务披露。",
+      "catalysts": [
+        "2026-05-20 2:00 p.m. PT：NVIDIA FY2027Q1业绩电话会",
+        "财报中对数据中心需求、毛利率与后续季度指引"
+      ],
+      "risks": [
+        "若业绩或指引不及高预期，估值回撤风险较高",
+        "供应链与出口管制政策变化带来不确定性"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 18,
+        "valuation_setup": 10,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Sets Conference Call for First-Quarter Financial Results (April 29, 2026)",
+          "publisher": "NVIDIA IR",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-First-Quarter-Financial-Results/default.aspx"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "U.S. CPI (May 2026 reference month)",
+      "ticker": "BLS-CPI",
+      "note": "BLS日程显示发布时间为2026-06-10 08:30 ET，是利率与黄金主线关键校验点。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA WPSR",
+      "ticker": "EIA-WPSR",
+      "note": "EIA页面显示下一次发布时间为2026-05-20，关注库存去化是否延续。"
+    },
+    {
+      "theme": "AI",
+      "asset": "NVIDIA earnings call",
+      "ticker": "NVDA",
+      "note": "2026-05-20业绩会是AI链条近端最强事件驱动。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC Statement (2026-04-29)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "label": "BLS CPI Summary (release date 2026-05-12)",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "label": "BLS PPI Summary (release date 2026-05-13)",
+      "url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm"
+    },
+    {
+      "label": "BLS CPI Release Schedule",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "label": "BLS PPI Release Schedule",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Full PDF",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows (Published 2026-05-07)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+    },
+    {
+      "label": "NVIDIA IR Q1 FY2027 call announcement (Published 2026-04-29)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-First-Quarter-Financial-Results/default.aspx"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}
