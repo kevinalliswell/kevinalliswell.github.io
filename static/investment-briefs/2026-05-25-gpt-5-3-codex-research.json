@@ -1,0 +1,236 @@
+{
+  "date": "2026-05-25",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-25（监测版）",
+  "summary": "截至2026年5月25日（北京时间）早间，过去24小时未出现足以改变组合方向的新增一手披露，市场仍由已知宏观变量主导。4月美国CPI抬升、能源扰动仍在定价，AI基础设施链条维持高景气但短线已进入财报后再定价阶段。当前策略维持“监测优先、分批执行”，重点等待下一批宏观与库存/需求数据确认。",
+  "macro": {
+    "regime": "通胀回升+地缘能源不确定性，高景气成长与避险资产并存",
+    "bullets": [
+      "美国BLS在2026-05-12发布4月CPI：同比3.8%、环比0.6%，高于3月同比3.3%，显示通胀压力再抬头。",
+      "美联储2026-04-29 FOMC声明明确提及“通胀仍高、部分受全球能源价格上行影响”，政策端维持谨慎。",
+      "IEA 2026-05-13油市月报下调2026年全球需求判断（同比-42万桶/日），但供给冲击下波动仍高。",
+      "截至2026-05-22，GLD页面显示LBMA PM金价与基金NAV仍处高位区间，黄金在高不确定性环境下继续具备对冲属性。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "GLD NAV",
+      "ticker": "GLD",
+      "price": "413.72",
+      "change_pct": "",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "name": "LBMA Gold Price PM",
+      "ticker": "XAU",
+      "price": "4505.25",
+      "change_pct": "",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "name": "US CPI YoY (Apr 2026)",
+      "ticker": "CPI",
+      "price": "3.8%",
+      "change_pct": "",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm?rel=outbound"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 82,
+      "thesis": "一手财报继续验证AI算力资本开支高景气，但财报后估值与仓位拥挤度上升，追高性价比下降。",
+      "why_now": "NVIDIA于2026-05-20公布FY2027Q1：营收816亿美元、同比+85%，数据中心营收752亿美元、同比+92%，并新增800亿美元回购授权。",
+      "catalysts": [
+        "NVIDIA分红登记日2026-06-04、派息日2026-06-26（资本回报预期强化）",
+        "下游代工景气验证：TSMC 2026年4月营收同比+17.5%（2026-05页面披露）"
+      ],
+      "risks": [
+        "高基数下增速边际回落可能触发估值压缩",
+        "若宏观真实利率继续抬升，高估值成长股波动加剧"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 20,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "NVIDIA FY2027 Q1业绩公告（2026-05-20）",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "TSMC 2026 Monthly Revenue",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与避险资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 78,
+      "thesis": "在通胀粘性与地缘风险共振下，黄金的组合对冲价值仍在；但短期波动高，宜分批而非一次性追价。",
+      "why_now": "截至2026-05-22，GLD页面显示LBMA Gold Price PM为4505.25、基金NAV为413.72，反映金价仍处高位区间。",
+      "catalysts": [
+        "2026-06-10美国5月CPI公布（通胀与实际利率方向将影响金价）",
+        "若风险事件延续，资金对实物黄金ETF的配置需求有望维持"
+      ],
+      "risks": [
+        "若美国实际利率上行，黄金可能阶段性回撤",
+        "地缘风险缓和时，避险溢价可能快速回吐"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "GLD基金页面（截至2026-05-22的NAV与LBMA PM）",
+          "publisher": "State Street SPDR",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "BLS CPI News Release（下一次发布日期）",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.htm?rel=outbound"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "美国油气Beta（XLE代理）",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "供需与地缘冲击并存，油价方向短期更多由事件驱动而非基本面线性外推，策略上以等待库存与需求新数据确认为主。",
+      "why_now": "IEA在2026-05-13月报给出2026年需求收缩预期，但EIA与库存高频数据仍显示短期紧平衡扰动显著。",
+      "catalysts": [
+        "EIA周度库存：受Memorial Day影响，week ending 2026-05-22数据在2026-05-28发布",
+        "EIA STEO下一次发布时间为2026-06-09"
+      ],
+      "risks": [
+        "地缘冲突升级造成超预期供给中断",
+        "需求下修被证实后，油价可能出现趋势性回落"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "IEA Oil Market Report - May 2026（2026-05-13）",
+          "publisher": "International Energy Agency",
+          "url": "https://www.iea.org/reports/oil-market-report-may-2026"
+        },
+        {
+          "title": "EIA Weekly Petroleum Status Report Schedule",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+        },
+        {
+          "title": "EIA Short-Term Energy Outlook（May 2026）",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "ABB",
+      "ticker": "ABB",
+      "region": "Europe",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "工业自动化链条基本面仍稳，但近72小时缺乏新的高频一手增量，暂不提高仓位。",
+      "why_now": "ABB Q1 2026（2026-04-22）显示订单与利润同比改善，但周末窗口未出现改变趋势的新披露。",
+      "catalysts": [
+        "下一次季度更新与订单节奏验证",
+        "若AI工厂资本开支外溢至电气化/自动化设备，估值或再评级"
+      ],
+      "risks": [
+        "全球制造业资本开支转弱",
+        "欧美需求放缓对订单能见度的压制"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 results",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/135137"
+        },
+        {
+          "title": "ABB Quarterly results hub",
+          "publisher": "ABB Group Investors",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国CPI（5月）",
+      "ticker": "CPI",
+      "note": "2026-06-10 08:30 ET发布，决定真实利率与成长/黄金相对表现。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA周度库存",
+      "ticker": "WPSR",
+      "note": "week ending 2026-05-22 数据因节假日改为2026-05-28发布。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA STEO",
+      "ticker": "STEO",
+      "note": "下一次发布时间为2026-06-09，关注需求与库存路径修正。"
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "TSMC月度营收",
+      "ticker": "TSM",
+      "note": "继续跟踪2026年5月营收披露，验证AI订单向下游传导强度。"
+    }
+  ],
+  "source_log": [
+    {"label": "BLS CPI April 2026", "url": "https://www.bls.gov/news.release/cpi.htm?rel=outbound"},
+    {"label": "Federal Reserve 2026 FOMC Press Releases", "url": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm"},
+    {"label": "Federal Reserve FOMC statement 2026-04-29", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"},
+    {"label": "NVIDIA FY2027 Q1 press release", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"},
+    {"label": "TSMC 2026 monthly revenue", "url": "https://investor.tsmc.com/english/monthly-revenue/2026"},
+    {"label": "GLD fund page", "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"},
+    {"label": "IEA Oil Market Report May 2026", "url": "https://www.iea.org/reports/oil-market-report-may-2026"},
+    {"label": "EIA WPSR schedule", "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"},
+    {"label": "EIA STEO May 2026", "url": "https://www.eia.gov/outlooks/steo/outlook.php"},
+    {"label": "ABB Q1 2026 results", "url": "https://www.abb.com/global/en/news/135137"}
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}
