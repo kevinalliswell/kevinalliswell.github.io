@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-26",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-26（监测版）",
+  "summary": "截至2026年5月26日（北京时间）早间，过去24小时未出现足以改变仓位框架的重大一级新增披露，组合维持监测模式。AI主线仍由2026-05-20 NVIDIA财报与2026-05 TSMC月营收所支撑；宏观端继续等待下一批高频数据（EIA周度库存与美国5月CPI）给出方向确认。执行上维持分批、等待验证、避免追高。",
+  "macro": {
+    "regime": "通胀粘性与增长分化并存，成长与避险资产维持共振",
+    "bullets": [
+      "美联储于2026-05-20发布4月29-30日FOMC会议纪要，整体仍强调通胀回落不充分、政策路径依赖后续数据。",
+      "美国BLS在2026-05-12发布4月CPI（同比3.8%、环比0.6%），当前市场对真实利率路径仍敏感。",
+      "EIA周度库存（week ending 2026-05-22）因美国假期顺延至2026-05-28发布，能源板块短线等待库存验证。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US CPI YoY (Apr 2026)",
+      "ticker": "CPI",
+      "price": "3.8%",
+      "change_pct": "",
+      "source_url": "https://www.bls.gov/news.release/cpi.htm"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 81,
+      "thesis": "AI算力资本开支主线未被破坏，但财报后估值与交易拥挤度上升，优先等待价格/预期再次匹配。",
+      "why_now": "2026-05-20公布FY2027Q1后暂无新的改变趋势的一手披露，市场进入财报后再定价阶段。",
+      "catalysts": [
+        "NVIDIA分红登记日2026-06-04、派息日2026-06-26",
+        "继续跟踪TSMC下一次月营收披露验证AI需求韧性"
+      ],
+      "risks": [
+        "高基数下增速边际回落导致估值压缩",
+        "若真实利率上行，高估值成长资产波动放大"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 20,
+        "valuation_setup": 12,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027 (2026-05-20)",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "TSMC Monthly Revenue 2026",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与避险资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 77,
+      "thesis": "在通胀黏性与宏观不确定性背景下，黄金仍具组合对冲价值，但短线受真实利率预期扰动较大。",
+      "why_now": "过去24小时无新的方向性一级增量，逻辑继续锚定通胀与政策预期的拉扯。",
+      "catalysts": [
+        "2026-06-10美国5月CPI",
+        "若政策预期转向更鸽派，黄金配置需求可能增强"
+      ],
+      "risks": [
+        "真实利率继续上行时金价可能阶段性回撤",
+        "风险偏好快速修复导致避险溢价回吐"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "SPDR Gold Shares (GLD) fund page",
+          "publisher": "State Street SPDR",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "Consumer Price Index News Release Schedule",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "美国油气Beta（XLE代理）",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "能源交易短线仍由库存与事件驱动，供需框架需要下一批官方数据确认，当前更适合等待而非追价。",
+      "why_now": "EIA周度库存关键更新将在2026-05-28公布，IEA 2026-05-13月报对需求预期较谨慎，短期分歧仍大。",
+      "catalysts": [
+        "EIA周度库存（week ending 2026-05-22）于2026-05-28发布",
+        "EIA STEO下一次发布时间2026-06-09"
+      ],
+      "risks": [
+        "地缘冲突升级造成供给中断",
+        "需求下修被数据确认后油价可能趋势性走弱"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report Schedule",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+        },
+        {
+          "title": "EIA Short-Term Energy Outlook",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+        },
+        {
+          "title": "IEA Oil Market Report - May 2026 (2026-05-13)",
+          "publisher": "International Energy Agency",
+          "url": "https://www.iea.org/reports/oil-market-report-may-2026"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "ABB",
+      "ticker": "ABB",
+      "region": "Europe",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "自动化需求中期逻辑未变，但近24小时缺乏新增一级催化，保持观察优先。",
+      "why_now": "2026-04-22 ABB Q1披露后暂无新的改变趋势披露，等待下一次订单与利润更新。",
+      "catalysts": [
+        "下一次季度披露验证订单能见度",
+        "若AI算力扩产外溢至工业电气化链条，估值有再评级机会"
+      ],
+      "risks": [
+        "制造业资本开支转弱压制订单",
+        "欧美终端需求放缓拖累利润兑现"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 10,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 results (2026-04-22)",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/135137"
+        },
+        {
+          "title": "ABB quarterly results hub",
+          "publisher": "ABB Group Investors",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国5月CPI",
+      "ticker": "CPI",
+      "note": "2026-06-10 08:30 ET发布，若超预期将压制成长估值并扰动黄金短线。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA周度库存",
+      "ticker": "WPSR",
+      "note": "week ending 2026-05-22 的数据将于2026-05-28发布，关注原油与汽油库存方向。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA STEO",
+      "ticker": "STEO",
+      "note": "下一次发布2026-06-09，关注需求与供给预测是否再次修正。"
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "TSMC月营收",
+      "ticker": "TSM",
+      "note": "下一次月营收披露将用于验证AI需求传导强度与节奏。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC minutes (released 2026-05-20)",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260430.htm"
+    },
+    {
+      "label": "U.S. BLS CPI release page",
+      "url": "https://www.bls.gov/news.release/cpi.htm"
+    },
+    {
+      "label": "NVIDIA FY2027 Q1 release (2026-05-20)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "label": "TSMC monthly revenue 2026",
+      "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
+      "label": "SPDR Gold Shares fund page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "EIA WPSR schedule",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+    },
+    {
+      "label": "EIA STEO",
+      "url": "https://www.eia.gov/outlooks/steo/outlook.php"
+    },
+    {
+      "label": "IEA Oil Market Report May 2026",
+      "url": "https://www.iea.org/reports/oil-market-report-may-2026"
+    },
+    {
+      "label": "ABB Q1 2026 results",
+      "url": "https://www.abb.com/global/en/news/135137"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}
