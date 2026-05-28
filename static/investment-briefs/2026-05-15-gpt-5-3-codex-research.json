@@ -1,0 +1,224 @@
+{
+  "date": "2026-05-15",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-15（监测版）",
+  "summary": "截至2026-05-15（Asia/Shanghai）的24小时窗口，未出现足以改变仓位框架的新增一级信号；有效增量仍集中在2026-05-12至2026-05-13发布的CPI、PPI与EIA周报，以及2026-05-07发布的WGC月度ETF流向。结论维持：AI与自动化等待下一轮财报验证后再加仓，能源维持回调分批，黄金保留对冲仓位。",
+  "macro": {
+    "regime": "通胀上行压力与能源供需偏紧并存，跨资产以防守中择机进攻",
+    "bullets": [
+      "BLS于2026-05-12发布4月CPI：环比+0.6%，同比+3.8%，核心同比+2.8%，能源同比+17.9%。",
+      "BLS于2026-05-13发布4月PPI：最终需求环比+1.4%，同比+6.0%。",
+      "EIA于2026-05-13发布WPSR（截至2026-05-08）：美国商业原油库存继续下降；下一次周报发布时间为2026-05-20。",
+      "WGC于2026-05-07发布4月黄金ETF流向：全球ETF转为净流入，AUM升至6150亿美元，持仓回升至4137吨。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US CPI (Apr 2026)",
+      "ticker": "CPI",
+      "price": "MoM +0.6%; YoY +3.8%; Core YoY +2.8%",
+      "change_pct": "N/A",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "name": "US PPI Final Demand (Apr 2026)",
+      "ticker": "PPI",
+      "price": "MoM +1.4%; YoY +6.0%",
+      "change_pct": "N/A",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm"
+    },
+    {
+      "name": "Gold ETF Flows (Apr 2026)",
+      "ticker": "WGC",
+      "price": "Global inflow US$6.6bn; holdings +45t to 4,137t",
+      "change_pct": "N/A",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 77,
+      "thesis": "通胀数据粘性仍在且PPI再抬升，黄金继续具备组合对冲价值。",
+      "why_now": "2026-05-12 CPI与2026-05-13 PPI共同抬高真实利率路径不确定性，而WGC 2026-05-07数据显示ETF资金已转入。",
+      "catalysts": [
+        "2026-06-10 08:30 ET的5月CPI将决定黄金对冲需求是否继续增强。",
+        "若2026-05下旬油价与地缘风险再抬升，避险资金可能进一步流向黄金ETF。"
+      ],
+      "risks": [
+        "若名义与实际利率同步上行超预期，金价弹性会被压制。",
+        "若通胀快速回落且风险偏好显著修复，ETF流入可能放缓。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Consumer Price Index Summary - April 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+        },
+        {
+          "title": "Producer Price Index News Release - April 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm"
+        },
+        {
+          "title": "Gold ETF Flows: April 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 73,
+      "thesis": "EIA周度去库与STEO对二季度库存下行的判断，支撑油气资产现金流预期。",
+      "why_now": "2026-05-13 EIA周报确认库存去化延续；EIA STEO（页面更新含2026-05-12发布窗口）仍给出二季度库存下滑与Brent高位判断。",
+      "catalysts": [
+        "2026-05-20 EIA WPSR若继续去库，将强化能源板块相对收益逻辑。",
+        "2026-06上旬库存与炼厂负荷数据将验证旺季需求斜率。"
+      ],
+      "risks": [
+        "若需求侧转弱或供应扰动缓和，油价风险溢价可能快速回吐。",
+        "能源资产短期波动加大时，需控制单笔仓位与追价节奏。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (Data week ended 2026-05-08; release 2026-05-13)",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Short-Term Energy Outlook",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施与自动化",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 66,
+      "thesis": "主线基本面仍强，但过去24小时缺少新的公司级一级披露，交易上以等验证而非追高。",
+      "why_now": "当前最近确定性催化是NVIDIA已于2026-04-29公告的2026-05-20业绩电话会；在事件落地前保持观察优于提前加杠杆。",
+      "catalysts": [
+        "2026-05-20（2 p.m. PT）NVIDIA FY2027Q1业绩电话会与指引。",
+        "随后一周关注半导体链条订单与资本开支口径是否上修。"
+      ],
+      "risks": [
+        "若业绩指引不及预期，高估值段可能出现快速回撤。",
+        "若利率上行叠加拥挤交易，AI龙头波动将放大。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 10,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Sets Conference Call for First-Quarter Financial Results (published 2026-04-29)",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-First-Quarter-Financial-Results/default.aspx"
+        },
+        {
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "US CPI (May 2026)",
+      "ticker": "CPI",
+      "note": "BLS公布下一次CPI发布时间为2026-06-10 08:30 ET。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly Petroleum Status Report",
+      "ticker": "WPSR",
+      "note": "页面显示下一次发布时间为2026-05-20。"
+    },
+    {
+      "theme": "AI",
+      "asset": "NVIDIA Q1 FY2027 Earnings Call",
+      "ticker": "NVDA",
+      "note": "NVIDIA公告电话会时间为2026-05-20 2:00 p.m. PT。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "World Gold Council ETF Flow Update",
+      "ticker": "WGC",
+      "note": "跟踪2026-06初发布的5月ETF流向是否延续净流入。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "BLS CPI Summary (released 2026-05-12)",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "label": "BLS PPI Release (released 2026-05-13)",
+      "url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report landing page",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: April 2026 (published 2026-05-07)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05"
+    },
+    {
+      "label": "NVIDIA Q1 FY2027 earnings call announcement (published 2026-04-29)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-First-Quarter-Financial-Results/default.aspx"
+    },
+    {
+      "label": "TreasuryDirect 17-Week Bill Offering Announcement (published 2026-05-05)",
+      "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20260505_2.pdf"
+    },
+    {
+      "label": "TreasuryDirect 182-Day Bill Auction Results (published 2026-05-04)",
+      "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260504_2.pdf"
+    },
+    {
+      "label": "Federal Reserve 2026 speeches page (Last Update: 2026-05-14)",
+      "url": "https://www.federalreserve.gov/newsevents/2026-speeches.htm"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}

@@ -1,0 +1,244 @@
+{
+  "date": "2026-05-07",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-07（监测版）",
+  "summary": "过去24小时的核心一手增量集中在美国财政部2026-05-06季度再融资声明（sb0489），对长端供给与期限溢价路径提供了更清晰锚点。AI与自动化方向暂无新的公司级重磅披露，仍以2026-05-05已发布业绩延续跟踪。能源与黄金方面，当前更像事件驱动下的等待窗口：需要新的官方库存与宏观数据来确认方向，因此组合上维持‘成长+对冲’并控制仓位节奏。",
+  "macro": {
+    "regime": "供给与政策路径更清晰，但新增风险资产催化不足",
+    "bullets": [
+      "美国财政部于2026-05-06发布季度再融资声明：本次发行3Y/10Y/30Y合计1250亿美元，并指出未来数个季度名义票息与FRN拍卖规模预计维持。",
+      "美联储在2026-04-29维持联邦基金目标区间3.50%-3.75%，并将IORB维持在3.65%，当前仍是数据依赖框架。",
+      "EIA周度石油数据仍为每周三10:30 ET的固定高频锚点；下一个月度能源供需里程碑为OPEC月报（计划2026-05-13发布）。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Treasury Quarterly Refunding (May 2026)",
+      "ticker": "UST",
+      "price": "125B issuance",
+      "change_pct": "N/A",
+      "source_url": "https://home.treasury.gov/news/press-releases/sb0489"
+    },
+    {
+      "name": "FOMC Policy Range (Apr 29, 2026)",
+      "ticker": "Fed Funds",
+      "price": "3.50%-3.75%",
+      "change_pct": 0,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "name": "ECB Deposit Facility Rate (Apr 30, 2026)",
+      "ticker": "ECB DFR",
+      "price": "2.00%",
+      "change_pct": 0,
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 79,
+      "thesis": "AI算力链条基本面未坏，且公司级业绩已给出增长验证；但在没有新增订单级催化前，策略更偏回调分批而非追高。",
+      "why_now": "截至2026-05-07，过去24小时未出现新的AMD一手重大披露；最近一次关键增量仍是2026-05-05 Q1 2026业绩（营收102.53亿美元，同比+38%；数据中心58亿美元，同比+57%）。",
+      "catalysts": [
+        "下一阶段催化关注后续管理层在行业会议上对MI450/机架级系统节奏的补充。",
+        "若6月宏观波动引发估值压缩，基本面兑现将决定回撤后的修复强度。"
+      ],
+      "risks": [
+        "若企业与云厂商资本开支边际收敛，AI链条预期可能下修。",
+        "高估值区间对利率上行更敏感。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "AMD Reports First Quarter 2026 Financial Results (May 5, 2026)",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "Rockwell Automation",
+      "ticker": "ROK",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 75,
+      "thesis": "自动化需求在数据中心、半导体与能源终端仍有支撑，但跨行业资本开支恢复斜率不一致，交易上更适合等待订单连续验证。",
+      "why_now": "2026-05-05发布FY26Q2结果后，过去24小时没有新的公司级重大公告，短期进入业绩后验证阶段。",
+      "catalysts": [
+        "后续季度订单与积压订单变化是验证复苏持续性的关键。",
+        "若能源和制造业投资周期延续，自动化支出有望继续修复。"
+      ],
+      "risks": [
+        "宏观放缓可能导致工业客户延后自动化预算。",
+        "盈利改善对终端需求弹性依赖较高。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 16,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Rockwell Automation Reports Second Quarter 2026 Results (May 5, 2026)",
+          "publisher": "Rockwell Automation",
+          "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Second-Quarter-2026-Results.html"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 73,
+      "thesis": "黄金中期配置逻辑仍由央行买盘与不确定性对冲支撑；短线节奏取决于实际利率与美元方向，宜分批而非单点重仓。",
+      "why_now": "过去24小时无新的官方黄金需求季报；最新结构性证据仍是世界黄金协会2026-04-29发布Q1 2026数据（总需求含OTC同比+2%，央行净买入244吨）。",
+      "catalysts": [
+        "美国就业与通胀数据若走弱，真实利率下行将改善黄金相对吸引力。",
+        "地缘不确定性延续时，避险需求与官方储备需求可能继续托底。"
+      ],
+      "risks": [
+        "若美元与实际利率同步上行，黄金短线承压。",
+        "ETF资金流若转弱，价格波动会放大。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold Demand Trends Q1 2026 (Apr 29, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026"
+        }
+      ]
+    },
+    {
+      "theme": "宏观利率与久期资产",
+      "asset": "20+ Year Treasury Bond ETF",
+      "ticker": "TLT",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 64,
+      "thesis": "再融资细节落地后，长端方向仍取决于后续就业/通胀数据与市场对期限溢价的再定价，当前胜率更适合观察而非抢跑。",
+      "why_now": "2026-05-06财政部季度再融资声明明确本季发行与拍卖安排，并给出TGA与回购安排等资金面信息。",
+      "catalysts": [
+        "2026-05-11至2026-05-13的3Y/10Y/30Y拍卖结果（尾差、投标覆盖、间接投标占比）。",
+        "2026-05-08美国4月非农、2026-05-12美国4月CPI。"
+      ],
+      "risks": [
+        "若经济与通胀数据韧性超预期，长端利率或继续上行。",
+        "若供给端压力被市场重新计价，期限溢价抬升会压制久期资产表现。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Quarterly Refunding Statement (May 6, 2026)",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0489"
+        },
+        {
+          "title": "Treasury Announces Marketable Borrowing Estimates (May 4, 2026)",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0485"
+        },
+        {
+          "title": "Schedule of Selected Releases for May 2026",
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/schedule/2026/05_sched.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "note": "若EIA周度库存连续去化且OPEC 2026-05-13月报维持偏紧预期，能源现金流资产弹性可能提升。"
+    },
+    {
+      "theme": "宏观政策",
+      "asset": "Federal Reserve",
+      "ticker": "FOMC",
+      "note": "关注2026-06-16至2026-06-17会议前的数据路径是否改变4月会议后的观望姿态。"
+    },
+    {
+      "theme": "增量监测",
+      "asset": "Primary-source flow",
+      "ticker": "Monitor",
+      "note": "截至2026-05-07未出现足以改写配置框架的跨主题重大新增信号；继续盯拍卖结果与就业/通胀数据。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "U.S. Treasury Quarterly Refunding Statement (May 6, 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0489"
+    },
+    {
+      "label": "U.S. Treasury Borrowing Estimates (May 4, 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0485"
+    },
+    {
+      "label": "Federal Reserve FOMC Statement (Apr 29, 2026)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "label": "Federal Reserve Implementation Note (Apr 29, 2026)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a1.htm"
+    },
+    {
+      "label": "ECB Monetary Policy Decisions (Apr 30, 2026)",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Schedule",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+    },
+    {
+      "label": "AMD Q1 2026 Results (May 5, 2026)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Rockwell FY26 Q2 Results (May 5, 2026)",
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Second-Quarter-2026-Results.html"
+    },
+    {
+      "label": "WGC Gold Demand Trends Q1 2026 (Apr 29, 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}

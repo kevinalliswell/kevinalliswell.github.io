@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-05-07（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-05-07（监测版）</h1>
+      <p class="meta">2026-05-07 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>过去24小时的核心一手增量集中在美国财政部2026-05-06季度再融资声明（sb0489），对长端供给与期限溢价路径提供了更清晰锚点。AI与自动化方向暂无新的公司级重磅披露，仍以2026-05-05已发布业绩延续跟踪。能源与黄金方面，当前更像事件驱动下的等待窗口：需要新的官方库存与宏观数据来确认方向，因此组合上维持‘成长+对冲’并控制仓位节奏。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>供给与政策路径更清晰，但新增风险资产催化不足</strong></p>
+      <ul><li>美国财政部于2026-05-06发布季度再融资声明：本次发行3Y/10Y/30Y合计1250亿美元，并指出未来数个季度名义票息与FRN拍卖规模预计维持。</li><li>美联储在2026-04-29维持联邦基金目标区间3.50%-3.75%，并将IORB维持在3.65%，当前仍是数据依赖框架。</li><li>EIA周度石油数据仍为每周三10:30 ET的固定高频锚点；下一个月度能源供需里程碑为OPEC月报（计划2026-05-13发布）。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Treasury Quarterly Refunding (May 2026)</td>
+          <td>UST</td>
+          <td>125B issuance</td>
+          <td>N/A</td>
+          <td><a href="https://home.treasury.gov/news/press-releases/sb0489">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>FOMC Policy Range (Apr 29, 2026)</td>
+          <td>Fed Funds</td>
+          <td>3.50%-3.75%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>ECB Deposit Facility Rate (Apr 30, 2026)</td>
+          <td>ECB DFR</td>
+          <td>2.00%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>AI算力链条基本面未坏，且公司级业绩已给出增长验证；但在没有新增订单级催化前，策略更偏回调分批而非追高。</p>
+              <p><strong>Why now:</strong> 截至2026-05-07，过去24小时未出现新的AMD一手重大披露；最近一次关键增量仍是2026-05-05 Q1 2026业绩（营收102.53亿美元，同比+38%；数据中心58亿美元，同比+57%）。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一阶段催化关注后续管理层在行业会议上对MI450/机架级系统节奏的补充。</li><li>若6月宏观波动引发估值压缩，基本面兑现将决定回撤后的修复强度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若企业与云厂商资本开支边际收敛，AI链条预期可能下修。</li><li>高估值区间对利率上行更敏感。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results">AMD Reports First Quarter 2026 Financial Results (May 5, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>Rockwell Automation <span>ROK</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>自动化需求在数据中心、半导体与能源终端仍有支撑，但跨行业资本开支恢复斜率不一致，交易上更适合等待订单连续验证。</p>
+              <p><strong>Why now:</strong> 2026-05-05发布FY26Q2结果后，过去24小时没有新的公司级重大公告，短期进入业绩后验证阶段。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>后续季度订单与积压订单变化是验证复苏持续性的关键。</li><li>若能源和制造业投资周期延续，自动化支出有望继续修复。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>宏观放缓可能导致工业客户延后自动化预算。</li><li>盈利改善对终端需求弹性依赖较高。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Second-Quarter-2026-Results.html">Rockwell Automation Reports Second Quarter 2026 Results (May 5, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实物资产</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Accumulate</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>黄金中期配置逻辑仍由央行买盘与不确定性对冲支撑；短线节奏取决于实际利率与美元方向，宜分批而非单点重仓。</p>
+              <p><strong>Why now:</strong> 过去24小时无新的官方黄金需求季报；最新结构性证据仍是世界黄金协会2026-04-29发布Q1 2026数据（总需求含OTC同比+2%，央行净买入244吨）。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>美国就业与通胀数据若走弱，真实利率下行将改善黄金相对吸引力。</li><li>地缘不确定性延续时，避险需求与官方储备需求可能继续托底。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若美元与实际利率同步上行，黄金短线承压。</li><li>ETF资金流若转弱，价格波动会放大。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026">Gold Demand Trends Q1 2026 (Apr 29, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">宏观利率与久期资产</p>
+                  <h2>20+ Year Treasury Bond ETF <span>TLT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>再融资细节落地后，长端方向仍取决于后续就业/通胀数据与市场对期限溢价的再定价，当前胜率更适合观察而非抢跑。</p>
+              <p><strong>Why now:</strong> 2026-05-06财政部季度再融资声明明确本季发行与拍卖安排，并给出TGA与回购安排等资金面信息。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-05-11至2026-05-13的3Y/10Y/30Y拍卖结果（尾差、投标覆盖、间接投标占比）。</li><li>2026-05-08美国4月非农、2026-05-12美国4月CPI。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若经济与通胀数据韧性超预期，长端利率或继续上行。</li><li>若供给端压力被市场重新计价，期限溢价抬升会压制久期资产表现。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://home.treasury.gov/news/press-releases/sb0489">Quarterly Refunding Statement (May 6, 2026)</a></li><li><a href="https://home.treasury.gov/news/press-releases/sb0485">Treasury Announces Marketable Borrowing Estimates (May 4, 2026)</a></li><li><a href="https://www.bls.gov/schedule/2026/05_sched.htm">Schedule of Selected Releases for May 2026</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

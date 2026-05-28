@@ -1,0 +1,247 @@
+{
+  "date": "2026-04-25",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-25（监测版）",
+  "summary": "截至2026-04-25（Asia/Shanghai）过去24小时内，一级增量仍以宏观利率与能源资本开支链条确认为主：Fed H.15于2026-04-24更新，短端利率维持高位；Baker Hughes于2026-04-23公布一季报，显示IET订单与积压订单延续强势，且包含面向数据中心电力基础设施的新增订单。EIA石油/天然气周报已在2026-04-22至2026-04-23发布，当前未出现新的周度库存信号。结论维持监测版：优先等待4月28-29日FOMC与下周EIA新周报确认，再决定是否提高风险敞口。",
+  "macro": {
+    "regime": "政策敏感窗口前的高利率稳态，主题交易以事件确认驱动",
+    "bullets": [
+      "Federal Reserve H.15在2026-04-24发布，表内至2026-04-23的有效联邦基金利率为3.64%，短端利率黏性未变。",
+      "FOMC两日会议窗口为2026-04-28至2026-04-29，利率与前瞻指引将决定成长与贵金属的下一阶段方向。",
+      "EIA石油周报当前最新发布日为2026-04-22（数据截至2026-04-17）；天然气库存周报最新发布日为2026-04-23（工作气2,063 Bcf，周增103 Bcf）。",
+      "Baker Hughes在2026-04-23披露Q1结果：总订单82亿美元、IET订单49亿美元、IET积压订单331亿美元，能源基础设施与数据中心电力链条景气仍在。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Effective Funds Rate",
+      "ticker": "EFFR",
+      "price": "3.64%",
+      "change_pct": 0,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US Working Gas Storage",
+      "ticker": "EIA NG",
+      "price": "2,063 Bcf",
+      "change_pct": 5.26,
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "name": "Baker Hughes Q1 Orders",
+      "ticker": "BKR",
+      "price": "$8.2bn (IET $4.9bn)",
+      "change_pct": "n/a",
+      "source_url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-First-Quarter-2026-Results/default.aspx"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "ABB Ltd",
+      "ticker": "ABB",
+      "region": "Europe",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 80,
+      "thesis": "ABB在2026-04-22发布的一季报仍是本周机器人与自动化链条最强一级证据：订单、收入与利润率同步改善，并给出更积极的全年方向。当前24小时无新增反证，维持建设性观点但不追高。",
+      "why_now": "窗口内无新财报，属于对4月22日披露的持续消化阶段。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC窗口对工业自动化估值影响。",
+        "2026-05至2026-06：后续订单与利润率兑现节奏。"
+      ],
+      "risks": [
+        "地缘冲突与需求不确定性可能推迟工业客户资本开支。",
+        "若后续季度订单放缓，评分需下修。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 15,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 Press Release (Ad hoc, Apr 22, 2026)",
+          "publisher": "ABB",
+          "url": "https://resources.news.e.abb.com/attachments/published/135137/en-US/328CE6BCBC8A/ABB-Q1-2026-press-release-English.pdf"
+        },
+        {
+          "title": "ABB Quarterly Results Webcast Invitation",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/results-and-reports/quarterly-results-webcast"
+        }
+      ]
+    },
+    {
+      "theme": "能源基础设施与AI电力链",
+      "asset": "Baker Hughes Company",
+      "ticker": "BKR",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "Baker Hughes 2026-04-23一季报显示IET订单和积压订单创新高，并披露面向AI数据中心电力系统的发电机订单，强化‘电力与气轮机设备受益AI基础设施扩张’逻辑。",
+      "why_now": "这是过去24小时内能源装备链条最明确的新增一级披露。",
+      "catalysts": [
+        "2026-04-24财报电话会后，市场继续消化IET高订单可持续性。",
+        "2026-05至2026-06：后续大型LNG/电力项目新签与交付节奏。"
+      ],
+      "risks": [
+        "管理层提到中东扰动，若升级将扰动执行与交付。",
+        "若订单转化收入/现金流不及预期，估值支撑会减弱。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Baker Hughes Announces First-Quarter 2026 Results (Apr 23, 2026)",
+          "publisher": "Baker Hughes Investor Relations",
+          "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-First-Quarter-2026-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "能源与油气库存结构",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "EIA周报仍呈现‘原油小幅累库+成品油去库+天然气注气偏快’的分化格局。交易上更适合等待下一组周报确认方向，而非在旧数据上放大仓位。",
+      "why_now": "4月25日时点暂无比4月22-23更晚的库存官方数据。",
+      "catalysts": [
+        "2026-04-29：EIA石油周报下一次发布。",
+        "2026-04-30：EIA天然气库存周报下一次发布。"
+      ],
+      "risks": [
+        "若原油连续累库叠加需求走弱，能源权益承压。",
+        "地缘变量可能带来短期油气价格剧烈波动。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (Release Apr 22, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "WPSR Summary PDF (week ending Apr 17, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report (Released Apr 23, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实际利率",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "H.15显示短端利率仍高位，WGC最新公开月度ETF评论发布日期为2026-04-08（数据截至2026-04-17），当前缺少新的强催化，黄金维持中性监测。",
+      "why_now": "24小时内没有新的黄金ETF主源增量可提升胜率。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC会议与新闻发布会。",
+        "WGC下一次ETF流向页面更新（待官方发布日期）。"
+      ],
+      "risks": [
+        "若真实利率继续抬升，黄金ETF资金面可能继续承压。",
+        "若地缘风险快速缓和，避险溢价可能回落。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve H.15 (Release date: Apr 24, 2026)",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "Gold ETF Flows: March 2026 (Published Apr 8, 2026; data as of Apr 17, 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "FOMC Meeting",
+      "ticker": "FED",
+      "note": "2026-04-28至2026-04-29是核心事件窗口，重点跟踪利率路径与前瞻措辞。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA weekly data",
+      "ticker": "EIA",
+      "note": "等待2026-04-29与2026-04-30两份新周报确认库存结构是否变化。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "Gold ETF flows",
+      "ticker": "WGC",
+      "note": "等待WGC下一次更新后，再判断是否从监测升级到主动配置。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve April 2026 Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Summary PDF",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "Baker Hughes Q1 2026 Results",
+      "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "ABB Q1 2026 Press Release",
+      "url": "https://resources.news.e.abb.com/attachments/published/135137/en-US/328CE6BCBC8A/ABB-Q1-2026-press-release-English.pdf"
+    },
+    {
+      "label": "WGC Gold ETF Flows April 2026 page",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    }
+  ],
+  "tags": ["投资", "晨报", "AI", "机器人", "能源", "黄金", "宏观", "自动化", "监测版", "GPT-5.3-codex"]
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-05-11（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-05-11（监测版）</h1>
+      <p class="meta">2026-05-11 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-05-11（Asia/Shanghai）早间，过去24小时未出现足以改写配置框架的新增一级重磅信号。AI与机器人方向仍处在5月初财报后的兑现验证窗口；能源与黄金仍沿用2026-05-06至2026-05-07的官方周度/月度数据作为最近锚点。当前维持‘成长主线+黄金对冲+久期观察’的纪律化节奏，等待2026-05-11至2026-05-13美债拍卖与2026-05-12美国CPI提供新增确认。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>数据空窗期延续，短线以事件日程驱动仓位微调</strong></p>
+      <ul><li>Federal Reserve H.4.1页面最近更新日期仍显示为2026-05-07。</li><li>EIA官方周度页面最近发布时间仍为：石油周报2026-05-06、天然气库存2026-05-07。</li><li>World Gold Council 4月黄金ETF流向页面发布时间仍为2026-05-07；BLS下一次CPI发布日程为2026-05-12。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Federal Reserve H.4.1</td>
+          <td>H4.1</td>
+          <td>Last update shown: 2026-05-07</td>
+          <td>N/A</td>
+          <td><a href="https://www.federalreserve.gov/releases/h41/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>EIA Weekly Petroleum Status Report</td>
+          <td>WPSR</td>
+          <td>Release date shown: 2026-05-06</td>
+          <td>N/A</td>
+          <td><a href="https://www.eia.gov/petroleum/supply/weekly/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>EIA Weekly Natural Gas Storage</td>
+          <td>NG Storage</td>
+          <td>Release date shown: 2026-05-07</td>
+          <td>N/A</td>
+          <td><a href="https://ir.eia.gov/ngs/ngs.html">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>WGC Gold ETF Flows (April 2026)</td>
+          <td>Gold ETF</td>
+          <td>Published: 2026-05-07</td>
+          <td>N/A</td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实物资产</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Accumulate</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>黄金方向最近一次一级增量仍是2026-05-07发布的4月ETF净流入。宏观不确定性仍在，黄金保留对冲价值，但在数据空窗期不宜追涨，优先分批。</p>
+              <p><strong>Why now:</strong> 过去24小时未见新的官方黄金流量月报或央行储备披露，维持积极但不加杠杆的判断。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-05-12美国CPI若弱于预期，实际利率回落将改善黄金赔率。</li><li>若地缘风险再升温，避险资金可能继续支撑ETF配置。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>美元与长端名义利率同步上行将压制金价弹性。</li><li>若5月资金流由正转负，拥挤交易可能放大回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/05">Gold ETF Flows: April 2026 (Published May 7, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>AI算力主线仍由5月初财报框架驱动，验证重点在订单兑现与客户资本开支持续性。短线事件空窗期下，更适合回调分批而非追涨。</p>
+              <p><strong>Why now:</strong> 截至2026-05-11早间，AMD方向最新核心披露仍为2026-05-05季报，24-72小时内无改变结论的新增一级公告。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一轮公司公开活动对数据中心产品节奏与订单能见度的更新。</li><li>若板块因利率波动回调，基本面兑现将决定修复强度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>AI资本开支若阶段性放缓，成长预期可能下修。</li><li>高估值阶段对贴现率变化仍敏感。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results">AMD Reports First Quarter 2026 Financial Results (May 5, 2026)</a></li><li><a href="https://investor.tsmc.com/english/monthly-revenue/2026">TSMC Monthly Revenue Report (April 2026, released May 8, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">宏观利率与久期资产</p>
+                  <h2>20+ Year Treasury Bond ETF <span>TLT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>再融资框架与流动性路径已明确，但在2026-05-11至2026-05-13拍卖质量与2026-05-12 CPI落地前，久期仓位胜率不足以激进加码。</p>
+              <p><strong>Why now:</strong> 过去24小时无新的财政部再融资框架更新，核心变量仍集中在本周拍卖与通胀数据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-05-11至2026-05-13的3Y/10Y/30Y拍卖尾差与投标倍数。</li><li>2026-05-12美国CPI对实际利率与降息路径定价的再校准。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若通胀黏性超预期，长端利率可能再上行。</li><li>期限溢价抬升会放大久期资产波动。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://home.treasury.gov/news/press-releases/sb0489">Quarterly Refunding Statement (May 6, 2026)</a></li><li><a href="https://home.treasury.gov/news/press-releases/sb0491">Minutes of TBAC Meeting (May 6, 2026)</a></li><li><a href="https://www.bls.gov/schedule/news_release/cpi.htm">Consumer Price Index release schedule</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

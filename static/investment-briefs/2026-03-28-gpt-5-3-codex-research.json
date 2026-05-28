@@ -1,0 +1,306 @@
+{
+  "date": "2026-03-28",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-03-28（监测版）",
+  "summary": "截至2026-03-28（Asia/Shanghai），最近24小时未出现足以触发组合结构重排的新增一级信号。已确认的最新关键增量包括美联储H.15在2026-03-27更新、EIA油气周报在2026-03-25/2026-03-26发布、以及3月内黄金ETF持续净流入与AI电力协同主题延续。维持监测版：黄金保持相对强势，能源与机器人/AI维持事件驱动观察。",
+  "macro": {
+    "regime": "名义与实际利率维持高位，通胀回落但机会成本仍高，组合偏向事件驱动与仓位纪律",
+    "bullets": [
+      "美联储H.15在2026-03-27发布：10Y名义利率4.42%，10Y TIPS实际利率2.08%，高实际利率继续压制高久期估值。",
+      "BEA在2026-03-13发布的1月PCE口径显示：PCE同比2.8%、核心PCE同比3.1%；下一次（2月）发布日为2026-04-09。",
+      "EIA周频口径显示：原油库存（截至2026-03-20当周）增加690万桶，天然气库存减少54 Bcf，能源品种波动仍高。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury (H.15)",
+      "ticker": "US10Y",
+      "price": "4.42%",
+      "change_pct": "vs 2026-03-25: +0.09pp",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS (H.15)",
+      "ticker": "US10Y-REAL",
+      "price": "2.08%",
+      "change_pct": "vs 2026-03-25: +0.06pp",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "$416.29",
+      "change_pct": "as of 2026-03-25 close",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "name": "Energy Select Sector SPDR",
+      "ticker": "XLE",
+      "price": "$61.52",
+      "change_pct": "as of 2026-03-26 close",
+      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "name": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "price": "$33.29",
+      "change_pct": "as of 2026-03-26 market price",
+      "source_url": "https://www.globalxetfs.com/funds/botz"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 79,
+      "thesis": "在实际利率仍高的环境中，黄金并非无条件顺风，但地缘与政策不确定性抬升了对冲配置价值；在风险资产波动加大时，GLD仍是高流动性对冲工具。",
+      "why_now": "World Gold Council在2026-03-05发布2月黄金ETF流向报告，披露全球黄金ETF连续第9个月净流入（+53亿美元）；页面周频数据更新至2026-03-20。",
+      "catalysts": [
+        "2026-04-09：BEA发布2月PCE，若通胀继续放缓且增长不显著转强，有利于黄金配置逻辑。",
+        "2026-04-28至2026-04-29：FOMC会议窗口，政策表述变化可能驱动实际利率与黄金再定价。"
+      ],
+      "risks": [
+        "2026-03-27的H.15显示10Y实际利率2.08%，若实际利率继续上行会抬升持有黄金机会成本。",
+        "若美元阶段性走强并伴随风险偏好修复，黄金ETF边际流入可能放缓。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: February 2026（Published 2026-03-05; weekly data as of 2026-03-20）",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "GLD fund page（NAV/价格口径 as of 2026-03-25）",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "Selected Interest Rates (Daily) - H.15（Release date: 2026-03-27）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施与电力协同",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "AI算力需求中期仍强，但在高实际利率与前期估值扩张后，交易更依赖新增订单、供给兑现和电力侧落地节奏。",
+      "why_now": "NVIDIA在2026-03-23发布与Emerald AI及能源企业合作公告，方向上强化“AI工厂+电网资产”叙事，但距离形成可量化财务贡献仍需更多披露。",
+      "catalysts": [
+        "2026-04-28至2026-04-29：FOMC会议，贴现率变化将直接影响AI高估值资产弹性。",
+        "后续季度业绩与资本开支披露（具体日期待公司公告）将验证订单与毛利延续性。"
+      ],
+      "risks": [
+        "若2026-04-09的PCE数据高于预期，利率路径再上修将压缩成长股估值。",
+        "电力与基础设施配套若慢于算力需求，可能造成部署节奏波动。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "NVIDIA and Emerald AI Join Leading Energy Companies...（2026-03-23）",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+        },
+        {
+          "title": "FOMC Meeting calendars（2026 meeting dates, last update 2026-03-18）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "title": "H.15（Release date: 2026-03-27）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR ETF",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "油价与炼厂负荷维持高位对现金流友好，但库存变动与需求口径仍具噪音，适合事件驱动和分批策略而非追涨。",
+      "why_now": "EIA在2026-03-25发布WPSR（截至2026-03-20当周）显示美国商业原油库存+690万桶；XLE截至2026-03-26收盘价61.52美元。",
+      "catalysts": [
+        "2026-04-01：EIA下一次WPSR发布，库存与成品油需求变化将影响短线方向。",
+        "2026-04-02：BEA发布美国2月贸易数据，可辅助观察外需与能源需求线索。"
+      ],
+      "risks": [
+        "若库存继续超预期累库，油价可能回撤并压制能源股估值。",
+        "政策与地缘变量导致波动放大，持仓需要更严格风控。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report（Release Date: Mar. 25, 2026; Next: Apr. 1, 2026）",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "WPSR Highlights PDF（week ending 2026-03-20）",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+        },
+        {
+          "title": "XLE fund page（Fund Market Price as of 2026-03-26）",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 63,
+      "thesis": "机器人长期逻辑稳固，但近期缺少行业级新增一级催化，短期更适合通过ETF维持观察仓位而非扩大风险暴露。",
+      "why_now": "BOTZ官方页面截至2026-03-26显示：NAV 33.58美元、净资产30.4亿美元、持仓62只，其中ABB/ISRG/NVDA/KEYENCE/FANUC权重居前。",
+      "catalysts": [
+        "后续主要成分股财报季（4月下旬至5月）将提供订单与资本开支验证。",
+        "若2026-04-09 PCE与2026-04-29 FOMC后利率预期下修，成长风格估值有望修复。"
+      ],
+      "risks": [
+        "当前缺少近24小时行业级新增一级信号，交易拥挤度提升时回撤风险较高。",
+        "全球制造业与企业资本开支若走弱，机器人链条兑现节奏可能后移。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "BOTZ fund page（As of Mar 26 2026）",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "FOMC Meeting calendars（2026）",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "title": "BEA Personal Income and Outlays, January 2026（Next release: Apr 9, 2026）",
+          "publisher": "BEA",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观日历",
+      "asset": "BEA Personal Income and Outlays",
+      "ticker": "MACRO",
+      "note": "2026-04-09 08:30 EDT发布2月PCE，是4月资产定价核心数据之一。"
+    },
+    {
+      "theme": "宏观日历",
+      "asset": "FOMC",
+      "ticker": "FOMC",
+      "note": "2026-04-28至2026-04-29会议，关注利率路径与前瞻指引措辞。"
+    },
+    {
+      "theme": "能源周频",
+      "asset": "EIA WPSR",
+      "ticker": "EIA",
+      "note": "2026-04-01下一次发布，重点看原油库存与成品油需求。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Release date: March 27, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve FOMC calendars (Last Update: March 18, 2026)",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report (Release Date: Mar. 25, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Highlights PDF (week ending March 20, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report (Released: March 26, 2026)",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "BEA Personal Income and Outlays, January 2026 (released March 13, 2026)",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026"
+    },
+    {
+      "label": "BEA Release Schedule",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: February 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "GLD official page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "XLE official page",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "label": "BOTZ official page",
+      "url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "label": "NVIDIA energy-grid collaboration release (March 23, 2026)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "gpt-5.3-codex"
+  ]
+}

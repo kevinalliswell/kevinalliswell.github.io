@@ -1,0 +1,205 @@
+{
+  "date": "2026-05-05",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-05（监测版）",
+  "summary": "过去72小时的一手增量集中在财政融资、原油供给协调与AI软件业绩。核心结论是：宏观流动性预期未出现方向性突变，能源地缘风险溢价仍在，AI商业化兑现继续分化，黄金维持中期对冲价值但短线波动升高。",
+  "macro": {
+    "regime": "高波动下的结构性机会：资金更偏向确定性现金流与政策可见度",
+    "bullets": [
+      "美国财政部于2026-05-04发布二季度再融资文件，下一次相关文件更新节点为2026-05-06，短端供给预期仍是利率波动关键变量。",
+      "BLS日程显示JOLTS（2026年3月）在2026-05-05 10:00 ET发布、非农在2026-05-08发布，宏观定价将很快进入数据驱动阶段。",
+      "OPEC+七国在2026-05-03宣布自2026-06起实施18.8万桶/日调整并保留逆转弹性，油市政策锚仍偏稳价。"
+    ]
+  },
+  "market_snapshot": [],
+  "ideas": [
+    {
+      "theme": "AI基础设施与企业软件",
+      "asset": "Palantir Technologies",
+      "ticker": "PLTR",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "最新季报显示AI平台商业化速度继续超预期，但高增长叙事已部分反映在估值中。",
+      "why_now": "公司在2026-05-04披露Q1 2026收入同比+85%、并上调全年指引，说明AI需求仍在加速兑现。",
+      "catalysts": [
+        "2026-05-04财报上调全年收入指引，若后续订单兑现将强化成长确定性。",
+        "美国商业与政府合同扩张同时发生，降低单一客户集中度风险。"
+      ],
+      "risks": [
+        "高增长预期下估值容错率较低，若下季度增速回落可能触发估值压缩。",
+        "AI应用竞争加剧，产品差异化与交付效率需持续验证。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Palantir Q1 2026 press release (8-K Exhibit 99.1)",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源（原油）",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "OPEC+继续以小幅、可逆的节奏管理供给，油价中枢仍受政策与地缘双重支撑。",
+      "why_now": "2026-05-03公告确认6月实施18.8万桶/日调整并保留暂停/逆转选项，说明稳价优先级高于抢份额。",
+      "catalysts": [
+        "2026-06执行的产量调整将直接影响二季度末供需预期。",
+        "2026-06-07下次会议提供新的政策信号。"
+      ],
+      "risks": [
+        "若需求端走弱快于供给收缩，油价可能阶段性回撤。",
+        "成员国产量执行偏差会削弱政策可信度。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "OPEC+ voluntary adjustments announcement (3 May 2026)",
+          "publisher": "OPEC",
+          "url": "https://www.opec.org/pr-detail/1779602-3-may-2026.html"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实物资产",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 75,
+      "thesis": "金价高位波动加大，但央行净买入与金条金币需求维持，黄金的组合对冲属性仍成立。",
+      "why_now": "WGC于2026-04-29公布Q1数据：总需求（含OTC）同比+2%至1,231吨、央行净买入244吨。",
+      "catalysts": [
+        "若后续实际利率回落，黄金资产配置需求可能再上行。",
+        "地缘与政策不确定性延续将支撑避险需求。"
+      ],
+      "risks": [
+        "短期拥挤交易下回撤幅度可能扩大。",
+        "若美元和实际利率同步上行，金价弹性受限。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Gold Demand Trends Q1 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026"
+        }
+      ]
+    },
+    {
+      "theme": "宏观利率与流动性",
+      "asset": "20+ Year Treasury Bond ETF",
+      "ticker": "TLT",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 63,
+      "thesis": "再融资与密集数据窗口并行，长端利率方向尚未形成单边趋势。",
+      "why_now": "财政部在2026-05-04发布再融资材料，同时2026-05-05至2026-05-08有关键就业相关数据发布。",
+      "catalysts": [
+        "2026-05-05 JOLTS与2026-05-08非农将重定价增长/通胀组合。",
+        "2026-05-06再融资相关后续文件可能影响期限溢价预期。"
+      ],
+      "risks": [
+        "通胀粘性超预期会压制长债表现。",
+        "财政供给压力若超预期，期限溢价可能继续抬升。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Most Recent Quarterly Refunding Documents",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"
+        },
+        {
+          "title": "BLS Schedule of Selected Releases for May 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/schedule/2026/05_sched_list.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI半导体",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "note": "2026-05-05美股盘后公布Q1 2026结果，重点看数据中心与AI GPU收入拆分。"
+    },
+    {
+      "theme": "晶圆代工",
+      "asset": "GlobalFoundries",
+      "ticker": "GFS",
+      "note": "2026-05-05发布Q1结果且2026-05-07举行Investor Day，关注AI相关产能利用率表述。"
+    },
+    {
+      "theme": "宏观就业",
+      "asset": "U.S. labor data",
+      "ticker": "N/A",
+      "note": "2026-05-08非农是本周最强方向信号，决定风险资产与黄金的短线节奏。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "U.S. Treasury refunding docs (released May 4, 2026)",
+      "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"
+    },
+    {
+      "label": "BLS release calendar (May 2026)",
+      "url": "https://www.bls.gov/schedule/2026/05_sched_list.htm"
+    },
+    {
+      "label": "OPEC production adjustment announcement (May 3, 2026)",
+      "url": "https://www.opec.org/pr-detail/1779602-3-may-2026.html"
+    },
+    {
+      "label": "World Gold Council Gold Demand Trends Q1 2026 (Apr 29, 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q1-2026"
+    },
+    {
+      "label": "Palantir Q1 2026 press release via SEC EDGAR (May 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm"
+    },
+    {
+      "label": "AMD Q1 2026 earnings date announcement (Apr 8, 2026)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1282/amd-to-report-fiscal-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "GlobalFoundries Q1 2026 conference call announcement (Mar 31, 2026)",
+      "url": "https://www.nasdaq.com/press-release/globalfoundries-announces-conference-call-review-first-quarter-2026-financial-results"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring", "gpt-5-3-codex"]
+}

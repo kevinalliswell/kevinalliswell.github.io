@@ -1,0 +1,315 @@
+{
+  "date": "2026-04-08",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-08（监测版）",
+  "summary": "截至北京时间 2026-04-08，能源主线出现一手增量信号：EIA 在 2026-04-07 发布的 STEO 将 2026 年 Brent 年均预测上修至 96 美元/桶，并给出 2Q26 峰值约 115 美元/桶的情景；但 2026-04-01 当周 WPSR 仍显示美国商业原油库存增加 5.5 百万桶，提示短期波动可能放大。宏观端，Fed H.15（发布日 2026-04-07）显示 10 年期名义利率 4.34%、10 年期 TIPS 1.98%，实际利率仍在偏高区间。组合层面维持“黄金防守+能源事件驱动+AI/机器人等待新增财报级信号”的监测框架。",
+  "macro": {
+    "regime": "事件驱动抬升波动：地缘供给扰动 vs. 美国高实际利率",
+    "bullets": [
+      "Fed H.15（Release date: 2026-04-07）显示 2026-04-06 有效联邦基金利率 3.64%，10Y 国债 4.34%，10Y TIPS 1.98%。",
+      "EIA STEO（Release Date: 2026-04-07）将 2026 年 Brent 均价预测上修至 96 美元/桶，并预计 2Q26 峰值约 115 美元/桶。",
+      "EIA WPSR（Release Date: 2026-04-01）显示截至 2026-03-27 当周美国商业原油库存 +5.5 百万桶至 4.616 亿桶；下一次周报发布时间为 2026-04-08。",
+      "BLS 就业报告（2026-04-03）显示 3 月非农 +178,000、失业率 4.3%，宏观仍是“放缓但未失速”。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Funds Effective (Apr 6)",
+      "ticker": "EFFR",
+      "price": "3.64%",
+      "change_pct": "H.15 release: 2026-04-07",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y Treasury (Apr 6)",
+      "ticker": "UST10Y",
+      "price": "4.34%",
+      "change_pct": "H.15 release: 2026-04-07",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "SPDR Gold Shares NAV",
+      "ticker": "GLD",
+      "price": "$426.18",
+      "change_pct": "as of 2026-04-02",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "name": "BOTZ NAV",
+      "ticker": "BOTZ",
+      "price": "$33.39",
+      "change_pct": "as of 2026-04-06",
+      "source_url": "https://www.globalxetfs.com/funds/botz"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "Energy",
+      "asset": "Energy Select Sector SPDR ETF",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 80,
+      "thesis": "能源板块进入高波动但高弹性的事件窗口：上游供给扰动抬升油价中枢预期，但库存与需求侧数据尚未形成单边趋势。",
+      "why_now": "EIA 在 2026-04-07 的 STEO 明确上修油价路径（2026 年 Brent 均价 96 美元/桶，2Q26 峰值约 115），而 2026-04-01 周报库存仍累库，意味着交易上更适合等周报确认后执行。",
+      "catalysts": [
+        "2026-04-08：EIA Weekly Petroleum Status Report（下一次发布）",
+        "2026-04-09：EIA Weekly Natural Gas Storage Report",
+        "若 2026-04-08 周报显示去库加速，能源 beta 与现金流预期有望同步上修"
+      ],
+      "risks": [
+        "若供给扰动较快缓和，风险溢价回落会压缩油价与板块估值",
+        "若美国增长数据转弱并下修需求预期，能源相对收益可能回吐"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Short-Term Energy Outlook (April 2026 Full Report)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf"
+        },
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "WPSR Summary (week ending March 27, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "XLE Fund Page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 77,
+      "thesis": "在政策与地缘不确定性共振阶段，黄金仍是组合中最直接的尾部风险对冲资产。",
+      "why_now": "WGC 页面（发表于 2026-03-05，周度数据更新至 2026-03-27）仍显示全球黄金 ETF 资金配置偏正向；在 FOMC 纪要发布前，黄金对冲价值维持。",
+      "catalysts": [
+        "2026-04-08 14:00 ET：FOMC 3月会议纪要",
+        "若后续实际利率（10Y TIPS）自 2026-04-06 的 1.98% 回落，黄金弹性通常增强"
+      ],
+      "risks": [
+        "若美国通胀/增长数据超预期并推高实际利率，黄金可能阶段承压",
+        "若地缘紧张边际降温，避险买盘可能回撤"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: February 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "SPDR Gold Shares (GLD)",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 64,
+      "thesis": "AI 基建长期逻辑仍在，但过去 24-72 小时内缺少新的经营级披露，短线以观察为主。",
+      "why_now": "Marvell SEC 列表截至 2026-04-02 的新增文件以 Form 4/144 为主，最新经营性关键文件仍是 2026-03-31 的 8-K，新增信息密度不足以提升仓位。",
+      "catalysts": [
+        "下一次财报或订单相关 8-K/10-Q 披露",
+        "若龙头上调 AI 网络与互连需求指引，可同步修复板块预期"
+      ],
+      "risks": [
+        "高预期赛道对利率与风险偏好回撤敏感",
+        "若企业 AI 资本开支节奏低于预期，估值溢价可能被压缩"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Marvell All SEC Filings",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/sec-filings/all-sec-filings"
+        },
+        {
+          "title": "March 31, 2026 8-K listing (via filings table)",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/sec-filings/sec-filing/4/0001189880-06-000004"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics and automation",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 61,
+      "thesis": "机器人主线基本面长期向上，但短期缺乏新增一手订单/利润率证据，维持观察仓位。",
+      "why_now": "BOTZ 页面显示关键信息更新到 2026-04-06（NAV 33.39、净资产 30.2 亿美元），当前更偏结构跟踪而非加仓触发。",
+      "catalysts": [
+        "龙头工业自动化公司 2026Q2 业绩季是否给出订单修复",
+        "若美债长端回落，成长久期资产估值压力将缓解"
+      ],
+      "risks": [
+        "估值对实际利率上行敏感",
+        "若制造业资本开支恢复不及预期，主题兑现节奏放缓"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "BOTZ Fund Page",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "Federal Reserve April 2026 Calendar",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "FOMC Minutes (March 17-18 meeting)",
+      "ticker": "Fed",
+      "note": "发布时间为 2026-04-08 14:00 ET，重点看通胀/增长措辞对实际利率路径的影响。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "Weekly Petroleum Status Report",
+      "ticker": "EIA",
+      "note": "2026-04-08 发布，关注库存与产品供给是否从区间波动转向趋势性去库。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "BEA GDP (Q4 2025 third estimate) + PIO (Feb 2026)",
+      "ticker": "BEA",
+      "note": "2026-04-09 08:30 ET 同步发布，影响增长/通胀再定价。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "CPI (March 2026)",
+      "ticker": "BLS",
+      "note": "2026-04-10 08:30 ET 发布，决定二季度初利率交易方向。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Release date: April 7, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve Calendar April 2026 (FOMC Minutes on April 8)",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "EIA STEO April 2026 Full Report (Release date: April 7, 2026)",
+      "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report page (Next release: Apr. 8, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR Summary for week ending March 27, 2026",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report (Released April 2, 2026; Next April 9, 2026)",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "BLS Employment Situation (March 2026, released April 3, 2026)",
+      "url": "https://www.bls.gov/news.release/archives/empsit_04032026.htm"
+    },
+    {
+      "label": "BLS April 2026 release schedule (CPI on April 10, 2026)",
+      "url": "https://www.bls.gov/schedule/2026/04_sched_list.htm"
+    },
+    {
+      "label": "BEA Release Schedule (April 9 and April 30 releases)",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "label": "WGC Gold ETF Flows (Published 5 March 2026; data as of 27 March 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "GLD official page",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "XLE official page",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "label": "BOTZ official page",
+      "url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "label": "Marvell all SEC filings",
+      "url": "https://investor.marvell.com/sec-filings/all-sec-filings"
+    },
+    {
+      "label": "TSMC Financial Calendar (latest posted monthly sales event on March 10, 2026)",
+      "url": "https://investor.tsmc.com/english/financial-calendar"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "gpt-5-3-codex"
+  ],
+  "source_label": "GPT-5.3-codex"
+}

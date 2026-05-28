@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-04-27（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-04-27（监测版）</h1>
+      <p class="meta">2026-04-27 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-04-27（Asia/Shanghai）近24小时内，AI、机器人、能源、黄金主线未出现足以重定价的新增一级披露，结论继续维持监测版。过去72小时内的有效增量主要来自Intel一季报、Fed H.4.1与EIA周报，显示增长与流动性信号仍偏分化：AI需求端有营收支撑，但宏观利率与库存框架尚未给出单边趋势。执行上以等待4月29日至4月30日事件落地为主，不追高。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增量信息有限，等待4月末宏观与行业周频数据再定方向</strong></p>
+      <ul><li>Federal Reserve H.4.1（2026-04-23）显示‘Reserve balances with Federal Reserve Banks’为2,901,825百万美元（截至2026-04-22）。</li><li>Federal Reserve H.15（2026-04-25发布）显示2026-04-23有效联邦基金利率3.64%，10年期国债常到期收益率4.34%。</li><li>Federal Reserve日程确认FOMC会议日期为2026-04-28至2026-04-29，是本周宏观定价核心锚点。</li><li>EIA周报（2026-04-23）显示美国商业原油库存周增0.2百万桶，炼厂开工率88.1%，能源链条缺乏单边库存信号。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Fed Effective Funds Rate (2026-04-23)</td>
+          <td>EFFR</td>
+          <td>3.64%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US 10Y Treasury CMT (2026-04-23)</td>
+          <td>DGS10</td>
+          <td>4.34%</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Fed Reserve Balances (2026-04-22)</td>
+          <td>H4.1</td>
+          <td>2,901,825 million USD</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/releases/h41/20260423/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Commercial Crude Inventories</td>
+          <td>EIA WPSR</td>
+          <td>+0.2 million bbl w/w</td>
+          <td>n/a</td>
+          <td><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>Intel <span>INTC</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>AI算力与数据中心相关需求仍在支撑龙头半导体收入，但盈利质量与指引可持续性仍需后续季度确认，适合保留观察仓位而非追价。</p>
+              <p><strong>Why now:</strong> Intel在2026-04-23发布Q1 2026财报：营收127亿美元，GAAP EPS为-0.19美元，Non-GAAP EPS为0.13美元，显示营收韧性与利润端分化并存。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-29至2026-04-30：美股大型科技财报密集披露，验证AI资本开支与需求持续性。</li><li>下一个季度指引与数据中心相关订单披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若AI基础设施投资节奏放缓，半导体链条估值可能回撤。</li><li>利率维持高位时，成长板块折现率约束仍在。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results">Intel reports first-quarter 2026 financial results (Apr 23, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>Rockwell Automation <span>ROK</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>工业软件与自动化平台继续向生成式AI集成推进，但当前增量主要是产品与生态层面的落地，尚未形成明确盈利再定价信号。</p>
+              <p><strong>Why now:</strong> Rockwell在2026-04-22发布汉诺威工博会公告，披露FactoryTalk Design Studio Copilot将采用Azure OpenAI Service并扩展工业AI应用。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>企业后续财报中披露工业AI产品商业化与订单贡献。</li><li>制造业资本开支周期与自动化项目转化率数据。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若工业客户IT/OT预算收缩，AI功能商业化节奏可能低于预期。</li><li>新功能落地若以试点为主，短期收入弹性有限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.rockwellautomation.com/en-hu/company/news/press-releases/ai-orchestrated-factory-engineering-at-hannover.html">Rockwell Automation at Hannover Messe 2026 (Published Apr 22, 2026)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源与库存结构</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>能源链条仍由周频库存数据主导，当前EIA读数未显示强趋势性供需缺口，维持中性观察更优。</p>
+              <p><strong>Why now:</strong> EIA于2026-04-23发布周报摘要：商业原油库存周增0.2百万桶、炼厂开工率88.1%、汽油库存周减4.5百万桶，信号相互对冲。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-29：下一次EIA Weekly Petroleum Status Report。</li><li>地缘供给扰动与炼厂检修节奏变化。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若库存结构快速反转，能源权益波动率可能上升。</li><li>宏观风险偏好下降时，油价与权益可能共振回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf">EIA Weekly Petroleum Status Report (Released Apr 23, 2026)</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">EIA Weekly Petroleum Status Report landing page</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实际利率</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 61/100</p>
+              <div class="bar"><span class="fill" style="width:61%"></span></div>
+              <p>黄金配置逻辑仍受实际利率与风险对冲需求拉扯，最新可得一级流量数据显示3月ETF继续净流出，短线提升仓位性价比不高。</p>
+              <p><strong>Why now:</strong> World Gold Council在2026-04页面披露：3月全球实物支持黄金ETF净流出约92吨（约86亿美元）；在FOMC前缺少新的高频增量。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-04-28至2026-04-29：FOMC会议与发布会措辞。</li><li>WGC下一次黄金ETF流向更新。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率上行，黄金ETF资金面可能继续承压。</li><li>若避险需求回落，金价风险溢价可能压缩。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04">Gold ETF flows: April 2026 update</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">Federal Reserve H.15 (Release date Apr 25, 2026)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "date": "2026-04-23",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-23（监测版）",
+  "summary": "截至2026-04-23 09:35（Asia/Shanghai），过去24小时的一级增量主要来自两处：EIA于2026-04-22发布周度石油报告（截至2026-04-17当周）显示美国商业原油库存增加190万桶至4.657亿桶、汽油库存减少460万桶；ABB于2026-04-22发布Q1 2026业绩，订单同比+32%、营收同比+18%，并上调全年增长/利润率方向。其余关键锚点中，Fed H.15最新发布日期为2026-04-22（最新列到2026-04-21，10Y名义4.30%、10Y TIPS 1.92%），EIA天然气库存页仍停留在截至2026-04-10周（1,970 Bcf，周增59 Bcf）。结论：机器人与能源主线有短线新增催化，但跨主题总体仍应以条件化加仓为主。",
+  "macro": {
+    "regime": "实际利率高位+行业分化加剧：景气增量出现，但尚不足以触发全面风险偏好切换",
+    "bullets": [
+      "Fed H.15发布日为2026-04-22；最新列（2026-04-21）显示10Y名义利率4.30%、10Y TIPS 1.92%，实际利率仍在高位区间。",
+      "EIA WPSR（发布日2026-04-22）显示截至2026-04-17当周美国商业原油库存+190万桶至4.657亿桶，汽油库存-460万桶，体现成品油与原油方向分化。",
+      "EIA天然气库存页面当前最新仍为截至2026-04-10：1,970 Bcf、周增59 Bcf，表明天然气子主题尚缺新确认。",
+      "2026年FOMC下一次会议为4月28-29日，短周期资产定价仍受会前数据与实际利率扰动。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury (Apr 21)",
+      "ticker": "DGS10",
+      "price": "4.30%",
+      "change_pct": 0.04,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS (Apr 21)",
+      "ticker": "DFII10",
+      "price": "1.92%",
+      "change_pct": 0.01,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "WTI Spot (Apr 17)",
+      "ticker": "WTI",
+      "price": "$85.91/bbl",
+      "change_pct": -12.64,
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "ABB Ltd",
+      "ticker": "ABB",
+      "region": "EU",
+      "grade": "A",
+      "action": "Buy on weakness",
+      "score": 86,
+      "thesis": "ABB在2026-04-22披露Q1 2026业绩后，机器人/自动化主线获得当周最清晰的公司级增量：订单、收入、经营利润率与现金流同步改善，并给出Q2及全年‘高个位数至低双位数可比收入增长、运营EBITA利润率同比改善’的前瞻指引。若后续管理层口径未出现需求急转弱信号，自动化资产相对胜率上修。",
+      "why_now": "一级信号已从“等待财报”转为“财报落地并确认改善”，事件不确定性下降。",
+      "catalysts": [
+        "2026-04-22业绩中订单同比+32%、营收同比+18%、运营EBITA利润率23.5%。",
+        "2026Q2指引：可比营收高个位数至低双位数增长，运营EBITA利润率同比改善。",
+        "全年2026指引同样上调至高个位数至低双位数增长区间。"
+      ],
+      "risks": [
+        "业绩中明确提及地缘政治不确定性上升，可能扰动跨区域订单节奏。",
+        "当前强势数据若主要来自短周期集中拉货，后续季度可能出现基数与节奏回落。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 16,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 results (ad hoc announcement)",
+          "publisher": "ABB / EQS disclosure",
+          "url": "https://www.webdisclosure.com/press-release/abb-ltd-etr-q1-2026-results-UjHk6svAEzM"
+        }
+      ]
+    },
+    {
+      "theme": "能源",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "EIA 2026-04-22周报确认当周原油累库（+190万桶）与成品油去库（汽油-460万桶、馏分油-340万桶）并存，意味着能源板块内部定价会偏向结构化而非单边。结合WTI单周回落，短线更适合等待库存连续性后做方向强化。",
+      "why_now": "与昨日相比，能源主线新增了完整周报数据，信息密度显著提升。",
+      "catalysts": [
+        "若后续周报继续出现汽油/馏分油去库，炼化链相对弹性可能高于上游。",
+        "若原油累库持续且进口高位，纯上游资产估值弹性受限。"
+      ],
+      "risks": [
+        "库存方向波动较大，单周数据噪音可能导致误判。",
+        "地缘与宏观增长预期变化会快速重定价油价曲线。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (week ending Apr. 17, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/index.php"
+        },
+        {
+          "title": "WPSR Summary PDF",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "ASML Holding",
+      "ticker": "ASML",
+      "region": "EU",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 79,
+      "thesis": "ASML在2026-04-15披露的Q1与全年指引仍是AI设备链核心锚点：Q1净销售€8.8bn、全年净销售指引€36-40bn。过去24小时无新的公司级一级披露推翻该框架，因此当前逻辑由‘业绩确认’过渡至‘等待链上二次验证’。",
+      "why_now": "在实际利率高位背景下，AI设备龙头的估值弹性仍高度依赖后续订单与客户capex确认。",
+      "catalysts": [
+        "后续晶圆厂与算力链公司财报对2026H2资本开支的交叉验证。",
+        "4月末FOMC前后实际利率若回落，有利于成长链估值。"
+      ],
+      "risks": [
+        "若终端需求传导不及预期，设备订单可见度可能边际走弱。",
+        "高估值阶段对利率上行敏感。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "ASML Q1 2026 financial results",
+          "publisher": "ASML IR",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results"
+        },
+        {
+          "title": "Federal Reserve H.15",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实际利率",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "黄金端当前仍是‘资金流周频更新慢于利率日频波动’。WGC页面显示数据截至2026-04-17、发布日期2026-04-08；与此同时，Fed H.15在2026-04-22更新的10Y TIPS为1.92%，实际利率未出现趋势性下行，黄金继续以区间交易视角为宜。",
+      "why_now": "过去24小时内黄金ETF主数据未出现新周度增量，但实际利率继续维持高位。",
+      "catalysts": [
+        "若后续WGC周数据出现持续净流入，黄金配置吸引力提升。",
+        "FOMC前后若10Y TIPS出现连续下行，估值压制缓解。"
+      ],
+      "risks": [
+        "实际利率维持高位将持续压制无息资产配置。",
+        "美元阶段性走强可能放大金价回撤。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETFs holdings and flows (April 2026)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+        },
+        {
+          "title": "Federal Reserve H.15",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "FOMC April Meeting",
+      "ticker": "FED",
+      "note": "2026-04-28至2026-04-29会议前后，观察10Y名义与10Y TIPS是否共振下行。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly Natural Gas Storage",
+      "ticker": "NATGAS-US",
+      "note": "当前公开页最新仍为截至2026-04-10；待新周数据确认天然气子主题方向。"
+    },
+    {
+      "theme": "AI基础设施",
+      "asset": "TSMC",
+      "ticker": "TSM",
+      "note": "最新SEC 6-K日期为2026-04-17，等待下一轮产能/需求相关法定披露。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Release date: April 22, 2026; Last Update: April 22, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "FOMC Calendars (2026 meeting dates include April 28-29)",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report (week ending Apr. 17, 2026; Release Date: Apr. 22, 2026)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/index.php"
+    },
+    {
+      "label": "EIA WPSR Summary PDF (crude +1.9mb, gasoline -4.6mb, distillate -3.4mb)",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA WPSR Full Report PDF (Release Date: April 22, 2026; WTI on Apr 17: $85.91)",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage (latest visible summary: as of Friday, April 10, 2026, 1,970 Bcf, +59 Bcf)",
+      "url": "https://ir.eia.gov/ngs/ngs.html?featureclicked=5"
+    },
+    {
+      "label": "ABB Q1 2026 results ad hoc announcement (dated 22-Apr-2026)",
+      "url": "https://www.webdisclosure.com/press-release/abb-ltd-etr-q1-2026-results-UjHk6svAEzM"
+    },
+    {
+      "label": "ASML Q1 2026 Financial Results (April 15, 2026)",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results"
+    },
+    {
+      "label": "TSMC Form 6-K (Date: April 17, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000203/tsm-boardx20260417x6k.htm"
+    },
+    {
+      "label": "WGC Gold ETF flows page (Published: 8 April, 2026; Data as of 17 April, 2026)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/04"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "gpt-5-3-codex"
+  ]
+}

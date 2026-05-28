@@ -1,0 +1,278 @@
+{
+  "date": "2026-04-07",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-04-07（监测版）",
+  "summary": "截至北京时间 2026-04-07 早间，AI/机器人/能源/黄金主线未出现足以触发组合结构重排的新增一手信号。宏观层面，3月美国就业（2026-04-03）与最新利率曲线更新（Fed H.15 最后更新 2026-04-06）仍支撑“增长放缓但未失速、实际利率仍偏高”的框架。策略上维持防守中带选择性进攻：黄金维持逢回补仓，能源与机器人维持观察仓位，等待 2026-04-08 的 FOMC 纪要与 EIA 周报给出新的方向确认。",
+  "macro": {
+    "regime": "高不确定性+事件前窗口（FOMC纪要/EIA周报前）",
+    "bullets": [
+      "Fed H.15 页面显示 Last Update 为 2026-04-06，说明利率端数据持续更新但未出现制度性拐点信号。",
+      "BLS 2026-04-03 就业报告显示 3 月新增非农 +178k、失业率 4.3%，尚不足以单独改变风险资产主趋势。",
+      "EIA 石油周报当前为 2026-04-01 版本（下次 2026-04-08），天然气库存下次发布为 2026-04-09，能源交易进入数据真空期。",
+      "WGC 页面显示黄金 ETF 周度数据更新至 2026-03-27，黄金配置逻辑仍以避险与实际利率波动为核心。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "XLE NAV",
+      "ticker": "XLE",
+      "price": "$59.27",
+      "change_pct": "as of 2026-04-02",
+      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    },
+    {
+      "name": "BOTZ NAV",
+      "ticker": "BOTZ",
+      "price": "$33.21",
+      "change_pct": "as of 2026-04-02",
+      "source_url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "name": "Weekly Nat Gas Storage",
+      "ticker": "EIA NGS",
+      "price": "1,865 Bcf",
+      "change_pct": "+36 Bcf w/w",
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 79,
+      "thesis": "在 2026-04-08 FOMC 纪要公布前，黄金继续承担组合中的政策与地缘不确定性对冲角色。",
+      "why_now": "WGC 页面显示周度 ETF 数据更新至 2026-03-27，且 2026-04-07 前没有反向的一手资金流拐点证据。",
+      "catalysts": [
+        "2026-04-08：FOMC 3月会议纪要（Fed Calendar）",
+        "若 H.15 在 2026-04-08 至 2026-04-10 显示实际利率回落，黄金弹性通常增强"
+      ],
+      "risks": [
+        "若美国数据继续强于预期并推升长端实际利率，金价可能阶段承压",
+        "若地缘风险边际缓和，避险溢价回吐会压缩短期上行空间"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: February 2026（Data as of 27 March, 2026）",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+        },
+        {
+          "title": "SPDR Gold Shares (GLD)",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "MRVL 仍是 AI 互连/定制加速链条的受益标的，但 2026-04-07 前新增披露以资本市场文件为主，基本面新信息密度不足。",
+      "why_now": "Marvell SEC 列表显示最近关键经营相关披露仍为 2026-03-31 的 8-K，4月初新增多为 144/融资文件，方向上偏中性。",
+      "catalysts": [
+        "后续财报或订单更新若验证 AI 互连需求持续上修，可上调评级",
+        "若行业出现新增云厂商/ASIC 合作披露，MRVL 预期弹性会增强"
+      ],
+      "risks": [
+        "近期 Form 144/融资相关文件增加，短期可能带来供给与情绪扰动",
+        "若 AI 基建资本开支节奏放缓，估值再定价压力会先作用于高预期环节"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "All SEC Filings (latest list)",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/sec-filings/all-sec-filings"
+        },
+        {
+          "title": "NVIDIA AI ecosystem expands as Marvell joins through NVLink Fusion",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion"
+        }
+      ]
+    },
+    {
+      "theme": "Energy",
+      "asset": "Energy Select Sector SPDR",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "能源板块仍受地缘与供给侧扰动支撑，但在 2026-04-08 新一轮 EIA 周报前，交易更偏事件驱动而非趋势确认。",
+      "why_now": "EIA WPSR 当前最新发布日期为 2026-04-01（下次 2026-04-08）；STEO 页面仍显示 2026-03-10 版本，短线确认信号不足。",
+      "catalysts": [
+        "2026-04-08：EIA Weekly Petroleum Status Report",
+        "EIA STEO 的 2026-04 月度更新将影响油气供需预期斜率"
+      ],
+      "risks": [
+        "若地缘风险缓和且库存边际改善，油价风险溢价回吐将压制板块",
+        "若宏观增长预期走弱，能源需求端预期可能下修"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 13,
+        "valuation_setup": 14,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report (Release Date Apr. 1, 2026; Next Apr. 8, 2026)",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Short-Term Energy Outlook",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "title": "XLE Fund Page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics and automation",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Watch",
+      "score": 62,
+      "thesis": "机器人主线中长期逻辑完好，但短期缺少 24-72 小时内新增一级经营信号，维持观察而非追价。",
+      "why_now": "BOTZ 官方页显示最新持仓/特征时间为 2026-04-02，未见新的基金层面配置拐点信息。",
+      "catalysts": [
+        "若龙头公司在 2026-04 月中下旬披露新增订单或资本开支上修，可提升板块弹性",
+        "FOMC 纪要后若长端利率回落，成长久期资产估值压力有望缓解"
+      ],
+      "risks": [
+        "高估值成长板块对实际利率上行敏感",
+        "若 AI 资本开支预期降温，机器人链条会被动再估值"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "BOTZ Holdings & Characteristics",
+          "publisher": "Global X ETFs",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "Federal Reserve April 2026 Calendar",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "FOMC Minutes",
+      "ticker": "Fed",
+      "note": "2026-04-08 02:00 p.m. ET 发布 3月会议纪要，关注通胀与增长措辞是否偏鹰。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "Weekly Petroleum Status Report",
+      "ticker": "EIA",
+      "note": "2026-04-08 发布新一期周报，关注原油/汽油库存与产量变化方向。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "Weekly Natural Gas Storage Report",
+      "ticker": "EIA NGS",
+      "note": "2026-04-09 发布，下游需求与库存偏离将影响天然气价格预期。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 (Last Update: April 6, 2026)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve April 2026 Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-04.htm"
+    },
+    {
+      "label": "BLS Employment Situation (March 2026, released April 3, 2026)",
+      "url": "https://www.bls.gov/news.release/archives/empsit_04032026.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows (Mar 2026 page)",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/03"
+    },
+    {
+      "label": "Marvell SEC Filings",
+      "url": "https://investor.marvell.com/sec-filings/all-sec-filings"
+    },
+    {
+      "label": "NVIDIA-Marvell NVLink Fusion announcement",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion"
+    },
+    {
+      "label": "Global X BOTZ fund page",
+      "url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "label": "State Street XLE fund page",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-energy-select-sector-spdr-etf-xle"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "monitoring",
+    "china"
+  ]
+}
