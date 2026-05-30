@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-05-30（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-05-30（监测版）</h1>
+      <p class="meta">2026-05-30 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至2026-05-30 08:30 CST，过去24-72小时出现的一级新增信号主要来自宏观数据修正（BEA GDP二估）与能源数据发布机制（EIA WPSR格式迁移）；AI、机器人、黄金核心资产暂无足以改变仓位框架的新增公司级披露。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增长韧性下修 + 通胀粘性未解，资产定价继续依赖6月数据窗口</strong></p>
+      <ul><li>BEA于2026-05-28发布GDP二估：2026Q1实际GDP年化1.6%，较初值下修0.4pct；核心PCE年化4.4%（上修0.1pct），显示增长放缓但价格压力仍高。</li><li>BLS在2026-05-12 CPI公报中确认：2026年5月CPI将于2026-06-10 08:30 ET发布；该节点对成长股估值与黄金真实利率交易仍是首要事件。</li><li>EIA于2026-05-27公告：WPSR自2026-06-10起切换至HTML/CSV/JSON并停止PDF等旧格式；数据本体不变但自动化抓取需迁移，短期可能影响市场读数一致性。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>美国实际GDP（二估）</td>
+          <td>US GDP</td>
+          <td>1.6% SAAR</td>
+          <td>较初值2.0%下修0.4pct（2026Q1）</td>
+          <td><a href="https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>美国核心PCE物价指数（二估）</td>
+          <td>Core PCE</td>
+          <td>4.4% SAAR</td>
+          <td>较初值4.3%上修0.1pct（2026Q1）</td>
+          <td><a href="https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>GLD基金净值页面</td>
+          <td>GLD</td>
+          <td>NAV as of 2026-05-22</td>
+          <td>等待2026-06-10 CPI前后方向确认</td>
+          <td><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>AI算力主线未变，但最近24-72小时无新增8-K/业绩级信息，短线优势来自回撤后的风险收益比而非新催化。</p>
+              <p><strong>Why now:</strong> 最新关键公司披露仍是2026-05-20的NVDA 8-K与财报；未见更高优先级增量。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>后续SEC文件（10-Q/8-K）对需求与区域收入口径更新</li><li>TSMC后续月营收（下一次通常在月初公布）</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高预期估值对增长边际变化极敏感</li><li>地缘与出口限制导致订单结构波动</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm">NVIDIA Form 8-K (filed 2026-05-20)</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm">EDGAR filing index 0001045810-26-000051</a></li><li><a href="https://investor.tsmc.com/english/monthly-revenue/2026">TSMC 2026 monthly revenue</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与真实利率对冲</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>在增长下修与通胀仍高的组合下，黄金的组合对冲价值保留，但方向选择仍依赖6月通胀数据。</p>
+              <p><strong>Why now:</strong> 新增宏观信号是2026-05-28 GDP/通胀二估；黄金本身暂无新的基金层面结构变化披露。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-06-10 08:30 ET 美国5月CPI</li><li>2026-06-26 08:30 ET 美国5月个人收入与支出（含PCE）</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率进一步上行，黄金可能阶段性回撤</li><li>风险偏好快速修复将压缩避险溢价</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">SPDR Gold Shares fund page</a></li><li><a href="https://www.bls.gov/news.release/pdf/cpi.pdf?pubDate=20250706">Consumer Price Index - April 2026 (next release date statement)</a></li><li><a href="https://www.bea.gov/news/schedule">BEA news schedule</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源（油气）</p>
+                  <h2>美国油气Beta（XLE代理） <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>供需与地缘溢价仍主导油价，但当前新增信息更偏“数据交付机制变化”而非基本面方向变化，宜等待新口径下连续周度数据验证。</p>
+              <p><strong>Why now:</strong> 2026-05-27 EIA确认WPSR格式迁移自2026-06-10起生效；短线交易应防范数据链路切换造成的节奏噪声。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-06-10起WPSR新格式连续发布后的可比性验证</li><li>后续EIA周度库存与成品油需求数据</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>地缘缓和致风险溢价回吐</li><li>数据消费端迁移不充分导致短期误读</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/wpsr_notice_06102026.php">EIA notice: Improving data delivery for WPSR (Release Date May 27, 2026)</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report portal</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与自动化</p>
+                  <h2>ABB <span>ABB</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 63/100</p>
+              <div class="bar"><span class="fill" style="width:63%"></span></div>
+              <p>工业自动化中长期逻辑稳定，但近期缺乏新增业绩级催化，继续等待订单与利润率延续验证。</p>
+              <p><strong>Why now:</strong> 最近24-72小时无新增季报/监管披露；最新核心锚点仍是2026-04-22 Q1结果。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次季度财报与订单更新</li><li>欧美制造业景气数据对自动化资本开支的验证</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>制造业资本开支放缓</li><li>汇率与商品成本波动影响利润率</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.abb.com/global/en/news/135137/q1-2026-results">ABB Q1 2026 results</a></li><li><a href="https://library.e.abb.com/public/92757491d9cc40af8425ef03a7f45f81/ABB-Q1-2026-financial-information.pdf">ABB Q1 2026 financial information (PDF)</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

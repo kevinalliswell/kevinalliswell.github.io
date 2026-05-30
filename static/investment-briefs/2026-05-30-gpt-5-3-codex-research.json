@@ -1,0 +1,236 @@
+{
+  "date": "2026-05-30",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-30（监测版）",
+  "summary": "截至2026-05-30 08:30 CST，过去24-72小时出现的一级新增信号主要来自宏观数据修正（BEA GDP二估）与能源数据发布机制（EIA WPSR格式迁移）；AI、机器人、黄金核心资产暂无足以改变仓位框架的新增公司级披露。",
+  "macro": {
+    "regime": "增长韧性下修 + 通胀粘性未解，资产定价继续依赖6月数据窗口",
+    "bullets": [
+      "BEA于2026-05-28发布GDP二估：2026Q1实际GDP年化1.6%，较初值下修0.4pct；核心PCE年化4.4%（上修0.1pct），显示增长放缓但价格压力仍高。",
+      "BLS在2026-05-12 CPI公报中确认：2026年5月CPI将于2026-06-10 08:30 ET发布；该节点对成长股估值与黄金真实利率交易仍是首要事件。",
+      "EIA于2026-05-27公告：WPSR自2026-06-10起切换至HTML/CSV/JSON并停止PDF等旧格式；数据本体不变但自动化抓取需迁移，短期可能影响市场读数一致性。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "美国实际GDP（二估）",
+      "ticker": "US GDP",
+      "price": "1.6% SAAR",
+      "change_pct": "较初值2.0%下修0.4pct（2026Q1）",
+      "source_url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026"
+    },
+    {
+      "name": "美国核心PCE物价指数（二估）",
+      "ticker": "Core PCE",
+      "price": "4.4% SAAR",
+      "change_pct": "较初值4.3%上修0.1pct（2026Q1）",
+      "source_url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026"
+    },
+    {
+      "name": "GLD基金净值页面",
+      "ticker": "GLD",
+      "price": "NAV as of 2026-05-22",
+      "change_pct": "等待2026-06-10 CPI前后方向确认",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 80,
+      "thesis": "AI算力主线未变，但最近24-72小时无新增8-K/业绩级信息，短线优势来自回撤后的风险收益比而非新催化。",
+      "why_now": "最新关键公司披露仍是2026-05-20的NVDA 8-K与财报；未见更高优先级增量。",
+      "catalysts": [
+        "后续SEC文件（10-Q/8-K）对需求与区域收入口径更新",
+        "TSMC后续月营收（下一次通常在月初公布）"
+      ],
+      "risks": [
+        "高预期估值对增长边际变化极敏感",
+        "地缘与出口限制导致订单结构波动"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Form 8-K (filed 2026-05-20)",
+          "publisher": "SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+        },
+        {
+          "title": "EDGAR filing index 0001045810-26-000051",
+          "publisher": "SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm"
+        },
+        {
+          "title": "TSMC 2026 monthly revenue",
+          "publisher": "TSMC IR",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与真实利率对冲",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 76,
+      "thesis": "在增长下修与通胀仍高的组合下，黄金的组合对冲价值保留，但方向选择仍依赖6月通胀数据。",
+      "why_now": "新增宏观信号是2026-05-28 GDP/通胀二估；黄金本身暂无新的基金层面结构变化披露。",
+      "catalysts": [
+        "2026-06-10 08:30 ET 美国5月CPI",
+        "2026-06-26 08:30 ET 美国5月个人收入与支出（含PCE）"
+      ],
+      "risks": [
+        "若实际利率进一步上行，黄金可能阶段性回撤",
+        "风险偏好快速修复将压缩避险溢价"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "SPDR Gold Shares fund page",
+          "publisher": "State Street",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "Consumer Price Index - April 2026 (next release date statement)",
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/news.release/pdf/cpi.pdf?pubDate=20250706"
+        },
+        {
+          "title": "BEA news schedule",
+          "publisher": "BEA",
+          "url": "https://www.bea.gov/news/schedule"
+        }
+      ]
+    },
+    {
+      "theme": "能源（油气）",
+      "asset": "美国油气Beta（XLE代理）",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "供需与地缘溢价仍主导油价，但当前新增信息更偏“数据交付机制变化”而非基本面方向变化，宜等待新口径下连续周度数据验证。",
+      "why_now": "2026-05-27 EIA确认WPSR格式迁移自2026-06-10起生效；短线交易应防范数据链路切换造成的节奏噪声。",
+      "catalysts": [
+        "2026-06-10起WPSR新格式连续发布后的可比性验证",
+        "后续EIA周度库存与成品油需求数据"
+      ],
+      "risks": [
+        "地缘缓和致风险溢价回吐",
+        "数据消费端迁移不充分导致短期误读"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "EIA notice: Improving data delivery for WPSR (Release Date May 27, 2026)",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/wpsr_notice_06102026.php"
+        },
+        {
+          "title": "Weekly Petroleum Status Report portal",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "ABB",
+      "ticker": "ABB",
+      "region": "EU",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "工业自动化中长期逻辑稳定，但近期缺乏新增业绩级催化，继续等待订单与利润率延续验证。",
+      "why_now": "最近24-72小时无新增季报/监管披露；最新核心锚点仍是2026-04-22 Q1结果。",
+      "catalysts": [
+        "下一次季度财报与订单更新",
+        "欧美制造业景气数据对自动化资本开支的验证"
+      ],
+      "risks": [
+        "制造业资本开支放缓",
+        "汇率与商品成本波动影响利润率"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 results",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/135137/q1-2026-results"
+        },
+        {
+          "title": "ABB Q1 2026 financial information (PDF)",
+          "publisher": "ABB",
+          "url": "https://library.e.abb.com/public/92757491d9cc40af8425ef03a7f45f81/ABB-Q1-2026-financial-information.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国CPI",
+      "ticker": "CPI",
+      "note": "2026-06-10 08:30 ET发布，决定成长与黄金短线风险回报。"
+    },
+    {
+      "theme": "宏观",
+      "asset": "美国GDP三估",
+      "ticker": "GDP",
+      "note": "BEA已公告2026-06-25 08:30 ET发布Q1 GDP三估与企业利润更新。"
+    },
+    {
+      "theme": "能源数据链路",
+      "asset": "EIA WPSR新格式",
+      "ticker": "EIA",
+      "note": "2026-06-10起从旧PDF/XLS迁移至HTML/CSV/JSON，需验证模型与抓取流程。"
+    }
+  ],
+  "source_log": [
+    {"label": "BEA GDP second estimate (2026-05-28)", "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-1st-quarter-2026"},
+    {"label": "BEA release schedule", "url": "https://www.bea.gov/news/schedule"},
+    {"label": "BLS CPI release PDF (April 2026)", "url": "https://www.bls.gov/news.release/pdf/cpi.pdf?pubDate=20250706"},
+    {"label": "Federal Reserve FOMC calendars", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+    {"label": "FOMC minutes 2026-04-28/29", "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260429.pdf"},
+    {"label": "EIA WPSR change notice (2026-05-27)", "url": "https://www.eia.gov/petroleum/supply/weekly/wpsr_notice_06102026.php"},
+    {"label": "EIA WPSR portal", "url": "https://www.eia.gov/petroleum/supply/weekly/"},
+    {"label": "NVDA SEC 8-K 2026-05-20", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"},
+    {"label": "NVDA 8-K filing index", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm"},
+    {"label": "TSMC monthly revenue 2026", "url": "https://investor.tsmc.com/english/monthly-revenue/2026"},
+    {"label": "GLD fund page", "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"},
+    {"label": "ABB Q1 2026 results", "url": "https://www.abb.com/global/en/news/135137/q1-2026-results"}
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring", "GPT-5.3-codex"]
+}
