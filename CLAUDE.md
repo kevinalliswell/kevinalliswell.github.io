@@ -3,7 +3,7 @@
 ## 技术栈
 
 - **静态站点生成器**: Hugo 0.157.0
-- **主题**: PaperMod (git submodule)
+- **主题**: Stack (git submodule, `themes/stack`)
 - **托管**: GitHub Pages (自动部署)
 - **仓库**: https://github.com/kevinalliswell/kevinalliswell.github.io
 - **语言**: 简体中文 (zh-cn)，技术术语保留英文
@@ -87,6 +87,6 @@ git push origin main
 ## 维护检查清单
 
 - [ ] Hugo 版本更新（当前 0.157.0，对比 https://github.com/gohugoio/hugo/releases）
-- [ ] PaperMod 主题更新（`git submodule update --remote themes/PaperMod`）
+- [ ] Stack 主题更新（`git submodule update --remote themes/stack`）
 - [ ] 检查 GitHub Actions 运行状态
 - [ ] 清理过期的自动生成内容（如有需要）
