@@ -1,0 +1,219 @@
+{
+  "date": "2026-05-31",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-05-31（监测版）",
+  "summary": "截至2026-05-31 08:30 CST，过去24-72小时一级信源未出现足以改变AI/机器人/能源/黄金总仓位框架的重大增量，维持监测版。新增信息集中在美国流动性与能源周频数据，以及AI链财报披露后的验证阶段。",
+  "macro": {
+    "regime": "高实际利率约束估值，商品与现金流资产相对占优",
+    "bullets": [
+      "美联储于2026-05-28发布H.4.1周度资产负债表，流动性环境未出现方向性突变。",
+      "美国能源信息署（EIA）在2026-05-28更新周度石油与天然气数据，供需仍处季节性再平衡区间。",
+      "Baker Hughes于2026-05-29更新北美钻机数据，显示油服活动延续低斜率变化。"
+    ]
+  },
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 80,
+      "thesis": "一级披露仍支持AI算力周期延续，但财报后市场预期已较高，短线更依赖后续订单与资本开支兑现。",
+      "why_now": "NVIDIA在2026-05-20发布FY2027Q1结果后进入验证期；2026-05-28至2026-05-30未见新的一级披露改变核心叙事。",
+      "catalysts": [
+        "2026-06上旬至中旬：主要云厂商后续资本开支与采购节奏披露。",
+        "2026-08：NVIDIA下一次财报窗口（以公司公告为准）。"
+      ],
+      "risks": [
+        "估值与仓位拥挤导致对边际负面信息敏感。",
+        "出口管制或供应链扰动影响交付节奏。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027 (2026-05-20)",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "NVIDIA Form 8-K filed 2026-05-20",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与真实利率对冲",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 76,
+      "thesis": "当实际利率高位震荡且增长预期分化时，黄金维持组合对冲价值，但需要等待资金流与利率方向共振。",
+      "why_now": "2026-05-31时点缺乏新的政策冲击；以周度/日度持仓与央行沟通为主线监测。",
+      "catalysts": [
+        "2026-06-10：美国CPI发布，影响实际利率路径。",
+        "2026-06-17：FOMC会议结果与点阵图更新。"
+      ],
+      "risks": [
+        "实际利率再上行压制金价弹性。",
+        "美元快速走强引发被动减仓。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "SPDR Gold Shares (GLD) fund page",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "Gold ETF Commentary (Published 2026-05-07)",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-monthly-commentary"
+        }
+      ]
+    },
+    {
+      "theme": "能源（油气）",
+      "asset": "美国油气Beta（XLE代理）",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "周频数据仍反映再平衡而非趋势性紧缺，能源更适合作为宏观扰动对冲，不宜在无新增催化时追价。",
+      "why_now": "EIA与Baker Hughes在2026-05-28至2026-05-29提供周度更新，但未给出单边强化信号。",
+      "catalysts": [
+        "2026-06-04前后：下一周EIA周报与库存结构变化。",
+        "2026-06上旬：OPEC+沟通与执行率线索。"
+      ],
+      "risks": [
+        "全球需求预期下修导致油价回落。",
+        "地缘风险溢价快速消退。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/weekly/"
+        },
+        {
+          "title": "Baker Hughes Rig Count",
+          "publisher": "Baker Hughes",
+          "url": "https://rigcount.bakerhughes.com/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "ABB",
+      "ticker": "ABB",
+      "region": "EU",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "工业自动化主线中长期成立，但短期订单与制造业景气仍需更多月度验证。",
+      "why_now": "截至2026-05-31未见新的一级披露改变前期判断，维持观察。",
+      "catalysts": [
+        "2026-07：ABB下一次季度披露窗口。",
+        "2026-06：主要经济体制造业PMI对自动化资本开支的指引。"
+      ],
+      "risks": [
+        "制造业资本开支推迟。",
+        "外汇波动影响欧洲工业企业利润折算。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "ABB Results and Reports",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/results-and-reports"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美国CPI",
+      "ticker": "BLS",
+      "note": "2026-06-10发布，若核心通胀显著下行，将影响成长与黄金估值锚。"
+    },
+    {
+      "theme": "宏观",
+      "asset": "FOMC",
+      "ticker": "FED",
+      "note": "2026-06-16至2026-06-17会议，关注政策措辞与点阵图变化。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA周报",
+      "ticker": "EIA",
+      "note": "关注库存结构是否出现持续去库/累库单边信号。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.4.1",
+      "url": "https://www.federalreserve.gov/releases/h41/default.htm"
+    },
+    {
+      "label": "Federal Reserve FOMC calendars",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "U.S. EIA WPSR",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "Baker Hughes Rig Count",
+      "url": "https://rigcount.bakerhughes.com/"
+    },
+    {
+      "label": "NVIDIA 8-K (2026-05-20)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+    },
+    {
+      "label": "Dell Q1 FY2027 release (2026-05-29)",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/20453/dell-technologies-delivers-first-quarter-fiscal-2027"
+    },
+    {
+      "label": "Marvell 8-K (2026-05-29)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000068/mrvl-20260529.htm"
+    }
+  ],
+  "tags": ["投资", "晨报", "AI", "机器人", "能源", "黄金", "宏观", "监测版", "GPT-5.3-codex"]
+}
