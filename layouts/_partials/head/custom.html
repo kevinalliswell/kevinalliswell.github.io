@@ -1,2 +1,29 @@
-<!-- 不蒜子访问统计 -->
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 访问统计：Vercount（不蒜子 API 兼容的替代服务，HTTPS、稳定） -->
+<script defer src="https://cn.vercount.one/js"></script>
+
+<!-- 计数容器默认隐藏，拿到数值后再显示，避免服务未响应时出现空白的"阅读  次" -->
+<script>
+(function () {
+  function reveal(valueId, containerId) {
+    var v = document.getElementById(valueId);
+    var c = document.getElementById(containerId);
+    if (!v || !c) return;
+    function check() {
+      if (v.textContent && v.textContent.trim() !== '') {
+        c.style.display = '';
+        return true;
+      }
+      return false;
+    }
+    if (check()) return;
+    var obs = new MutationObserver(function () {
+      if (check()) obs.disconnect();
+    });
+    obs.observe(v, { childList: true, characterData: true, subtree: true });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    reveal('busuanzi_value_page_pv', 'busuanzi_container_page_pv');
+    reveal('busuanzi_value_site_pv', 'busuanzi_container_site');
+  });
+})();
+</script>
