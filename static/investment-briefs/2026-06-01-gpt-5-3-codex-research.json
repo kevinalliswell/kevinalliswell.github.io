@@ -1,0 +1,255 @@
+{
+  "date": "2026-06-01",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-06-01（监测版）",
+  "summary": "过去24-72小时内，一级信号以已披露数据的延续验证为主，尚未出现足以改变AI/机器人/能源/黄金仓位框架的新增冲击。AI主线继续由NVIDIA 2026-05-20业绩与资本回报信号主导；宏观端关注2026-05-28 BEA个人收入/支出与6月FOMC窗口；能源端跟踪2026-05-29北美钻机数与EIA周报节奏；黄金维持对实际利率与政策路径的敏感交易。",
+  "macro": {
+    "regime": "增长韧性与政策观望并存，主题交易偏向‘有业绩支撑的AI + 对利率敏感的黄金’",
+    "bullets": [
+      "BEA于2026-05-28发布2026年4月个人收入与支出数据，作为6月FOMC前的关键需求与通胀路径输入。",
+      "Federal Reserve日历显示下次FOMC会议为2026-06-16至2026-06-17，当前至会议前窗口以数据驱动预期波动为主。",
+      "EIA周度石油数据发布节奏在节假日周可顺延，短期油价与能源股仍受库存与供给节奏的高频扰动。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "FOMC Next Meeting Window",
+      "ticker": "FOMC",
+      "price": "2026-06-16/17",
+      "change_pct": "n/a",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "US Rig Count",
+      "ticker": "BKR RIG",
+      "price": "562",
+      "change_pct": 0.72,
+      "source_url": "https://bakerhughesrigcount.gcs-web.com/"
+    },
+    {
+      "name": "GLD NAV Date",
+      "ticker": "GLD",
+      "price": "As of 2026-05-22",
+      "change_pct": "n/a",
+      "source_url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI基础设施",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "2026-05-20披露的FY2027Q1业绩继续验证AI算力资本开支主线，数据中心收入与公司资本回报动作同时强化‘盈利可见性+资金回流’框架。短期更适合回撤分批，而非追涨。",
+      "why_now": "NVIDIA在2026-05-20发布FY2027Q1业绩并披露新增回购授权与股息上调，仍是过去一周AI链条最强一级信号。",
+      "catalysts": [
+        "FY2027Q2指引兑现与订单延续（下一次季报窗口，具体日期待公司IR日历更新）。",
+        "2026-06-16/17 FOMC后长端利率路径若更友好，将改善高估值AI资产贴现压力。"
+      ],
+      "risks": [
+        "若后续监管/出口限制升级，AI加速器出货节奏可能扰动。",
+        "在单一龙头拥挤交易背景下，任何指引不及预期都可能触发高波动回撤。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027 (2026-05-20)",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "NVIDIA Form 8-K filing record",
+          "publisher": "SEC",
+          "url": "https://www.sec.gov/edgar/browse/?CIK=1045810"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与实际利率",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Accumulate",
+      "score": 78,
+      "thesis": "在6月FOMC前，黄金继续交易‘政策路径+实际利率’。若宏观数据强化降息预期，黄金/金矿仍有相对收益弹性。",
+      "why_now": "2026-05-28 BEA数据与6月FOMC临近抬升利率预期波动，GLD作为流动性载体具备战术配置价值。",
+      "catalysts": [
+        "2026-06-16/17 FOMC会议结果与点阵/措辞变化。",
+        "后续美国通胀与就业数据对真实利率路径的再定价。"
+      ],
+      "risks": [
+        "若实际利率上行且美元走强，黄金可能出现阶段性回撤。",
+        "ETF资金流若转弱，短期价格弹性下降。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "GLD Fund Page (NAV reference)",
+          "publisher": "State Street Global Advisors",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+        },
+        {
+          "title": "FOMC Meeting Calendars",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "title": "Personal Income and Outlays, April 2026 (released 2026-05-28)",
+          "publisher": "BEA",
+          "url": "https://www.bea.gov/sites/default/files/2026-05/pi0426.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "能源供给与油服节奏",
+      "asset": "US Oilfield Activity Proxy",
+      "ticker": "BKR/能源ETF",
+      "region": "US",
+      "grade": "C",
+      "action": "Watch",
+      "score": 66,
+      "thesis": "钻机数与周度库存路径尚未形成单边趋势，能源资产更适合事件驱动与区间交易。",
+      "why_now": "Baker Hughes 2026-05-29数据显示北美钻机总数周增，EIA周报节奏在节假日周存在发布时间调整，短线可交易性高于中线确定性。",
+      "catalysts": [
+        "每周五（美中部时间）Baker Hughes Rig Count更新。",
+        "EIA周报（WPSR）库存/产量/进口分项变化。"
+      ],
+      "risks": [
+        "地缘与政策变量可能放大油价波动并提高回撤风险。",
+        "需求端若弱于预期，油服与上游弹性受限。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 12,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Rig Count Overview & Summary Count (week ending 2026-05-29)",
+          "publisher": "Baker Hughes",
+          "url": "https://bakerhughesrigcount.gcs-web.com/"
+        },
+        {
+          "title": "Weekly Petroleum Status Report Schedule",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与工业自动化",
+      "asset": "ABB",
+      "ticker": "ABBN",
+      "region": "CH",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "机器人自动化基本面仍稳健，但过去72小时缺乏新的一级增量催化，维持观察。",
+      "why_now": "最近可用核心披露仍是ABB 2026-04-22 Q1结果，显示订单与收入增长，但并非本周新增。",
+      "catalysts": [
+        "ABB下一次正式财报/投资者活动更新。",
+        "欧美制造业PMI与资本开支调查对自动化订单指引的验证。"
+      ],
+      "risks": [
+        "制造业补库不及预期将拖累订单弹性。",
+        "汇率波动对跨区域工业公司利润率形成扰动。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 15,
+        "valuation_setup": 11,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 results (2026-04-22)",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/135137/q1-2026-results"
+        },
+        {
+          "title": "ABB Q1 2026 Financial Information PDF",
+          "publisher": "ABB",
+          "url": "https://library.e.abb.com/public/92757491d9cc40af8425ef03a7f45f81/ABB-Q1-2026-financial-information.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "美联储6月会议",
+      "ticker": "FOMC",
+      "note": "重点盯住2026-06-16/17会议措辞与利率路径是否偏鸽。"
+    },
+    {
+      "theme": "AI",
+      "asset": "NVIDIA后续指引一致性",
+      "ticker": "NVDA",
+      "note": "若产业链订单验证延续，回撤买点有效；若出现出口/监管新扰动，需下调仓位进攻性。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA库存与BKR钻机",
+      "ticker": "WTI链条",
+      "note": "关注周度库存方向是否与钻机变化同向，决定是否从C上调至B。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC Calendars",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "Federal Reserve H.4.1 release dates",
+      "url": "https://www.federalreserve.gov/releases/h41/default.htm"
+    },
+    {
+      "label": "BEA Personal Income and Outlays April 2026 (2026-05-28)",
+      "url": "https://www.bea.gov/sites/default/files/2026-05/pi0426.pdf"
+    },
+    {
+      "label": "EIA WPSR Schedule",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+    },
+    {
+      "label": "Baker Hughes Rig Count Overview",
+      "url": "https://bakerhughesrigcount.gcs-web.com/"
+    },
+    {
+      "label": "NVIDIA Q1 FY2027 Press Release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "label": "SEC EDGAR NVIDIA filings",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=1045810"
+    },
+    {
+      "label": "SPDR Gold Shares GLD",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld"
+    },
+    {
+      "label": "ABB Q1 2026 Results",
+      "url": "https://www.abb.com/global/en/news/135137/q1-2026-results"
+    }
+  ],
+  "tags": ["investing", "daily-brief", "ai", "robotics", "energy", "gold", "macro", "monitoring"]
+}

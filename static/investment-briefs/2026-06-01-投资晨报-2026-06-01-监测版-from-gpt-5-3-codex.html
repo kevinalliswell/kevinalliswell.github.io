@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-06-01（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-06-01（监测版）</h1>
+      <p class="meta">2026-06-01 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>过去24-72小时内，一级信号以已披露数据的延续验证为主，尚未出现足以改变AI/机器人/能源/黄金仓位框架的新增冲击。AI主线继续由NVIDIA 2026-05-20业绩与资本回报信号主导；宏观端关注2026-05-28 BEA个人收入/支出与6月FOMC窗口；能源端跟踪2026-05-29北美钻机数与EIA周报节奏；黄金维持对实际利率与政策路径的敏感交易。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增长韧性与政策观望并存，主题交易偏向‘有业绩支撑的AI + 对利率敏感的黄金’</strong></p>
+      <ul><li>BEA于2026-05-28发布2026年4月个人收入与支出数据，作为6月FOMC前的关键需求与通胀路径输入。</li><li>Federal Reserve日历显示下次FOMC会议为2026-06-16至2026-06-17，当前至会议前窗口以数据驱动预期波动为主。</li><li>EIA周度石油数据发布节奏在节假日周可顺延，短期油价与能源股仍受库存与供给节奏的高频扰动。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>FOMC Next Meeting Window</td>
+          <td>FOMC</td>
+          <td>2026-06-16/17</td>
+          <td>n/a</td>
+          <td><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Rig Count</td>
+          <td>BKR RIG</td>
+          <td>562</td>
+          <td>+0.72%</td>
+          <td><a href="https://bakerhughesrigcount.gcs-web.com/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>GLD NAV Date</td>
+          <td>GLD</td>
+          <td>As of 2026-05-22</td>
+          <td>n/a</td>
+          <td><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI基础设施</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>2026-05-20披露的FY2027Q1业绩继续验证AI算力资本开支主线，数据中心收入与公司资本回报动作同时强化‘盈利可见性+资金回流’框架。短期更适合回撤分批，而非追涨。</p>
+              <p><strong>Why now:</strong> NVIDIA在2026-05-20发布FY2027Q1业绩并披露新增回购授权与股息上调，仍是过去一周AI链条最强一级信号。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>FY2027Q2指引兑现与订单延续（下一次季报窗口，具体日期待公司IR日历更新）。</li><li>2026-06-16/17 FOMC后长端利率路径若更友好，将改善高估值AI资产贴现压力。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若后续监管/出口限制升级，AI加速器出货节奏可能扰动。</li><li>在单一龙头拥挤交易背景下，任何指引不及预期都可能触发高波动回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx">NVIDIA Announces Financial Results for First Quarter Fiscal 2027 (2026-05-20)</a></li><li><a href="https://www.sec.gov/edgar/browse/?CIK=1045810">NVIDIA Form 8-K filing record</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金与实际利率</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Accumulate</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>在6月FOMC前，黄金继续交易‘政策路径+实际利率’。若宏观数据强化降息预期，黄金/金矿仍有相对收益弹性。</p>
+              <p><strong>Why now:</strong> 2026-05-28 BEA数据与6月FOMC临近抬升利率预期波动，GLD作为流动性载体具备战术配置价值。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-06-16/17 FOMC会议结果与点阵/措辞变化。</li><li>后续美国通胀与就业数据对真实利率路径的再定价。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率上行且美元走强，黄金可能出现阶段性回撤。</li><li>ETF资金流若转弱，短期价格弹性下降。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld">GLD Fund Page (NAV reference)</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC Meeting Calendars</a></li><li><a href="https://www.bea.gov/sites/default/files/2026-05/pi0426.pdf">Personal Income and Outlays, April 2026 (released 2026-05-28)</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源供给与油服节奏</p>
+                  <h2>US Oilfield Activity Proxy <span>BKR/能源ETF</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>钻机数与周度库存路径尚未形成单边趋势，能源资产更适合事件驱动与区间交易。</p>
+              <p><strong>Why now:</strong> Baker Hughes 2026-05-29数据显示北美钻机总数周增，EIA周报节奏在节假日周存在发布时间调整，短线可交易性高于中线确定性。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>每周五（美中部时间）Baker Hughes Rig Count更新。</li><li>EIA周报（WPSR）库存/产量/进口分项变化。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>地缘与政策变量可能放大油价波动并提高回撤风险。</li><li>需求端若弱于预期，油服与上游弹性受限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://bakerhughesrigcount.gcs-web.com/">Rig Count Overview &amp; Summary Count (week ending 2026-05-29)</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/schedule.php">Weekly Petroleum Status Report Schedule</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>ABB <span>ABBN</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>机器人自动化基本面仍稳健，但过去72小时缺乏新的一级增量催化，维持观察。</p>
+              <p><strong>Why now:</strong> 最近可用核心披露仍是ABB 2026-04-22 Q1结果，显示订单与收入增长，但并非本周新增。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>ABB下一次正式财报/投资者活动更新。</li><li>欧美制造业PMI与资本开支调查对自动化订单指引的验证。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>制造业补库不及预期将拖累订单弹性。</li><li>汇率波动对跨区域工业公司利润率形成扰动。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.abb.com/global/en/news/135137/q1-2026-results">ABB Q1 2026 results (2026-04-22)</a></li><li><a href="https://library.e.abb.com/public/92757491d9cc40af8425ef03a7f45f81/ABB-Q1-2026-financial-information.pdf">ABB Q1 2026 Financial Information PDF</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
