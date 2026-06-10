@@ -79,6 +79,31 @@ git commit -m "feat: add xxx article"
 git push origin main
 ```
 
+## 图片生成（第三方中转 qhaigc）
+
+文章配图默认用 `kevin-blog-post` skill 调 `baoyu-image-gen`。本仓库另配了一个第三方中转
+（`api.qhaigc.net`，OpenAI 兼容，借道 openrouter provider），用包装脚本调用：
+
+```bash
+# 默认模型 gemini-2.5-flash-image（该站当前可用，已实测）
+.baoyu-skills/qhaigc-gen.sh --prompt "..." --image out.png --ar 16:9
+.baoyu-skills/qhaigc-gen.sh --promptfiles p.md --image out.png --ar 16:9
+
+# 切换模型（如 3.1 恢复供货 / 其它可用模型）
+.baoyu-skills/qhaigc-gen.sh --prompt "..." --image out.png \
+    --model gemini-3.1-flash-image-preview --ar 16:9
+# 其它同站可用模型：nano-banana-pro | seedream-5
+```
+
+要点：
+- key 与端点写在 `.baoyu-skills/qhaigc-gen.sh` 内（含密钥，已被 `.gitignore` 忽略，勿提交/分享）。
+- 该站模型名**不带 `google/` 前缀**（用裸名 `gemini-2.5-flash-image`）。
+- `gemini-3.1-flash-image-preview` 该站常报 503「模型暂时不可用」，恢复供货后再用 `--model` 切回。
+- 配套补丁：`~/.claude/skills/baoyu-image-gen/scripts/providers/openrouter.ts` 已扩展以解析该站
+  「markdown 包裹 data URL」的响应（同目录有 `.bak` 备份可回滚）。
+- **不要**把 `OPENROUTER_*` 写进 `.baoyu-skills/.env`：脚本会先加载全局 `~/.baoyu-skills/.env`
+  且不覆盖，导致真 key 被误发往第三方。务必用包装脚本。
+
 ## 自动化
 
 - **GitHub Hot Digest**: 每日 UTC 23:00 自动运行 (`.github/workflows/github-hot-digest.yml`)

@@ -23,3 +23,6 @@ Thumbs.db
 
 # Local infographic working files
 /infographic/
+
+# Local API keys / image-gen provider config (never commit)
+/.baoyu-skills/
