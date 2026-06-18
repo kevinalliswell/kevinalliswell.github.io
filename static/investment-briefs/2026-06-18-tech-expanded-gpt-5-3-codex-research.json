@@ -1,0 +1,325 @@
+{
+  "date": "2026-06-18",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-06-18（科技扩展版）",
+  "summary": "这版在原有宏观监测基础上，补上更适合国内账户执行的科技板块建议。结论是：若你要在当前高利率环境里加科技仓位，优先看有官方季报验证、Q2 指引继续向上的晶圆代工龙头，中芯国际优先于情绪化题材股，华虹半导体适合作为次级跟踪标的；黄金维持回调吸纳，能源继续事件驱动观察。",
+  "macro": {
+    "regime": "FOMC抬高贴现率门槛，但科技里有基本面验证的国产半导体龙头仍可做结构性布局。",
+    "bullets": [
+      "Federal Reserve 于 2026-06-17 将联邦基金利率目标区间维持在 3.50%-3.75%，并在经济预测中上修 2026 年通胀与利率路径。",
+      "高利率环境意味着科技板块不能再用泛主题叙事硬推估值，优先级要让给已有订单、收入、毛利率和 Q2 指引支撑的公司。",
+      "中芯国际与华虹半导体都在 2026-05-14 发布 2026Q1 官方季报，且给出继续向上的 2026Q2 指引，是当前最适合写成可执行建议的国内可投科技标的。",
+      "TSMC 2026-06-10 公布 2026 年 5 月营收同比增长 30.1%，继续给整个晶圆制造链提供需求确认。",
+      "黄金和能源仍然是宏观对冲与事件驱动资产，不应挤占科技核心仓位。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Fed Funds Target Upper",
+      "ticker": "FFR",
+      "price": "3.75%",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "name": "SMIC 1Q26 Revenue",
+      "ticker": "00981.HK / 688981.SH",
+      "price": "US$2.5055bn",
+      "change_pct": 11.5,
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400908.pdf"
+    },
+    {
+      "name": "Hua Hong 1Q26 Revenue",
+      "ticker": "01347.HK / 688347.SH",
+      "price": "US$660.9m",
+      "change_pct": 22.2,
+      "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400506.pdf"
+    },
+    {
+      "name": "TSMC May Revenue",
+      "ticker": "TSM",
+      "price": "NT$416.98bn",
+      "change_pct": 30.1,
+      "source_url": "https://pr.tsmc.com/english/news/3320"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "国内可投科技核心仓",
+      "asset": "中芯国际",
+      "ticker": "00981.HK / 688981.SH",
+      "region": "HK / CN",
+      "grade": "A",
+      "action": "Buy on weakness",
+      "score": 85,
+      "thesis": "如果你的目标是用港股或 A 股账户配置半导体主线，中芯国际是当前最接近“基本面先行、情绪跟随”的核心仓标的。公司 2026Q1 收入 25.055 亿美元，同比增加 11.5%，毛利率 20.1%，并给出 2026Q2 收入环比增长 14% 至 16%、毛利率 20% 至 22% 的指引，说明景气并非停留在口号层，而是已经进入季度财务兑现阶段。",
+      "why_now": "在 2026-06-17 FOMC 上修利率路径后，科技里最该优先的不是远期故事，而是能在高贴现率里继续证明订单和收入向上的公司；中芯国际的官方 Q2 指引正好满足这一点。",
+      "catalysts": [
+        "2026-08 上旬：中芯国际下一次季度业绩将验证 2026Q2 是否兑现 14% 至 16% 的环比收入增长指引。",
+        "若国产替代与本地化采购继续推进，中芯国际的产能利用率和 ASP 支撑会继续强化。"
+      ],
+      "risks": [
+        "高利率环境会抑制科技估值弹性，所以更适合分批买、回调买，不适合追高重仓。",
+        "若外部限制升级，设备、材料与先进制程扩产节奏可能受扰动。",
+        "若 2026Q2 实际结果低于管理层指引，市场会直接下修对国产半导体主线的乐观预期。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 16,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 17
+      },
+      "sources": [
+        {
+          "title": "SMIC Reports Unaudited Results for the Three Months Ended March 31, 2026",
+          "publisher": "HKEXnews / SMIC",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400908.pdf"
+        },
+        {
+          "title": "SMIC Reports Unaudited Results for the Three Months Ended December 31, 2025",
+          "publisher": "HKEXnews / SMIC",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0210/2026021000518.pdf"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        },
+        {
+          "title": "Summary of Economic Projections, June 17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "国内可投科技进攻仓",
+      "asset": "华虹半导体",
+      "ticker": "01347.HK / 688347.SH",
+      "region": "HK / CN",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 79,
+      "thesis": "华虹半导体更适合作为科技进攻仓，而不是第一核心仓。公司 2026Q1 收入 6.609 亿美元，同比增加 22.2%，毛利率 13.0%，归母净利润 2,090 万美元，同比大增 458.1%，并给出 2026Q2 收入 6.90 亿至 7.00 亿美元、毛利率 14% 至 16% 的指引。它受益于 MCU、独立式闪存、BCD 等特色工艺景气修复，但资本开支与融资需求也更值得盯紧。",
+      "why_now": "华虹的 Q1 与 Q2 指引已经说明修复在继续，但它的风险调整后确定性仍弱于中芯国际，因此更适合试仓而不是当第一大科技仓。",
+      "catalysts": [
+        "2026-08 中旬前后：下一次季报将验证 2026Q2 收入是否进入 6.90 亿至 7.00 亿美元指引区间。",
+        "12 英寸产线爬坡与特色工艺需求延续，会决定利润率是否继续改善。"
+      ],
+      "risks": [
+        "2026Q1 资本开支达到 9.249 亿美元，其中 12 英寸项目占 8.861 亿美元，扩产强度高会提高执行与融资压力。",
+        "毛利率虽然同比改善，但绝对水平仍低于中芯国际，景气稍有放缓就更容易受挤压。",
+        "若科技板块整体转入风险偏好收缩，华虹这类弹性票的回撤通常大于龙头。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 14,
+        "valuation_setup": 16,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Hua Hong Semiconductor Limited Reports 2026 First Quarter Results",
+          "publisher": "HKEXnews / Hua Hong",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400506.pdf"
+        },
+        {
+          "title": "IR Calendar - Hua Hong Grace Semiconductor Limited",
+          "publisher": "Hua Hong Investor Relations",
+          "url": "https://www.huahonggrace.com/html/ir_calendar.php"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI上游制造全球锚",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 81,
+      "thesis": "TSMC 仍是观察整个半导体上游景气的全球锚。2026 年 5 月营收 4,169.75 亿新台币，同比增加 30.1%，而 2026Q1 已给出 2026Q2 营收 390 亿至 402 亿美元指引。对于持有港股/美股账户的投资者，它仍是高质量 AI 制造龙头；对于只做 A/H 的投资者，它更重要的作用是验证中芯、华虹所处产业周期是否继续向上。",
+      "why_now": "TSMC 的月营收仍在高增长，是判断半导体上游景气是否被宏观利率压断的最重要一手温度计之一。",
+      "catalysts": [
+        "2026-07-10：TSMC 6 月营收。",
+        "2026-07-16：TSMC 财报验证 2026Q2 指引。"
+      ],
+      "risks": [
+        "估值受美债利率影响更直接。",
+        "地缘与出口限制仍是无法忽视的外部变量。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "TSMC May 2026 Revenue Report",
+          "publisher": "TSMC",
+          "url": "https://pr.tsmc.com/english/news/3320"
+        },
+        {
+          "title": "TSMC 2026 Q1 Quarterly Results",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与宏观对冲",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 78,
+      "thesis": "黄金仍应留在组合里，但角色是对冲，不是进攻主线。FOMC 2026-06-17 上修通胀和利率路径，提高了持有黄金的机会成本；但 Fed 同时承认中东冲突增加不确定性，这又保留了黄金的组合价值。",
+      "why_now": "当你准备增加科技仓位时，更需要保留一部分非相关性资产来对冲宏观回撤。",
+      "catalysts": [
+        "2026-07-30：下一次 FOMC 决议。",
+        "若地缘冲突推升能源与通胀预期，黄金对冲价值会再次被重估。"
+      ],
+      "risks": [
+        "若实际利率继续上行，黄金短线仍可能承压。",
+        "追涨会降低对冲性价比。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        },
+        {
+          "title": "Summary of Economic Projections, June 17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "能源事件驱动",
+      "asset": "Energy Select Sector SPDR proxy",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 61,
+      "thesis": "EIA 2026-06-17 周报确认短线库存去化，但 STEO 仍提示全年需求压力，因此能源更像观察仓，而不是今天从科技切过去重仓的方向。",
+      "why_now": "相对科技主线，能源当前的确定性更弱，机会更偏交易而非配置。",
+      "catalysts": [
+        "2026-06-24：下一期 EIA 周报。",
+        "2026-07-07：下一期 EIA STEO。"
+      ],
+      "risks": [
+        "需求预期进一步下修会快速削弱库存利多。",
+        "油价波动未必线性传导到能源股。"
+      ],
+      "components": {
+        "theme_strength": 12,
+        "business_quality": 12,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report Summary for week ending June 12, 2026",
+          "publisher": "EIA",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Short-Term Energy Outlook: Global oil markets",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "国内科技上下游",
+      "asset": "国产半导体设备/材料链",
+      "ticker": "A-share upstream",
+      "note": "后续可继续扩展到设备、材料、封测，但必须优先建立在公司公告、季报或交易所披露足够扎实的前提下，避免把板块情绪误写成投资建议。"
+    },
+    {
+      "theme": "AI内存",
+      "asset": "Micron",
+      "ticker": "MU",
+      "note": "Micron 将于 2026-06-24 发布 fiscal Q3 results，适合拿来验证 AI 内存景气是否继续支撑上游科技链。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC statement 2026-06-17",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "label": "Federal Reserve SEP 2026-06-17",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf"
+    },
+    {
+      "label": "SMIC 1Q26 results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400908.pdf"
+    },
+    {
+      "label": "SMIC 4Q25 results and 2026 outlook",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0210/2026021000518.pdf"
+    },
+    {
+      "label": "Hua Hong 1Q26 results",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0514/2026051400506.pdf"
+    },
+    {
+      "label": "Hua Hong IR calendar",
+      "url": "https://www.huahonggrace.com/html/ir_calendar.php"
+    },
+    {
+      "label": "TSMC May 2026 Revenue Report",
+      "url": "https://pr.tsmc.com/english/news/3320"
+    },
+    {
+      "label": "TSMC 2026 Q1 Quarterly Results",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report summary",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook global oil markets",
+      "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+    },
+    {
+      "label": "Micron Q3 2026 earnings date",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-report-fiscal-third-quarter-results-june-24"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "tech",
+    "china-tech",
+    "semiconductors",
+    "ai",
+    "gold",
+    "macro"
+  ]
+}
