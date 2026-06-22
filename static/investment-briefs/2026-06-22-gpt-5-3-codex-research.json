@@ -1,0 +1,341 @@
+{
+  "date": "2026-06-22",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-06-22（监测版）",
+  "summary": "截至 2026-06-22（Asia/Shanghai），过去 24 小时没有足以改变组合方向的新增一级来源信号；窗口扩展到 72 小时后，有效增量仍集中在 2026-06-17 FOMC、2026-06-18 EIA 能源数据、2026-06-16 World Gold Council 央行黄金调查，以及 2026-06-24 的 NVIDIA 股东会和 Micron 财报待验证催化。组合判断维持：AI 上游最强但受高利率估值约束，黄金适合回撤型对冲，能源和机器人等待库存、订单与财报确认。以下动作标签为研究判断，不构成个性化投资建议。",
+  "macro": {
+    "regime": "利率维持限制性区间，通胀和能源冲击抬高折现率，主题资产以等待催化为主",
+    "bullets": [
+      "Federal Reserve 在 2026-06-17 以 12-0 投票维持联邦基金目标区间 3.50%-3.75%，并称经济活动稳健、通胀仍高于 2% 目标；成长股和 AI 资产需要盈利增速抵消折现率压力。",
+      "Federal Reserve 2026-06-17 经济预测材料显示，2026 年 PCE 通胀中位数为 3.6%、核心 PCE 为 3.3%，高于 2% 长期目标；这对黄金是政策误差对冲，对长久期科技股则是估值约束。",
+      "EIA Weekly Petroleum Status Report 于 2026-06-18 披露，截至 2026-06-12 美国炼厂投入均值为 17.2 百万桶/日，较前周增加 23 万桶/日，炼厂开工率为 96.7%；夏季油品需求有支撑，但仍需 2026-06-24 下一份周报确认库存方向。",
+      "EIA Weekly Natural Gas Storage Report 于 2026-06-18 显示，截至 2026-06-12 工作气库存为 2,759 Bcf，周增 73 Bcf；天然气库存缓冲降低了能源板块的全面紧缺叙事强度。",
+      "World Gold Council 于 2026-06-16 发布央行黄金储备调查：89% 的受访央行预计未来 12 个月全球央行黄金储备增加，45% 预计自身机构黄金储备增加；黄金的中期官方部门需求仍有支撑。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "FOMC target range",
+      "ticker": "Fed funds",
+      "price": "3.50%-3.75%",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "name": "FOMC 2026 median PCE inflation projection",
+      "ticker": "PCE",
+      "price": "3.6%",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+    },
+    {
+      "name": "U.S. refinery inputs, week ending 2026-06-12",
+      "ticker": "EIA WPSR",
+      "price": "17.2mn b/d",
+      "change_pct": 1.35,
+      "source_url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "name": "U.S. working gas in storage, week ending 2026-06-12",
+      "ticker": "Natural gas",
+      "price": "2,759 Bcf",
+      "change_pct": 2.72,
+      "source_url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "name": "Global gold ETF AUM, May 2026",
+      "ticker": "Gold ETFs",
+      "price": "US$604bn",
+      "change_pct": -2.0,
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/06"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 上游制造",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 80,
+      "thesis": "AI 算力资本开支仍是当前最清晰的结构性主线，TSMC 的投资者页面继续强调 2024-2029 年美元收入 CAGR 接近 25%、毛利率 56% 以上和高 20% ROE 的战略财务目标。但 2026-06-17 FOMC 显示通胀仍高、政策利率维持 3.50%-3.75%，因此更适合小仓位或回调确认，而不是追高。",
+      "why_now": "过去 24 小时缺少新的公司级硬披露；未来 72 小时的重点是 2026-06-24 NVIDIA 年度股东会和 Micron fiscal Q3 2026 results，二者会影响 AI 芯片和 HBM 需求链条的确认强度。",
+      "catalysts": [
+        "2026-06-24：NVIDIA 2026 annual meeting，投票事项来自 2026-05-12 proxy statement，会议回放计划保留至 2027-06-24。",
+        "2026-06-24：Micron fiscal Q3 2026 results，验证 HBM、服务器内存和 AI 资本开支需求。",
+        "2026-07-10：TSMC 预计披露 2026 年 6 月月度营收，验证 Q2 收入节奏。"
+      ],
+      "risks": [
+        "FOMC 2026-06-17 维持限制性利率区间，AI 上游估值扩张空间受限。",
+        "若 AI 供应链出现先进封装瓶颈、客户集中风险或出口管制扰动，TSM 的高增长预期可能被下修。",
+        "短线缺少新增财报数据，若 2026-06-24 Micron 指引低于预期，AI 内存链条可能拖累半导体情绪。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "TSMC Investors Overview",
+          "publisher": "TSMC",
+          "url": "https://investor.tsmc.com/english"
+        },
+        {
+          "title": "NVIDIA Stockholder Meeting Set for June 24",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Stockholder-Meeting-Set-for-June-24-Individuals-Can-Participate-Online/default.aspx"
+        },
+        {
+          "title": "Micron Technology to Report Fiscal Third Quarter Results on June 24, 2026",
+          "publisher": "Micron Investor Relations",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-report-fiscal-third-quarter-results-june-24"
+        },
+        {
+          "title": "Federal Reserve FOMC Statement, June 17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "黄金与宏观对冲",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 76,
+      "thesis": "黄金的核心逻辑从短线 ETF 动量转向央行需求、政策误差和实际利率对冲。World Gold Council 2026-06-16 调查显示央行对未来 12 个月黄金储备继续增加的预期强；但 2026 年 5 月黄金 ETF AUM 环比下降 2% 至 6040 亿美元，说明不宜追涨，更适合回撤配置。",
+      "why_now": "2026-06-17 FOMC 抬高 2026 年通胀预测并维持政策利率区间，黄金的对冲价值仍在；但 ETF 流量降温，入场节奏应等待价格回落或实际利率转弱。",
+      "catalysts": [
+        "2026-06-25：BEA Personal Income and Outlays for May 2026，重点看 PCE 和实际利率方向。",
+        "2026-07-14：U.S. Treasury 将发布 2026 年 5 月 TIC 数据，观察美元资产资金流变化。",
+        "2026 年 6 月下旬：LBMA 日度定盘价和 WGC ETF 数据继续验证价格与资金是否重新同步。"
+      ],
+      "risks": [
+        "如果实际利率重新上行或美元走强，GLD 可能继续回撤。",
+        "WGC May 2026 数据显示全球黄金 ETF AUM 环比下降 2%，资金流边际不如一季度强。",
+        "黄金不产生现金流，若 AI 主线继续高景气，组合机会成本会上升。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 14,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Central Bank Gold Reserves Survey 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2026"
+        },
+        {
+          "title": "Gold ETF Flows: May 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/06"
+        },
+        {
+          "title": "LBMA Precious Metal Prices",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/precious-metal-prices"
+        },
+        {
+          "title": "June 17, 2026 FOMC Projections",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源与油品库存",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "EIA 周报显示美国炼厂开工率维持高位，夏季油品需求有支撑；但天然气库存继续增加，能源板块并非全面紧缺。XLE 当前更像等待库存确认的观察仓位，而不是主动加仓窗口。",
+      "why_now": "2026-06-18 EIA 数据是过去 72 小时内能源方向最重要的一级来源；下一次 2026-06-24 WPSR 将决定短线油价风险溢价是否有库存去化支撑。",
+      "catalysts": [
+        "2026-06-24：EIA Weekly Petroleum Status Report，重点看原油、汽油、馏分油库存和炼厂开工率。",
+        "2026-06-25：EIA Weekly Natural Gas Storage Report，观察天然气库存缓冲是否继续压制能源 beta。",
+        "2026 年 7 月：能源公司 Q2 业绩开始验证油价与炼化利润对现金流的传导。"
+      ],
+      "risks": [
+        "如果下一份 EIA 周报显示库存没有继续去化，XLE 对油价反弹的 beta 可能回落。",
+        "天然气库存增至 2,759 Bcf，削弱能源紧缺叙事的广度。",
+        "能源股受地缘事件、美元和长端利率共同影响，短线噪音大。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report, data for week ending June 12, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Summary of Weekly Petroleum Data for the week ending June 12, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/storage/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人与自动化",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global ETF",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 62,
+      "thesis": "机器人主题的长期逻辑仍受益于工业自动化、物流自动化和 physical AI，但过去 72 小时缺少新的订单或业绩硬数据。ABB Q1 2026 结果显示订单和现金流有支撑，FANUC 年报披露股东会、分红和证券报告在 2026 年 6 月下旬进入日程；短线仍需 7 月财报季确认订单持续性。",
+      "why_now": "AI physical-world 叙事仍强，但机器人 ETF 内部权重分散，且没有新的重大一级催化，评级维持 C。",
+      "catalysts": [
+        "2026-07-16：ABB Q2 2026 results，验证 Motion 和 Automation 订单。",
+        "2026 年 7 月下旬：FANUC 下一次季度披露，观察中国和美洲机器人需求是否延续。",
+        "2026 年下半年：NVIDIA 机器人平台、工业数字孪生和边缘 AI 的商业化进度。"
+      ],
+      "risks": [
+        "工业自动化资本开支若被高利率和制造业放缓压制，机器人订单会滞后。",
+        "BOTZ 持仓分散，主题弹性可能弱于直接持有龙头公司。",
+        "physical AI 叙事强于当前收入确认，估值容易先于基本面波动。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 12,
+        "valuation_setup": 11,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "ABB Q1 2026 quarterly results",
+          "publisher": "ABB",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        },
+        {
+          "title": "FANUC Financial Results for the Year Ended March 31, 2026",
+          "publisher": "FANUC",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/pdf/2026/financialresult202603_e.pdf"
+        },
+        {
+          "title": "Global X Robotics & Artificial Intelligence ETF",
+          "publisher": "Global X",
+          "url": "https://www.globalxetfs.com/funds/botz/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI memory",
+      "asset": "Micron Technology",
+      "ticker": "MU",
+      "note": "2026-06-24 fiscal Q3 results 是 HBM 与 AI 内存链条的下一次硬验证。"
+    },
+    {
+      "theme": "AI infrastructure governance",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "note": "2026-06-24 annual meeting 观察 proxy vote 和管理层表述。"
+    },
+    {
+      "theme": "Energy inventory",
+      "asset": "EIA WPSR",
+      "ticker": "Oil",
+      "note": "2026-06-24 周报确认美国油品库存是否继续去化。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "BEA PCE",
+      "ticker": "PCE",
+      "note": "2026-06-25 May 2026 Personal Income and Outlays 将影响实际利率、黄金和成长股估值。"
+    },
+    {
+      "theme": "Robotics",
+      "asset": "ABB",
+      "ticker": "ABBN SW",
+      "note": "2026-07-16 Q2 results 是工业自动化订单的下一次硬验证。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC statement, 2026-06-17",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "label": "Federal Reserve June 2026 projections",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR summary PDF",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "label": "World Gold Council Central Bank Gold Reserves Survey 2026",
+      "url": "https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2026"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: May 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/06"
+    },
+    {
+      "label": "LBMA Precious Metal Prices",
+      "url": "https://www.lbma.org.uk/prices-and-data/precious-metal-prices"
+    },
+    {
+      "label": "TSMC Investors Overview",
+      "url": "https://investor.tsmc.com/english"
+    },
+    {
+      "label": "NVIDIA stockholder meeting notice",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Stockholder-Meeting-Set-for-June-24-Individuals-Can-Participate-Online/default.aspx"
+    },
+    {
+      "label": "Micron fiscal Q3 2026 call notice",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-report-fiscal-third-quarter-results-june-24"
+    },
+    {
+      "label": "ABB quarterly results",
+      "url": "https://global.abb/group/en/investors/quarterly-results"
+    },
+    {
+      "label": "FANUC FY2026 financial results",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/pdf/2026/financialresult202603_e.pdf"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
