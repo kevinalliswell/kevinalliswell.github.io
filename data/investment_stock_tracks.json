@@ -1,0 +1,62 @@
+{
+  "lookback_days": 365,
+  "source_label": "GPT-5.3-codex",
+  "tracks": [
+    {
+      "id": "shengquan-group",
+      "type": "stock",
+      "name": "圣泉集团",
+      "ticker": "605589.SH",
+      "secid": "1.605589",
+      "yahoo_symbol": "605589.SS",
+      "theme": "合成生物 / 高性能材料",
+      "note": "用户指定单股；用于跟踪日线趋势、回撤和均线状态。",
+      "source_url": "https://quote.eastmoney.com/sh605589.html"
+    },
+    {
+      "id": "mlcc-basket",
+      "type": "basket",
+      "name": "MLCC 主题篮子",
+      "ticker": "MLCC basket",
+      "theme": "MLCC / 被动元件",
+      "note": "MLCC 不是单一证券代码，先以 A 股代表性公司做等权归一化篮子；后续可在 members 中增删标的。",
+      "members": [
+        {
+          "name": "三环集团",
+          "ticker": "300408.SZ",
+          "secid": "0.300408",
+          "yahoo_symbol": "300408.SZ",
+          "source_url": "https://quote.eastmoney.com/sz300408.html"
+        },
+        {
+          "name": "风华高科",
+          "ticker": "000636.SZ",
+          "secid": "0.000636",
+          "yahoo_symbol": "000636.SZ",
+          "source_url": "https://quote.eastmoney.com/sz000636.html"
+        },
+        {
+          "name": "洁美科技",
+          "ticker": "002859.SZ",
+          "secid": "0.002859",
+          "yahoo_symbol": "002859.SZ",
+          "source_url": "https://quote.eastmoney.com/sz002859.html"
+        },
+        {
+          "name": "国瓷材料",
+          "ticker": "300285.SZ",
+          "secid": "0.300285",
+          "yahoo_symbol": "300285.SZ",
+          "source_url": "https://quote.eastmoney.com/sz300285.html"
+        },
+        {
+          "name": "昀冢科技",
+          "ticker": "688260.SH",
+          "secid": "1.688260",
+          "yahoo_symbol": "688260.SS",
+          "source_url": "https://quote.eastmoney.com/sh688260.html"
+        }
+      ]
+    }
+  ]
+}
