@@ -45,6 +45,13 @@ author: "Kevin"
 - **2026-07-10：TSMC June monthly revenue**，验证 AI 上游需求是否延续。
 - **2026-07-16：ABB Q2 2026 results**，机器人与工业自动化方向的下一次硬验证。
 
+## 指定股票曲线跟踪
+
+- 当前默认跟踪：**圣泉集团（605589.SH）** 与 **MLCC 主题篮子**。
+- [HTML 曲线面板](/investment-briefs/stock-tracks/stock-history-tracker-latest.html)
+- [Markdown 摘要](/investment-briefs/stock-tracks/stock-history-tracker-latest.md)
+- [结构化 JSON](/investment-briefs/stock-tracks/stock-history-tracker-latest.json)
+
 ## 原始产物
 
 - [Markdown 原稿](/investment-briefs/2026-06-24-投资晨报-2026-06-24-监测版-from-gpt-5-3-codex.md)

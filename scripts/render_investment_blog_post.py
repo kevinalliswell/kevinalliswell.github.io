@@ -172,6 +172,35 @@ def render_blog_post(payload: dict[str, Any]) -> str:
             )
         lines.append("")
 
+    stock_tracker = payload.get("stock_tracker")
+    if stock_tracker is not False:
+        tracker_html = (
+            stock_tracker.get("html")
+            if isinstance(stock_tracker, dict)
+            else "/investment-briefs/stock-tracks/stock-history-tracker-latest.html"
+        )
+        tracker_md = (
+            stock_tracker.get("markdown")
+            if isinstance(stock_tracker, dict)
+            else "/investment-briefs/stock-tracks/stock-history-tracker-latest.md"
+        )
+        tracker_json = (
+            stock_tracker.get("json")
+            if isinstance(stock_tracker, dict)
+            else "/investment-briefs/stock-tracks/stock-history-tracker-latest.json"
+        )
+        lines.extend(
+            [
+                "## 指定股票曲线跟踪",
+                "",
+                "- 当前默认跟踪：圣泉集团（605589.SH）与 MLCC 主题篮子。",
+                f"- [HTML 曲线面板]({tracker_html})",
+                f"- [Markdown 摘要]({tracker_md})",
+                f"- [结构化 JSON]({tracker_json})",
+                "",
+            ]
+        )
+
     lines.extend(
         [
             "## 原始产物",
