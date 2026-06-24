@@ -3,7 +3,7 @@
 自动为博客文章补全分类（categories）。
 
 规则：
-  content/posts/news/     → ["日报"]
+  content/news/     → ["日报"]
   content/posts/work/     → ["工作"]
   content/posts/life/     → ["生活"]
   content/posts/*.md      → ["技术"]  (根目录默认)
@@ -17,7 +17,7 @@ from pathlib import Path
 
 # 路径 → 分类 映射
 CATEGORY_RULES = {
-    "content/posts/news/": '["日报"]',
+    "content/news/": '["日报"]',
     "content/posts/work/": '["工作"]',
     "content/posts/life/": '["生活"]',
 }
