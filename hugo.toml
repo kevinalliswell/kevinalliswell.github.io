@@ -33,10 +33,18 @@ hasCJKLanguage = true
       icon = "archives"
 
   [[menu.main]]
+    identifier = "news"
+    name       = "日报"
+    url        = "/news/"
+    weight     = 3
+    [menu.main.params]
+      icon = "newspaper"
+
+  [[menu.main]]
     identifier = "archives"
     name       = "归档"
     url        = "/archives/"
-    weight     = 3
+    weight     = 4
     [menu.main.params]
       icon = "archives"
 
@@ -44,7 +52,7 @@ hasCJKLanguage = true
     identifier = "search"
     name       = "搜索"
     url        = "/search/"
-    weight     = 4
+    weight     = 5
     [menu.main.params]
       icon = "search"
 
@@ -52,7 +60,7 @@ hasCJKLanguage = true
     identifier = "about"
     name       = "关于"
     url        = "/about/"
-    weight     = 5
+    weight     = 6
     [menu.main.params]
       icon = "user"
 
@@ -87,7 +95,7 @@ hasCJKLanguage = true
   [params.sidebar]
     compact  = false
     subtitle = "这里是我的数字花园，记录工作笔记、热点观察与生活随笔。"
-    avatar   = ""
+    avatar   = "img/avatar.png"
 
   [params.footer]
     since      = 2026

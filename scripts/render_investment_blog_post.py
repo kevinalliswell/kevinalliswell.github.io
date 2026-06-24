@@ -242,7 +242,7 @@ def main(argv: list[str]) -> int:
     output_path = (
         Path(argv[2])
         if len(argv) > 2
-        else Path("content/posts/news") / f"investment-brief-{payload['date']}-gpt-5-3-codex.md"
+        else Path("content/news") / f"investment-brief-{payload['date']}-gpt-5-3-codex.md"
     )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)

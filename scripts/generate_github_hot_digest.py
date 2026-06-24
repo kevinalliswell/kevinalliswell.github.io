@@ -599,7 +599,7 @@ def main(argv: list[str]) -> int:
     output_path = (
         Path(argv[2])
         if len(argv) > 2
-        else Path("content/posts/news") / f"github-hot-{report_date.isoformat()}.md"
+        else Path("content/news") / f"github-hot-{report_date.isoformat()}.md"
     )
 
     settings = Settings.from_env()

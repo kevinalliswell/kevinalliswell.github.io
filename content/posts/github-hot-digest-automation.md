@@ -108,7 +108,7 @@ flowchart LR
 
 - 每天北京时间 7 点触发
 - 执行生成脚本
-- 把日报写到 `content/posts/news/`
+- 把日报写到 `content/news/`
 - 自动 commit 回仓库
 
 博客本身已有 `hugo.yml`，所以新文章一进入 `main`，站点就会自动部署。
