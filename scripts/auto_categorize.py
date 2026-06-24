@@ -2,32 +2,46 @@
 """
 自动为博客文章补全分类（categories）。
 
-规则：
-  content/news/     → ["日报"]
-  content/posts/work/     → ["工作"]
-  content/posts/life/     → ["生活"]
-  content/posts/*.md      → ["技术"]  (根目录默认)
+规则（按路径/文件名前缀匹配，先匹配先用）：
+  content/news/ai-digest-*        → ["日报"]
+  content/news/github-hot-*       → ["热点新闻"]
+  content/news/investment-brief-* → ["投资观察"]
+  content/posts/work/             → ["工作"]
+  content/posts/life/             → ["生活"]
+  content/posts/*.md（根目录）    → ["技术"]（默认）
 
-只处理 categories 为空或缺失的文章，不会覆盖已有分类。
+只处理 categories 为空或缺失的文章，不会覆盖已有分类；
+content/news/ 下的日报通常已由各自生成脚本写好分类，此处仅作兜底。
+section/分类落地页（_index.md）会被跳过，避免被误加分类。
 """
 
 import re
 import sys
 from pathlib import Path
 
-# 路径 → 分类 映射
+# 路径/文件名前缀 → 分类 映射（dict 有序，靠前的优先匹配）
 CATEGORY_RULES = {
-    "content/news/": '["日报"]',
+    "content/news/ai-digest": '["日报"]',
+    "content/news/github-hot": '["热点新闻"]',
+    "content/news/investment-brief": '["投资观察"]',
     "content/posts/work/": '["工作"]',
     "content/posts/life/": '["生活"]',
 }
 DEFAULT_CATEGORY = '["技术"]'
 
+# 扫描的内容目录
+CONTENT_DIRS = ("content/posts", "content/news")
+
+# 这些目录下的 markdown 是页面捆绑资源（配图提示词、大纲等），不是文章，跳过
+SKIP_DIR_PARTS = {"imgs", "prompts"}
+
 
 def detect_category(filepath: str) -> str:
-    """根据文件路径确定分类。"""
+    """根据文件路径/文件名确定分类。"""
+    # 统一成正斜杠，保证 Windows / POSIX 下前缀匹配一致
+    normalized = filepath.replace("\\", "/")
     for prefix, category in CATEGORY_RULES.items():
-        if prefix in filepath:
+        if prefix in normalized:
             return category
     return DEFAULT_CATEGORY
 
@@ -89,26 +103,33 @@ def fix_category(content: str, category: str) -> str:
 
 
 def main():
-    content_dir = Path("content/posts")
-    if not content_dir.exists():
-        print("content/posts not found, skipping.")
-        return
-
     fixed_files = []
 
-    for md_file in content_dir.rglob("*.md"):
-        filepath = str(md_file)
-        content = md_file.read_text(encoding="utf-8")
-
-        if not needs_category_fix(content):
+    for base in CONTENT_DIRS:
+        content_dir = Path(base)
+        if not content_dir.exists():
             continue
 
-        category = detect_category(filepath)
-        new_content = fix_category(content, category)
+        for md_file in content_dir.rglob("*.md"):
+            # 跳过 section / 分类落地页
+            if md_file.name == "_index.md":
+                continue
+            # 跳过页面捆绑里的资源型 markdown（imgs/ 配图提示词、大纲等）
+            if SKIP_DIR_PARTS & set(md_file.parts):
+                continue
 
-        if new_content != content:
-            md_file.write_text(new_content, encoding="utf-8")
-            fixed_files.append(f"  {filepath} → {category}")
+            filepath = str(md_file)
+            content = md_file.read_text(encoding="utf-8")
+
+            if not needs_category_fix(content):
+                continue
+
+            category = detect_category(filepath)
+            new_content = fix_category(content, category)
+
+            if new_content != content:
+                md_file.write_text(new_content, encoding="utf-8")
+                fixed_files.append(f"  {filepath} → {category}")
 
     if fixed_files:
         print(f"Auto-categorized {len(fixed_files)} file(s):")

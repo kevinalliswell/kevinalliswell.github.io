@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'content/posts/**/*.md'
+      - 'content/news/**/*.md'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
@@ -36,6 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/posts/
+          git add content/posts/ content/news/
           git commit -m "chore: auto-categorize new posts"
           git push
