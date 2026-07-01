@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-01（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-01（监测版）</h1>
+      <p class="meta">2026-07-01 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-07-01 08:30（Asia/Shanghai），相对 2026-06-30 晨报没有发现足以重排 AI、机器人、能源、黄金主题的重大新增一级来源信号。判断上仍是 AI 内存和数据中心电力链最强，NVIDIA 保持核心但等待回撤，黄金和能源以数据确认而非追价为主，机器人产业数据改善但上市资产确认不足。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>风险偏好仍偏向 AI，通胀和能源数据限制久期与黄金仓位的进攻性</strong></p>
+      <ul><li>BEA 于 2026-06-25 发布的 2026 年 5 月 PCE 显示，PCE 价格指数环比上涨 0.4%，核心 PCE 环比上涨 0.3%，同比 PCE 为 4.1%、核心 PCE 为 3.4%；这使实际利率和美联储路径仍是黄金与长久期成长股的共同约束。</li><li>EIA 2026-06-25 发布的周度石油数据（截至 2026-06-19）显示商业原油库存减少 610 万桶、库存约低于五年均值 7%，但汽油和馏分油库存分别增加 210 万桶和 310 万桶，油气权益需要等待 2026-07-01 的下一份 WPSR 确认需求质量。</li><li>EIA 天然气库存报告显示，截至 2026-06-19 美国 Lower 48 工作气库存为 2,835 Bcf，周增 76 Bcf，高于五年均值 152 Bcf；天然气价格上行弹性仍受库存缓冲约束。</li><li>FERC 2026-06-18 对六家 RTO/ISO 启动大型负荷接入规则改革程序，30 天信息报告与 60 天 tariff 响应构成 2026 年 7-8 月 AI 电力链催化窗口。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>NVIDIA</td>
+          <td>NVDA</td>
+          <td>200.09</td>
+          <td>+2.53%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/stocks/nvda">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Micron Technology</td>
+          <td>MU</td>
+          <td>1154.29</td>
+          <td>+0.53%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/stocks/mu">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund</td>
+          <td>GRID</td>
+          <td>191.75</td>
+          <td>+1.74%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/etf/grid">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>SPDR Gold Shares</td>
+          <td>GLD</td>
+          <td>368.38</td>
+          <td>-0.05%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/funds-and-etfs/gld">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Global X Robotics &amp; Artificial Intelligence ETF</td>
+          <td>BOTZ</td>
+          <td>37.94</td>
+          <td>+2.90%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/funds-and-etfs/botz">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Energy Select Sector SPDR Fund</td>
+          <td>XLE</td>
+          <td>53.11</td>
+          <td>-0.82%</td>
+          <td><a href="https://www.nasdaq.com/market-activity/funds-and-etfs/xle">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-A">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 内存、HBM 与数据中心存储</p>
+                  <h2>Micron Technology <span>MU</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>A</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 86/100</p>
+              <div class="bar"><span class="fill" style="width:86%"></span></div>
+              <p>Micron 是本轮 AI 基础设施中基本面边际最清晰的公开资产之一：2026-06-24 的 SEC Exhibit 99.1 显示 FQ3 FY2026 收入、毛利率、经营现金流和 FQ4 指引同时上修，并披露 HBM4 已进入主要客户平台高量出货。组合动作应是逢回撤加，而不是在单日强势后追高。</p>
+              <p><strong>Why now:</strong> 过去 24 小时没有新的公司文件改变结论；但 2026-06-24 业绩仍是本周最强一级来源信号，2026-07-06 股息登记日和后续客户/产能信息是短期确认点。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-06：季度股息登记日，观察强业绩后资金是否继续留在 AI 内存主线。</li><li>2026 年 7-8 月：HBM4、高容量 SSD 与服务器生态客户资格认证的后续披露。</li><li>下一次财报前：若客户长期协议转化为更高可见度的产能预付款或毛利稳定性，评级可维持 A。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>业绩数据极强，估值和预期已快速抬升，短线回撤风险高。</li><li>AI 客户集中度、HBM 产能扩张、DRAM/NAND 周期反转可能放大盈利波动。</li><li>若 FQ4 收入指引或 HBM4 出货节奏被下修，A 级需要降为 B。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm">Micron FQ3 FY2026 results, Exhibit 99.1</a></li><li><a href="https://investors.micron.com/static-files/23023765-dfef-4e7e-845b-cd744fc20d93">Micron Form 10-Q filed 2026-06-25</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 数据中心电力与电网基础设施</p>
+                  <h2>First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund <span>GRID</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>AI 数据中心的瓶颈正在从芯片供给扩展到电力接入、输电和并网流程。FERC 2026-06-18 要求六家 RTO/ISO 就大型负荷接入规则进行说明或改革，把电网设备、规划软件和输电基础设施的订单可见度放进 2026 年 7-8 月的政策催化窗口。</p>
+              <p><strong>Why now:</strong> 2026-07-18 附近的 30 天信息报告窗口和 2026-08-17 附近的 60 天 tariff 响应窗口开始进入可交易日历；但该主题仍缺少单一公司层面的确认，因此只适合小仓试探。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-18 左右：RTO/ISO 信息报告披露可用电源和大型负荷接入计划。</li><li>2026-08-17 左右：RTO/ISO tariff 说明或改革文件可能提高电网资本开支可见度。</li><li>2026 年二季度至三季度电气设备公司订单和 backlog 披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>ETF 持仓分散，不能精准捕捉某一类电网设备订单。</li><li>监管改革可能推迟，且成本分摊争议会拖慢项目落地。</li><li>若 AI 数据中心融资或电力采购放缓，电网主题会跟随估值压缩。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration">FERC launches large-load integration action</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm">NVIDIA Q1 FY2027 Form 10-Q risk factors on data center energy and capital</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 基础设施与加速计算</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 77/100</p>
+              <div class="bar"><span class="fill" style="width:77%"></span></div>
+              <p>NVIDIA 的基本面仍强：FY2027 Q1 10-Q 显示总收入同比增长 85%，Data Center 收入同比增长 92%，Blackwell 300、InfiniBand、Spectrum-X 和 NVLink 是增长主因。但估值、能源接入、供应链长交期和中国数据中心计算市场受限使得新增仓位需要等回撤。</p>
+              <p><strong>Why now:</strong> 本窗口没有新的 NVIDIA 一级文件；2026-06-30 股价继续强势，强化动量但不构成新的基本面确认。操作上把它放在 MU 和 GRID 之后，只在回撤或新订单/供应确认时加仓。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 年 7-8 月：云厂商资本开支和 AI 集群建设披露验证 Blackwell/网络需求。</li><li>2026 年下半年：Rubin 平台开始出货预期和 Blackwell 300 供应链爬坡更新。</li><li>任何关于中国合规数据中心产品、出口管制或主权 AI 订单的官方披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>SEC 10-Q 明确提示数据中心容量、能源和资本获取能力可能影响客户部署。</li><li>中国数据中心计算市场受出口管制影响，竞争生态风险上升。</li><li>估值对需求持续超预期高度敏感，若 hyperscaler capex 放慢会压缩倍数。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm">NVIDIA Q1 FY2027 Form 10-Q</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率与风险对冲</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>黄金仍适合作为组合保险，但不是本窗口最强进攻资产。World Gold Council 2026-06-04 的 5 月 ETF flow 报告显示全球黄金 ETF 5 月小幅流出 20 亿美元、持仓降至 4,121 吨，但年初至今仍净流入近 170 亿美元；这说明长期配置逻辑未破，短期需要利率或风险事件催化。</p>
+              <p><strong>Why now:</strong> 2026-06-30 GLD 小幅回落，且 BEA 5 月 PCE 仍偏高；在 2026-07-08 FOMC minutes 和 2026-07-14 CPI 前，黄金更适合逢低补保险仓而不是追涨。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-08：FOMC minutes 中关于通胀粘性、实际利率和政策限制性的表述。</li><li>2026-07-14：BLS CPI 验证 5 月 PCE 后的通胀压力是否延续。</li><li>2026 年 7 月 WGC/ETF flow 更新，观察北美黄金 ETF 是否恢复流入。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若美债实际利率和美元继续上行，黄金 ETF 资金可能继续流出。</li><li>风险偏好继续集中在 AI/科技，黄金会输给成长股 beta。</li><li>若地缘风险缓和，保险仓短期回报可能弱。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/06">Gold ETF Flows: May 2026</a></li><li><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026">Personal Income and Outlays, May 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人与工业自动化</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>IFR 2026-06-18 的初步数据确认美国工业机器人安装量在 2025 年同比增长 11% 至 38,000 台，食物工业和非制造场景需求扩散。但上市公司层面的订单、利润率和估值确认仍不足，BOTZ 更适合作为观察篮子。</p>
+              <p><strong>Why now:</strong> 2026-06-30 BOTZ 价格动量强，但本窗口没有新的机器人公司财报或订单文件；产业改善与可投资盈利确认之间仍有距离。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 年 7-8 月：自动化公司二季度订单、book-to-bill 和毛利率披露。</li><li>中国 2026-2030 机器人政策和美国 National Robotics Strategy 相关预算或采购文件。</li><li>机器人公司若披露 AI/physical AI 相关订单占比，评级可上调。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>ETF 权重中 AI 半导体和机器人纯标的混杂，主题暴露不够纯。</li><li>工业自动化订单可能受制造业 PMI 和资本开支周期拖累。</li><li>若二季度自动化订单没有改善，当前价格动量容易回吐。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth">US Robot Industry Returns to Double Digit Growth</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">油气库存、成品油需求与能源现金流</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>EIA 截至 2026-06-19 的 WPSR 显示原油库存明显去库，但汽油和馏分油库存增加，天然气库存也高于五年均值。能源权益的现金流仍有支撑，但本窗口的供需信号不够干净，不适合提高评级。</p>
+              <p><strong>Why now:</strong> 2026-07-01 EIA WPSR 是当天最重要的能源确认点；若原油去库延续且成品油累库改善，XLE 可从 C 上调至 B，否则继续观察。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-01：EIA Weekly Petroleum Status Report，重点看商业原油、汽油、馏分油和 implied demand。</li><li>2026-07-02：EIA 天然气库存报告，验证注气速度与五年均值差距。</li><li>2026 年二季度油气公司财报，观察资本开支纪律和回购强度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>成品油库存继续累积会削弱夏季需求叙事。</li><li>天然气库存高于五年均值，气价上行缺少库存约束。</li><li>若全球增长预期下修，油价 beta 会压过股东回报逻辑。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">Weekly Petroleum Status Report summary, week ending 2026-06-19</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage Report, week ending 2026-06-19</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
