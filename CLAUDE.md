@@ -94,30 +94,29 @@ git commit -m "feat: add xxx article"
 git push origin main
 ```
 
-## 图片生成（第三方中转 qhaigc）
+## 图片生成（第三方中转 xingwan）
 
-文章配图默认用 `kevin-blog-post` skill 调 `baoyu-image-gen`。本仓库另配了一个第三方中转
-（`api.qhaigc.net`，OpenAI 兼容，借道 openrouter provider），用包装脚本调用：
+文章配图用 `kevin-blog-post` skill 调 `baoyu-image-gen`。本仓库配了一个第三方中转
+（`xingwan.store`，OpenAI 兼容，借道 openai provider 的 `/v1/images/generations`），用包装脚本调用：
 
 ```bash
-# 默认模型 gemini-2.5-flash-image（该站当前可用，已实测）
-.baoyu-skills/qhaigc-gen.sh --prompt "..." --image out.png --ar 16:9
-.baoyu-skills/qhaigc-gen.sh --promptfiles p.md --image out.png --ar 16:9
-
-# 切换模型（如 3.1 恢复供货 / 其它可用模型）
-.baoyu-skills/qhaigc-gen.sh --prompt "..." --image out.png \
-    --model gemini-3.1-flash-image-preview --ar 16:9
-# 其它同站可用模型：nano-banana-pro | seedream-5
+# 默认模型 gpt-image-2（该站当前唯一可用图像模型，已实测中文清晰）
+.baoyu-skills/xingwan-gen.sh --prompt "..." --image out.png --ar 16:9
+.baoyu-skills/xingwan-gen.sh --promptfiles p.md --image out.png --ar 16:9
 ```
 
 要点：
-- key 与端点写在 `.baoyu-skills/qhaigc-gen.sh` 内（含密钥，已被 `.gitignore` 忽略，勿提交/分享）。
-- 该站模型名**不带 `google/` 前缀**（用裸名 `gemini-2.5-flash-image`）。
-- `gemini-3.1-flash-image-preview` 该站常报 503「模型暂时不可用」，恢复供货后再用 `--model` 切回。
-- 配套补丁：`~/.claude/skills/baoyu-image-gen/scripts/providers/openrouter.ts` 已扩展以解析该站
-  「markdown 包裹 data URL」的响应（同目录有 `.bak` 备份可回滚）。
-- **不要**把 `OPENROUTER_*` 写进 `.baoyu-skills/.env`：脚本会先加载全局 `~/.baoyu-skills/.env`
-  且不覆盖，导致真 key 被误发往第三方。务必用包装脚本。
+- key 与端点写在 `.baoyu-skills/xingwan-gen.sh` 内（含密钥，已被 `.gitignore` 忽略，勿提交/分享）。
+- **必须绕过本机代理**：本机 `127.0.0.1:7897` 代理对长连接有 ~20s 超时，而 gpt-image-2 出一张详细
+  中文信息图约需 60~90s，走代理必被重置（表现为 `Error in the HTTP2 framing layer` / `socket closed` /
+  `HTTP 000`）。包装脚本已 `unset HTTP(S)_PROXY` 并设 `NO_PROXY=xingwan.store`，**务必用包装脚本**，
+  别直接 `bun main.ts`（会走代理而失败）。
+- gpt-image-2 出图慢（约 60~90s/张），`--ar 16:9` 映射为 `1536x1024`，实测返回约 `1672x941`（≈16:9）横图。
+- 中文渲染质量优秀（标题、表格、多行说明都清晰），且会自动补全合理内容，很适合信息图；比之前的
+  gemini flash 更细致。
+- 该站 `/v1/models` 目前只列出 `gpt-image-2` 一个模型；换模型用 `--model <id>`（需该站支持）。
+- **不要**把 `OPENAI_*` 写进 `.baoyu-skills/.env`：脚本会先加载全局 `~/.baoyu-skills/.env` 且不覆盖，
+  可能把真 OpenAI key 误发往第三方。务必用包装脚本（脚本里已 `export` 覆盖）。
 
 ## 自动化
 
