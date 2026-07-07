@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-07（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-07（监测版）</h1>
+      <p class="meta">2026-07-07 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-07-07 08:08（Asia/Shanghai），过去 24 小时没有发现足以改变 AI、机器人、能源、黄金排序的重大一级来源增量；本期采用 72 小时窗口复核 2026-07-02 至 2026-07-06 的官方数据。组合判断维持：AI 核心链只在回撤时加，Tesla 等 2026-07-22 财报确认，能源可小仓试探但不追高，黄金保留保险仓，机器人继续等订单或资本回报执行。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>披露窗口偏薄，实际利率仍约束久期资产；能源库存偏紧但需求不完整，黄金等待 CPI 和实际利率确认。</strong></p>
+      <ul><li>U.S. Treasury 2026-07-06 日度曲线显示 2 年期、10 年期、30 年期名义收益率分别为 4.13%、4.48%、4.99%；10 年期仍处高位，限制 AI 高估值资产的追涨空间。</li><li>BLS 2026-07-02 发布的 2026 年 6 月 Employment Situation 是本期最新官方劳动力输入；投资判断上需等待 2026-07-14 CPI 与 2026-07-08 FOMC minutes 交叉确认折现率方向。</li><li>EIA 2026-07-01 周报显示，截至 2026-06-26 美国商业原油库存为 4.084 亿桶、低于五年均值约 7%；汽油库存也低于五年均值约 7%，但汽油产品供应四周均值同比下降 2.6%。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>US 10Y Treasury Yield</td>
+          <td>US10Y</td>
+          <td>4.48%</td>
+          <td>-0.01%</td>
+          <td><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_yield_curve">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Commercial Crude Inventories</td>
+          <td>EIA-WPSR</td>
+          <td>408.4 million barrels</td>
+          <td>-0.93%</td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Tesla Q2 2026 Deliveries</td>
+          <td>TSLA</td>
+          <td>480,126 vehicles</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/exhibit99111111.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Tesla Q2 2026 Energy Deployments</td>
+          <td>TSLA Energy</td>
+          <td>13.5 GWh</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/exhibit99111111.htm">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 基础设施、加速计算与数据中心资本开支</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>AI 算力需求仍是最强结构主线，但 2026-07-02 至 2026-07-06 的 NVIDIA 一级来源主要是销售负责人退休相关 8-K 和 Form 4，并非新增订单或业绩指引。判断上维持核心持仓或回撤买入，避免在没有新基本面确认时追高。</p>
+              <p><strong>Why now:</strong> 2026-07-02 NVIDIA 8-K 披露 Ajay K. Puri 将在继任者入职时从 Worldwide Field Operations 负责人职位退休；这是销售组织延续性监测项，不构成需求恶化证据，也不是订单催化。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 年未来 1-2 个季度的 NVIDIA、Broadcom、AMD、TSMC 财报与客户资本开支指引，验证 AI 服务器、网络和推理需求是否继续上修。</li><li>2026-07-08 FOMC minutes 与 2026-07-14 CPI 若压低长端实际利率，将改善 AI 高估值资产的风险调整入场点。</li><li>数据中心电力、网络和内存供应链若继续给出订单或价格确认，可提高 AI 基础设施链的评分。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>NVIDIA 2026-07-02 8-K 是管理层变化而非需求披露；若继任安排、渠道节奏或客户集中度出现扰动，需要下调执行质量分。</li><li>U.S. Treasury 2026-07-06 10 年期收益率仍为 4.48%，估值久期较长的 AI 龙头不适合在无新增基本面确认时扩大仓位。</li><li>出口管制、客户资本开支节奏、数据中心电力瓶颈和毛利率回落是主要 thesis breakers。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm">NVIDIA Form 8-K, 2026-07-02 filing date</a></li><li><a href="https://data.sec.gov/submissions/CIK0001045810.json">NVIDIA recent company filings</a></li><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_yield_curve">Daily Treasury Par Yield Curve Rates, 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">能源库存、油气现金流与通胀尾部风险</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>EIA 周报给出库存偏紧信号，原油和汽油库存均约低于五年均值 7%，对上游现金流和通胀对冲有支撑。但汽油产品供应四周均值同比下降 2.6%，说明需求质量不够干净，动作应限于小仓试探或回调承接。</p>
+              <p><strong>Why now:</strong> EIA 2026-07-01 发布的截至 2026-06-26 周报显示，美国商业原油库存下降 380 万桶至 4.084 亿桶，汽油库存下降 230 万桶，炼厂开工率为 96.6%。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-08 下一期 EIA WPSR 若继续显示原油/汽油去库，同时产品供应改善，XLE 可从试探仓升为更积极配置。</li><li>2026-07-14 CPI 若显示能源或服务通胀韧性，能源股的通胀尾部保护价值上升。</li><li>未来公司财报若确认资本开支纪律和股东回报维持，XLE 的估值支撑增强。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>EIA 同一期报告显示汽油产品供应四周均值同比下降 2.6%、馏分油产品供应同比下降 1.9%，需求端不够强。</li><li>若 OPEC、美国供应或宏观需求预期转弱导致油价回落，库存去化对权益的传导会被削弱。</li><li>能源是周期资产，不宜把单周库存变化当成长期需求确认。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">Summary of Weekly Petroleum Data for the week ending June 26, 2026</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">电动车、储能与具身智能期权</p>
+                  <h2>Tesla <span>TSLA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 70/100</p>
+              <div class="bar"><span class="fill" style="width:70%"></span></div>
+              <p>Tesla Q2 2026 交付和储能部署给出运营量信号：交付 480,126 辆、储能部署 13.5 GWh。但公司明确提示净利润和现金流要等 2026-07-22 Q2 earnings，交付/部署不应被单独视为季度财务表现指标。</p>
+              <p><strong>Why now:</strong> Tesla 2026-07-02 8-K exhibit 99.1 披露 Q2 生产 451,758 辆、交付 480,126 辆、储能部署 13.5 GWh，并公告 2026-07-22 盘后发布 Q2 财报和 webcast。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-22 Tesla Q2 FY2026 财报：重点看汽车毛利、储能利润率、自由现金流、资本开支与机器人/自动驾驶披露。</li><li>若储能 13.5 GWh 部署能转化为高质量毛利和现金流，Tesla 的能源业务估值权重可上修。</li><li>任何具身智能、Robotaxi 或 FSD 商业化进度必须用监管文件、财报或公司正式材料验证。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Tesla 在 2026-07-02 exhibit 中明确称交付和储能部署只是两个运营指标，不应被依赖为季度财务结果指标。</li><li>平均售价、成本、外汇、库存和 10-Q 披露可能抵消交付量的正面解读。</li><li>估值对执行和叙事敏感，缺少毛利/现金流确认前不适合提升到 A。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm">Tesla Form 8-K, 2026-07-02</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/exhibit99111111.htm">Tesla Second Quarter 2026 Production, Deliveries &amp; Deployments</a></li><li><a href="https://data.sec.gov/submissions/CIK0001318605.json">Tesla recent company filings</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率与组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>黄金仍适合作为组合保险，但 2026-07-06 没有足以把保险仓升级为进攻仓的一级来源增量。10 年期名义收益率 4.48% 仍是压力项；下一步需要 CPI、实际利率和 ETF 流量共同确认。</p>
+              <p><strong>Why now:</strong> World Gold Council ETF 数据页 2026-06-29 更新，Treasury 2026-07-06 日度收益率显示长端利率仍高；在缺少新的央行/ETF 强流入确认前，GLD 维持 C 级监测。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-14 CPI 若低于预期并压低实际利率，黄金可从保险仓转为更积极配置。</li><li>World Gold Council 后续 ETF holdings and flows 若显示持续净流入，可验证资金面。</li><li>美元走弱、央行购金披露或地缘风险升温都可能改善黄金的风险调整收益。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若 10 年期收益率继续维持高位或美元走强，GLD 的机会成本上升。</li><li>ETF 流量若转为流出，黄金权益和矿商弹性资产可能承压。</li><li>黄金不产生现金流，仓位应按保险属性而非成长资产处理。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">Gold ETFs, holdings and flows</a></li><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_yield_curve">Daily Treasury Par Yield Curve Rates, 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、工业自动化与日本资本回报</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 63/100</p>
+              <div class="bar"><span class="fill" style="width:63%"></span></div>
+              <p>机器人主题长期逻辑仍在，但过去 72 小时的一级来源更偏监测而非确认。FANUC 2026-07-03 回购状态公告显示 2026-06-01 至 2026-06-30 回购 0 股、0 日元，资本回报尚未执行；需要订单、利润率或回购实际落地来提高评级。</p>
+              <p><strong>Why now:</strong> FANUC 2026-07-03 发布的 share buyback status 显示，截至 2026-06-30，2026-04-24 董事会授权下累计回购仍为 0，说明机器人链缺少新的执行催化。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>FANUC、Yaskawa、ABB 等后续季报若确认订单回暖、服务收入韧性或库存去化，BOTZ 可上调。</li><li>FANUC 若开始实际回购，可改善日本自动化龙头的资本回报预期。</li><li>Tesla 2026-07-22 财报如给出可验证机器人进展，可能带动具身智能关注度，但仍需财务或订单证据。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>FANUC 最新状态公告显示回购仍未执行，资本回报只是授权不是现金落地。</li><li>工业自动化对全球制造业周期敏感；若 ISM/PMI 数据继续偏弱，订单确认可能延后。</li><li>BOTZ 持仓分散，主题正确不等于短期 alpha 明确。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.fanuc.co.jp/en/ir/announce_other/pdf/2026/notice20260703_e.pdf">Notice of the Status of Share Buyback, 2026-07-03</a></li><li><a href="https://www.fanuc.co.jp/en/ir/announce_other/">FANUC announcements other than financial results</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
