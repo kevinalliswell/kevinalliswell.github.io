@@ -1,0 +1,369 @@
+{
+  "date": "2026-07-08",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-08（监测版）",
+  "summary": "截至 2026-07-08 09:20（Asia/Shanghai），过去 24-72 小时的一级来源显示：三星 2026-07-07 Q2 指引给出最强半导体增量，TSMC 与 ABB 的下一批验证点集中在 2026-07-16，EIA 2026-07-08 周报和 FOMC 2026-07-08 纪要尚属当日待确认事项。组合动作上，AI/半导体维持回撤承接，能源只保留试探仓，黄金保持保险仓，机器人继续等订单与财报验证。",
+  "macro": {
+    "regime": "增长仍有韧性但通胀和长端利率限制追高；公司级增量集中在半导体，能源、黄金与机器人均等待本周后续原始数据确认。",
+    "bullets": [
+      "Federal Reserve 2026-06-17 FOMC statement 将联邦基金目标区间维持在 3.50%-3.75%，并称通胀仍高于 2% 目标；2026-07-08 将发布 6 月会议纪要，是本期最重要的宏观催化。",
+      "U.S. Treasury 2026-07-07 日度曲线显示 2 年、10 年、30 年名义收益率分别为 4.19%、4.55%、5.05%，较 2026-07-06 的 4.13%、4.48%、4.99% 上行，长久期成长股不适合在无新增基本面确认时追高。",
+      "BLS 2026-07-02 发布的 2026 年 6 月就业报告显示非农就业增加 57,000、失业率为 4.2%，同时 4 月和 5 月合计下修 74,000；BEA 2026-06-25 发布的 5 月 PCE 显示 headline PCE 同比 4.1%、core PCE 同比 3.4%，形成增长放缓但通胀仍黏的组合。",
+      "ISM 2026 年 6 月制造业 PMI 为 53.3、服务业 PMI 为 54.0，需求端仍扩张但环比走弱，支持“选择结构主线、避免全面加杠杆”的组合框架。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury Yield",
+      "ticker": "US10Y",
+      "price": "4.55%",
+      "change_pct": 0.07,
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "Samsung Q2 2026 Sales Guidance",
+      "ticker": "005930.KS",
+      "price": "KRW 171T",
+      "change_pct": "",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
+    },
+    {
+      "name": "Samsung Q2 2026 Operating Profit Guidance",
+      "ticker": "005930.KS",
+      "price": "KRW 89.4T",
+      "change_pct": "",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
+    },
+    {
+      "name": "US Commercial Crude Inventories",
+      "ticker": "EIA-WPSR",
+      "price": "408.4 million barrels",
+      "change_pct": -0.93,
+      "source_url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施、HBM 与存储周期",
+      "asset": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "region": "Korea",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "三星 2026-07-07 Q2 指引是本期最强公司级增量：合并销售约 171 万亿韩元、营业利润约 89.4 万亿韩元，显著高于 2026Q1 的 133.87 万亿韩元销售和 57.23 万亿韩元营业利润。由于该公告未披露分部、HBM 出货、价格或客户结构，投资动作应是把存储/AI 供应链确认度上调，但等待完整业绩再提高仓位。",
+      "why_now": "Samsung Newsroom 2026-07-07 发布 Q2 2026 earnings guidance，销售区间为 170-172 万亿韩元、营业利润区间为 89.3-89.5 万亿韩元；这是过去 24 小时内 AI/半导体链条最明确的一级来源更新。",
+      "catalysts": [
+        "三星完整 Q2 2026 财报与分部披露：确认 Memory、HBM、Foundry、MX 等利润来源，避免把集团级指引直接等同于 AI 需求确认。",
+        "TSMC 2026-07-16 Q2 earnings conference：管理层此前给出的 Q2 revenue guidance 为 390-402 亿美元、gross margin 65.5%-67.5%，将验证先进制程和 AI 客户需求。",
+        "NVIDIA、Broadcom、AMD 与 hyperscaler 后续财报若继续上修 AI capex、网络和存储需求，可把半导体链评分从 B 上调。"
+      ],
+      "risks": [
+        "三星公告只是 K-IFRS 指引中位数，不含分部或客户细节；若完整财报显示利润来自一次性、汇率或非 AI 分部，AI 链条推论需要下调。",
+        "U.S. Treasury 2026-07-07 10 年期收益率升至 4.55%、30 年期升至 5.05%，高折现率会压缩半导体高估值容忍度。",
+        "HBM 价格、良率、客户认证、出口管制和竞争加剧是主要 thesis breakers。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Samsung Electronics Announces Earnings Guidance for Second Quarter 2026",
+          "publisher": "Samsung Global Newsroom",
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
+        },
+        {
+          "title": "TSMC 2026 Q2 Quarterly Results and Guidance",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+        },
+        {
+          "title": "Daily Treasury Par Yield Curve Rates, 2026",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "AI 先进制程与晶圆代工",
+      "asset": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 76,
+      "thesis": "TSMC 仍是 AI 基础设施里质量最高的上游确认点之一。公司 IR 页面显示 2026Q2 revenue guidance 为 390-402 亿美元、gross margin 65.5%-67.5%、operating margin 56.5%-58.5%，且 Q2 earnings conference 定于 2026-07-16。由于目前处于 2026-07-06 至 2026-07-15 quiet period，本期不应把未发布的月营收或业绩当作事实。",
+      "why_now": "TSMC 官方日历显示 2026-07-10 将发布 2026 年 6 月月营收、2026-07-16 将召开 Q2 earnings conference；这是 AI 核心链下一个可交易验证窗口。",
+      "catalysts": [
+        "2026-07-10 TSMC 6 月月营收：验证 Q2 guidance 达成质量和 AI 相关先进制程拉动。",
+        "2026-07-16 TSMC Q2 earnings conference：重点看 2026 年全年美元收入增长、CoWoS/先进封装产能、AI 与非 AI 终端需求差异。",
+        "若三星强指引与 TSMC 月营收/法说互相印证，AI 半导体链的基本面确认度上升。"
+      ],
+      "risks": [
+        "TSMC 当前处于 quiet period，不能用市场传闻替代公司披露。",
+        "地缘政治、台币/美元汇率、资本开支上行、先进封装瓶颈和客户集中度会影响估值折扣。",
+        "10 年期美债收益率上行会压制 ADR 估值，入场条件应偏回撤而非追高。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 9
+      },
+      "sources": [
+        {
+          "title": "TSMC 2026 Q2 Quarterly Results and Guidance",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+        },
+        {
+          "title": "TSMC Financial Calendar",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/financial-calendar"
+        },
+        {
+          "title": "Daily Treasury Par Yield Curve Rates, 2026",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "能源库存、油气现金流与通胀尾部风险",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 72,
+      "thesis": "截至上一期可得 EIA 周报，美国原油和汽油库存偏低，能源股仍有通胀尾部保护价值；但本期关键增量是 2026-07-08 下一份 WPSR 即将发布，不能提前确认去库延续。维持小仓试探，等待库存和产品供应一起改善后再加仓。",
+      "why_now": "EIA 页面显示截至 2026-06-26 的 WPSR 于 2026-07-01 发布，下一次发布日期为 2026-07-08；上一份摘要显示商业原油库存下降 380 万桶至 4.084 亿桶，约低于五年均值 7%。",
+      "catalysts": [
+        "2026-07-08 EIA WPSR：若原油/汽油继续去库，且汽油、馏分油产品供应同比改善，XLE 可从试探仓提高权重。",
+        "2026-07-08 FOMC minutes 和 2026-07-14 CPI 若继续强调能源相关通胀压力，能源股的组合对冲价值上升。",
+        "Q2 能源公司财报若延续资本开支纪律和股东回报，估值支撑会更稳。"
+      ],
+      "risks": [
+        "上一份 EIA 报告同时显示汽油产品供应四周均值同比下降 2.6%、馏分油产品供应同比下降 1.9%，需求质量不够干净。",
+        "若 2026-07-08 WPSR 显示补库或需求走弱，XLE 的短线催化会失效。",
+        "能源股对油价、政策、地缘冲突和全球增长预期高度敏感，不宜用单周数据推导长期仓位。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 14,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Summary of Weekly Petroleum Data for the week ending June 26, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement, June 17 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、央行储备与实际利率保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "黄金的中期保险属性仍在，但 2026-07-07 长端名义利率上行削弱了短线进攻性。World Gold Council 2026-07-02 文章显示央行仍重视黄金储备，且其 2026 调查显示 89% 受访央行预计未来 12 个月全球官方黄金储备增加；但 ETF 流量和实际利率仍需确认。",
+      "why_now": "2026-07-02 WGC 中央银行黄金统计更新强化了央行需求的结构支撑；同日附近 Treasury 长端收益率继续上行，提示 GLD 仍应按保险仓而非进攻仓处理。",
+      "catalysts": [
+        "2026-07-14 CPI 若低于预期并压低实际利率，GLD 可从保险仓转为更积极配置。",
+        "World Gold Council 后续 ETF holdings and flows 若显示持续净流入，可验证资金面。",
+        "若 FOMC minutes 强化通胀风险但市场相信实际利率见顶，黄金的配置价值改善。"
+      ],
+      "risks": [
+        "U.S. Treasury 2026-07-07 30 年期收益率升至 5.05%，高名义利率会提高黄金机会成本。",
+        "ETF 流量若转弱，黄金价格和矿商弹性资产会承压。",
+        "黄金不产生现金流，仓位应服务于组合保险和尾部风险对冲，不宜替代成长资产。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Central bank gold statistics: Central banks remain committed to gold",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/07/central-bank-gold-statistics-central-banks-remain-committed-gold"
+        },
+        {
+          "title": "Central Bank Gold Reserves Survey 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2026"
+        },
+        {
+          "title": "Daily Treasury Par Yield Curve Rates, 2026",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、工业自动化与制造业资本开支",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "机器人主题的长期逻辑仍受制造业自动化、物流自动化和 AI 视觉/控制能力提升支撑，但过去 24 小时没有足以改变仓位的龙头公司原始披露。ISM 制造业仍扩张、就业分项仍收缩，自动化替代逻辑存在，但需要 ABB、FANUC、Rockwell、Teradyne 等公司订单和利润确认。",
+      "why_now": "ISM 2026 年 6 月制造业 PMI 为 53.3，连续第六个月扩张；ABB 官方日历显示 Q2 2026 results 将在 2026-07-16 发布，机器人和电气自动化链条进入验证窗口。",
+      "catalysts": [
+        "2026-07-16 ABB Q2 2026 results：关注 robotics & discrete automation 订单、book-to-bill、margin 和电气化需求。",
+        "FANUC、Rockwell、Teradyne 后续季度披露若显示订单改善，可把 BOTZ 从 C 提升到 B。",
+        "若 AI 视觉、边缘推理和工业软件订单开始同步增长，机器人主题可获得更高催化路径分。"
+      ],
+      "risks": [
+        "制造业 PMI 扩张不等于机器人订单立即复苏，且就业分项仍处收缩区间，需求质量需要公司订单验证。",
+        "BOTZ 成分股分散，可能混合半导体、工业自动化和小盘主题股风险，单一主题暴露不纯。",
+        "高利率环境会推迟工厂自动化资本开支，尤其影响估值较高、现金流较弱的机器人公司。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "June 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/june/"
+        },
+        {
+          "title": "ABB Financial Calendar",
+          "publisher": "ABB Group",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        },
+        {
+          "title": "ABB Quarterly Results",
+          "publisher": "ABB Group",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "FOMC minutes",
+      "ticker": "FED",
+      "note": "2026-07-08 发布 June 16-17 meeting minutes；关注是否强化通胀、能源和金融条件措辞。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly Petroleum Status Report",
+      "ticker": "EIA-WPSR",
+      "note": "2026-07-08 下一期 WPSR；需要同时看到库存去化和产品供应改善。"
+    },
+    {
+      "theme": "AI 半导体",
+      "asset": "TSMC monthly revenue and Q2 call",
+      "ticker": "TSM",
+      "note": "2026-07-10 月营收、2026-07-16 法说，是验证三星强指引能否外溢到 AI 代工链的关键。"
+    },
+    {
+      "theme": "机器人",
+      "asset": "ABB Q2 results",
+      "ticker": "ABBN.SW",
+      "note": "2026-07-16 Q2 results；关注机器人订单是否真实恢复。"
+    },
+    {
+      "theme": "通胀/黄金",
+      "asset": "US CPI",
+      "ticker": "BLS-CPI",
+      "note": "2026-07-14 CPI 决定黄金保险仓和 AI 高估值资产折现率。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Samsung Q2 2026 earnings guidance",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
+    },
+    {
+      "label": "TSMC 2026 Q2 guidance",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+    },
+    {
+      "label": "TSMC financial calendar",
+      "url": "https://investor.tsmc.com/english/financial-calendar"
+    },
+    {
+      "label": "Federal Reserve FOMC statement, 2026-06-17",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "label": "Federal Reserve FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "U.S. Treasury Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "label": "BLS Employment Situation, June 2026",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+      "label": "BEA Personal Income and Outlays, May 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+    },
+    {
+      "label": "ISM Manufacturing PMI, June 2026",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/june/"
+    },
+    {
+      "label": "ISM Services PMI, June 2026",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/june/"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "World Gold Council central bank gold statistics",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/07/central-bank-gold-statistics-central-banks-remain-committed-gold"
+    },
+    {
+      "label": "ABB financial calendar",
+      "url": "https://global.abb/group/en/investors/financial-calendar"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "semiconductors",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
