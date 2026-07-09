@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-09（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-09（监测版）</h1>
+      <p class="meta">2026-07-09 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>2026-07-08 的一级来源给出两个可执行增量：FOMC 纪要把 AI 投资从单纯盈利驱动重新定价为通胀和利率变量，EIA 周报显示美国成品油库存继续偏紧但原油库存回补。AI 基础设施仍是主线，但高实际利率要求只在回撤中加仓；能源维持试探仓，黄金维持保险仓，机器人等待订单和业绩验证。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>AI 投资韧性强，但实际利率和能源尾部风险压制追高胜率</strong></p>
+      <ul><li>美国财政部 2026-07-08 日度实际收益率曲线显示 10 年实际收益率为 2.31%、30 年实际收益率为 2.86%，折现率仍高，不利于无确认追高高估值成长资产。</li><li>FOMC 2026-06-16 至 2026-06-17 会议纪要在 2026-07-08 发布，明确提到 AI 建设推升数据中心、高科技设备和软件投资，同时对技术产品和电力价格形成上行压力。</li><li>EIA 2026-07-08 周报显示截至 2026-07-03 的一周，美国商业原油库存增加 300 万桶至 4.114 亿桶，但汽油库存下降 190 万桶、馏分油库存下降 500 万桶，能源链条仍有局部紧张。</li><li>截至本次检索，AI/机器人相关公司在 2026-07-08 没有比 FOMC 纪要和 EIA 周报更强的同日一级披露；本期维持监测版，不把近期公司材料误判为当天新增信号。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10Y U.S. TIPS real yield</td>
+          <td>10Y_REAL</td>
+          <td>2.31%</td>
+          <td>+0.01%</td>
+          <td><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_real_yield_curve">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>30Y U.S. TIPS real yield</td>
+          <td>30Y_REAL</td>
+          <td>2.86%</td>
+          <td>+0.02%</td>
+          <td><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_real_yield_curve">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>U.S. commercial crude inventories</td>
+          <td>EIA_WPSR</td>
+          <td>411.4 million bbl</td>
+          <td>+0.73%</td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Federal funds target range</td>
+          <td>FEDFUNDS</td>
+          <td>3.50%-3.75%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 基础设施与半导体</p>
+                  <h2>VanEck Semiconductor ETF <span>SMH</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>判断：AI 算力链仍是组合中最值得保留的成长主线，但 2026-07-08 的 FOMC 纪要把 AI capex 同时定义为增长引擎和通胀压力源，因此仓位应通过回撤承接，而不是在实际利率高位时追价。</p>
+              <p><strong>Why now:</strong> 事实：FOMC 纪要称 AI 建设继续支撑数据中心、高科技设备和软件投资，也可能维持技术产品与电力价格上行压力；Broadcom 2026-06-03 披露 Q2 AI 半导体收入 108 亿美元、同比增长 143%，并预计 Q3 AI 半导体收入 160 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-14 美国 CPI：若核心通胀未继续扩散，AI 高估值折现压力缓和。</li><li>2026-07-16 TSMC Q2 业绩会：验证先进制程和 CoWoS/AI 代工需求是否延续。</li><li>2026-08-02 结束的 Broadcom FY2026 Q3：验证其 AI 半导体收入 160 亿美元指引。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>FOMC 纪要显示少数与会者认为 2026-06 月已存在加息理由，若 2026 年下半年政策预期继续上移，半导体估值会先承压。</li><li>AI capex 若被市场重新定价为电力、设备和融资成本压力，短期可能从盈利叙事转向通胀叙事。</li><li>出口管制、客户集中和代工产能瓶颈仍是 SMH 内部主要非系统性风险。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm">Minutes of the Federal Open Market Committee, June 16-17, 2026</a></li><li><a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial">Broadcom Q2 FY2026 financial results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27pr.htm">NVIDIA Q1 FY2027 financial results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">HBM、DRAM 与 AI 存储周期</p>
+                  <h2>Micron Technology <span>MU</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：存储是 AI 基础设施中证据最强但周期弹性最高的环节，适合等待回撤或后续订单确认；不宜把单季高景气外推成无周期风险。</p>
+              <p><strong>Why now:</strong> 事实：Micron 2026-06-24 披露 FY2026 Q3 收入 414.56 亿美元、营业现金流 253.9 亿美元，并给出 FY2026 Q4 收入 500 亿美元上下 10 亿美元、毛利率约 86% 的展望；这验证 AI 时代内存战略价值，但不是 2026-07-08 的新增披露。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-21 Micron 季度股息支付日后，观察市场对高现金流与高 capex 并存的再定价。</li><li>后续云厂商 capex 指引和 HBM 供给协议披露将决定 MU 是否从 B 升至 A。</li><li>2026 年下半年 NAND/DRAM 合约价变化是周期过热或持续紧缺的验证点。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>存储行业具备强周期属性，若客户提前囤货或产能扩张过快，毛利率高点可能被市场提前折现。</li><li>FOMC 纪要将 AI 需求纳入通胀压力，若利率预期上行，高 beta 存储股会放大波动。</li><li>客户集中、资本开支强度和中美科技管制仍可能压缩估值倍数。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter">Micron reports record results for third quarter fiscal 2026</a></li><li><a href="https://investors.micron.com/news-releases/news-release-details/micron-and-anthropic-announce-strategic-agreement-scale-next">Micron and Anthropic strategic agreement</a></li><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_real_yield_curve">Treasury daily real yield curve</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、成品油库存与通胀尾部风险</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：EIA 数据不支持大幅加仓能源，但支持保留小仓位作为通胀与地缘尾部风险对冲；若成品油库存继续下降且产品供应改善，再提高权重。</p>
+              <p><strong>Why now:</strong> 事实：EIA 2026-07-08 周报显示截至 2026-07-03 的一周，原油库存增加 300 万桶至 4.114 亿桶，但汽油库存下降 190 万桶、馏分油库存下降 500 万桶，馏分油库存约低于五年均值 12%。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-15 下一期 EIA Weekly Petroleum Status Report：确认原油回补是否只是周度噪音。</li><li>2026-07-14 美国 CPI：汽油和能源服务项决定能源对通胀交易的边际贡献。</li><li>2026 年夏季炼厂利用率和出行需求决定成品油裂解价差。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>EIA 同期显示过去四周汽油产品供应同比下降 2.2%，需求弱化会抵消库存偏紧信号。</li><li>若中东风险继续缓和，能源风险溢价回落会拖累 XLE。</li><li>油价回落时，综合能源股的现金流和回购叙事会被下修。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report, week ending July 3, 2026</a></li><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">Summary of Weekly Petroleum Data, July 8, 2026</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm">FOMC minutes, June 16-17, 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率与组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>判断：黄金继续适合作为政策与地缘尾部风险保险，但 10 年实际收益率 2.31%、30 年实际收益率 2.86% 抑制短线进攻性，当前更适合持有而非加速买入。</p>
+              <p><strong>Why now:</strong> 事实：2026-07-08 美国实际收益率仍在高位；FOMC 纪要显示通胀上行风险仍被多数与会者重视，利率路径不确定性上升。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-14 CPI：若通胀高但名义利率不再上行，黄金的实际利率压力会缓和。</li><li>2026-07-15 Beige Book：观察企业是否继续传导能源、电力和设备成本。</li><li>2026-07-28 至 2026-07-29 FOMC 会议：确认是否从暂停转向更明确的鹰派倾向。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际收益率继续上行会压制无息资产。</li><li>美元走强会降低非美元买家的黄金购买力。</li><li>若地缘风险降温且通胀预期回落，GLD 可能跑输现金和短债。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_real_yield_curve">Treasury daily real yield curve</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm">FOMC minutes, June 16-17, 2026</a></li><li><a href="https://www.ishares.com/us/products/239561/ishares-gold-trust-fund">iShares Gold Trust fund page</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、工业自动化与 Physical AI</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>判断：Physical AI 的长期叙事增强，但当前可验证订单和利润率证据弱于半导体与存储；等待 ABB、FANUC、Teradyne 等公司的订单/营收披露后再提高评级。</p>
+              <p><strong>Why now:</strong> 事实：Qualcomm 2026-06-24 投资者日把工业、网络和机器人列为 FY2029 IoT 收入目标的一部分，并提出数据中心 AI、汽车和机器人等 3-5 年拐点；Teradyne IR 页面显示其业务包含自动测试设备、协作机器人和移动机器人，但 2026-07-08 未见新的订单级披露。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-16 ABB Q2 结果：订单和过程自动化/机器人相关需求是近期最重要验证点。</li><li>2026 年 7 月下旬 FANUC Q1 结果：验证日本工业机器人订单是否改善。</li><li>Teradyne 下一次业绩或投资者活动：确认机器人业务是否从概念走向收入加速。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>机器人 ETF 持仓分散，容易被半导体 beta 掩盖真实自动化需求。</li><li>工业资本开支若受高利率抑制，订单恢复会慢于 Physical AI 叙事。</li><li>Qualcomm 的 FY2029 目标属于前瞻性声明，不能等同于已实现订单。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Accelerates-Diversification-with-Comprehensive-Strategy-for-Data-Center-and-Sees-Multiple-Inflection-Points-Over-the-Next-3-to-5-Years/default.aspx">Qualcomm 2026 Investor Day strategy release</a></li><li><a href="https://investors.teradyne.com/">Teradyne Investor Relations overview</a></li><li><a href="https://www.fanuc.co.jp/en/ir/announce/">FANUC financial results and conference materials</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

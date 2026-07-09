@@ -1,0 +1,365 @@
+{
+  "date": "2026-07-09",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-09（监测版）",
+  "summary": "2026-07-08 的一级来源给出两个可执行增量：FOMC 纪要把 AI 投资从单纯盈利驱动重新定价为通胀和利率变量，EIA 周报显示美国成品油库存继续偏紧但原油库存回补。AI 基础设施仍是主线，但高实际利率要求只在回撤中加仓；能源维持试探仓，黄金维持保险仓，机器人等待订单和业绩验证。",
+  "macro": {
+    "regime": "AI 投资韧性强，但实际利率和能源尾部风险压制追高胜率",
+    "bullets": [
+      "美国财政部 2026-07-08 日度实际收益率曲线显示 10 年实际收益率为 2.31%、30 年实际收益率为 2.86%，折现率仍高，不利于无确认追高高估值成长资产。",
+      "FOMC 2026-06-16 至 2026-06-17 会议纪要在 2026-07-08 发布，明确提到 AI 建设推升数据中心、高科技设备和软件投资，同时对技术产品和电力价格形成上行压力。",
+      "EIA 2026-07-08 周报显示截至 2026-07-03 的一周，美国商业原油库存增加 300 万桶至 4.114 亿桶，但汽油库存下降 190 万桶、馏分油库存下降 500 万桶，能源链条仍有局部紧张。",
+      "截至本次检索，AI/机器人相关公司在 2026-07-08 没有比 FOMC 纪要和 EIA 周报更强的同日一级披露；本期维持监测版，不把近期公司材料误判为当天新增信号。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "10Y U.S. TIPS real yield",
+      "ticker": "10Y_REAL",
+      "price": "2.31%",
+      "change_pct": 0.01,
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+    },
+    {
+      "name": "30Y U.S. TIPS real yield",
+      "ticker": "30Y_REAL",
+      "price": "2.86%",
+      "change_pct": 0.02,
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+    },
+    {
+      "name": "U.S. commercial crude inventories",
+      "ticker": "EIA_WPSR",
+      "price": "411.4 million bbl",
+      "change_pct": 0.73,
+      "source_url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "name": "Federal funds target range",
+      "ticker": "FEDFUNDS",
+      "price": "3.50%-3.75%",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施与半导体",
+      "asset": "VanEck Semiconductor ETF",
+      "ticker": "SMH",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 78,
+      "thesis": "判断：AI 算力链仍是组合中最值得保留的成长主线，但 2026-07-08 的 FOMC 纪要把 AI capex 同时定义为增长引擎和通胀压力源，因此仓位应通过回撤承接，而不是在实际利率高位时追价。",
+      "why_now": "事实：FOMC 纪要称 AI 建设继续支撑数据中心、高科技设备和软件投资，也可能维持技术产品与电力价格上行压力；Broadcom 2026-06-03 披露 Q2 AI 半导体收入 108 亿美元、同比增长 143%，并预计 Q3 AI 半导体收入 160 亿美元。",
+      "catalysts": [
+        "2026-07-14 美国 CPI：若核心通胀未继续扩散，AI 高估值折现压力缓和。",
+        "2026-07-16 TSMC Q2 业绩会：验证先进制程和 CoWoS/AI 代工需求是否延续。",
+        "2026-08-02 结束的 Broadcom FY2026 Q3：验证其 AI 半导体收入 160 亿美元指引。"
+      ],
+      "risks": [
+        "FOMC 纪要显示少数与会者认为 2026-06 月已存在加息理由，若 2026 年下半年政策预期继续上移，半导体估值会先承压。",
+        "AI capex 若被市场重新定价为电力、设备和融资成本压力，短期可能从盈利叙事转向通胀叙事。",
+        "出口管制、客户集中和代工产能瓶颈仍是 SMH 内部主要非系统性风险。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+        },
+        {
+          "title": "Broadcom Q2 FY2026 financial results",
+          "publisher": "Broadcom Investor Relations",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+        },
+        {
+          "title": "NVIDIA Q1 FY2027 financial results",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27pr.htm"
+        }
+      ]
+    },
+    {
+      "theme": "HBM、DRAM 与 AI 存储周期",
+      "asset": "Micron Technology",
+      "ticker": "MU",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "判断：存储是 AI 基础设施中证据最强但周期弹性最高的环节，适合等待回撤或后续订单确认；不宜把单季高景气外推成无周期风险。",
+      "why_now": "事实：Micron 2026-06-24 披露 FY2026 Q3 收入 414.56 亿美元、营业现金流 253.9 亿美元，并给出 FY2026 Q4 收入 500 亿美元上下 10 亿美元、毛利率约 86% 的展望；这验证 AI 时代内存战略价值，但不是 2026-07-08 的新增披露。",
+      "catalysts": [
+        "2026-07-21 Micron 季度股息支付日后，观察市场对高现金流与高 capex 并存的再定价。",
+        "后续云厂商 capex 指引和 HBM 供给协议披露将决定 MU 是否从 B 升至 A。",
+        "2026 年下半年 NAND/DRAM 合约价变化是周期过热或持续紧缺的验证点。"
+      ],
+      "risks": [
+        "存储行业具备强周期属性，若客户提前囤货或产能扩张过快，毛利率高点可能被市场提前折现。",
+        "FOMC 纪要将 AI 需求纳入通胀压力，若利率预期上行，高 beta 存储股会放大波动。",
+        "客户集中、资本开支强度和中美科技管制仍可能压缩估值倍数。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Micron reports record results for third quarter fiscal 2026",
+          "publisher": "Micron Investor Relations",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"
+        },
+        {
+          "title": "Micron and Anthropic strategic agreement",
+          "publisher": "Micron Investor Relations",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-and-anthropic-announce-strategic-agreement-scale-next"
+        },
+        {
+          "title": "Treasury daily real yield curve",
+          "publisher": "U.S. Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "能源、成品油库存与通胀尾部风险",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 72,
+      "thesis": "判断：EIA 数据不支持大幅加仓能源，但支持保留小仓位作为通胀与地缘尾部风险对冲；若成品油库存继续下降且产品供应改善，再提高权重。",
+      "why_now": "事实：EIA 2026-07-08 周报显示截至 2026-07-03 的一周，原油库存增加 300 万桶至 4.114 亿桶，但汽油库存下降 190 万桶、馏分油库存下降 500 万桶，馏分油库存约低于五年均值 12%。",
+      "catalysts": [
+        "2026-07-15 下一期 EIA Weekly Petroleum Status Report：确认原油回补是否只是周度噪音。",
+        "2026-07-14 美国 CPI：汽油和能源服务项决定能源对通胀交易的边际贡献。",
+        "2026 年夏季炼厂利用率和出行需求决定成品油裂解价差。"
+      ],
+      "risks": [
+        "EIA 同期显示过去四周汽油产品供应同比下降 2.2%，需求弱化会抵消库存偏紧信号。",
+        "若中东风险继续缓和，能源风险溢价回落会拖累 XLE。",
+        "油价回落时，综合能源股的现金流和回购叙事会被下修。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report, week ending July 3, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Summary of Weekly Petroleum Data, July 8, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "FOMC minutes, June 16-17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：黄金继续适合作为政策与地缘尾部风险保险，但 10 年实际收益率 2.31%、30 年实际收益率 2.86% 抑制短线进攻性，当前更适合持有而非加速买入。",
+      "why_now": "事实：2026-07-08 美国实际收益率仍在高位；FOMC 纪要显示通胀上行风险仍被多数与会者重视，利率路径不确定性上升。",
+      "catalysts": [
+        "2026-07-14 CPI：若通胀高但名义利率不再上行，黄金的实际利率压力会缓和。",
+        "2026-07-15 Beige Book：观察企业是否继续传导能源、电力和设备成本。",
+        "2026-07-28 至 2026-07-29 FOMC 会议：确认是否从暂停转向更明确的鹰派倾向。"
+      ],
+      "risks": [
+        "实际收益率继续上行会压制无息资产。",
+        "美元走强会降低非美元买家的黄金购买力。",
+        "若地缘风险降温且通胀预期回落，GLD 可能跑输现金和短债。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Treasury daily real yield curve",
+          "publisher": "U.S. Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+        },
+        {
+          "title": "FOMC minutes, June 16-17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+        },
+        {
+          "title": "iShares Gold Trust fund page",
+          "publisher": "BlackRock iShares",
+          "url": "https://www.ishares.com/us/products/239561/ishares-gold-trust-fund"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、工业自动化与 Physical AI",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 62,
+      "thesis": "判断：Physical AI 的长期叙事增强，但当前可验证订单和利润率证据弱于半导体与存储；等待 ABB、FANUC、Teradyne 等公司的订单/营收披露后再提高评级。",
+      "why_now": "事实：Qualcomm 2026-06-24 投资者日把工业、网络和机器人列为 FY2029 IoT 收入目标的一部分，并提出数据中心 AI、汽车和机器人等 3-5 年拐点；Teradyne IR 页面显示其业务包含自动测试设备、协作机器人和移动机器人，但 2026-07-08 未见新的订单级披露。",
+      "catalysts": [
+        "2026-07-16 ABB Q2 结果：订单和过程自动化/机器人相关需求是近期最重要验证点。",
+        "2026 年 7 月下旬 FANUC Q1 结果：验证日本工业机器人订单是否改善。",
+        "Teradyne 下一次业绩或投资者活动：确认机器人业务是否从概念走向收入加速。"
+      ],
+      "risks": [
+        "机器人 ETF 持仓分散，容易被半导体 beta 掩盖真实自动化需求。",
+        "工业资本开支若受高利率抑制，订单恢复会慢于 Physical AI 叙事。",
+        "Qualcomm 的 FY2029 目标属于前瞻性声明，不能等同于已实现订单。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Qualcomm 2026 Investor Day strategy release",
+          "publisher": "Qualcomm Investor Relations",
+          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Accelerates-Diversification-with-Comprehensive-Strategy-for-Data-Center-and-Sees-Multiple-Inflection-Points-Over-the-Next-3-to-5-Years/default.aspx"
+        },
+        {
+          "title": "Teradyne Investor Relations overview",
+          "publisher": "Teradyne Investor Relations",
+          "url": "https://investors.teradyne.com/"
+        },
+        {
+          "title": "FANUC financial results and conference materials",
+          "publisher": "FANUC Investor Relations",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "U.S. CPI",
+      "ticker": "BLS_CPI",
+      "note": "2026-07-14 发布；决定 AI 成长股、黄金和能源对冲的共同折现率。"
+    },
+    {
+      "theme": "AI 代工",
+      "asset": "TSMC",
+      "ticker": "TSM",
+      "note": "2026-07-16 Q2 业绩会；验证 AI 先进制程需求是否继续超预期。"
+    },
+    {
+      "theme": "机器人",
+      "asset": "ABB",
+      "ticker": "ABBN.SW",
+      "note": "2026-07-16 Q2 结果；重点看订单、自动化需求和利润率。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA Weekly Petroleum Status Report",
+      "ticker": "EIA_WPSR",
+      "note": "2026-07-15 下一期；确认成品油去库是否延续。"
+    },
+    {
+      "theme": "货币政策",
+      "asset": "FOMC",
+      "ticker": "FED",
+      "note": "2026-07-28 至 2026-07-29 会议；观察是否出现加息倾向。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC minutes released 2026-07-08",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+    },
+    {
+      "label": "Federal Reserve June 2026 meeting page",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260617.htm"
+    },
+    {
+      "label": "U.S. Treasury Daily Treasury Par Real Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR summary PDF 2026-07-08",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "Micron FY2026 Q3 results",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"
+    },
+    {
+      "label": "Broadcom FY2026 Q2 results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "label": "Qualcomm 2026 Investor Day strategy release",
+      "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Accelerates-Diversification-with-Comprehensive-Strategy-for-Data-Center-and-Sees-Multiple-Inflection-Points-Over-the-Next-3-to-5-Years/default.aspx"
+    },
+    {
+      "label": "Teradyne Investor Relations",
+      "url": "https://investors.teradyne.com/"
+    },
+    {
+      "label": "FANUC financial results materials",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/"
+    },
+    {
+      "label": "iShares Gold Trust",
+      "url": "https://www.ishares.com/us/products/239561/ishares-gold-trust-fund"
+    },
+    {
+      "label": "NVIDIA Q1 FY2027 release filed on SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27pr.htm"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "semiconductors",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
