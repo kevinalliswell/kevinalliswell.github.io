@@ -1,0 +1,380 @@
+{
+  "date": "2026-07-16",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-16（监测版）",
+  "summary": "本期有实质增量，但不是全面追高信号：ASML 在 2026-07-15 上调 2026 年收入与毛利率指引，确认 AI 先进制程设备需求仍在扩张；Yaskawa 同日披露 MOTOMAN NEXT 与 Gemini Robotics 的 Agentic Robot System，说明 Physical AI 正从演示走向工业机器人平台化。宏观端，BLS 2026-07-15 PPI 降温与 Fed 官员讲话并存，利率约束仍在；能源和黄金维持监测，重点看成品油裂解、黄金 ETF 流向和核燃料合同缺口。",
+  "macro": {
+    "regime": "AI 资本开支强、通胀边际降温，但实际利率与估值纪律仍约束仓位",
+    "bullets": [
+      "BLS 于 2026-07-15 发布的 2026-06 PPI 显示，最终需求 PPI 环比下降 0.3%，其中最终需求商品下降 1.4%、能源下降 6.4%；这降低了部分成本通胀压力，但同比最终需求 PPI 仍为 5.5%。",
+      "Fed Governor Lisa Cook 2026-07-15 讲话称，尽管本周 CPI 与 PPI 低于预期，目标通胀口径截至 2026-06 的 12 个月涨幅仍约 3.7%，高于 2% 目标 1.7 个百分点；她同时指出数据中心建设给经济增加热度。",
+      "AI 硬件链的新增证据来自 ASML 2026-07-15 Q2：公司把 2026 年净销售额指引上调至 430-450 亿欧元、毛利率 54%-56%，并计划 2027 年低 NA EUV 与 DUV immersion 产能各较 2026 年增加约 30%。",
+      "机器人主题出现技术催化而非订单催化：Yaskawa 2026-07-15 发布 Agentic Robot System，但商业化应用领域和可供货时间仍待后续披露。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "ASML 2026 Q2 net sales",
+      "ticker": "ASML",
+      "price": "EUR 9.326bn",
+      "change_pct": "FY2026 guide raised to EUR 43-45bn",
+      "source_url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+    },
+    {
+      "name": "TSMC June 2026 revenue",
+      "ticker": "TSM/2330.TW",
+      "price": "NT$442.68bn",
+      "change_pct": "+67.9% YoY",
+      "source_url": "https://pr.tsmc.com/english/news/3323"
+    },
+    {
+      "name": "US final demand PPI, June 2026",
+      "ticker": "PPI",
+      "price": "-0.3% MoM",
+      "change_pct": "+5.5% YoY",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_07152026.htm"
+    },
+    {
+      "name": "Gold ETF holdings, end-June 2026",
+      "ticker": "GLD/IAU proxy",
+      "price": "4,047 tonnes",
+      "change_pct": "June outflow about US$8.9bn",
+      "source_url": "https://china.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
+      "name": "IEA July 2026 oil market",
+      "ticker": "XLE/refiners proxy",
+      "price": "product cracks at four-year highs",
+      "change_pct": "global refinery runs -6 mb/d YoY in June",
+      "source_url": "https://www.iea.org/reports/oil-market-report-july-2026"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施与半导体设备",
+      "asset": "ASML Holding",
+      "ticker": "ASML",
+      "region": "Netherlands/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "判断：ASML 是本轮 AI 制造扩张里更接近卖铲人的资产，2026-07-15 的上调指引和产能扩张计划提高了未来 4-6 个季度订单可见度。评级没有升到 A，是因为股价已充分交易 AI 资本开支持续性，且出口管制、客户集中和半导体周期仍会放大波动。",
+      "why_now": "2026-07-15，ASML 披露 Q2 净销售额 93.26 亿欧元、毛利率 54.0%、净利润 29.18 亿欧元，并把 2026 年净销售额指引上调至 430-450 亿欧元、毛利率 54%-56%；公司同时称 AI 相关投资推动先进逻辑和存储需求，并计划 2027 年低 NA EUV 与 DUV immersion 产能各较 2026 年增加约 30%。",
+      "catalysts": [
+        "2026-08-05：ASML 2026 年中期股息每股 1.88 欧元付款日。",
+        "2026Q3：公司指引 Q3 净销售额 110-120 亿欧元、毛利率 55%-57%，若兑现将继续强化 AI 设备链确定性。",
+        "2027-06-10：ASML Capital Markets Day，公司计划更新长期市场和技术动态。"
+      ],
+      "risks": [
+        "若 hyperscaler 或存储厂在 2026H2 下修 capex，ASML 的长期可见度会被重新定价。",
+        "中国相关出口限制和地缘政治会影响 DUV/EUV 订单结构与估值倍数。",
+        "当前信号来自公司披露，仍需 TSMC、Samsung、SK hynix、Micron 等客户后续 capex 和先进封装计划交叉验证。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "ASML reports EUR 9.3 billion total net sales and EUR 2.9 billion net income in Q2 2026",
+          "publisher": "ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+        },
+        {
+          "title": "ASML Q2 2026 investor presentation",
+          "publisher": "ASML",
+          "url": "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf"
+        },
+        {
+          "title": "TSMC June 2026 Revenue Report",
+          "publisher": "TSMC",
+          "url": "https://pr.tsmc.com/english/news/3323"
+        }
+      ]
+    },
+    {
+      "theme": "AI 先进制程与晶圆代工",
+      "asset": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM / 2330.TW",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 79,
+      "thesis": "判断：TSMC 的 2026-06 月营收创强增长背景，是 ASML 指引上修的客户侧验证之一。短线不追高，原因是 2026-07-16 Q2 法说会尚未披露，关键变量是 AI/HPC 收入占比、CoWoS/先进封装瓶颈、全年 capex 和毛利率展望。",
+      "why_now": "TSMC 2026-07-13 披露，2026-06 合并营收约 NT$4426.8 亿，环比增长 6.2%、同比增长 67.9%；2026 年 1-6 月累计营收 NT$2.40448 兆，同比增长 35.6%。",
+      "catalysts": [
+        "2026-07-16：TSMC Q2 2026 earnings，重点看 AI/HPC 需求、先进封装产能和全年 capex 是否上修。",
+        "2026H2：N2/先进封装、美国 Arizona 扩产节奏和客户长期订单将决定估值是否继续上移。",
+        "2026-08 月上旬：TSMC 2026-07 月营收可验证 6 月高基数后的延续性。"
+      ],
+      "risks": [
+        "客户集中在 AI 加速器和高端智能终端，若终端需求或 AI 服务器订单递延，营收弹性会反向放大。",
+        "海外扩产、能源成本、台海地缘风险和汇率都会压制毛利率或估值。",
+        "若 2026-07-16 法说会没有上调全年指引，市场可能把 6 月高增长视为提前拉货。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "TSMC June 2026 Revenue Report",
+          "publisher": "TSMC",
+          "url": "https://pr.tsmc.com/english/news/3323"
+        },
+        {
+          "title": "TSMC 2026 Monthly Revenue",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        },
+        {
+          "title": "ASML Q2 2026 financial results",
+          "publisher": "ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "Physical AI 与工业机器人",
+      "asset": "Yaskawa Electric",
+      "ticker": "6506.T / YASKY",
+      "region": "Japan/US ADR",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "判断：Yaskawa 2026-07-15 的 Agentic Robot System 是机器人软件栈的重要信号，说明大模型正在进入工业机器人任务规划和异常恢复层。但这仍是技术与产品路线信号，不是订单、收入或利润率信号，因此维持 C，等待应用领域、上市时间和客户验证。",
+      "why_now": "Yaskawa 2026-07-15 宣布 MOTOMAN NEXT AI Robot 的 Agentic Robot System，集成 Google DeepMind Gemini Robotics ER 1.6，使机器人可根据一般指令自主构建作业程序，并通过视觉、路径规划和力觉服务执行任务与错误恢复。",
+      "catalysts": [
+        "2026H2：Yaskawa 承诺在准备完成后更新具体应用领域和可用性。",
+        "2026-07-16：ABB Q2 2026 results，可作为全球工业自动化订单环境的交叉验证。",
+        "2026Q2-Q3：FANUC、ABB、Teradyne/MiR、Symbotic 等订单和 backlog 是否改善，将决定 BOTZ/ROBO 主题能否从叙事升到盈利验证。"
+      ],
+      "risks": [
+        "Yaskawa 2026-07-10 Q1 FY2027 披露收入同比增长 10.6%，但营业利润同比下降 19.2%、归母利润同比下降 21.7%，说明机器人/运动控制需求改善未必马上转为利润弹性。",
+        "工业机器人客户采购周期长，具身智能功能若不能降低集成成本或提高产线 ROI，商业化速度会低于技术演示。",
+        "Google DeepMind 模型集成带来平台依赖、数据安全、可靠性认证和责任边界问题。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "MOTOMAN NEXT AI Robot's Agentic Robot System Powered by Gemini Robotics",
+          "publisher": "Yaskawa Electric",
+          "url": "https://www.yaskawa-global.com/newsrelease/news/179679"
+        },
+        {
+          "title": "Consolidated Results for the First Quarter of Fiscal Year Ending February 28, 2027",
+          "publisher": "Yaskawa Electric",
+          "url": "https://www.yaskawa-global.com/wp-content/uploads/2026/07/20260710_en.pdf"
+        },
+        {
+          "title": "ABB Q2 2026 webcast invitation",
+          "publisher": "ABB",
+          "url": "https://new.abb.com/investorrelations/calendar-events-and-publications/financial-results-and-presentations/quarterly-results-webcast"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "判断：黄金保留组合保险属性，但 2026-06 黄金 ETF 全地区流出说明资金面短期不配合；在 Fed 仍强调通胀高于目标的背景下，GLD 更适合维持保险仓而非主动加仓。",
+      "why_now": "世界黄金协会 2026-07-13 更新的 6 月 ETF 数据显示，6 月全球实物黄金 ETF 流出约 89 亿美元、总持仓减少 74 吨至 4,047 吨；但 2026H1 仍净流入约 80 亿美元，持仓较年初增加 18 吨。",
+      "catalysts": [
+        "2026-08-12：BLS 2026-07 CPI，如通胀连续降温且实际利率回落，黄金保险仓的机会成本下降。",
+        "2026-08 月第一周：WGC 7 月黄金 ETF 流向更新，验证 6 月流出是否延续。",
+        "Fed 2026-07-15 后续讲话和 FOMC 路径，将影响实际利率和美元对黄金的压力。"
+      ],
+      "risks": [
+        "若美国实际利率继续高位运行，黄金无息资产的估值压力会持续。",
+        "ETF 连续流出可能抵消央行购金和避险需求。",
+        "若风险资产继续由 AI 盈利驱动上行，黄金短期可能跑输。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "黄金ETF走势：2026年6月",
+          "publisher": "World Gold Council China",
+          "url": "https://china.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+        },
+        {
+          "title": "LBMA Precious Metal Prices",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/lbma-precious-metal-prices"
+        },
+        {
+          "title": "Speech by Governor Cook on the economic outlook",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源、炼化与核燃料",
+      "asset": "Energy Select Sector SPDR Fund / Global X Uranium ETF",
+      "ticker": "XLE / URA",
+      "region": "US ETFs",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "判断：能源不是今天的主攻方向。IEA 7 月报显示原油供给增加压低油价，但成品油市场仍紧、裂解价差升至四年高位，利好更偏炼化而非简单上游 beta；铀主题有长期合同缺口支撑，但最新 EIA 年报数据属于结构性背景，不是短线买入触发。",
+      "why_now": "IEA 2026-07 Oil Market Report 指出，7 月初成品油裂解价差和炼厂利润升至四年高位，原因是原油供应增加推低油价但成品油市场仍紧；同时 6 月全球炼厂加工量环比增加 150 万桶/日，但同比仍低 600 万桶/日。EIA Uranium Marketing Annual Report 显示，美国民用核电业主 2024 年采购 5590 万磅 U3O8e、加权均价 52.71 美元/磅，且 2025-2034 年最大预期市场需求合计 4.18 亿磅。",
+      "catalysts": [
+        "2026-07-16：EIA Weekly Natural Gas Storage Report，观察电力和气价对公用事业/AI 数据中心电力链的影响。",
+        "2026-07-16 至 2026-07-17：EIA Weekly Petroleum Status Report 更新库存与成品油需求。",
+        "2026-08-12：IEA 下一期 Oil Market Report，验证裂解价差是否从短期错配转为持续供需紧张。"
+      ],
+      "risks": [
+        "若全球需求继续走弱，成品油裂解价差高位可能只是短期供给扰动，而非可持续利润周期。",
+        "上游油气对油价方向敏感，油价下跌会压低 XLE 整体 beta。",
+        "铀矿 ETF 波动高，EIA 合同缺口是长期支撑，但现货价格、矿山复产和政策变化会造成阶段性回撤。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 12,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Oil Market Report - July 2026",
+          "publisher": "International Energy Agency",
+          "url": "https://www.iea.org/reports/oil-market-report-july-2026"
+        },
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Uranium Marketing Annual Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/uranium/marketing/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI 半导体",
+      "asset": "TSMC Q2 2026 earnings",
+      "ticker": "TSM",
+      "note": "2026-07-16 法说会是今天之后最重要的一手确认点，重点看 capex、AI/HPC 和先进封装。"
+    },
+    {
+      "theme": "机器人",
+      "asset": "ABB Q2 2026 results",
+      "ticker": "ABB",
+      "note": "2026-07-16 发布，验证 Robotics & Discrete Automation 订单和工业自动化需求。"
+    },
+    {
+      "theme": "宏观",
+      "asset": "BLS CPI",
+      "ticker": "CPI",
+      "note": "2026-08-12 发布 2026-07 CPI，验证 6 月通胀降温是否连续。"
+    },
+    {
+      "theme": "能源",
+      "asset": "IEA Oil Market Report",
+      "ticker": "XLE",
+      "note": "2026-08-12 下一期，确认裂解价差和炼厂运行率是否仍支撑炼化利润。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "WGC Gold ETF flows",
+      "ticker": "GLD",
+      "note": "观察 2026-07 ETF 资金流是否扭转 6 月全地区流出。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "ASML Q2 2026 financial results",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+    },
+    {
+      "label": "ASML Q2 2026 investor presentation",
+      "url": "https://ourbrand.asml.com/asset/9078cf4d-91fd-4dd9-a5d5-d1caab6dc046/2026_07_15_Presentation-Investor-Relations-Q2-2026.pdf"
+    },
+    {
+      "label": "TSMC June 2026 Revenue Report",
+      "url": "https://pr.tsmc.com/english/news/3323"
+    },
+    {
+      "label": "TSMC 2026 Monthly Revenue",
+      "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
+      "label": "Yaskawa Agentic Robot System",
+      "url": "https://www.yaskawa-global.com/newsrelease/news/179679"
+    },
+    {
+      "label": "Yaskawa FY2027 Q1 consolidated results",
+      "url": "https://www.yaskawa-global.com/wp-content/uploads/2026/07/20260710_en.pdf"
+    },
+    {
+      "label": "ABB Q2 2026 webcast invitation",
+      "url": "https://new.abb.com/investorrelations/calendar-events-and-publications/financial-results-and-presentations/quarterly-results-webcast"
+    },
+    {
+      "label": "BLS Producer Price Indexes - June 2026",
+      "url": "https://www.bls.gov/news.release/archives/ppi_07152026.htm"
+    },
+    {
+      "label": "Federal Reserve Governor Cook economic outlook speech",
+      "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
+    },
+    {
+      "label": "IEA Oil Market Report - July 2026",
+      "url": "https://www.iea.org/reports/oil-market-report-july-2026"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Uranium Marketing Annual Report",
+      "url": "https://www.eia.gov/uranium/marketing/"
+    },
+    {
+      "label": "World Gold Council China gold ETF flows, June 2026",
+      "url": "https://china.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
+      "label": "LBMA Precious Metal Prices",
+      "url": "https://www.lbma.org.uk/prices-and-data/lbma-precious-metal-prices"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "semiconductors",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
