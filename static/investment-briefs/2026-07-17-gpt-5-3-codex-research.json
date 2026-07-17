@@ -1,0 +1,409 @@
+{
+  "date": "2026-07-17",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-17（监测版）",
+  "summary": "过去 24-72 小时的一级来源给出一条清晰主线：AI 算力需求仍在从芯片扩散到先进制程、光刻、数据中心电力和物理 AI，但宏观端仍受燃料价格、关税和估值拥挤约束。TSMC 和 ASML 的 2026 年二季度披露强化 AI 半导体供给链景气，NVIDIA 日本物理 AI 基建强化机器人长期叙事；EIA 和 Beige Book 则提醒能源成本仍是通胀和利润率风险。个人决策上，优先保留 AI 基础设施核心暴露，机器人等订单确认，能源只做事件驱动小仓位，黄金作为保险仓而非追涨仓。",
+  "macro": {
+    "regime": "AI 资本开支强、燃料成本扰动仍在、成长资产适合回撤承接",
+    "bullets": [
+      "Federal Reserve 2026-07-15 Beige Book 显示，11 个地区经济活动轻度至温和扩张；数据中心、机械和国防订单带动制造业，数据中心建设也支撑商业地产，但燃料价格抑制部分消费并增加企业不确定性。",
+      "BLS 2026-07-14 发布的 2026 年 6 月 CPI 显示 CPI-U 环比下降 0.4%、同比 3.5%，核心 CPI 同比 2.6%；能源指数 6 月环比下降 5.7%，但同比仍上升 15.7%。这降低了短期利率压力，但没有完全解除能源通胀尾部风险。",
+      "Census 2026-07-16 发布的 2026 年 6 月零售销售为 7686 亿美元，环比上升 0.2%、同比上升 6.7%，说明名义需求仍有韧性，但不足以支持对高估值成长资产无条件追高。",
+      "EIA 2026-07-15 Weekly Petroleum Status Report 覆盖截至 2026-07-10 的一周；同日 EIA 分析指出 2026 年二季度全球原油库存日均下降 510 万桶，并预计 2026 年三季度仍下降 220 万桶/日，能源风险仍需要在组合中保留监测。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "$207.40",
+      "change_pct": -2.381,
+      "source_url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing ADR",
+      "ticker": "TSM",
+      "price": "$409.74",
+      "change_pct": -2.274,
+      "source_url": "https://finance.yahoo.com/quote/TSM/"
+    },
+    {
+      "name": "ASML Holding ADR",
+      "ticker": "ASML",
+      "price": "$1,784.87",
+      "change_pct": -1.626,
+      "source_url": "https://finance.yahoo.com/quote/ASML/"
+    },
+    {
+      "name": "Energy Select Sector SPDR",
+      "ticker": "XLE",
+      "price": "$57.02",
+      "change_pct": 0.903,
+      "source_url": "https://finance.yahoo.com/quote/XLE/"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "$364.96",
+      "change_pct": -1.971,
+      "source_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "name": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "price": "$35.53",
+      "change_pct": -1.36,
+      "source_url": "https://finance.yahoo.com/quote/BOTZ/"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施与先进制程",
+      "asset": "Taiwan Semiconductor Manufacturing ADR",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 83,
+      "thesis": "判断：TSMC 仍是 AI 训练和推理资本开支的核心稀缺产能载体。2026 年二季度收入、毛利率和三季度指引都高于此前区间上沿附近，说明先进制程价格和产能利用率仍强；但 ADR 已经反映较多乐观预期，因此动作应是回撤承接，而不是追高。",
+      "why_now": "TSMC 于 2026-07-16 发布 2026 年二季度业绩：美元收入 402.0 亿美元，毛利率 67.7%，营业利润率 60.3%，并给出 2026 年三季度收入 446-458 亿美元、毛利率 65%-67% 的指引。",
+      "catalysts": [
+        "2026-10 附近的 2026 年三季度业绩：验证 3Q26 收入 446-458 亿美元和高毛利区间是否兑现。",
+        "NVIDIA Rubin/Vera Rubin 与 hyperscaler AI capex 节奏：若订单持续转为台积电先进节点需求，TSM 估值可维持溢价。",
+        "2nm 良率、产能爬坡和客户采用节奏：若管理层后续披露更强产能利用率，评级可上修。"
+      ],
+      "risks": [
+        "高估值叠加客户集中度：若 NVIDIA 或 hyperscaler capex 下修，TSM 的预期弹性会反向放大。",
+        "地缘政治和出口管制风险仍是 ADR 折价核心。",
+        "台币和美元汇率会影响美元口径和台币成本端利润率。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "TSMC 2026 Q2 Quarterly Results",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+        },
+        {
+          "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "AI 半导体设备与光刻供给链",
+      "asset": "ASML Holding",
+      "ticker": "ASML",
+      "region": "Netherlands/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "判断：ASML 的二季度披露把 AI 需求从芯片设计扩展到设备产能约束。公司上调 2026 年收入展望，并明确低 NA EUV 与 DUV immersion 扩产计划，说明客户承诺强；但设备股的周期性、出口限制和已上修预期要求等待回撤。",
+      "why_now": "ASML 于 2026-07-15 发布 2026 年二季度业绩：净销售额 93 亿欧元、毛利率 54.0%、净利润 29 亿欧元，并把 2026 年全年净销售额展望提高到 430-450 亿欧元、毛利率 54%-56%。",
+      "catalysts": [
+        "2026 年三季度指引：ASML 指引 Q3 净销售额 110-120 亿欧元、毛利率 55%-57%。",
+        "2027 年低 NA EUV 和 DUV immersion 产能各增加 30% 的执行进度。",
+        "2027-06-10 Capital Markets Day：公司将更新长期市场和技术动态。"
+      ],
+      "risks": [
+        "中国出口管制或客户区域结构变化可能压制订单可见度。",
+        "先进制程资本开支若阶段性消化库存，设备订单比芯片收入更易波动。",
+        "ASML ADR 价格已隐含强上调，需要更高订单持续性来支撑。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 20,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "ASML Q2 2026 financial results press release",
+          "publisher": "ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+        },
+        {
+          "title": "ASML Q2 2026 financial results",
+          "publisher": "ASML Investor Relations",
+          "url": "https://www.asml.com/en/investors/financial-results/q2-2026"
+        }
+      ]
+    },
+    {
+      "theme": "Physical AI 与机器人生态",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global ETF",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 68,
+      "thesis": "判断：物理 AI 的长期方向继续变强，但可投资证据仍偏主题层面。NVIDIA 日本物理 AI 基建和 Cosmos/Jetson Thor 新闻能强化产业想象，ABB 二季度订单也显示自动化需求强；然而 BOTZ 的成分分散、估值和机器人订单兑现仍不够清晰，暂不把主题升到 B。",
+      "why_now": "NVIDIA 于 2026-07-15 至 2026-07-16 连续发布日本物理 AI 和国家 AI 基础设施公告；ABB 于 2026-07-16 披露 Q2 订单 120.42 亿美元、同比 +30%，收入 94.75 亿美元、同比 +14%，并宣布收购 Rotork 扩展 sense-control-act 自动化链条。",
+      "catalysts": [
+        "2026-07-23 AMD Advancing AI 2026：观察边缘 AI、机器人和工业推理生态是否有订单级客户披露。",
+        "2026-10 ABB Q3：验证 record-high orders 是否转化为收入和 EBITA。",
+        "FANUC、Yaskawa、Teradyne 后续财报：如果订单反转，BOTZ 评级可升至 B。"
+      ],
+      "risks": [
+        "NVIDIA 公告多数是生态和合作，收入贡献节奏不透明。",
+        "工业自动化受制造业周期影响，订单到利润有滞后。",
+        "BOTZ 暴露分散，可能捕捉不到最纯的 physical AI alpha。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Japan Government, Industrial Leaders and NVIDIA Launch the World's First National AI Infrastructure",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure"
+        },
+        {
+          "title": "Japan's Robotics and Manufacturing Leaders Build on NVIDIA Cosmos",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier"
+        },
+        {
+          "title": "ABB Q2 2026 results",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/137496/q2-2026-results"
+        },
+        {
+          "title": "ABB Q2 2026 press release PDF",
+          "publisher": "ABB",
+          "url": "https://resources.news.e.abb.com/attachments/published/137496/en-US/9123465FF532/ABB_Q2_2026_Press_release_English.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "能源、炼油利润与通胀尾部风险",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 72,
+      "thesis": "判断：能源不是长期主线中最干净的增长资产，但在全球库存大幅下降、成品油裂解价差偏强、Beige Book 继续提到燃料成本的环境下，XLE 可作为小仓位通胀和地缘风险对冲。由于 EIA 同时预计 2026 年四季度和 2027 年库存回补、油价下行，仓位必须轻。",
+      "why_now": "EIA 2026-07-15 分析指出 2026 年二季度全球原油库存日均下降 510 万桶，三季度预计继续下降 220 万桶/日；美国二季度商业库存从高于五年均值降至 2014 年以来最低季节性水平，成品油裂解价差显著高于去年。",
+      "catalysts": [
+        "2026-07-22 EIA WPSR：确认截至 2026-07-17 的美国商业原油和汽油库存是否继续偏紧。",
+        "中东运输和 Strait of Hormuz 相关扰动是否缓和。",
+        "炼油商二季度业绩：验证高裂解价差是否落入现金流。"
+      ],
+      "risks": [
+        "EIA 在 July STEO 中预计 2026 年四季度全球油品库存转为日均增加 270 万桶，2027 年增加 500 万桶/日，价格下行压力明确。",
+        "高油价破坏需求，非 OECD 消费可能下滑。",
+        "XLE 集中于大型能源股，若油价快速回落会拖累组合。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report, released July 15, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Petroleum markets responded to disruptions in the Middle East in the second quarter",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67865"
+        },
+        {
+          "title": "EIA Short-Term Energy Outlook: Global oil markets",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：黄金仍适合保留为组合保险，但 2026 年 6 月 ETF 流出和价格高位波动说明不能追涨。若实际利率继续回落、美元走弱或地缘风险升级，可加回；否则保持核心保险仓即可。",
+      "why_now": "World Gold Council 2026-07-08 的 June 2026 ETF flows 显示，全球实物支持黄金 ETF 在 6 月流出 89 亿美元，北美主导流出；但 2026 年上半年仍净流入 80 亿美元，亚洲录得 120 亿美元的纪录性上半年流入。",
+      "catalysts": [
+        "2026-07-29 FOMC：若政策语气转鸽且实际利率下行，黄金配置吸引力改善。",
+        "2026-08 WGC 月度 ETF flows：验证 6 月流出是获利了结还是趋势反转。",
+        "中东和能源价格风险：若通胀尾部与避险需求同步上升，GLD 可重新升至 B。"
+      ],
+      "risks": [
+        "若 CPI 继续下行且美元企稳，避险需求可能降温。",
+        "黄金 ETF 已经历大幅上涨后的资金波动，短线拥挤交易可能继续去杠杆。",
+        "GLD 不产生现金流，真实收益率上行时估值支撑弱。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/etf-flows"
+        },
+        {
+          "title": "Gold ETF holdings and flows data",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows"
+        },
+        {
+          "title": "LBMA Precious Metal Prices",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/lbma-precious-metal-prices"
+        }
+      ]
+    },
+    {
+      "theme": "美元、实际利率与高估值资产折现率",
+      "asset": "Invesco DB US Dollar Index Bullish Fund",
+      "ticker": "UUP",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 60,
+      "thesis": "判断：UUP 不是本轮核心多头，但可以作为观察宏观压力的仪表盘。CPI 下行利好成长资产和黄金，但 Beige Book 的燃料成本与关税压力说明美元和利率风险没有完全解除。",
+      "why_now": "2026-07-14 BLS CPI 降温、2026-07-15 Beige Book 仍提到燃料和关税输入成本，形成对高估值 AI 资产的双向约束。",
+      "catalysts": [
+        "2026-07-29 FOMC 利率决定和主席发布会。",
+        "2026-08-12 BLS July 2026 CPI。",
+        "美元指数若重新上行，将压制黄金和非美 ADR 估值。"
+      ],
+      "risks": [
+        "若美联储转向更明确宽松，UUP 会削弱。",
+        "UUP 是美元指数代理，不直接表达利率曲线全部信息。",
+        "对个人组合而言它更适合监测而非主动配置。"
+      ],
+      "components": {
+        "theme_strength": 12,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Consumer Price Index Summary, June 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+        },
+        {
+          "title": "Federal Reserve Beige Book, July 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202607-summary.htm"
+        },
+        {
+          "title": "Advance Monthly Sales for Retail and Food Services, June 2026",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/retail/sales.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI GPU",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "note": "2026-07-16 日本国家 AI 基础设施是强生态信号，但股价和市值已很高；等待回撤或下一次财报验证订单转收入。"
+    },
+    {
+      "theme": "AI 替代供应链",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "note": "2026-07-22 至 2026-07-23 Advancing AI 2026 是近期关键催化，重点看客户、机架级方案和软件生态。"
+    },
+    {
+      "theme": "铀与核电",
+      "asset": "Global X Uranium ETF",
+      "ticker": "URA",
+      "note": "AI 电力需求长期支撑核电叙事，但本轮 24-72 小时缺少新的一级来源催化，暂列观察。"
+    },
+    {
+      "theme": "机器人订单",
+      "asset": "FANUC / Yaskawa / Teradyne",
+      "ticker": "6954.T / 6506.T / TER",
+      "note": "NVIDIA physical AI 新闻提升主题热度，但仍需日欧机器人公司订单确认。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "TSMC Q2 2026 quarterly results",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+    },
+    {
+      "label": "ASML Q2 2026 financial results",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+    },
+    {
+      "label": "NVIDIA Japan national AI infrastructure",
+      "url": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure"
+    },
+    {
+      "label": "NVIDIA Cosmos physical AI Japan release",
+      "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier"
+    },
+    {
+      "label": "ABB Q2 2026 results",
+      "url": "https://www.abb.com/global/en/news/137496/q2-2026-results"
+    },
+    {
+      "label": "Federal Reserve Beige Book July 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202607-summary.htm"
+    },
+    {
+      "label": "BLS CPI June 2026",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "label": "Census June 2026 retail sales",
+      "url": "https://www.census.gov/retail/sales.html"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report July 15 2026",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook global oil",
+      "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+    },
+    {
+      "label": "World Gold Council ETF flows",
+      "url": "https://www.gold.org/goldhub/research/etf-flows"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "semiconductors",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
