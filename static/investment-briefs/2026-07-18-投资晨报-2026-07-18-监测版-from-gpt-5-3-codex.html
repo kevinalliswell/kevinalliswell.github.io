@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-18（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-18（监测版）</h1>
+      <p class="meta">2026-07-18 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-07-18 08:07（Asia/Shanghai），过去 24-72 小时的一级来源继续支持 AI 基础设施主线，但信号从“新叙事”转为“业绩兑现与供给链验证”：TSMC 上调高位收入区间、ASML 维持强订单与全年展望，说明先进制程和光刻设备仍处景气核心。机器人主题的新增信号集中在 Intuitive 手术量与装机增长，质量高但估值和全年指引约束追价；能源库存和 Fed 工业产出显示周期并未失速，黄金则仍适合作为实际利率与政策不确定性的保险仓。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>AI 资本开支持续、美国制造温和扩张、能源库存偏紧与实际利率约束并存</strong></p>
+      <ul><li>Federal Reserve 于 2026-07-17 发布的 G.17 显示，2026 年 6 月美国工业产出环比上升 0.3%，制造业产出上升 0.4%，产能利用率升至 78.1%；这支持“经济仍有韧性、软着陆未破”的基线，但也降低了快速降息的确定性。</li><li>EIA 于 2026-07-16 发布的天然气库存报告显示，截至 2026-07-10 当周美国工作气库存为 3,052 Bcf，周增 46 Bcf，库存比五年均值高 168 Bcf；电力和冷负荷主题仍要区分结构性数据中心需求与短期气价压力。</li><li>EIA Weekly Petroleum Status Report 于 2026-07-15 显示，截至 2026-07-10 当周美国商业原油库存减少 3.9 百万桶；原油与成品油库存收缩让能源股具备通胀尾部风险对冲价值，但需求侧仍需跟踪。</li><li>World Gold Council 于 2026-07-08 披露，2026 年 6 月全球实物支持黄金 ETF 流出 89 亿美元，但 2026 年上半年仍净流入 80 亿美元，说明黄金配置没有完全逆转，只是短线资金出现获利了结。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Taiwan Semiconductor ADR</td>
+          <td>TSM</td>
+          <td>行情快照：2026-07-17 美股收盘</td>
+          <td></td>
+          <td><a href="https://finance.yahoo.com/quote/TSM">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>ASML Holding ADR</td>
+          <td>ASML</td>
+          <td>行情快照：2026-07-17 美股收盘</td>
+          <td></td>
+          <td><a href="https://finance.yahoo.com/quote/ASML">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Intuitive Surgical</td>
+          <td>ISRG</td>
+          <td>行情快照：2026-07-17 美股收盘</td>
+          <td></td>
+          <td><a href="https://finance.yahoo.com/quote/ISRG">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>SPDR Gold Shares</td>
+          <td>GLD</td>
+          <td>行情快照：2026-07-17 美股收盘</td>
+          <td></td>
+          <td><a href="https://finance.yahoo.com/quote/GLD">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Energy Select Sector SPDR Fund</td>
+          <td>XLE</td>
+          <td>行情快照：2026-07-17 美股收盘</td>
+          <td></td>
+          <td><a href="https://finance.yahoo.com/quote/XLE">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-A">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 基础设施与先进制程</p>
+                  <h2>Taiwan Semiconductor Manufacturing ADR <span>TSM</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>A</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 86/100</p>
+              <div class="bar"><span class="fill" style="width:86%"></span></div>
+              <p>判断：TSMC 仍是 AI 基础设施中基本面证据最硬的资产之一。2026 年二季度收入、毛利率与三季度指引显示先进制程需求仍在兑现，且客户集中风险可以被领先制程、先进封装和高稼动率部分抵消。估值不便宜，因此动作不是追高，而是在财报后波动或大盘折现率上行时分批承接。</p>
+              <p><strong>Why now:</strong> TSMC 于 2026-07-16 发布 2026 年二季度业绩，披露二季度美元收入 402.0 亿美元、毛利率 67.7%、营业利润率 60.3%，并给出三季度美元收入 446-458 亿美元、毛利率 65%-67% 的指引；AI 加速器与高性能计算需求仍是主要驱动。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 附近：TSMC 2026 年三季度业绩，验证三季度 318-330 亿美元收入指引和毛利率区间。</li><li>2026 年下半年：先进封装产能与 CoWoS 供需变化，决定 AI GPU/ASIC 供应链的瓶颈溢价能否延续。</li><li>2026-07-28 至 2026-07-29：FOMC 利率路径若缓和，有利于高质量成长资产估值承接。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>客户集中和 AI 加速器周期若出现订单延后，将直接影响先进制程稼动率。</li><li>台海地缘政治风险与美国出口管制升级可能提高估值折价。</li><li>若实际利率重新上行，财报强势也可能被估值压缩抵消。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.tsmc.com/english/quarterly-results/2026/q2">TSMC 2026 Q2 quarterly results</a></li><li><a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf">TSMC 2Q26 earnings release PDF</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 半导体设备与光刻供给链</p>
+                  <h2>ASML Holding <span>ASML</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 84/100</p>
+              <div class="bar"><span class="fill" style="width:84%"></span></div>
+              <p>判断：ASML 的 2026 年二季度结果说明先进逻辑和存储扩产仍支撑光刻设备景气，EUV 的不可替代性使其仍是 AI 资本开支的上游瓶颈资产。但订单和收入节奏高度集中在少数大客户与地缘监管之下，分数略低于 TSMC。</p>
+              <p><strong>Why now:</strong> ASML 于 2026-07-15 发布 2026 年二季度业绩，披露净销售额 93 亿欧元、毛利率 54.0%、净利润 29 亿欧元，并预计 2026 年三季度净销售额 110-120 亿欧元、毛利率 55%-57%，全年净销售额 430-450 亿欧元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 附近：ASML 2026 年三季度业绩，验证三季度收入 110-120 亿欧元和毛利率 55%-57% 指引。</li><li>2026 年下半年：High-NA EUV 出货、客户验收与先进节点扩产计划更新。</li><li>美国、荷兰及中国出口管制政策若边际缓和或未进一步收紧，将降低估值折价。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>出口管制和客户国别限制可能压制中国相关需求。</li><li>大客户资本开支节奏若推迟，设备订单会先于晶圆代工收入转弱。</li><li>三季度收入指引较二季度跳升，若装机、验收或客户交付节奏推迟，市场会重新审视全年 430-450 亿欧元目标。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results">ASML reports Q2 2026 financial results</a></li><li><a href="https://www.asml.com/en/investors/financial-results/q2-2026">ASML Q2 2026 results page</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人手术与高端自动化</p>
+                  <h2>Intuitive Surgical <span>ISRG</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：ISRG 是机器人主题里现金流、装机和耗材复购证据更扎实的标的，较宽泛机器人 ETF 更适合作为质量观察对象。2026 年二季度程序量和系统装机继续增长，但公司未显著上修全年程序增长框架，叠加估值长期较贵，当前更适合等待回撤或指引上修确认。</p>
+              <p><strong>Why now:</strong> Intuitive 于 2026-07-16 发布 2026 年二季度业绩，披露二季度收入 28.9 亿美元、全球 da Vinci 程序量同比增长 15%、整体程序量增长 16%，并维持 2026 年全年 da Vinci 程序量增长 13.5%-15.5% 的指引；市场压力来自“业绩超预期但未上调全年指引”。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 附近：Intuitive 2026 年三季度业绩，观察程序量、系统发运和毛利率能否继续扩张。</li><li>da Vinci 5 装机和利用率数据若加速，可提升资本设备更新周期判断；二季度 da Vinci 5 系统发运 246 台，是设备更新周期的关键观察点。</li><li>医院资本开支环境改善将强化机器人设备采购。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>估值对增长持续性要求高，程序量轻微放缓也会放大股价波动。</li><li>医院预算、报销政策和竞争设备可能压制系统发运。</li><li>国际扩张受到监管审批和本地化竞争影响。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6">Intuitive announces second quarter earnings</a></li><li><a href="https://www.sec.gov/edgar/browse/?CIK=1035267">Intuitive SEC company filings</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、库存偏紧与通胀尾部风险</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：XLE 的角色不是高成长，而是对冲油价、燃料成本和通胀尾部风险。EIA 原油库存下降与天然气库存仍高同时存在，说明能源内部结构分化：油链偏紧、气链短期不紧。适合小仓位而非主线加仓。</p>
+              <p><strong>Why now:</strong> EIA 于 2026-07-15 发布的 Weekly Petroleum Status Report 显示，截至 2026-07-10 当周美国商业原油库存减少 3.9 百万桶；2026-07-16 天然气库存报告显示库存仍高于五年均值，能源主题需要区分油与气。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-22：下一期 EIA Weekly Petroleum Status Report，确认原油和成品油库存是否继续下降。</li><li>2026-08-11：EIA August STEO，更新全球供需和价格假设。</li><li>2026 年三季度：北半球出行季和电力峰荷对油品、天然气和电力价格的影响。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>如果全球需求走弱，库存下降可能只是暂时扰动。</li><li>天然气库存高于五年均值可能压制气价相关权益。</li><li>能源股 beta 高，若油价回落会迅速拖累 XLE。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li><li><a href="https://www.eia.gov/naturalgas/storage/dashboard/">Natural Gas Weekly Update / Storage Dashboard</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率与组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>判断：黄金仍是政策不确定性、美元波动和实际利率下行的组合保险，但 6 月 ETF 流出说明短线资金拥挤度已需要消化。没有明确持仓背景时，GLD 适合保留核心保险仓，不适合在资金流出后盲目追高。</p>
+              <p><strong>Why now:</strong> World Gold Council 于 2026-07-08 披露 2026 年 6 月全球实物支持黄金 ETF 流出 89 亿美元，但 2026 年上半年仍净流入 80 亿美元；这意味着黄金中期配置需求未破，但短线动量降温。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-28 至 2026-07-29：FOMC 会议和实际利率反应。</li><li>2026-08-12：BLS 2026 年 7 月 CPI，验证通胀路径是否支持实际利率下行。</li><li>World Gold Council 下一次 ETF flow 更新，确认 6 月流出是否延续。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>美元走强和实际利率上行会压制黄金。</li><li>ETF 资金若连续流出，黄金短线可能继续消化拥挤仓位。</li><li>没有个人持仓信息，无法判断 GLD 与已有资产的相关性和仓位上限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/etf-flows">Gold ETF flows</a></li><li><a href="https://www.federalreserve.gov/releases/g17/current/default.htm">Federal Reserve G.17 Industrial Production and Capacity Utilization</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">美元、实际利率与高估值成长折现率</p>
+                  <h2>Invesco DB US Dollar Index Bullish Fund <span>UUP</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 58/100</p>
+              <div class="bar"><span class="fill" style="width:58%"></span></div>
+              <p>判断：UUP 更适合作为仪表盘而不是主动进攻资产。Fed 工业产出仍有韧性，短期不支持过度押注快速降息；若美元和实际利率重新上行，AI、机器人和黄金都会受到估值或机会成本压力。</p>
+              <p><strong>Why now:</strong> Fed 2026-07-17 G.17 显示工业产出和制造业产出在 6 月均扩张，说明宏观数据尚未给出衰退式降息信号；这让美元和实际利率仍是高估值主题的共同风险变量。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-28 至 2026-07-29：FOMC 声明、点阵图以外的政策口径和主席记者会。</li><li>2026-08-12：2026 年 7 月 CPI。</li><li>美国财政部后续拍卖和期限溢价变化，影响长端实际利率。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>如果通胀继续降温且 Fed 转鸽，美元多头会失去支撑。</li><li>UUP 本身不是核心长期资产，更多用于风险监测或短期对冲。</li><li>美元走强同时可能伤害海外收入占比较高的美股成长公司。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/g17/current/default.htm">Industrial Production and Capacity Utilization - G.17</a></li><li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC calendar</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
