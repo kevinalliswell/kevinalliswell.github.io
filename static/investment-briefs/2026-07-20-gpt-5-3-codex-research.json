@@ -1,0 +1,352 @@
+{
+  "date": "2026-07-20",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-20（监测版）",
+  "summary": "截至 2026-07-20 08:00（Asia/Shanghai），周末没有发现足以改变 AI、机器人、能源或黄金主题评级的重大新增一级披露；本期为监测版。最近可交易信号仍集中在 2026-07-15 至 2026-07-16 的 TSMC、ASML、ABB、EIA、Fed、Treasury 和 World Gold Council 原始发布。组合判断维持“AI 基础设施为主线，黄金和能源为小比例对冲，机器人/自动化等待估值与订单确认”。",
+  "macro": {
+    "regime": "财报催化前的政策等待期，AI 供给链验证强于宏观新增信号",
+    "bullets": [
+      "Federal Reserve H.4.1 在 2026-07-16 更新资产负债表数据；该项是流动性监测项，不构成单独买入信号，但提示 2026-07-28 至 2026-07-29 FOMC 前仍需关注美元流动性和实际利率。",
+      "U.S. Treasury 在 2026-07-14 发布 May 2026 TIC：5 月总 TIC 净流入 1,322 亿美元，其中私人净流入 1,720 亿美元、官方净流出 399 亿美元；对美元资产需求仍有支撑，但官方流出提醒不要把黄金对冲完全撤掉。",
+      "EIA Weekly Petroleum Status Report 在 2026-07-15 覆盖截至 2026-07-10 的周度石油数据，下一次发布为 2026-07-22；天然气库存报告在 2026-07-16 显示工作气库存为 3,024 Bcf、周增 41 Bcf，能源仓位更适合对冲而非追涨。",
+      "World Gold Council 的 June 2026 Gold ETF Flows 显示 6 月全球实物支持黄金 ETF 流出 89 亿美元、持仓降至 4,047 吨，但 2026 年上半年仍净流入 80 亿美元；黄金短线资金面偏弱，战略保险价值仍在。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Taiwan Semiconductor Manufacturing ADR",
+      "ticker": "TSM",
+      "price": "执行前以券商报价复核",
+      "change_pct": "监测",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+    },
+    {
+      "name": "ASML Holding ADR",
+      "ticker": "ASML",
+      "price": "执行前以券商报价复核",
+      "change_pct": "监测",
+      "source_url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+    },
+    {
+      "name": "ABB Ltd ADR",
+      "ticker": "ABBNY",
+      "price": "订单与并购消化期",
+      "change_pct": "监测",
+      "source_url": "https://global.abb/group/en/investors/quarterly-results"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "FOMC 前保险仓位",
+      "change_pct": "监测",
+      "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
+      "name": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "price": "等待 2026-07-22 EIA",
+      "change_pct": "监测",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施与先进制程",
+      "asset": "Taiwan Semiconductor Manufacturing ADR",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "A",
+      "action": "Buy on weakness",
+      "score": 87,
+      "thesis": "TSMC 仍是 AI 资本开支兑现到晶圆收入和利润率的核心资产。公司 2026-07-16 发布二季度收入 402.0 亿美元、毛利率 67.7%、营业利润率 60.3%，并给出三季度收入 446-458 亿美元指引；2nm、3nm、5nm 与 7nm 及以下先进制程合计占晶圆收入 77%。判断为高质量主线，但适合回撤承接而不是无条件追高。",
+      "why_now": "周末没有新增公司披露；2026-07-16 的二季度业绩仍是当前 AI 基础设施链条中最强的一级来源信号。下一次关键验证是 2026-08-10 左右的 7 月月度营收。",
+      "catalysts": [
+        "2026-08-10 左右：TSMC 7 月月度营收，验证三季度 446-458 亿美元收入指引的起步速度。",
+        "2026-10 附近：TSMC 三季度业绩，确认 2nm ramp、先进封装和高性能计算需求是否继续支撑高毛利率。",
+        "2026-07-22：Alphabet 和 Tesla 财报，同步验证 AI capex 与电动车/储能需求对半导体链条的传导。"
+      ],
+      "risks": [
+        "AI 资本开支若从扩张转向利用率约束，先进制程订单能见度会下降。",
+        "台海、出口管制和先进封装供给限制可能提高估值折价。",
+        "利润率已处高位，扩产折旧、海外厂成本或客户议价可能压缩后续超预期空间。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 16,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "TSMC 2026 Q2 quarterly results",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+        },
+        {
+          "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+          "publisher": "TSMC Press Center",
+          "url": "https://pr.tsmc.com/english/news/3326"
+        }
+      ]
+    },
+    {
+      "theme": "AI 半导体设备与光刻供给链",
+      "asset": "ASML Holding",
+      "ticker": "ASML",
+      "region": "Netherlands/US ADR",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 84,
+      "thesis": "ASML 是 AI 先进制程扩产最稀缺的设备瓶颈之一。公司 2026-07-15 发布二季度净销售额 93 亿欧元、毛利率 54.0%、净利润 29 亿欧元，并把 2026 年净销售额展望上调至 430-450 亿欧元。基本面信号强，但订单周期、出口许可和估值敏感性使评级维持 B。",
+      "why_now": "没有新的周末披露；二季度业绩和全年展望上调仍是设备链的主要确认信号。若 TSMC 7 月营收和云厂商 capex 指引继续强，ASML 的订单能见度会被进一步验证。",
+      "catalysts": [
+        "2026-10 附近：ASML 三季度业绩，验证公司 2026 年三季度 110-120 亿欧元净销售额指引。",
+        "2026-08-10 左右：TSMC 7 月营收作为先进制程设备需求的交叉验证。",
+        "任何美国、荷兰或欧盟半导体出口管制更新都可能改变订单节奏。"
+      ],
+      "risks": [
+        "客户集中度高，若先进制程客户资本开支后移，设备股会先于收入承压。",
+        "出口管制、许可审批和中国需求变化可能影响 DUV/EUV 订单结构。",
+        "市场已把 AI capex 高景气计入估值，云厂商资本开支若降速会压缩倍数。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "ASML Q2 2026 financial results press release",
+          "publisher": "ASML",
+          "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+        },
+        {
+          "title": "ASML Q2 2026 financial results page",
+          "publisher": "ASML Investor Relations",
+          "url": "https://www.asml.com/en/investors/financial-results/q2-2026"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 73,
+      "thesis": "黄金短期资金流承压，但在 FOMC 前仍有组合保险价值。World Gold Council 披露 2026 年 6 月全球黄金 ETF 流出 89 亿美元、持仓降至 4,047 吨，不过上半年仍净流入 80 亿美元；这意味着短线不应追涨，但战略配置需求没有消失。若 2026-07-28 至 2026-07-29 FOMC 后实际利率下行，GLD 的对冲价值会增强。",
+      "why_now": "周末没有新的 WGC 月度数据；本期维持小比例试仓判断，核心原因是政策窗口临近而 AI 成长资产拥挤度较高。",
+      "catalysts": [
+        "2026-07-28 至 2026-07-29：FOMC 会议，决定实际利率和美元方向。",
+        "2026-07-30：BEA 二季度 GDP 初值与 6 月 PCE，验证通胀路径。",
+        "2026-08 上旬：World Gold Council 更新 7 月 gold ETF flows。"
+      ],
+      "risks": [
+        "若 FOMC 表态偏鹰或实际利率上行，GLD 可能继续承压。",
+        "6 月黄金 ETF 大额流出说明短线资金面并不支持激进加仓。",
+        "美元反弹会削弱非收益资产吸引力。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+        },
+        {
+          "title": "LBMA Precious Metal Prices",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/lbma-precious-metal-prices"
+        },
+        {
+          "title": "Federal Reserve FOMC calendars",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源、原油库存与通胀尾部风险",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 70,
+      "thesis": "能源不是本期最强主线，但仍适合作为通胀和地缘风险对冲。EIA 2026-07-15 WPSR 是截至 2026-07-10 的最近石油周报，下一次更新在 2026-07-22；天然气库存 2026-07-16 显示工作气为 3,024 Bcf、周增 41 Bcf。油品库存需要下一份周报确认，天然气库存充足限制能源单边多头弹性。",
+      "why_now": "周末没有新的 EIA 周度数据；维持小比例对冲，等待 2026-07-22 WPSR 确认商业原油、汽油和馏分油库存方向。",
+      "catalysts": [
+        "2026-07-22：EIA WPSR 更新截至 2026-07-17 的美国石油库存。",
+        "2026-08-11：EIA August STEO 更新全球油气供需和库存路径。",
+        "2026 年三季度：若能源 CPI 项重新上行，XLE 的组合保险价值会提高。"
+      ],
+      "risks": [
+        "若全球库存重新走向过剩，XLE 可能同时受油价和估值压制。",
+        "天然气库存充足会压制综合能源 ETF 的盈利弹性。",
+        "全球增长放缓或美元走强可能压低能源需求预期。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "EIA Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/storage/"
+        },
+        {
+          "title": "EIA Short-Term Energy Outlook",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/report/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、工业自动化与电气化",
+      "asset": "ABB Ltd ADR",
+      "ticker": "ABBNY",
+      "region": "Switzerland/US ADR",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "ABB 的订单和电气化/自动化需求强，但机器人主题短期并非纯粹暴露。公司 2026-07-16 二季度披露 record-high orders，订单 120.42 亿美元、同比增 30%、可比增 28%，收入 94.75 亿美元；数据中心建设是电气化需求的重要催化。但 ABB 已出售工业机器人业务给 SoftBank 的方向削弱了其作为纯机器人标的的定位，因此评级为 C+ 观察。",
+      "why_now": "2026-07-16 二季度结果是机器人/自动化主题最近的一级来源；周末没有新披露。对于个人投资，ABB 更适合观察工业自动化和电气化订单，而不是作为高弹性机器人买入标的。",
+      "catalysts": [
+        "2026 年下半年：ABB 对 Rotork 收购及业务组合调整的后续披露。",
+        "2026-10 附近：ABB 三季度结果，确认订单高位是否转化为收入和利润率。",
+        "数据中心、电网和工业自动化订单若继续高增，会支撑电气化链条。"
+      ],
+      "risks": [
+        "机器人业务剥离后，ABB 的物理 AI/机器人纯度下降。",
+        "大额并购整合和估值溢价可能压制短期股东回报。",
+        "工业周期若转弱，订单高增长可能难以持续。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 16,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "ABB quarterly results",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        },
+        {
+          "title": "ABB Q2 2026 results",
+          "publisher": "ABB",
+          "url": "https://www.abb.com/global/en/news/137496/q2-2026-results"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI capex",
+      "asset": "Alphabet",
+      "ticker": "GOOGL",
+      "note": "2026-07-22 13:30 PT 发布二季度结果；重点看 cloud capex、AI 搜索商业化和自由现金流。"
+    },
+    {
+      "theme": "电动车、储能与机器人预期",
+      "asset": "Tesla",
+      "ticker": "TSLA",
+      "note": "2026-07-22 盘后发布二季度结果；公司已披露 Q2 交付 480,126 辆、储能部署 13.5 GWh，但利润率和自动驾驶/机器人时间线仍待财报确认。"
+    },
+    {
+      "theme": "AI cloud capex",
+      "asset": "Microsoft",
+      "ticker": "MSFT",
+      "note": "2026-07-29 发布 FY2026 Q4；重点看 Azure 增速、AI capacity bottleneck 和资本开支强度。"
+    },
+    {
+      "theme": "能源库存",
+      "asset": "EIA WPSR",
+      "ticker": "WTI/XLE",
+      "note": "2026-07-22 更新截至 2026-07-17 的石油库存，是 XLE 是否继续持有的短期确认点。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "TSMC 2026 Q2 quarterly results",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+    },
+    {
+      "label": "TSMC 2026 Q2 earnings release",
+      "url": "https://pr.tsmc.com/english/news/3326"
+    },
+    {
+      "label": "ASML Q2 2026 financial results",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+    },
+    {
+      "label": "ABB quarterly results",
+      "url": "https://global.abb/group/en/investors/quarterly-results"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows",
+      "url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
+      "label": "U.S. Treasury TIC Data for May 2026",
+      "url": "https://home.treasury.gov/news/press-releases/sb0561"
+    },
+    {
+      "label": "Federal Reserve H.4.1 current release",
+      "url": "https://www.federalreserve.gov/releases/h41/current/"
+    },
+    {
+      "label": "Alphabet Q2 2026 earnings date",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Second-Quarter-2026-Financial-Results-Conference-Call-2026-2h_R0kzZHY/default.aspx"
+    },
+    {
+      "label": "Tesla Q2 2026 deliveries and earnings date",
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+    },
+    {
+      "label": "Microsoft investor relations",
+      "url": "https://www.microsoft.com/en-us/investor/default"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "semiconductors",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "GPT-5.3-codex"
+  ]
+}
