@@ -112,7 +112,7 @@ hasCJKLanguage = true
     readingTime   = true
 
     [params.article.list]
-      showTags = true
+      showTags = false
 
     [params.article.license]
       enabled = false
@@ -122,7 +122,6 @@ hasCJKLanguage = true
       {type = "search"},
       {type = "archives", params = {limit = 5}},
       {type = "categories"},
-      {type = "tag-cloud"},
     ]
     page = [
       {type = "toc"},

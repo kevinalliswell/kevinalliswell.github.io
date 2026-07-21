@@ -61,7 +61,11 @@ description: "SEO 描述"
 | `["热点新闻"]` | `#c75146` | GitHub 热榜 |
 | `["投资观察"]` | `#b08968` | 投资简报 |
 
-> 分类配色定义在 `content/categories/<分类名>/_index.md`。
+> 分类配色定义在 `content/categories/<分类名>/_index.md`，`style.background` 为该分类的**基色**。
+> 页面上徽章渲染为浅底 tint 胶囊：`custom.scss` 用 `color-mix` 从基色自动派生浅色/深色两态配色
+> （details.html fork 只输出 `--cat-color` 变量），新增分类只需给一个基色即可。
+> 布局约定：列表卡片不显示 tags（`showTags = false`），首页右栏无 tag-cloud widget（与分类云重复），
+> 主题默认的 Google Fonts Lato 已用空 `layouts/_partials/head/custom-font.html` 覆盖移除。
 
 ### 文件命名
 

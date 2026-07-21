@@ -4,10 +4,10 @@
     {{ if $Page.Params.categories }}
     <header class="article-category">
         {{ range ($Page.GetTerms "categories") }}
+            {{- /* style.background 作为「基色」，具体配色由 custom.scss 用 color-mix 派生（浅底 tint 胶囊，深浅两态自动适配） */ -}}
             {{ $color := partial "helper/color-from-str" .LinkTitle }}
-            {{ $BackgroundColor := default $color.BackgroundColor .Params.style.background }}
-            {{ $TextColor := default $color.TextColor .Params.style.color }}
-            <a href="{{ .RelPermalink }}" style="background-color: {{ $BackgroundColor | safeCSS }}; color: {{ $TextColor | safeCSS }};">
+            {{ $BaseColor := default $color.TextColor .Params.style.background }}
+            <a href="{{ .RelPermalink }}" style="--cat-color: {{ $BaseColor | safeCSS }};">
                 {{ .LinkTitle }}
             </a>
         {{ end }}
