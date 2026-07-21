@@ -50,6 +50,9 @@
     /* 代码块底色：主题默认 #fafafa 在白卡上几乎不可见 */
     --pre-background-color: #f6f7f8;
 
+    /* 表格斑马纹：更轻 */
+    --tr-even-background-color: #f7f8f8;
+
     /* 左侧菜单图标与文字间距收紧（主题默认 40px 太散） */
     --menu-icon-separation: 18px;
 }
@@ -76,6 +79,7 @@
     --shadow-l2: 0 0 0 1px var(--ring-color), 0 12px 28px rgba(0, 0, 0, 0.4);
 
     --pre-background-color: #1e2225;
+    --tr-even-background-color: rgba(255, 255, 255, 0.045);
 }
 
 /* ---------- 3. 全局字体渲染优化 ---------- */
@@ -143,6 +147,7 @@ body {
     border-radius: 8px;
     padding: 1.2rem 1.4rem;
     margin: 1.6rem 0;
+    width: auto;   /* 主题为全出血设计膨胀了 width，这里改回内嵌样式需一并复位，否则右溢 */
     overflow-x: auto;
     overflow-y: hidden;
     font-family: var(--code-font-family);
@@ -162,10 +167,28 @@ body {
     line-height: inherit;
 }
 
+/* Chroma class 模式下代码块外层容器：同样由全出血改为内嵌圆角 */
+.article-content .highlight {
+    margin: 1.6rem 0;
+    width: auto;
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+}
+.article-content .highlight pre {
+    font-size: 1.45rem;
+    line-height: 1.65;
+}
+.article-content .highlight .copyCodeButton {
+    top: 8px;
+    right: 8px;
+    box-shadow: 0 0 0 1px var(--ring-color);
+}
+
 /* 引用块：安静的细竖条，无填充背景，避免与卡片争抢视觉 */
 .article-content blockquote {
     border-left: 3px solid var(--accent-color);
     margin: 1.6rem 0;
+    width: auto;   /* 同 pre：复位主题全出血宽度 */
     padding: 0.2rem 0 0.2rem 1.4rem;
     color: var(--card-text-color-secondary);
     background: transparent;
@@ -287,15 +310,27 @@ body {
 }
 
 /* ---------- 8. 归档页：分类磁贴与紧凑行 ---------- */
-.article-list--tile article {
+/* 分类磁贴：原 250×150 无图时是大片空白卡，改为紧凑类目卡 */
+.subsection-list .article-list--tile article {
+    width: auto;
+    height: auto;
     transition: box-shadow 0.2s ease;
 }
-.article-list--tile article:hover {
+.subsection-list .article-list--tile article:hover {
     box-shadow: 0 0 0 1px var(--ring-color-hover);
 }
-.article-list--tile .article-title {
-    font-size: 1.8rem;
-    font-weight: 600;
+.subsection-list .article-list--tile article .article-details {
+    padding: 1.1rem 2rem;
+    justify-content: center;
+}
+.subsection-list .article-list--tile article .article-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--card-text-color-secondary);
+    transition: color 0.2s ease;
+}
+.subsection-list .article-list--tile article:hover .article-title {
+    color: var(--accent-color);
 }
 
 .article-list--compact article:not(:last-of-type) {
