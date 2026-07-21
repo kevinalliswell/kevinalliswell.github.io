@@ -1,12 +1,13 @@
 /* ============================================================
-   自定义样式 · Stack 主题增强
-   设计目标：克制、简洁、易读（中文优先）
-   说明：Stack 在 SCSS 末尾 @import "custom"，此处覆盖优先级最高。
+   自定义样式 · Stack 主题增强（2026-07 视觉焕新）
+   方向：安静的编辑感极简 —— 暖白画布 + 发丝线卡片 + 低噪分类签。
+   说明：Stack 在 style.scss 末尾 @import "custom"，此处优先级最高。
         Stack 设定 html{font-size:62.5%}，故 1rem = 10px。
-        暗色模式通过根元素 [data-scheme="dark"] 切换。
+        暗色模式：主题暗色 token 编译为 :root[data-scheme="dark"]
+        （特异度 0,2,0），故此处覆盖必须用同写法才能生效。
    ============================================================ */
 
-/* ---------- 设计变量：字体与主题色 ---------- */
+/* ---------- 1. 设计令牌（浅色） ---------- */
 :root {
     /* 中文优先的无衬线字体栈（覆盖 Stack 的 --base-font-family） */
     --base-font-family:
@@ -17,25 +18,78 @@
         "SF Mono", "JetBrains Mono", Menlo, Monaco, Consolas,
         "Roboto Mono", "Courier New", monospace;
 
-    /* 主题强调色：沉静的青绿，呼应「数字花园」气质 */
+    /* 品牌强调色：沉静的青绿，呼应「数字花园」气质 */
     --accent-color: #2c7a7b;
     --accent-color-darker: #236063;
+    --accent-color-text: #fff;
+
+    /* 画布：暖白纸感（弃冷紫灰 #f5f5fa） */
+    --body-background: #fafaf9;
+    --body-text-color: #6b7280;
+
+    /* 卡片：纯白 + 发丝线描边，文字层级更清晰 */
+    --card-background: #ffffff;
+    --card-background-selected: #f2f2f0;
+    --card-text-color-main: #1f2328;
+    --card-text-color-secondary: #59636e;
+    --card-text-color-tertiary: #8a929b;
+    --card-separator-color: rgba(31, 35, 40, 0.08);
+    --card-border-radius: 12px;
+
+    /* 分类签 / 分类云统一胶囊形 */
+    --tag-border-radius: 999px;
+
+    /* 卡片压平：--shadow-l1（静止态）改为发丝线描边；
+       --shadow-l2 保留真实投影（分页跳转对话框、头像 emoji 依赖悬浮感），
+       各卡片的 hover 在下方逐一改为纯描边 */
+    --ring-color: rgba(31, 35, 40, 0.07);
+    --ring-color-hover: rgba(31, 35, 40, 0.16);
+    --shadow-l1: 0 0 0 1px var(--ring-color);
+    --shadow-l2: 0 0 0 1px var(--ring-color), 0 12px 28px rgba(31, 35, 40, 0.08);
+
+    /* 代码块底色：主题默认 #fafafa 在白卡上几乎不可见 */
+    --pre-background-color: #f6f7f8;
+
+    /* 表格斑马纹：更轻 */
+    --tr-even-background-color: #f7f8f8;
+
+    /* 左侧菜单图标与文字间距收紧（主题默认 40px 太散） */
+    --menu-icon-separation: 18px;
 }
 
-/* 暗色模式下提亮强调色，保证在深色卡片上的对比度 */
-[data-scheme="dark"] {
+/* ---------- 2. 设计令牌（暗色）：精修深灰，弃平灰 #303030 ---------- */
+:root[data-scheme="dark"] {
     --accent-color: #4fd1c5;
     --accent-color-darker: #38b2ac;
+    --accent-color-text: #0e2f2b;
+
+    --body-background: #1b1e20;
+    --body-text-color: rgba(255, 255, 255, 0.62);
+
+    --card-background: #24282b;
+    --card-background-selected: rgba(255, 255, 255, 0.1);
+    --card-text-color-main: rgba(255, 255, 255, 0.92);
+    --card-text-color-secondary: rgba(255, 255, 255, 0.7);
+    --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
+    --card-separator-color: rgba(255, 255, 255, 0.1);
+
+    --ring-color: rgba(255, 255, 255, 0.09);
+    --ring-color-hover: rgba(255, 255, 255, 0.22);
+    --shadow-l1: 0 0 0 1px var(--ring-color);
+    --shadow-l2: 0 0 0 1px var(--ring-color), 0 12px 28px rgba(0, 0, 0, 0.4);
+
+    --pre-background-color: #1e2225;
+    --tr-even-background-color: rgba(255, 255, 255, 0.045);
 }
 
-/* 全局字体渲染优化 */
+/* ---------- 3. 全局字体渲染优化 ---------- */
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
-/* ---------- 正文排版 ---------- */
+/* ---------- 4. 正文排版 ---------- */
 .article-content {
     font-size: 1.7rem;     /* 17px */
     line-height: 1.85;
@@ -79,7 +133,7 @@ body {
     border-bottom-color: currentColor;
 }
 
-/* 行内代码与代码块（配色交由 Chroma，仅调字体与圆角） */
+/* ---------- 5. 代码 / 引用 / 列表 / 表格 / 图片 ---------- */
 .article-content code {
     font-family: var(--code-font-family);
     font-variant-ligatures: none;
@@ -93,6 +147,7 @@ body {
     border-radius: 8px;
     padding: 1.2rem 1.4rem;
     margin: 1.6rem 0;
+    width: auto;   /* 主题为全出血设计膨胀了 width，这里改回内嵌样式需一并复位，否则右溢 */
     overflow-x: auto;
     overflow-y: hidden;
     font-family: var(--code-font-family);
@@ -112,10 +167,28 @@ body {
     line-height: inherit;
 }
 
+/* Chroma class 模式下代码块外层容器：同样由全出血改为内嵌圆角 */
+.article-content .highlight {
+    margin: 1.6rem 0;
+    width: auto;
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+}
+.article-content .highlight pre {
+    font-size: 1.45rem;
+    line-height: 1.65;
+}
+.article-content .highlight .copyCodeButton {
+    top: 8px;
+    right: 8px;
+    box-shadow: 0 0 0 1px var(--ring-color);
+}
+
 /* 引用块：安静的细竖条，无填充背景，避免与卡片争抢视觉 */
 .article-content blockquote {
     border-left: 3px solid var(--accent-color);
     margin: 1.6rem 0;
+    width: auto;   /* 同 pre：复位主题全出血宽度 */
     padding: 0.2rem 0 0.2rem 1.4rem;
     color: var(--card-text-color-secondary);
     background: transparent;
@@ -167,37 +240,186 @@ body {
     margin-right: 0.5rem;
 }
 
-/* ---------- 列表卡片：细腻的悬停反馈 ---------- */
+/* ---------- 6. 列表卡片：更安静的层级（作用域限定 .article-list，不影响文章页头） ---------- */
+.article-list {
+    gap: 2.8rem;   /* 原 40px 间距过散，收紧列表节奏 */
+}
+
+/* 悬停：不再上浮 + 大投影，改为描边加深 + 标题染上强调色 */
 .article-list article {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
 }
 .article-list article:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 0 1px var(--ring-color-hover);
 }
 
-/* 分类徽章：圆角更柔和 */
+.article-list .article-details {
+    padding: var(--spacing-lg) var(--card-padding);
+    gap: var(--spacing-sm);
+}
+
+.article-list .article-title {
+    font-size: 2rem;
+    line-height: 1.45;
+    font-weight: 600;
+}
+.article-list .article-title a {
+    transition: color 0.2s ease;
+}
+.article-list article:hover .article-title a {
+    color: var(--accent-color);
+}
+
+/* 摘要：弱化为两行内的次要文字 */
+.article-list .article-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* 元信息行：更小、更淡、图标更小 */
+.article-list .article-meta,
+.article-list .article-meta time,
+.article-list .article-meta a,
+.article-list .article-meta span { font-size: 1.3rem; }
+.article-list .article-meta svg { width: 16px; height: 16px; }
+
+/* ---------- 7. 分类签：基色派生的浅底 tint 胶囊 ----------
+   details.html fork 只输出 --cat-color 基色（来自分类 front matter 的
+   style.background），深浅两态配色由 color-mix 自动派生，色相语义延续。 */
 .article-category a {
-    border-radius: 6px;
+    background: color-mix(in srgb, var(--cat-color, var(--accent-color)) 10%, transparent);
+    color: color-mix(in srgb, var(--cat-color, var(--accent-color)) 62%, var(--card-text-color-main));
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border-radius: var(--tag-border-radius);
+    transition: background 0.2s ease;
+}
+.article-category a:hover {
+    background: color-mix(in srgb, var(--cat-color, var(--accent-color)) 18%, transparent);
+    color: color-mix(in srgb, var(--cat-color, var(--accent-color)) 62%, var(--card-text-color-main));
+}
+:root[data-scheme="dark"] .article-category a {
+    background: color-mix(in srgb, var(--cat-color, var(--accent-color)) 20%, transparent);
+    color: color-mix(in srgb, var(--cat-color, var(--accent-color)) 45%, #fff);
 }
 
-/* ---------- 侧边栏：标题与副标题层次 ---------- */
-.sidebar .site-meta .site-name {
+/* ---------- 8. 归档页：分类磁贴与紧凑行 ---------- */
+/* 分类磁贴：原 250×150 无图时是大片空白卡，改为紧凑类目卡 */
+.subsection-list .article-list--tile article {
+    width: auto;
+    height: auto;
+    transition: box-shadow 0.2s ease;
+}
+.subsection-list .article-list--tile article:hover {
+    box-shadow: 0 0 0 1px var(--ring-color-hover);
+}
+.subsection-list .article-list--tile article .article-details {
+    padding: 1.1rem 2rem;
+    justify-content: center;
+}
+.subsection-list .article-list--tile article .article-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--card-text-color-secondary);
+    transition: color 0.2s ease;
+}
+.subsection-list .article-list--tile article:hover .article-title {
+    color: var(--accent-color);
+}
+
+.article-list--compact article:not(:last-of-type) {
+    border-bottom: 1px solid var(--card-separator-color);
+}
+.article-list--compact .article-title { font-weight: 500; }
+.article-list--compact .article-meta,
+.article-list--compact .article-meta time,
+.article-list--compact .article-meta span { font-size: 1.25rem; }
+
+/* ---------- 9. 分页：当前页去底色，以强调色标注 ---------- */
+.pagination .page-link.current {
+    background-color: transparent;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* ---------- 10. 左侧栏：站名层级与菜单活跃态 ---------- */
+.sidebar header .site-name {
+    font-size: 1.8rem;
+    font-weight: 700;
     letter-spacing: 0.02em;
 }
-.sidebar .site-meta .site-description {
-    line-height: 1.6;
+@media (min-width: 1536px) {
+    .sidebar header .site-name { font-size: 2rem; }
+}
+.sidebar header .site-description {
+    font-size: 1.4rem;
+    line-height: 1.65;
     opacity: 0.85;
 }
 
-/* ---------- 不蒜子/Vercount 计数显示 ---------- */
+/* 活跃菜单项：强调色 + 600 字重 + 图标描边加粗
+   （不用负偏移 pill：#main-menu overflow-y:auto 会因负偏移出横向滚动条） */
+#main-menu li.current a { color: var(--accent-color); font-weight: 600; }
+#main-menu li.current svg { stroke-width: 2; }
+
+/* ---------- 11. 右侧栏部件：去装饰图标、小标签式标题、安静色签 ---------- */
+.widget .widget-icon { display: none; }
+
+.right-sidebar .section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--body-text-color);
+}
+
+/* 分类部件与标签云同款样式（widget/taxonomy 模板） */
+.tagCloud .tagCloud-tags a {
+    padding: 6px 14px;
+    font-size: 1.3rem;
+    color: var(--card-text-color-secondary);
+    transition: box-shadow 0.2s ease, color 0.2s ease;
+}
+.tagCloud .tagCloud-tags a:hover {
+    box-shadow: 0 0 0 1px var(--ring-color-hover);
+    color: var(--accent-color);
+}
+
+/* 归档部件：行更轻 */
+.widget.archives .archives-year:not(:last-of-type) {
+    border-bottom: 1px solid var(--card-separator-color);
+}
+.widget.archives .archives-year a {
+    padding: 13px 18px;
+    font-size: 1.35rem;
+}
+.widget.archives .archives-year a span.year { font-weight: 600; }
+
+/* ---------- 12. 页脚：更轻的装饰与文字 ---------- */
+footer.site-footer { font-size: 1.3rem; }
+footer.site-footer::before {
+    height: 2px;
+    width: 32px;
+    background: var(--card-separator-color);
+}
+footer.site-footer .copyright {
+    color: var(--body-text-color);
+    font-weight: 600;
+}
+
+/* ---------- 13. 不蒜子/Vercount 计数显示 ---------- */
 #busuanzi_container_site_pv,
 #busuanzi_container_page_pv,
 .busuanzi-value {
     display: inline;
 }
 
-/* ---------- 移动端优化 ---------- */
+/* ---------- 14. 移动端优化 ---------- */
 @media (max-width: 768px) {
     .article-content {
         font-size: 1.6rem;   /* 16px */
@@ -205,4 +427,5 @@ body {
     .article-content h1 { font-size: 2.3rem; }
     .article-content h2 { font-size: 2.0rem; }
     .article-content pre { font-size: 1.35rem; }
+    .article-list .article-title { font-size: 1.8rem; }
 }

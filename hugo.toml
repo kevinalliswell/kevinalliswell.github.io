@@ -9,6 +9,12 @@ hasCJKLanguage = true
 [pagination]
   pagerSize = 10
 
+[markup]
+  [markup.highlight]
+    # 用 class 模式交给 Stack 主题的深浅两套 Chroma 配色（默认 monokai 内联样式
+    # 会让浅色模式也渲染黑色代码块，且主题代码令牌全部失效）
+    noClasses = false
+
 [outputs]
   home    = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
@@ -112,7 +118,7 @@ hasCJKLanguage = true
     readingTime   = true
 
     [params.article.list]
-      showTags = true
+      showTags = false
 
     [params.article.license]
       enabled = false
@@ -122,7 +128,6 @@ hasCJKLanguage = true
       {type = "search"},
       {type = "archives", params = {limit = 5}},
       {type = "categories"},
-      {type = "tag-cloud"},
     ]
     page = [
       {type = "toc"},
