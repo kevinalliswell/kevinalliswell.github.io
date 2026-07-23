@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-23（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-23（监测版）</h1>
+      <p class="meta">2026-07-23 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-07-23 08:00（Asia/Shanghai），过去 24 小时出现多条一级来源增量：GE Vernova Q2 订单和数据中心电气化订单显著超预期并上调 2026 指引，Alphabet Cloud 与 AI capex 同时加速，Tesla 交付和储能强但利润与自由现金流承压，EIA 周度库存显示原油与成品油库存增加。组合判断：AI 电力瓶颈和先进设备链仍是主线；高估值 AI 平台需区分收入兑现与资本消耗；黄金保留小比例保险；能源只保留对冲而不追涨。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>长端利率偏高、AI capex 强、能源库存短线缓和，结构性机会集中在电力瓶颈和半导体供给链</strong></p>
+      <ul><li>Federal Reserve H.15 于 2026-07-22 发布的日度利率显示，2026-07-21 有效联邦基金利率为 3.63%，10 年期美债为 4.63%，20 年期为 5.14%，30 年期为 5.13%，10 年期 TIPS 实际利率为 2.37%；这继续压制久期资产和黄金估值弹性。</li><li>Alphabet 2026-07-22 Q2 披露显示 Google Cloud 收入同比增长 82% 至 247.68 亿美元，但 Q2 购置物业和设备支出达到 449.24 亿美元，单季自由现金流为 -58.55 亿美元；AI 基础设施需求强，但资本强度也同步上升。</li><li>GE Vernova 2026-07-22 Q2 披露显示订单 242 亿美元、有机增长 88%，积压订单环比增加 130 亿美元；管理层称 2026 年以来数据中心订单超过 50 亿美元，超过 2025 年全年两倍，直接验证 AI 电力瓶颈。</li><li>Tesla 2026-07-22 Q2 披露显示收入同比增长 26% 至 282 亿美元，GAAP 营业利润 4 亿美元；Q2 已交付 480,126 辆车并部署 13.5 GWh 储能，但研发和资本支出上升使盈利质量仍需验证。</li><li>EIA 2026-07-22 Weekly Petroleum Status Report 显示，截至 2026-07-17 的一周，美国商业原油库存增加 200 万桶至 4.117 亿桶，汽油库存增加 80 万桶，馏分油库存增加 140 万桶；短线库存增量削弱追涨能源的赔率。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10 年期美国国债收益率</td>
+          <td>UST10Y</td>
+          <td>4.63% (2026-07-21)</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>10 年期 TIPS 实际利率</td>
+          <td>UST10Y real</td>
+          <td>2.37% (2026-07-21)</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>美国商业原油库存</td>
+          <td>EIA crude stocks</td>
+          <td>411.7 million bbl</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Tesla Q2 储能部署</td>
+          <td>TSLA storage</td>
+          <td>13.5 GWh</td>
+          <td></td>
+          <td><a href="https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Sprott Uranium Miners ETF NAV</td>
+          <td>URNM</td>
+          <td>$49.69 (2026-07-21)</td>
+          <td></td>
+          <td><a href="https://sprottetfs.com/urnm-sprott-uranium-miners-etf/">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-A">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 电力瓶颈、燃机与电气化设备</p>
+                  <h2>GE Vernova <span>GEV</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>A</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 86/100</p>
+              <div class="bar"><span class="fill" style="width:86%"></span></div>
+              <p>判断：GEV 从“电力设备复苏”升级为 AI 数据中心供电瓶颈的核心受益标的之一。Q2 订单、backlog、自由现金流和上调指引同时出现，且数据中心订单已经超过 2025 年全年两倍，证明需求不是单一新闻驱动。仓位策略仍应等待回撤或财报后波动，而不是在跳空后追高。</p>
+              <p><strong>Why now:</strong> GE Vernova 2026-07-22 发布 Q2：订单 242 亿美元、有机增长 88%；backlog 环比增长 130 亿美元；Gas Power equipment backlog 和 slot reservation agreements 从 100 GW 增至 116 GW，并预计 2026 年底至少 125 GW；收入 111 亿美元、同比增长 22%；经营现金流 55 亿美元、自由现金流 51 亿美元；公司还上调 2026 年财务指引。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-22 Q2 财报后的再评级窗口：观察市场是否把 50 亿美元以上数据中心订单作为持续性订单池，而不是一次性脉冲。</li><li>2026 Q3 公司计划达到 20 GW 年化燃机产出；2028 年目标 24 GW、2030 年目标 30 GW，是产能兑现路径。</li><li>2026 年底 Gas Power equipment backlog 和 slot reservation agreements 至少 125 GW 的目标，是下半年可检查催化剂。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>财报后估值可能已经提前反映订单加速，短期买点依赖价格回撤。</li><li>燃机和电网设备交付受供应链、质量、项目执行和客户并网进度制约。</li><li>若 AI 数据中心电力建设审批或融资放缓，订单可见度可能先于收入兑现打折。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial">GE Vernova reports second quarter 2026 financial results and raises 2026 financial guidance</a></li><li><a href="https://www.gevernova.com/investors">GE Vernova Investor Relations - Q2 2026 event resources</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 半导体设备与先进制程供给链</p>
+                  <h2>ASML Holding <span>ASML</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 84/100</p>
+              <div class="bar"><span class="fill" style="width:84%"></span></div>
+              <p>判断：Alphabet 的单季 449 亿美元 PP&amp;E 支出和 Cloud 82% 增长，进一步给 ASML/TSMC/NVDA 所在的 AI 基础设施供给链提供需求侧验证。ASML 自身 2026-07-15 已上调全年净销售额与毛利率展望；但出口管制和估值使其仍应以回撤承接为主。</p>
+              <p><strong>Why now:</strong> Alphabet 2026-07-22 披露 Q2 Google Cloud 收入 247.68 亿美元、同比增长 82%，并披露 Q2 购置物业和设备支出 449.24 亿美元；ASML 2026-07-15 披露 Q2 净销售额 93.26 亿欧元、毛利率 54.0%、净利润 29.18 亿欧元，并将 2026 年净销售额展望上调至 430-450 亿欧元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-29 Microsoft FY2026 Q4 将继续验证 hyperscaler AI capex 是否扩散。</li><li>ASML Q3 2026 指引为净销售额 110-120 亿欧元、毛利率 55%-57%，若兑现将确认设备交付强度。</li><li>TSMC、存储厂和先进封装供应链的 2H26 capex 更新是订单持续性的关键确认。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Alphabet 的自由现金流转负说明 AI capex 强度可能引发市场对投资回报率的质疑。</li><li>ASML 对先进逻辑、存储和少数大客户订单敏感，订单波动会放大估值波动。</li><li>出口管制或中国相关订单限制可能改变边际预期。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Second-Quarter-2026-Results-2026-Y3uQ6H4ZJa/default.aspx">Alphabet Announces Second Quarter 2026 Results</a></li><li><a href="https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf">2026 Q2 Alphabet Earnings Release PDF</a></li><li><a href="https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results">ASML Q2 2026 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 平台、云基础设施与资本强度</p>
+                  <h2>Alphabet <span>GOOGL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>判断：Alphabet 的 AI 商业化和云增长显著好于普通软件平台，但单季 capex 和融资动作让它不再是轻资产增长叙事。适合小仓位跟踪或回撤试仓，重点看 Cloud operating income、AI 搜索商业化和 capex 回报率，而不是只看收入增速。</p>
+              <p><strong>Why now:</strong> Alphabet 2026-07-22 Q2 披露：总收入 1,197.96 亿美元、同比增长 24%；Google Cloud 收入 247.68 亿美元、同比增长 82%，Google Cloud operating income 为 88.14 亿美元；但 Q2 购置物业和设备 449.24 亿美元，单季自由现金流 -58.55 亿美元。公司还披露 2026 年 6 月发行普通股、C 类股和强制可转换优先股，净募资 496 亿美元，并在 Q2 发行高级无担保票据净募资 203 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 Q3 继续观察 Cloud 收入增速是否维持高位，以及 operating income 是否覆盖更高折旧和基础设施成本。</li><li>AI 搜索、Gemini Enterprise、TPU systems 销售是否带来可重复收入，而不只是 capex 前置。</li><li>后续 10-Q 将提供更完整风险因素、资本支出和融资细节。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>单季自由现金流转负，说明 AI 资本开支吞噬现金流，估值需要更高未来回报支撑。</li><li>发行股权、优先股和债务提高资本结构复杂度，稀释与利息成本需纳入估值。</li><li>监管、AI 搜索商业化不确定性和模型成本竞争可能压缩长期利润率。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Second-Quarter-2026-Results-2026-Y3uQ6H4ZJa/default.aspx">Alphabet Announces Second Quarter 2026 Results</a></li><li><a href="https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf">2026 Q2 Alphabet Earnings Release PDF</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、自动驾驶、储能与电动车</p>
+                  <h2>Tesla <span>TSLA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>判断：Tesla 的 Q2 增量对机器人和自动驾驶叙事是正面的，但对股票不是无条件正面。交付、储能、Cybercab 和 FSD 订阅都有进展；同时 GAAP operating income 仅 4 亿美元，资本投入和研发压力上升。没有持仓则不追，已有仓位重点盯 AI/robotaxi 里程碑能否转化成毛利。</p>
+              <p><strong>Why now:</strong> Tesla 2026-07-22 8-K 和 Q2 Update 显示 Q2 收入同比增长 26% 至 282 亿美元、GAAP operating income 4 亿美元、GAAP net income 11 亿美元；2026-07-02 生产交付公告显示 Q2 生产 451,758 辆、交付 480,126 辆、部署 13.5 GWh 储能。Q2 Update 还称 Cybercab 已在 Gigafactory Texas 开始生产，Tesla Semi 仍按计划在内华达新工厂投产。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 下半年观察 Cybercab 生产节奏、robotaxi 城市扩张、监管许可和安全数据。</li><li>Optimus、FSD 订阅和储能毛利率能否在后续季度贡献可审计收入。</li><li>2026 年资本开支与自由现金流路径，是市场是否接受 AI/机器人转型估值的关键。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>自动驾驶和人形机器人商业化时间线长期存在承诺过早、兑现偏慢的风险。</li><li>汽车价格、监管信用、R&amp;D 和 capex 压力可能继续压缩经营利润率。</li><li>若 Cybercab 或 robotaxi 安全/监管受阻，AI 溢价可能快速回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf">Tesla Q2 2026 Form 8-K and Second Quarter Update</a></li><li><a href="https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments">Tesla Second Quarter 2026 Production, Deliveries &amp; Deployments</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率与组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：黄金仍适合做小比例组合保险，但不是当下最强进攻资产。长端名义利率和实际利率处于高位，压制短线弹性；央行需求和地缘风险提供底层支撑。策略上保留保险仓，等待 FOMC 前后实际利率回落或 ETF 流入恢复再加。</p>
+              <p><strong>Why now:</strong> Fed H.15 2026-07-22 发布显示 2026-07-21 10 年期 TIPS 实际利率为 2.37%、30 年期名义利率为 5.13%；World Gold Council 2026 Central Bank Gold Reserves Survey 显示 89% 受访央行预计未来 12 个月全球央行黄金储备增加，45% 预计本机构黄金储备增加；WGC ETF 数据页显示黄金 ETF 持仓和流量仍是需要跟踪的短期资金信号。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-28 至 2026-07-29 FOMC 决议和新闻发布会将直接影响实际利率、美元和黄金。</li><li>WGC 下一批 ETF flows 数据若显示北美/欧洲重新流入，可提高 GLD 短线胜率。</li><li>央行储备披露和地缘风险若继续强化去美元化需求，将支撑中期配置理由。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若 10 年期实际利率继续上行，黄金可能出现估值压缩。</li><li>ETF 流量若继续流出，短线价格可能反复。</li><li>GLD 不产生现金流，仓位应以组合保险预算为上限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates</a></li><li><a href="https://www.gold.org/goldhub/research/central-bank-gold-reserves-survey-2026">Central Bank Gold Reserves Survey 2026</a></li><li><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">Gold ETF Holdings and Flows</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、原油库存与通胀尾部风险</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>判断：能源仍是通胀和地缘风险对冲，但 2026-07-22 的 EIA 库存数据不支持短线扩大 XLE。库存增加与成品油供应修复削弱油价追涨赔率；如果后续地缘冲击或库存重新转降，再重新评估。</p>
+              <p><strong>Why now:</strong> EIA Weekly Petroleum Status Report 2026-07-22 显示，截至 2026-07-17，美国商业原油库存增加 200 万桶至 4.117 亿桶，仍低于五年均值约 6%；汽油库存增加 80 万桶，馏分油库存增加 140 万桶，全部商业石油库存增加 1,160 万桶。炼厂开工率 96.1%，四周总产品供应量 2,040 万桶/日、同比下降 1.0%。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-29 下一次 EIA WPSR：观察库存增加是否持续。</li><li>若地缘风险推升 Brent/WTI 且库存重新下降，XLE 对冲价值提高。</li><li>能源公司 Q2 财报将验证现金返还和资本纪律。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>库存增加和需求同比偏弱可能继续压制油价。</li><li>若 EIA STEO 的供给恢复路径兑现，油价中期上行空间有限。</li><li>XLE 对油价、利率和市场风险偏好高度敏感，不适合替代核心成长仓位。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">Summary of Weekly Petroleum Data for the week ending July 17, 2026</a></li><li><a href="https://www.eia.gov/todayinenergy/detail.php?id=67868">Commercial crude oil inventories increased by 2.0 million barrels</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">核电、铀矿与关键能源材料</p>
+                  <h2>Sprott Uranium Miners ETF <span>URNM</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 63/100</p>
+              <div class="bar"><span class="fill" style="width:63%"></span></div>
+              <p>判断：铀和核电长期供需逻辑仍在，但过去 24 小时缺少足以提高评级的新一级信号。URNM 适合继续观察，不适合在缺乏新催化的情况下提高仓位。</p>
+              <p><strong>Why now:</strong> EIA Uranium Marketing Annual Report 数据页显示，2024 年美国民用核电业主购买 5,590 万磅 U3O8e，同比 2023 年的 5,160 万磅增长 8%，加权均价 52.71 美元/磅；Sprott URNM 页面显示截至 2026-07-21 NAV 为 49.69 美元、总净资产 18.0 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>EIA 后续铀市场和产量数据更新，验证美国核燃料安全主题是否继续强化。</li><li>IAEA/World Nuclear Association 对核电容量和燃料需求的更新。</li><li>主要铀矿商产量指引、合同价格和矿山 ramp-up 进度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>URNM 集中度高，对铀现货价格和矿商执行风险敏感。</li><li>核电政策支持到实际新建容量之间周期长，主题兑现慢。</li><li>如果铀矿供应恢复快于预期，矿商估值可能先回落。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/uranium/marketing/">Uranium Marketing Annual Report</a></li><li><a href="https://sprottetfs.com/urnm-sprott-uranium-miners-etf/">URNM Sprott Uranium Miners ETF</a></li><li><a href="https://www.eia.gov/uranium/production/quarterly/">Domestic Uranium Production Report - Quarterly</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
