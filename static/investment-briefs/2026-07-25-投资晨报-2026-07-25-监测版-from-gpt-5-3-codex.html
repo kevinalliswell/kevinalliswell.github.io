@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-25（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-25（监测版）</h1>
+      <p class="meta">2026-07-25 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-07-25 08:00（Asia/Shanghai），过去 24 小时没有比 2026-07-24 晨报更强的新增主源信号，本期按监测版处理。核心判断维持：AI 基建需求仍由 AMD/Anthropic、AMD/Cerebras、Alphabet Cloud 和 Intel Q2 结果支撑，但市场正在重新审查 AI 资本开支、自由现金流和电力/融资约束；黄金继续作为真实利率与地缘风险的组合保险；能源只做库存与油价尾部风险跟踪，不追涨。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>利率高位盘整，AI 基建强需求与资本开支质疑并存，黄金维持保险属性</strong></p>
+      <ul><li>美国财政部 2026-07-24 日度收益率曲线显示 2 年期约 4.04%、10 年期约 4.43%、30 年期约 4.69%，折现率仍对高估值 AI 资产形成约束；下一次 FOMC 会议为 2026-07-28 至 2026-07-29。</li><li>EIA 2026-07-23 发布的截至 2026-07-17 周报显示，美国商业原油库存增加 200 万桶至 4.117 亿桶，且总商业石油库存周增 1,160 万桶；能源链条需要等 2026-07-29 下一份 WPSR 确认。</li><li>World Gold Council 2026-07-08 月度数据与 2026-07-17 周度数据表明，6 月全球黄金 ETF 流出，但 2026 年上半年仍为净流入，黄金的保险仓位价值未被破坏。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>U.S. 10Y Treasury yield</td>
+          <td>UST10Y</td>
+          <td>4.43% on 2026-07-24</td>
+          <td></td>
+          <td><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_yield_curve">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>U.S. commercial crude inventories</td>
+          <td>EIA-WPSR</td>
+          <td>411.7 million barrels for week ended 2026-07-17</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Global gold ETF holdings</td>
+          <td>Gold ETFs</td>
+          <td>4,047t at 2026 H1 end; weekly data as of 2026-07-17</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>FOMC next meeting</td>
+          <td>Fed</td>
+          <td>2026-07-28 to 2026-07-29</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 基础设施、异构推理与 GPU 替代链</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>判断：AMD 的新增订单叙事从单点芯片竞争升级为机架级、客户共研和异构推理生态，具备中期重估条件；但 2GW 部署、Cerebras Cloud 可用性和 ROCm 迁移仍是未来兑现项，不能按已实现收入定价。</p>
+              <p><strong>Why now:</strong> 2026-07-22 AMD 与 Anthropic 宣布最高 2GW MI450/Helios 部署、首个 1GW 计划 2027H1 开始；2026-07-23 AMD 与 Cerebras 宣布 Helios + Wafer-Scale Engine 的分离式推理方案，计划 2026H2 先通过 Cerebras Cloud 提供。2026-07-25 没有新主源改变该判断。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026H2：Cerebras Cloud 初始提供 AMD/Cerebras 分离式推理方案，重点看客户可用性、价格和实际吞吐效率。</li><li>2027H1：Anthropic 首个 1GW AMD Helios 部署是否按计划启动。</li><li>AMD 后续季度：数据中心 GPU 收入、ROCm 生态迁移、HBM/CoWoS 供给和客户集中度披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>NVIDIA 软件生态和供应链优势仍可能压制 AMD 份额扩张速度。</li><li>2GW 部署和最高 50 亿美元战略投资属于前瞻安排，融资、数据中心选址、电力和客户预算都可能延后。</li><li>若 AI capex 回报被市场持续质疑，高 beta 半导体资产可能先被压估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus">AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs</a></li><li><a href="https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution">AMD and Cerebras Announce Industry-Leading Ultra-Low-Latency and High Throughput AI Inference Solution</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 云平台、搜索分发与资本开支回报</p>
+                  <h2>Alphabet <span>GOOGL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>判断：Alphabet 的 AI 产品和 Google Cloud 增速继续证明需求端强度，但 Q2 中资本募集、AI 基础设施投入和非经常性权益收益使自由现金流质量更难读。适合小仓跟踪，不适合因 headline EPS 追高。</p>
+              <p><strong>Why now:</strong> Alphabet 2026-07-22 Q2 发布显示收入同比增长 24% 至 1,197.96 亿美元，Google Cloud 收入同比增长 82% 至 247.68 亿美元；同一文件披露 2026 年 6 月完成 496 亿美元净权益融资，主要用途包括扩展 AI 基础设施和全球计算。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-30 前后：美股大科技后续财报对 AI capex 回报和云需求的交叉验证。</li><li>下一份 10-Q：capex、折旧、现金流、云 backlog 和 AI 相关利润率细节。</li><li>Gemini 企业化渗透、AI Overviews/AI Mode 对搜索商业化的留存和变现影响。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Q2 净利润受 980 亿美元权益证券未实现收益显著影响，不能简单外推。</li><li>AI 基建投入若继续高于市场预期，估值可能受到自由现金流折价。</li><li>搜索监管、模型成本和云价格竞争会压制利润率。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf">Alphabet Announces Second Quarter 2026 Results</a></li><li><a href="https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Second-Quarter-2026-Results-2026-Y3uQ6H4ZJa/default.aspx">Alphabet Announces Second Quarter 2026 Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI CPU、先进封装、边缘机器人与美国制造链</p>
+                  <h2>Intel <span>INTC</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：Intel Q2 结果改善了 AI CPU、DCAI 和 foundry 复苏叙事，但转型仍带有高资本开支和执行风险。更适合作为复苏观察仓，而不是在结果后追涨。</p>
+              <p><strong>Why now:</strong> Intel 投资者关系页显示 Q2 2026 财报、演示、prepared remarks 和 10-Q 均在 2026-07-23 发布；这是 AI 供应链中少数同时覆盖 CPU、先进封装、foundry 和美国制造政策敞口的主源更新。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026Q3 指引兑现度和 DCAI 增速延续性。</li><li>Foundry 客户签约、先进封装产能利用率和资本开支路径。</li><li>机器人/边缘 AI 设备对 CPU、connectivity 和封装需求的订单证据。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Foundry 扭亏与外部客户验证周期长，短期利润质量可能不稳定。</li><li>资本开支上修会拖累自由现金流。</li><li>若 AI 训练/推理预算集中在 GPU 和 ASIC，Intel 的份额弹性可能低于市场想象。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.intc.com/">Q2 2026 Quarterly Results</a></li><li><a href="https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results">Intel Reports Second-Quarter 2026 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率、ETF 流量与组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Hold insurance position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 70/100</p>
+              <div class="bar"><span class="fill" style="width:70%"></span></div>
+              <p>判断：黄金短线缺少新增追买信号，但在 FOMC 前、真实利率高位和地缘风险未消退的环境下，仍适合作为组合保险仓。新增仓位应等回撤或实际利率下行确认。</p>
+              <p><strong>Why now:</strong> World Gold Council 2026-07-08 数据显示，6 月全球黄金 ETF 流出 89 亿美元，但 2026H1 仍净流入 80 亿美元，持仓较年初增加 18 吨至 4,047 吨；该页周度数据更新到 2026-07-17。美国 10 年期名义收益率 2026-07-24 约 4.43%，使追买黄金的机会成本仍需约束。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-28 至 2026-07-29 FOMC：若政策语气弱于市场担忧，黄金可获得真实利率下行支持。</li><li>WGC 周度 ETF 数据：观察北美资金是否从 6 月流出转稳。</li><li>美元与中东风险变化：决定黄金保险仓是否需要增配。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若长端名义利率和真实利率继续上行，黄金 ETF 可能继续承压。</li><li>6 月全球 ETF 流出说明短线资金并未一致回补黄金。</li><li>若地缘风险降温且权益市场恢复风险偏好，黄金相对收益可能落后。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">Gold ETF Flows: June 2026</a></li><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&amp;type=daily_treasury_yield_curve">Daily Treasury Par Yield Curve Rates</a></li><li><a href="https://www.lbma.org.uk/prices-and-data/lbma-precious-metal-prices">LBMA Precious Metal Prices</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、自动驾驶、储能与高资本强度 AI</p>
+                  <h2>Tesla <span>TSLA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>判断：Tesla 的机器人、Robotaxi、储能和 AI 可选项仍有战略价值，但 Q2 文件显示自由现金流和资本开支压力需要更明确的兑现路径。没有新增主源足以提升评级。</p>
+              <p><strong>Why now:</strong> Tesla 2026-07-22 8-K 披露 Q2 2026 Update，并在投资者关系页同步提供 Press Release、10-Q、Delivery 和 Earnings 入口；Q2 补充表显示 2026Q2 capital expenditures 为 57.89 亿美元、free cash flow 为 -10.92 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次交付和储能部署数据：确认车辆需求、ASP 与储能增长是否同步改善。</li><li>Robotaxi/Cybercab 商业化节点：需要监管、成本和单位经济性证据。</li><li>Optimus/机器人订单或产线部署：若只停留在展示，估值贡献应打折。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高资本开支与负自由现金流会限制估值容忍度。</li><li>Robotaxi 和机器人兑现时间不确定，容易被叙事波动放大。</li><li>汽车业务毛利、价格竞争和监管事故风险仍可能压制主业。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.tesla.com/">Tesla Q2 2026 Financial Results and Update</a></li><li><a href="https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf">Tesla 8-K with Q2 2026 Update</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、原油库存、天然气补库与通胀尾部</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 61/100</p>
+              <div class="bar"><span class="fill" style="width:61%"></span></div>
+              <p>判断：能源是宏观尾部风险和通胀对冲，但 EIA 最新周报更偏库存累积而非紧缺确认。除非 2026-07-29 下一份 WPSR 显示库存重新收紧，否则不追涨 XLE/USO。</p>
+              <p><strong>Why now:</strong> EIA 2026-07-23 WPSR 显示，截至 2026-07-17，美国炼厂开工率 96.1%，商业原油库存增加 200 万桶，总商业石油库存增加 1,160 万桶；天然气库存页同日显示工作气库存为 3,056 Bcf。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-29 EIA Weekly Petroleum Status Report：确认原油、汽油、馏分油库存方向。</li><li>EIA 天然气库存下一次更新：电力需求、LNG 出口和补库速度。</li><li>中东与航运风险：若供应中断证据落地，能源 beta 才有上调空间。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若库存继续增加，油价风险溢价会回落。</li><li>高油价压制需求并推升政策干预概率。</li><li>XLE 对大型综合油气公司权重高，不能完全代表油价弹性。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">Weekly Petroleum Status Report summary for week ending July 17, 2026</a></li><li><a href="https://www.eia.gov/naturalgas/storage/">Weekly Natural Gas Storage Report</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
