@@ -1,0 +1,339 @@
+{
+  "date": "2026-07-28",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-28（监测版）",
+  "source_label": "GPT-5.3-codex",
+  "summary": "过去 24 小时出现一条可追踪的 AI 基建新增信号：NVIDIA 于 2026-07-27 公布与 Safe Superintelligence Inc. 的长期战略合作，并称将使 SSI 取得 Vera Rubin 系统、算力扩大一个数量级。该信号强化 AI 加速器与高端数据中心电力/网络需求，但合作金额、交付节奏和收入确认尚未披露，因此组合动作仍以 NVDA 高位不追、逢回撤分批观察为主。黄金继续作为 FOMC 前的组合保险仓，能源因 EIA 库存累积维持等待确认。",
+  "macro": {
+    "regime": "FOMC 前利率不确定性上升，AI 基建仍有主线增量，能源库存信号偏压制，黄金保留对冲价值",
+    "bullets": [
+      "Fed 2026-06-17 FOMC 声明维持联邦基金目标区间在 3.50%-3.75%，并称通胀仍高于 2% 目标；下一次 FOMC 为 2026-07-28 至 2026-07-29，利率与实际收益率是黄金和高估值 AI 的共同变量。",
+      "美国财政部 2026-05-04 市场化借款估算显示，2026 年 7-9 月预计净借款 6710 亿美元，并假设 9 月末现金余额 9500 亿美元；下一轮季度再融资文件计划 2026-08-03 发布。",
+      "EIA 2026-07-22 周报覆盖截至 2026-07-17 的数据，商业原油、汽油和馏分油库存均出现累积，能源多头需要等待 2026-07-29 下一份周报确认需求端是否修复。",
+      "WGC 2026-07-08 报告显示 2026 年 6 月全球实物黄金 ETF 流出 89 亿美元，但 H1 仍净流入 80 亿美元；说明黄金不是单边强势，而更适合作为波动对冲和分批配置。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Federal funds target range",
+      "ticker": "FOMC",
+      "price": "3.50%-3.75%",
+      "change_pct": "",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "name": "Treasury Jul-Sep borrowing estimate",
+      "ticker": "UST",
+      "price": "$671bn",
+      "change_pct": "",
+      "source_url": "https://home.treasury.gov/news/press-releases/sb0485"
+    },
+    {
+      "name": "Gold ETF June outflow",
+      "ticker": "GLD proxy",
+      "price": "$8.9bn outflow",
+      "change_pct": "",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    },
+    {
+      "name": "EIA WPSR release",
+      "ticker": "WTI proxy",
+      "price": "week ending 2026-07-17",
+      "change_pct": "",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基础设施、GPU、AI factory 与高端网络",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 84,
+      "thesis": "判断：NVIDIA 的需求侧证据继续扩散，从主权 AI factory、韩国数据中心扩建到 SSI 的前沿模型算力需求，强化 GPU、Rubin 系统、网络和数据中心电力链条的中期可见度。但 2026-07-27 SSI 公告没有披露金额、交付时间表和收入确认节奏，且 NVDA 已反映较高预期，因此评级维持 B，不升 A。",
+      "why_now": "2026-07-27，NVIDIA 与 Safe Superintelligence Inc. 宣布长期战略合作，NVIDIA 称 SSI 将获得 Vera Rubin 系统，算力扩大一个数量级，且 NVIDIA 对 SSI 作出投资；2026-07-24，NVIDIA/NAVER/Brookfield 公布韩国 AI factory 扩建计划，将 GAK Sejong 初始 DSX AI factory 从 55MW 扩至 200MW，目标 2028 年。",
+      "catalysts": [
+        "2026-07-29：Microsoft FY26 Q4 电话会，验证 Azure AI capex、折旧和云毛利率。",
+        "2026-07-30：Amazon Q2 2026 电话会，验证 AWS AI 需求与资本开支纪律。",
+        "2026H2-2027：Vera Rubin/DSX 项目订单、交付和电力接入节点是否进入可确认收入。"
+      ],
+      "risks": [
+        "SSI 合作缺少金额和交付排期，单条公告不能直接外推为短期收入。",
+        "若 2026-07-28 至 2026-07-29 FOMC 推高实际利率，高估值 AI 硬件可能先承压。",
+        "AI factory 电力、网络、先进封装和 HBM 任一环节延期，都会拖慢收入兑现。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 19,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Ilya Sutskever's Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership"
+        },
+        {
+          "title": "NAVER, NVIDIA and Brookfield to Expand Korea's National AI Factory Infrastructure Buildout",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout"
+        },
+        {
+          "title": "NVIDIA Investor Relations Latest News",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/home/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "AI 云资本开支、搜索/云 AI 商业化与 TPU/GPU 需求",
+      "asset": "Alphabet",
+      "ticker": "GOOGL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 78,
+      "thesis": "判断：Alphabet Q2 与电话会提供了超大规模云厂商 AI 投资继续扩张的确认项，对 GPU、网络、数据中心电力和自研加速器生态均有支撑。相较纯硬件，Alphabet 也拥有广告现金流缓冲，但 AI capex 与折旧压力需要在后续季度继续跟踪。",
+      "why_now": "Alphabet 于 2026-07-22 发布 Q2 2026 结果并举行电话会，管理层围绕 AI、Google Cloud 和基础设施投资说明业务进展；这使 2026-07-29 Microsoft 与 2026-07-30 Amazon 成为验证 hyperscaler capex 方向的连续催化。",
+      "catalysts": [
+        "2026-07-29：Microsoft FY26 Q4，比较 Azure AI 需求和 capex 节奏。",
+        "2026-07-30：Amazon Q2 2026，比较 AWS 增速、AI 投资与自由现金流。",
+        "2026Q3：Alphabet 10-Q 与下季电话会，验证 AI 投资是否继续拉高资本开支强度。"
+      ],
+      "risks": [
+        "AI 搜索变现、云合同履约和基础设施折旧可能出现时间错配。",
+        "监管与反垄断风险仍是 Alphabet 的结构性折价来源。",
+        "若同行披露 capex 纪律收紧，AI 硬件链条预期会被重新定价。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Alphabet Announces Second Quarter 2026 Results",
+          "publisher": "Alphabet Investor Relations",
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Second-Quarter-2026-Results-2026-Y3uQ6H4ZJa/default.aspx"
+        },
+        {
+          "title": "2026 Q2 Earnings Call",
+          "publisher": "Alphabet Investor Relations",
+          "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率、ETF 流量与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Hold insurance position",
+      "score": 72,
+      "thesis": "判断：黄金短期 ETF 资金流不是强势信号，但 FOMC 前利率路径、地缘冲突与财政供给压力仍支持保留保险仓。更优策略是维持既有仓位或回撤分批，不因单月 ETF 流出而清仓，也不在实际利率上行窗口追高。",
+      "why_now": "WGC 2026-07-08 发布的 6 月黄金 ETF 数据显示，当月全球实物黄金 ETF 流出 89 亿美元、持仓减少 74 吨，但 H1 仍净流入 80 亿美元；2026-07-28 至 2026-07-29 FOMC 将直接影响实际利率和美元。",
+      "catalysts": [
+        "2026-07-28 至 2026-07-29：FOMC 利率决定与政策措辞。",
+        "2026-08：WGC 更新 7 月 ETF 流量，观察北美资金是否恢复。",
+        "2026-08-03：美国财政部季度再融资文件，观察长端供给压力。"
+      ],
+      "risks": [
+        "若 Fed 释放更鹰派信号，实际利率上行会压制 GLD。",
+        "WGC 已披露 6 月全球 ETF 明显流出，若 7 月延续，资金面会削弱。",
+        "权益风险偏好若继续改善，黄金保险仓可能跑输 AI/周期资产。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        },
+        {
+          "title": "Treasury Announces Marketable Borrowing Estimates",
+          "publisher": "U.S. Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0485"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、储能、自动驾驶与高资本强度 AI",
+      "asset": "Tesla",
+      "ticker": "TSLA",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "判断：Tesla 仍有机器人、自动驾驶和储能期权，但当前最可验证的主源仍是交付、储能部署、自由现金流和资本开支。Q2 已经披露交付和财报时间，后续更关键的是 10-Q、电话会细节和机器人商业化里程碑是否能转化为现金流。",
+      "why_now": "Tesla 于 2026-07-02 披露 Q2 生产超过 45 万辆、交付超过 48 万辆、储能部署 13.5GWh；2026-07-22 公布 Q2 财报并举行 Q&A webcast。机器人/自动驾驶叙事仍需财报与监管节点确认。",
+      "catalysts": [
+        "2026Q3：观察交付、储能部署和自由现金流是否改善。",
+        "后续 10-Q/电话会：确认 capex、AI/robotaxi/Optimus 投入与现金流承受能力。",
+        "任何监管批准或商业部署时间表必须回到 Tesla IR 或监管文件确认。"
+      ],
+      "risks": [
+        "交付增长、价格、毛利率和自由现金流若不匹配，机器人期权难以支撑估值。",
+        "高资本强度 AI/自动驾驶投入可能继续压制短期现金流。",
+        "监管、安全事故或自动驾驶商业化延期会触发估值回撤。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 13,
+        "valuation_setup": 10,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+          "publisher": "Tesla Investor Relations",
+          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+        },
+        {
+          "title": "Tesla Releases Second Quarter 2026 Financial Results",
+          "publisher": "Tesla Investor Relations",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "能源、原油库存、通胀尾部与现金流型周期资产",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Wait for confirmation",
+      "score": 60,
+      "thesis": "判断：能源仍是通胀尾部和地缘冲突的对冲，但 EIA 最新周报的库存方向偏压制，短线不适合追高。需要等待 2026-07-29 新一周 WPSR 或油品需求/出口改善后再提高风险预算。",
+      "why_now": "EIA 2026-07-22 发布的 WPSR 覆盖截至 2026-07-17 的数据；官方页面显示下一次发布时间为 2026-07-29，当前库存累积信号使 XLE/USO 更适合等待确认。",
+      "catalysts": [
+        "2026-07-29：EIA WPSR，观察商业原油、汽油、馏分油库存和 refinery utilization。",
+        "2026Q3：油企财报确认资本纪律、回购和自由现金流。",
+        "中东冲突或供应中断若升级，能源对冲价值上升。"
+      ],
+      "risks": [
+        "库存继续累积或需求走弱，会压制原油和能源股估值。",
+        "FOMC 若推高美元，可能对油价形成短期压力。",
+        "能源 ETF 对大市值综合油企集中度较高，不能代表所有油气链条。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 9
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI capex",
+      "asset": "Microsoft",
+      "ticker": "MSFT",
+      "note": "2026-07-29 FY26 Q4 电话会是 Azure AI capex、云毛利率和折旧压力的关键验证。"
+    },
+    {
+      "theme": "AI capex",
+      "asset": "Amazon",
+      "ticker": "AMZN",
+      "note": "2026-07-30 Q2 电话会验证 AWS AI 需求和自由现金流压力。"
+    },
+    {
+      "theme": "AI GPU 替代链",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "note": "2026-08-05 Q2 结果前维持观察，关注 MI400/Helios 生态是否转化为订单。"
+    },
+    {
+      "theme": "机器人/自动化",
+      "asset": "ABB",
+      "ticker": "ABBN.SW",
+      "note": "等待下一次订单与机器人业务披露，当前不因 AI 叙事扩大仓位。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "NVIDIA/SSI strategic partnership, 2026-07-27",
+      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership"
+    },
+    {
+      "label": "NVIDIA/NAVER/Brookfield Korea AI factory, 2026-07-24",
+      "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout"
+    },
+    {
+      "label": "Alphabet Q2 2026 results, 2026-07-22",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Second-Quarter-2026-Results-2026-Y3uQ6H4ZJa/default.aspx"
+    },
+    {
+      "label": "Alphabet Q2 2026 earnings call transcript, 2026-07-22",
+      "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx"
+    },
+    {
+      "label": "Tesla Q2 2026 production, deliveries and deployments, 2026-07-02",
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+    },
+    {
+      "label": "Tesla Q2 2026 financial results, 2026-07-22",
+      "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report, release 2026-07-22",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: June 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    },
+    {
+      "label": "Federal Reserve FOMC statement, 2026-06-17",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "label": "U.S. Treasury marketable borrowing estimates, 2026-05-04",
+      "url": "https://home.treasury.gov/news/press-releases/sb0485"
+    },
+    {
+      "label": "Microsoft Investor Relations FY26 Q4 date",
+      "url": "https://www.microsoft.com/en-us/investor/default"
+    },
+    {
+      "label": "Amazon Q2 2026 earnings event",
+      "url": "https://ir.aboutamazon.com/events/event-details/2026/Q2-2026-Amazoncom-Inc-Earnings-Conference-Call/default.aspx"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
