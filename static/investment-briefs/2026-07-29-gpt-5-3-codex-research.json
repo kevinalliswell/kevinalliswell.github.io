@@ -1,0 +1,333 @@
+{
+  "date": "2026-07-29",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-07-29（监测版）",
+  "source_label": "GPT-5.3-codex",
+  "summary": "截至 2026-07-29 08:00（Asia/Shanghai），过去 24-72 小时的主要新增一级信号来自 Seagate 2026-07-28 财报：云数据中心需求、AI 数据生成和 HAMR/Mozaic 路线共同支撑大容量存储周期，FQ1 2027 收入指引也继续上修需求可见度。宏观侧仍处在 2026-07-28 至 2026-07-29 FOMC 会议窗口，2026-07-29 EIA 周报和 Microsoft 财报将决定能源、黄金与 AI capex 链条的下一步确认。组合动作上，STX 可作为 AI 存储链的新增观察标的小仓试探，NVDA 仍不追高、逢回撤观察，黄金维持保险仓，能源等待库存确认。",
+  "macro": {
+    "regime": "FOMC 前利率路径未明，AI 基建由 GPU 向存储/电力扩散，能源等待库存确认，黄金维持保险属性",
+    "bullets": [
+      "Federal Reserve 2026 年会议日历显示 7 月 FOMC 为 2026-07-28 至 2026-07-29；在正式声明发布前，实际利率和美元仍是黄金与高估值 AI 硬件共同约束。",
+      "U.S. Treasury 2026-07-28 Daily Treasury Bill Rates 显示 4 周、13 周和 52 周 bill 投资收益率分别为 3.70%、3.81% 和 4.08%，短端利率仍对现金和久期资产有较强竞争力。",
+      "EIA Weekly Petroleum Status Report 当前页面覆盖截至 2026-07-17 的数据，Release Date 为 2026-07-22，Next Release Date 为 2026-07-29；能源仓位等待新周报确认库存和炼厂利用率方向。",
+      "World Gold Council 2026-07-08 Gold ETF Flows: June 2026 显示 6 月全球实物黄金 ETF 流出 89 亿美元、持仓减少 74 吨，但 H1 仍净流入 80 亿美元；黄金更像波动保险而非无条件追涨资产。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "FOMC meeting window",
+      "ticker": "FOMC",
+      "price": "2026-07-28 to 2026-07-29",
+      "change_pct": "",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "4-week Treasury bill investment yield",
+      "ticker": "UST 4W",
+      "price": "3.70%",
+      "change_pct": "",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_bill_rates"
+    },
+    {
+      "name": "EIA WPSR next release",
+      "ticker": "WTI proxy",
+      "price": "2026-07-29",
+      "change_pct": "",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "name": "Gold ETF June flow",
+      "ticker": "GLD proxy",
+      "price": "$8.9bn outflow",
+      "change_pct": "",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 数据中心、近线硬盘、HAMR 与云存储周期",
+      "asset": "Seagate Technology",
+      "ticker": "STX",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 82,
+      "thesis": "判断：Seagate 2026-07-28 财报把 AI 数据生成、云数据中心需求和大容量存储技术路线连接成可投资链条，且现金流、利润率和 FQ1 2027 指引同步改善。相比 GPU 龙头，STX 是 AI 基建外溢到存储的更直接增量验证，但硬盘周期属性强、客户集中和估值重定价速度快，因此给 B 级而非 A 级。",
+      "why_now": "2026-07-28，Seagate 报告 FQ4 2026 收入 36.29 亿美元、GAAP 毛利率 52.3%、自由现金流 11 亿美元；FY2026 收入 121.95 亿美元、自由现金流 31 亿美元，并给出 FQ1 2027 收入 41 亿美元正负 1 亿美元、非 GAAP EPS 7.30 美元正负 0.20 美元的指引。管理层称表现受强劲云数据中心需求驱动，并将 AI 数据生成与 Mozaic/HAMR 路线相连。",
+      "catalysts": [
+        "2026-07-29：Microsoft FY26 Q4 电话会，验证 Azure AI capex、存储和数据中心投资节奏。",
+        "2026-07-30：Amazon Q2 2026 电话会，验证 AWS AI 需求和大规模云基础设施支出。",
+        "2026Q3：STX FQ1 2027 交付是否达到 41 亿美元收入中值，以及 HAMR/Mozaic 出货和毛利率是否维持。"
+      ],
+      "risks": [
+        "近线硬盘属于强周期硬件，若云客户库存回补转弱，收入和毛利率可能快速回落。",
+        "AI 存储需求不等于所有存储供应商均受益，价格、良率和客户认证节奏仍是关键变量。",
+        "若 FOMC 推高实际利率，已经快速重估的 AI 外溢硬件可能先被压缩估值。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+          "publisher": "Seagate Investor Relations",
+          "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/"
+        },
+        {
+          "title": "Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call",
+          "publisher": "Microsoft Investor Relations",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+        },
+        {
+          "title": "Amazon.com to Webcast Second Quarter 2026 Financial Results Conference Call",
+          "publisher": "Amazon Investor Relations",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Second-Quarter-2026-Financial-Results-Conference-Call/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "AI 基础设施、GPU、Rubin、AI factory 与高端网络",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 81,
+      "thesis": "判断：NVIDIA 的中期需求主线仍然强，前一交易日已确认 SSI 战略合作和韩国 AI factory 扩建信号；今天新增的 STX 财报进一步说明 AI 基建需求从 GPU 扩散到存储和数据中心系统层。但 NVDA 自身 2026-07-28 没有新的金额级订单或财报披露，估值和 FOMC 风险仍要求逢回撤而不是追高。",
+      "why_now": "2026-07-27 NVIDIA/SSI 合作提供前沿模型算力需求信号；2026-07-24 NVIDIA/NAVER/Brookfield 韩国 AI factory 扩建计划提供主权 AI 和电力约束信号；2026-07-28 Seagate 财报则从云存储侧验证 AI 数据中心需求外溢。",
+      "catalysts": [
+        "2026-07-29：Microsoft FY26 Q4，重点看 Azure AI 需求、capex 和折旧压力。",
+        "2026-07-30：Amazon Q2 2026，重点看 AWS AI 基础设施订单和资本开支纪律。",
+        "2026H2：Rubin/DSX/AI factory 相关订单是否进入可量化交付节点。"
+      ],
+      "risks": [
+        "SSI 与韩国 AI factory 公告未披露完整订单金额和收入确认排期。",
+        "估值对实际利率和超大客户 capex 语气高度敏感。",
+        "HBM、先进封装、电力接入和网络供应链任一环节延期都可能影响兑现节奏。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Ilya Sutskever's Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership"
+        },
+        {
+          "title": "NAVER, NVIDIA and Brookfield to Expand Korea's National AI Factory Infrastructure Buildout",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout"
+        },
+        {
+          "title": "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+          "publisher": "Seagate Investor Relations",
+          "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、工业自动化、电气化与数据中心电力设备",
+      "asset": "ABB",
+      "ticker": "ABB",
+      "region": "Switzerland/US ADR",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "判断：ABB 不是纯 AI 标的，但其机器人、电气化和自动化组合受益于工厂自动化与数据中心电力建设。2026-07-16 Q2 结果仍是最近的一级确认项，显示订单创新高和执行强；但 2026-07-28 至 2026-07-29 没有新的财报级增量，因此保持 B 级观察。",
+      "why_now": "ABB 投资者页面显示最新 Q2 2026 结果于 2026-07-16 发布，主题为 record-high orders、strong operational execution 和 M&A 价值创造；同时公司财务日历列出 2026-09-24 将举行 high-power data centers 技术方案 webcast，这是把电气化能力与 AI 数据中心主题连接的明确后续催化。",
+      "catalysts": [
+        "2026-09-24：ABB high-power data centers 技术与方案 webcast。",
+        "2026-10-20：ABB Q3 2026 结果，验证订单、机器人和电气化利润率。",
+        "未来 1-2 个季度：机器人订单是否从低基数修复转向可持续增长。"
+      ],
+      "risks": [
+        "工业自动化需求仍受制造业 PMI、欧洲增长和中国资本开支周期影响。",
+        "数据中心电力主题强，但 ABB 整体收入并非纯 AI 暴露。",
+        "瑞郎、欧元和美元波动会影响 ADR 投资者回报。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 17,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "ABB Quarterly results",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        },
+        {
+          "title": "ABB Financial calendar",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率、美元与组合保险",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Hold insurance position",
+      "score": 72,
+      "thesis": "判断：黄金当前更适合作为 FOMC 和地缘/财政尾部风险的保险仓，而不是因 ETF 流入单边追涨。WGC 6 月数据显示月度资金流出但 H1 仍为正，说明长期配置需求未破坏，短期价格更取决于 2026-07-29 FOMC 后实际利率和美元方向。",
+      "why_now": "2026-07-29 是 FOMC 会议结束日，Fed 声明会直接影响实际利率；同时 U.S. Treasury 2026-07-28 短端 bill 收益率仍在 3.70%-4.08% 区间，对无息黄金形成机会成本约束。",
+      "catalysts": [
+        "2026-07-29：FOMC 声明和新闻发布会，观察实际利率与美元反应。",
+        "2026-08-03：美国财政部季度再融资公告，观察长端供给压力。",
+        "WGC 下一份 ETF 月度流量，确认 6 月流出是否延续。"
+      ],
+      "risks": [
+        "如果 FOMC 口径推高实际收益率，黄金可能先回撤。",
+        "WGC 6 月 ETF 流出说明短线资金并不稳定。",
+        "美元走强会削弱以美元计价黄金的短期表现。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+        },
+        {
+          "title": "Daily Treasury Bill Rates, 2026",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_bill_rates"
+        },
+        {
+          "title": "FOMC meeting calendars and information",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源、原油库存、通胀尾部与现金流型周期资产",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Wait for confirmation",
+      "score": 60,
+      "thesis": "判断：能源仍是通胀尾部和现金流资产的必要监测项，但截至 2026-07-29 08:00，最新 EIA WPSR 仍是 2026-07-22 发布、覆盖截至 2026-07-17 的数据；新周报就在 2026-07-29 发布，当前不应抢跑。",
+      "why_now": "EIA 官方页面列明下一次 Weekly Petroleum Status Report 发布日期为 2026-07-29；上一份摘要显示美国炼厂投入约 1710 万桶/日、炼厂开工率 96.1%，同时原油、汽油和馏分油库存累积，使能源多头需要等待新数据确认。",
+      "catalysts": [
+        "2026-07-29：EIA WPSR，观察原油、汽油、馏分油库存与炼厂利用率。",
+        "2026-07-29：FOMC，若能源价格影响通胀预期，利率和能源股估值会同时波动。",
+        "2026-08：主要综合能源公司财报与资本开支纪律。"
+      ],
+      "risks": [
+        "库存继续累积会压制油价和能源 ETF 的短期风险回报。",
+        "若地缘风险降温，风险溢价可能快速回吐。",
+        "能源股现金流强但周期 beta 高，不适合在数据前追涨。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 8
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Summary of Weekly Petroleum Data for the week ending July 17, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Hyperscaler capex",
+      "asset": "Microsoft",
+      "ticker": "MSFT",
+      "note": "2026-07-29 FY26 Q4 电话会是今天最重要确认点，重点看 Azure AI capex、折旧与云毛利率。"
+    },
+    {
+      "theme": "Hyperscaler capex",
+      "asset": "Amazon",
+      "ticker": "AMZN",
+      "note": "2026-07-30 Q2 2026 电话会将验证 AWS AI 基础设施需求与自由现金流压力。"
+    },
+    {
+      "theme": "AI cloud commercialization",
+      "asset": "Alphabet",
+      "ticker": "GOOGL",
+      "note": "2026-07-22 Q2 已确认 AI/Cloud 主线，等待同行财报交叉验证。"
+    },
+    {
+      "theme": "Robotics earnings",
+      "asset": "Symbotic",
+      "ticker": "SYM",
+      "note": "2026-08-05 FQ3 2026 财报将给出 AI 物流机器人订单和部署节奏。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Seagate FQ4/FY2026 results",
+      "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/"
+    },
+    {
+      "label": "Federal Reserve FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "U.S. Treasury Daily Treasury Bill Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_bill_rates"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: June 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    },
+    {
+      "label": "ABB Quarterly results",
+      "url": "https://global.abb/group/en/investors/quarterly-results"
+    },
+    {
+      "label": "Microsoft FY26 Q4 event",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+    },
+    {
+      "label": "Amazon Q2 2026 webcast announcement",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Second-Quarter-2026-Financial-Results-Conference-Call/default.aspx"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
