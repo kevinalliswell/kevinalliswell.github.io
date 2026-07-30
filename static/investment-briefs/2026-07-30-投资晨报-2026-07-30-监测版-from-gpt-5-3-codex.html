@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-07-30（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-07-30（监测版）</h1>
+      <p class="meta">2026-07-30 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>过去 24 小时的一手信号集中在三条线：FOMC 于 2026-07-29 维持 3.50%-3.75% 利率区间但出现 3 票要求加息的异议，说明通胀尾部仍约束高估值久期资产；Microsoft 与 Meta 同日披露的业绩继续证明 AI 云和广告 AI 变现仍强，但资本开支、法律费用和折旧压力也在上升；EIA 周报已更新至 2026-07-24 当周，能源交易需要等待库存细项确认。组合判断：AI 基础设施继续偏多但不追高，机器人/测试设备选择业绩兑现更清晰的环节，黄金保留保险属性，传统能源维持观察。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>AI 盈利兑现支撑风险资产，但 FOMC 鹰派异议和能源通胀使久期风险不能忽视</strong></p>
+      <ul><li>2026-07-29 FOMC 将联邦基金目标区间维持在 3.50%-3.75%，同时有 Beth M. Hammack、Neel Kashkari、Lorie K. Logan 三位委员投反对票并倾向加息 25bp；这是对黄金、美元和高估值 AI 资产的共同约束。</li><li>美联储声明称经济活动仍以稳健步伐扩张、资本投资和生产率增长强，但通胀仍高于 2% 目标且部分受能源供给冲击影响；这意味着 AI capex 强景气与利率折现压力并存。</li><li>EIA Weekly Petroleum Status Report 于 2026-07-29 发布截至 2026-07-24 当周数据，下一次发布时间为 2026-08-05；能源仓位应等待原油、汽油、馏分油库存和裂解价差细项共同确认。</li><li>BEA 日程显示美国 2026 年二季度 GDP advance estimate 与 2026 年 6 月个人收入和支出均安排在 2026-07-30 08:30 EDT 发布；这是接下来 24 小时宏观再定价的关键日期。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>FOMC target range</td>
+          <td>FFR</td>
+          <td>3.50%-3.75%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Microsoft FY26 Q4 revenue</td>
+          <td>MSFT</td>
+          <td>$90.0B, +18% YoY</td>
+          <td>+18.00%</td>
+          <td><a href="https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Meta Q2 revenue</td>
+          <td>META</td>
+          <td>$60.80B, +28% YoY</td>
+          <td>+28.00%</td>
+          <td><a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Teradyne Q2 revenue</td>
+          <td>TER</td>
+          <td>$1.329B, +104% YoY</td>
+          <td>+104.00%</td>
+          <td><a href="https://investors.teradyne.com/news-events/press-releases/detail/445/teradyne-reports-second-quarter-2026-results">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Gold ETF dataset date</td>
+          <td>GLD/IAU</td>
+          <td>Updated 2026-07-27</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 云、Copilot 商业化与 hyperscaler capex</p>
+                  <h2>Microsoft <span>MSFT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>判断：Microsoft 仍是 AI 应用变现和云基础设施的高质量核心资产，但 2026-07-29 财报已经把 Azure 增速、Microsoft Cloud 收入和 Copilot 席位数放在台面上，短线更适合等财报后波动释放再分批，而不是在业绩强读数后追价。</p>
+              <p><strong>Why now:</strong> Microsoft 于 2026-07-29 披露 FY26 Q4 收入 900.07 亿美元、同比增长 18%，Microsoft Cloud 收入 593 亿美元、同比增长 27%，Azure and other cloud services 收入同比增长 43%，并称 Azure 年收入首次超过 1000 亿美元、Microsoft 365 Copilot 付费席位超过 3000 万。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-29 17:30 EDT Microsoft 财报电话会对 FY27 指引、AI capex、折旧和 Azure 产能的说明。</li><li>FY27 前两个季度 Azure AI 服务收入、商业 RPO 和 Copilot 席位继续增长。</li><li>OpenAI/Anthropic 投资影响从会计收益转化为云消耗和企业产品收入。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高基数下 Azure 43% 增速若在 FY27 放缓，估值可能先压缩。</li><li>Microsoft 披露的前瞻风险包括云和 AI 战略需要大量投资且依赖客户需求、技术发展和竞争动态。</li><li>FOMC 鹰派异议提高实际利率上行尾部风险，会压制高估值软件与云资产的估值倍数。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast">FY26 Q4 earnings release</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">FOMC statement released July 29, 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 广告、社交数据优势与超大规模数据中心</p>
+                  <h2>Meta Platforms <span>META</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>判断：Meta 的广告系统仍能用 AI 同时拉动展示量和价格，说明 AI 投入已有业务回报；但 2026 年资本开支区间和法律/裁员费用显著抬升，组合上只适合小仓验证，不把它当成无风险的 AI capex 受益股。</p>
+              <p><strong>Why now:</strong> Meta 于 2026-07-29 披露 Q2 2026 Family daily active people 36.0 亿、同比增长 3%，广告展示量同比增长 14%、平均广告价格同比增长 12%、收入 608.0 亿美元同比增长 28%；同时资本开支含融资租赁本金为 310.8 亿美元，并给出 2026 年资本开支 1300-1450 亿美元区间。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-30 之后市场对 Meta Q3 2026 收入指引 610-640 亿美元的消化。</li><li>后续季度广告价格、展示量和 AI 推荐效率继续同向改善。</li><li>新数据中心融资或合作项目能否降低自有资本开支压力。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Q2 成本费用 420.3 亿美元、同比增长 55%，其中包含法律事项费用和 2026 年 5 月裁员相关遣散费用。</li><li>2026 年资本开支 1300-1450 亿美元区间对自由现金流和估值容忍度形成压力。</li><li>隐私、青少年保护和反垄断等监管事项仍可能产生重大损失或运营限制。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx">Meta Reports Second Quarter 2026 Results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm">Meta Q2 2026 results exhibit 99.1</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 半导体测试、HBM/DRAM 与协作机器人</p>
+                  <h2>Teradyne <span>TER</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 74/100</p>
+              <div class="bar"><span class="fill" style="width:74%"></span></div>
+              <p>判断：Teradyne 的 Q2 读数把 AI 数据中心、内存测试和机器人恢复放进同一份订单周期，属于 AI 基建二阶受益标的；但机器人收入仍远小于半导体测试，股票动作应等待 Q3 指引兑现和估值回撤。</p>
+              <p><strong>Why now:</strong> Teradyne 于 2026-07-28 披露 Q2 2026 收入 13.29 亿美元、同比增长 104%，其中 Semiconductor Test 11.22 亿美元、Product Test 1.07 亿美元、Robotics 1.00 亿美元；管理层称 Q3 指引反映强劲 AI 相关需求。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-29 08:30 EDT Q2 电话会与演示材料对 AI data center 订单质量和内存测试持续性的说明。</li><li>Q3 2026 收入指引 12.00-13.00 亿美元兑现。</li><li>2027 年晶圆厂设备投资上行能否带动测试设备订单延续。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Q2 环比收入从 Q1 12.82 亿美元增至 13.29 亿美元但 EPS 环比低于 Q1，利润率趋势需跟踪。</li><li>Robotics 收入仅 1.00 亿美元，机器人主题暴露弱于公司整体半导体测试暴露。</li><li>内存和 AI 测试订单可能具有周期性，客户资本开支回落会迅速传导。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.teradyne.com/news-events/press-releases/detail/445/teradyne-reports-second-quarter-2026-results">Teradyne Reports Second Quarter 2026 Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率、央行需求与 ETF 流量</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold insurance position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>判断：黄金仍是组合保险而不是强趋势加仓。FOMC 维持利率且出现加息异议，短期对金价不友好；但中东冲突、能源通胀和政策分歧让黄金的尾部保护价值仍在。</p>
+              <p><strong>Why now:</strong> World Gold Council 的黄金 ETF 数据页于 2026-07-27 更新，并说明其覆盖 100 多只实物支持黄金 ETF；其 2026-07-08 月报显示 2026 年 6 月全球实物黄金 ETF 单月流出 89 亿美元、持仓减少 74 吨至 4047 吨，但 2026 年上半年仍净流入 80 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-07-30 美国 GDP 和 PCE 相关数据影响实际利率和美元。</li><li>下一次 WGC 周度/月度黄金 ETF 数据是否从 6 月流出转为稳定。</li><li>中东能源供给冲击若延续，将提升黄金通胀尾部对冲价值。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>FOMC 2026-07-29 声明中的 3 票加息异议可能推高实际利率。</li><li>WGC 6 月数据显示全球黄金 ETF 当月资金流出，说明资金面并非单边拥挤流入。</li><li>若美元走强且实际收益率上行，GLD 可能跑输短债和现金。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">Gold ETFs, holdings and flows</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07">Gold ETF Flows: June 2026</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">FOMC statement released July 29, 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、库存、通胀尾部与现金流周期股</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Wait for confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 61/100</p>
+              <div class="bar"><span class="fill" style="width:61%"></span></div>
+              <p>判断：能源仍有通胀尾部和地缘风险价值，但当前晨报只确认 EIA 周报已发布，尚未形成足够强的新增库存/需求信号去提高仓位。XLE/USO 维持观察，等待库存、裂解价差和 OPEC/IEA 月报一致。</p>
+              <p><strong>Why now:</strong> EIA 于 2026-07-29 发布截至 2026-07-24 当周 Weekly Petroleum Status Report，并列出完整的库存、进口出口、价格和周度估算表；FOMC 同日提到能源供给冲击是部分价格上涨来源。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-05 下一份 EIA WPSR 确认库存趋势。</li><li>OPEC/IEA 8 月月报对 2026 下半年供需平衡的更新。</li><li>炼厂开工率、汽油需求和馏分油库存若共同改善，可提升能源多头胜率。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若 WPSR 细项显示原油和成品油库存继续累积，能源价格反弹可能缺乏基本面支撑。</li><li>经济数据若转弱，能源需求预期会压过地缘风险溢价。</li><li>XLE 对大型综合油气公司的权重集中，油价、美元和权益风险偏好相关性较高。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">FOMC statement released July 29, 2026</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
