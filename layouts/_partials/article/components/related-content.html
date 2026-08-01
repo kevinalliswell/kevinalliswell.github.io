@@ -1,0 +1,39 @@
+{{- /* 覆盖主题默认：
+     1) 相关文章的候选池限定为与当前文章同 section（posts 不会推荐日报，反之亦然）；
+     2) 追加「反向链接」：哪些手写文章在正文里引用了本文。 */ -}}
+{{ $pool := where .Site.RegularPages "Type" .Type }}
+{{- /* 手写文章的相关推荐不混入 posts/news/ 的自动晨报 */ -}}
+{{ if eq .Type "posts" }}{{ $pool = where $pool "File.Dir" "ne" "posts/news/" }}{{ end }}
+{{ $related := ($pool.Related .) | first 5 }}
+{{ with $related }}
+<aside>
+    <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
+    <div class="subsection-list">
+        <div class="article-list--tile">
+            {{ range . }}
+                {{ partial "article-list/tile" . }}
+            {{ end }}
+        </div>
+    </div>
+</aside>
+{{ end }}
+
+{{ if eq .Type "posts" }}
+    {{ $current := .RelPermalink }}
+    {{ $backlinks := slice }}
+    {{ range where .Site.RegularPages "Type" "posts" }}
+        {{ if and (ne .RelPermalink $current) (in .RawContent $current) }}
+            {{ $backlinks = $backlinks | append . }}
+        {{ end }}
+    {{ end }}
+    {{ with $backlinks }}
+    <aside>
+        <h2 class="section-title">引用了本文的文章</h2>
+        <div class="article-list--compact">
+            {{ range . }}
+                {{ partial "article-list/compact" . }}
+            {{ end }}
+        </div>
+    </aside>
+    {{ end }}
+{{ end }}

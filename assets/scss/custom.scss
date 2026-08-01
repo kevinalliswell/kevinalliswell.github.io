@@ -309,6 +309,22 @@ body {
     color: color-mix(in srgb, var(--cat-color, var(--accent-color)) 45%, #fff);
 }
 
+/* 文章页底部 tags：与整体风格一致的安静发丝线胶囊（主题默认是实心 accent 大块） */
+.article-tags a {
+    background: transparent;
+    box-shadow: 0 0 0 1px var(--ring-color);
+    color: var(--card-text-color-secondary);
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    border-radius: var(--tag-border-radius);
+    transition: box-shadow 0.2s ease, color 0.2s ease;
+}
+.article-tags a:hover {
+    background: transparent;
+    box-shadow: 0 0 0 1px var(--ring-color-hover);
+    color: var(--accent-color);
+}
+
 /* ---------- 8. 归档页：分类磁贴与紧凑行 ---------- */
 /* 分类磁贴：原 250×150 无图时是大片空白卡，改为紧凑类目卡 */
 .subsection-list .article-list--tile article {
@@ -410,6 +426,70 @@ footer.site-footer::before {
 footer.site-footer .copyright {
     color: var(--body-text-color);
     font-weight: 600;
+}
+
+/* ---------- 12.5 知识图谱页 & 相关文章/反向链接 ---------- */
+.graph-page .graph-header {
+    margin-bottom: 2rem;
+}
+.graph-page .graph-header .article-title {
+    font-size: 2.4rem;
+    margin: 0 0 0.6rem;
+}
+.graph-page .graph-description {
+    font-size: 1.4rem;
+    color: var(--card-text-color-secondary);
+    margin: 0;
+}
+.graph-card {
+    background: var(--card-background);
+    box-shadow: var(--shadow-l1);
+    border-radius: var(--card-border-radius);
+    padding: 1.2rem;
+}
+#knowledge-graph {
+    height: clamp(420px, 68vh, 780px);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.graph-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.6rem;
+    padding: 1rem 0.8rem 0.2rem;
+    font-size: 1.25rem;
+    color: var(--card-text-color-secondary);
+}
+.graph-legend .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.graph-legend i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.graph-legend i.legend-tag {
+    background: transparent;
+    border: 1.5px solid var(--card-text-color-tertiary);
+}
+.graph-hint {
+    margin: 0.6rem 0.8rem 0.4rem;
+    font-size: 1.2rem;
+    color: var(--card-text-color-tertiary);
+}
+
+/* 相关文章磁贴：长标题限宽 + 两行截断（复用归档紧凑磁贴样式） */
+.subsection-list .article-list--tile article {
+    max-width: 34rem;
+}
+.subsection-list .article-list--tile article .article-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 
 /* ---------- 13. 不蒜子/Vercount 计数显示 ---------- */

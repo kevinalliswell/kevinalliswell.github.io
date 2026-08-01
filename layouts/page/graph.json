@@ -1,0 +1,60 @@
+{{- /* 知识图谱数据：仅收手写文章（Type=posts，日报分流在外）。
+     节点 = 文章 + 共享标签（≥2 篇文章使用才入图，孤儿标签只会变成视觉噪音）；
+     边   = 打标关系（kind=tag） + 文章正文里的站内互链（kind=ref）。 */ -}}
+{{- $posts := where site.RegularPages "Type" "posts" -}}
+{{- /* posts/news/ 下是自动生成的投资晨报，不属于手写知识网络 */ -}}
+{{- $posts = where $posts "File.Dir" "ne" "posts/news/" -}}
+{{- $nodes := slice -}}
+{{- $links := slice -}}
+
+{{- /* 第一遍：统计每个标签被多少篇文章使用 */ -}}
+{{- $tagCount := dict -}}
+{{- range $posts -}}
+    {{- range (.GetTerms "tags") -}}
+        {{- $k := .RelPermalink -}}
+        {{- $tagCount = merge $tagCount (dict $k (add (index $tagCount $k | default 0) 1)) -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* 文章节点：分类与基色取自 categories term 的 style.background（与徽章同源） */ -}}
+{{- range $posts -}}
+    {{- $cat := "" -}}{{- $color := "" -}}
+    {{- with index (.GetTerms "categories") 0 -}}
+        {{- $cat = .LinkTitle -}}
+        {{- $color = .Params.style.background | default "" -}}
+    {{- end -}}
+    {{- $nodes = $nodes | append (dict
+        "id" .RelPermalink
+        "name" .Title
+        "type" "post"
+        "group" $cat
+        "color" $color
+        "date" (.Date.Format "2006-01-02")) -}}
+{{- end -}}
+
+{{- /* 标签节点与打标边（仅共享标签） */ -}}
+{{- $seenTags := dict -}}
+{{- range $posts -}}
+    {{- $p := . -}}
+    {{- range (.GetTerms "tags") -}}
+        {{- if ge (index $tagCount .RelPermalink | default 0) 2 -}}
+            {{- if not (index $seenTags .RelPermalink) -}}
+                {{- $seenTags = merge $seenTags (dict .RelPermalink true) -}}
+                {{- $nodes = $nodes | append (dict "id" .RelPermalink "name" .LinkTitle "type" "tag") -}}
+            {{- end -}}
+            {{- $links = $links | append (dict "source" $p.RelPermalink "target" .RelPermalink "kind" "tag") -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* 文章互链边：正文里出现其他文章的相对链接即成边 */ -}}
+{{- range $posts -}}
+    {{- $p := . -}}
+    {{- range $posts -}}
+        {{- if and (ne .RelPermalink $p.RelPermalink) (in $p.RawContent .RelPermalink) -}}
+            {{- $links = $links | append (dict "source" $p.RelPermalink "target" .RelPermalink "kind" "ref") -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{ jsonify (dict "nodes" $nodes "links" $links) }}
