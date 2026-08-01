@@ -9,6 +9,18 @@ hasCJKLanguage = true
 [pagination]
   pagerSize = 10
 
+[related]
+  # 激活文章页的「相关文章」组件：按共享标签（主）+ 分类（辅）匹配
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 30
+
 [markup]
   [markup.highlight]
     # 用 class 模式交给 Stack 主题的深浅两套 Chroma 配色（默认 monokai 内联样式
@@ -55,10 +67,18 @@ hasCJKLanguage = true
       icon = "archives"
 
   [[menu.main]]
+    identifier = "graph"
+    name       = "图谱"
+    url        = "/graph/"
+    weight     = 5
+    [menu.main.params]
+      icon = "graph"
+
+  [[menu.main]]
     identifier = "search"
     name       = "搜索"
     url        = "/search/"
-    weight     = 5
+    weight     = 6
     [menu.main.params]
       icon = "search"
 
@@ -66,7 +86,7 @@ hasCJKLanguage = true
     identifier = "about"
     name       = "关于"
     url        = "/about/"
-    weight     = 6
+    weight     = 7
     [menu.main.params]
       icon = "user"
 

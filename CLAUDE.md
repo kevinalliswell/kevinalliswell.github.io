@@ -21,7 +21,8 @@ content/
 │   ├── github-hot-*.md     # GitHub 热榜
 │   └── investment-brief-*.md  # 投资观察
 ├── about.md            # 关于页面
-└── archives.md         # 归档页面
+├── archives.md         # 归档页面
+└── graph.md            # 知识图谱页（/graph/，菜单「图谱」）
 scripts/
 └── generate_github_hot_digest.py  # GitHub 热榜生成脚本
 ```
@@ -121,6 +122,15 @@ git push origin main
 - 该站 `/v1/models` 目前只列出 `gpt-image-2` 一个模型；换模型用 `--model <id>`（需该站支持）。
 - **不要**把 `OPENAI_*` 写进 `.baoyu-skills/.env`：脚本会先加载全局 `~/.baoyu-skills/.env` 且不覆盖，
   可能把真 OpenAI key 误发往第三方。务必用包装脚本（脚本里已 `export` 覆盖）。
+
+## 知识网络
+
+- **知识图谱** `/graph/`：`layouts/page/graph.json` 构建时自动生成数据（无需维护）。
+  只收手写文章（Type=posts，日报排除）；标签需被 ≥2 篇文章共用才入图；
+  文章互链（正文里的 `/posts/xxx/` 链接）会成为图上的强边。渲染库 `static/js/force-graph.min.js` 自托管。
+- **相关文章**：`hugo.toml` 的 `[related]` 按 tags+categories 匹配，文章页自动展示，候选池限同 section。
+- **反向链接**：文章页自动列出「引用了本文的文章」（`layouts/_partials/article/components/related-content.html`）。
+- 写作时多做站内互链（`[标题](/posts/slug/)`），互链越多图谱与反向链接越有价值。
 
 ## 自动化
 
