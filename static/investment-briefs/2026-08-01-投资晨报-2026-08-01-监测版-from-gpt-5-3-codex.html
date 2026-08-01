@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-08-01（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-08-01（监测版）</h1>
+      <p class="meta">2026-08-01 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-08-01 08:00（Asia/Shanghai），过去 24-72 小时的一级来源增量集中在四条线：超大规模云厂商的 AI 投资回报分化、美国工资/增长数据仍限制激进降息交易、能源库存呈现油紧气松、黄金需求从 ETF 动量转向央行/OTC 支撑。组合判断：AI 基建主线未结束，但更强调能把 capex 转成云收入和现金流的资产；机器人维持选择性监测；能源和黄金继续承担通胀与政策误差对冲。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增长放缓但工资和通胀粘性仍在，AI capex 推升实际资产与电力需求，风险资产更适合等回撤而非追价</strong></p>
+      <ul><li>Federal Reserve 于 2026-07-29 维持联邦基金目标区间 3.50%-3.75%，FOMC 声明显示 9-3 通过，存在三位委员倾向不同政策路径；这意味着利率下行交易仍需要更多通胀和劳动力数据确认。</li><li>BLS 于 2026-07-31 发布 Q2 2026 Employment Cost Index，民用雇员总补偿环比增长 0.9%、同比增长 3.4%，工资薪金环比增长 0.9%、同比增长 3.2%；工资粘性仍对高估值成长股构成估值约束。</li><li>BEA 于 2026-07-30 发布 Q2 2026 GDP advance estimate，实际 GDP 年化增长 1.5%，低于 Q1 的 2.1%；宏观不是硬着陆，但增速放缓强化了择优买入、避免追高的节奏。</li><li>EIA 于 2026-07-29 披露截至 2026-07-24 当周美国商业原油库存下降 720 万桶至 4.045 亿桶、约低于五年均值 7%；同周天然气库存 3,084 Bcf、周增 28 Bcf，能源内部出现油紧气松分化。</li><li>World Gold Council 于 2026-07-30 发布 Q2 2026 Gold Demand Trends，Q2 总需求含 OTC 持平于 1,269 吨，上半年需求 2,522 吨、同比增长 2%，但 Q2 黄金 ETF 净流出 45 吨；黄金更像保险仓而非短线动量交易。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Microsoft FY26 Q4 revenue</td>
+          <td>MSFT</td>
+          <td>$90.0B, +18% YoY</td>
+          <td>+18.00%</td>
+          <td><a href="https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Azure and other cloud services</td>
+          <td>MSFT Azure</td>
+          <td>+43% YoY</td>
+          <td>+43.00%</td>
+          <td><a href="https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Amazon Q2 net sales</td>
+          <td>AMZN</td>
+          <td>$200.6B, +20% YoY</td>
+          <td>+20.00%</td>
+          <td><a href="https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>AWS Q2 net sales</td>
+          <td>AWS</td>
+          <td>$42.2B, +37% YoY</td>
+          <td>+37.00%</td>
+          <td><a href="https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Meta 2026 capex guide</td>
+          <td>META</td>
+          <td>$130B-$145B</td>
+          <td></td>
+          <td><a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US Employment Cost Index</td>
+          <td>ECI</td>
+          <td>Q2 +0.9% QoQ / +3.4% YoY</td>
+          <td>+3.40%</td>
+          <td><a href="https://www.bls.gov/news.release/eci.nr0.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US commercial crude stocks</td>
+          <td>WTI/USO</td>
+          <td>404.5M bbl, -7.2M WoW</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>US natural gas storage</td>
+          <td>HH/UNG</td>
+          <td>3,084 Bcf, +28 Bcf WoW</td>
+          <td></td>
+          <td><a href="https://www.eia.gov/naturalgas/storage/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Gold demand including OTC</td>
+          <td>XAU/GLD</td>
+          <td>Q2 2026 1,269t; H1 2,522t</td>
+          <td>+2.00%</td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 云、企业软件、可验证 AI 收入与订单积压</p>
+                  <h2>Microsoft <span>MSFT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 84/100</p>
+              <div class="bar"><span class="fill" style="width:84%"></span></div>
+              <p>判断：在本轮 AI capex 争议中，Microsoft 的优势是已经把 AI 叙事落到 Azure、Microsoft Cloud、Copilot 席位和商业剩余履约义务上；但估值和宏观利率仍要求只在回撤时加，而不是在财报后追高。</p>
+              <p><strong>Why now:</strong> Microsoft 于 2026-07-29 披露 FY2026 Q4 收入 900.07 亿美元、同比增长 18%，Microsoft Cloud 收入 593 亿美元、同比增长 27%，Azure and other cloud services 收入同比增长 43%，commercial remaining performance obligation 增长 84% 至 6,780 亿美元；公司同时披露 Microsoft 365 Copilot 付费席位超过 3,000 万。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-28 前后 FY2027 Q1 财报，验证 Azure 43% 增速是否维持、AI 服务是否继续转化为 RPO。</li><li>Copilot 付费席位从 3,000 万继续扩张，并推动 Microsoft 365 商业云收入加速。</li><li>若未来指引显示 capex 增速与折旧压力可控，市场会继续给 AI 软件变现更高权重。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>工资粘性和 FOMC 鹰派异议使长久期软件估值不宜激进扩张。</li><li>AI 基础设施投入若继续快于收入确认，折旧和电力成本会压缩利润率。</li><li>OpenAI/Anthropic 投资收益属于非经营项目，不能替代核心云业务质量。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast">Microsoft FY26 Q4 Earnings Release</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">FOMC Statement, July 29 2026</a></li><li><a href="https://www.bls.gov/news.release/eci.nr0.htm">Employment Cost Index, Q2 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 云、Trainium/芯片、AWS 基础设施资本开支</p>
+                  <h2>Amazon <span>AMZN</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>判断：Amazon 是 AI 基建和应用需求的核心承载资产之一，AWS 增速重新加速是正面信号；但自由现金流已经被 AI capex 拉成流出，仓位应绑定回撤和 AWS 利润率确认。</p>
+              <p><strong>Why now:</strong> Amazon 于 2026-07-30 披露 Q2 2026 净销售额 2,006 亿美元、同比增长 20%，AWS 净销售额 422 亿美元、同比增长 37%，AWS 运营利润 166 亿美元；公司同时披露过去 12 个月自由现金流为流出 76 亿美元，主要因为 property and equipment 采购同比增加 661 亿美元，反映 AI 投资强度。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 月前后 Q3 2026 财报，重点看 AWS 37% 增速是否延续、AI 芯片和 Bedrock 是否提高单位经济性。</li><li>Trainium、AgentCore、Bedrock 和企业 AI 客户采用率转化为可持续云收入。</li><li>若 TTM 自由现金流从流出恢复，市场对 2026 年 AI capex 的容忍度会提升。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Q2 净利润包含来自 Anthropic 投资的 534 亿美元非经营性税前其他收益，不能外推为经营利润。</li><li>AI capex 若继续快于 AWS 收入和利润增长，会压低自由现金流和估值倍数。</li><li>零售利润率、物流成本和消费放缓可能抵消云业务强势。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/">Amazon.com Announces Second Quarter Results</a></li><li><a href="https://ir.aboutamazon.com/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf">Amazon Q2 2026 Earnings Release PDF</a></li><li><a href="https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026">GDP Advance Estimate, Q2 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">核燃料、AI 电力需求、铀矿供给纪律</p>
+                  <h2>Cameco <span>CCJ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>判断：AI 数据中心用电和核电重估继续支撑铀产业链，但 Cameco 的季度交付节奏会造成利润波动，适合小仓位或逢回撤跟踪，而不是把单季 earnings 当成线性趋势。</p>
+              <p><strong>Why now:</strong> Cameco 于 2026-07-31 披露 Q2 2026 业绩，核心铀业务 Q2 税前收益 1.70 亿美元、调整后 EBITDA 2.52 亿美元，低于 2025 年同期，原因是交付季度分布和更低的计划销售交付量；但上半年铀业务税前收益 5.28 亿美元、调整后 EBITDA 6.76 亿美元，高于 2025 年同期，且公司称 2026 生产展望不变。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10/11 月 Q3 财报，观察年度交付节奏是否补回 Q2 的正常季度波动。</li><li>AI 数据中心电力需求推动长期核电购电协议、核燃料安全库存和铀合同价格。</li><li>Cameco 若维持生产纪律且长期合约价格继续改善，现金流质量有望增强。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>铀矿交付和收入确认季度波动大，单季 EBITDA 下滑容易触发估值回撤。</li><li>矿山运营、监管许可、哈萨克/加拿大供给和地缘政治都可能扰动产量。</li><li>若 AI 电力需求叙事降温或长端利率上行，核电/铀矿主题估值会承压。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results">Cameco Reports 2026 Second Quarter Results</a></li><li><a href="https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai">Energy Supply for AI</a></li><li><a href="https://www.iea.org/reports/energy-and-ai/executive-summary">Executive Summary: Energy and AI</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、手术自动化、经常性耗材收入</p>
+                  <h2>Intuitive Surgical <span>ISRG</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>判断：机器人主题里，Intuitive 的优势是装机、程序量和耗材服务形成闭环，较工业机器人更不依赖单一制造业周期；但估值通常不便宜，适合等市场风险偏好回落时观察。</p>
+              <p><strong>Why now:</strong> Intuitive 于 2026-07-16 披露 Q2 2026 收入 28.9 亿美元、同比增长 19%，全球 da Vinci 与 Ion 合计程序量同比增长约 16%，da Vinci 装机基数达到 11,710 台、同比增长 12%，Ion 装机达到 1,096 台、同比增长 21%；这提供了机器人应用端需求的高质量样本。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 月 Q3 财报，确认 da Vinci 5 放量、程序增长和耗材收入是否保持双位数。</li><li>医院资本开支环境若改善，系统 placements 和 operating lease 结构可继续拉动装机。</li><li>Ion 程序量增长若持续高于 da Vinci，有望打开肺部诊疗新增长曲线。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>医疗设备估值对利率和医院预算敏感，宏观工资/融资成本粘性会压制倍数。</li><li>达芬奇系统单价高，医院资本预算收缩会拖慢新装机。</li><li>监管审批、竞争产品和程序报销政策变化可能影响采用率。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/">Intuitive Announces Second Quarter Earnings</a></li><li><a href="https://isrg.intuitive.com/node/23231/pdf">Intuitive Q2 2026 Earnings PDF</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、实际利率、央行/OTC 需求与 ETF 资金分化</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold insurance position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>判断：黄金的中期保险价值仍在，但 Q2 ETF 流出说明短线资金并不一致；在工资粘性和政策误差风险仍在的环境下，更适合保留保险仓，而不是追逐金价动量。</p>
+              <p><strong>Why now:</strong> World Gold Council 于 2026-07-30 披露 Q2 2026 总黄金需求含 OTC 为 1,269 吨、同比持平，上半年需求 2,522 吨、同比增长 2%，按价值计达 3,800 亿美元；但 Q2 黄金 ETF 净流出 45 吨，显示投资者在高金价、美元和利率预期调整下出现分歧。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08 月 WGC 月度 ETF flows，确认 7 月资金是否从 Q2 流出转回流入。</li><li>2026-08-26 BEA 7 月 PCE 与 Q2 GDP second estimate，决定实际利率和美元压力。</li><li>若 FOMC 在 2026-09-16 会议释放更明确降息信号，黄金和金矿股可能重新获得动量。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>ETF 流出说明战术资金未形成单边共识，高位追涨容易遭遇回撤。</li><li>若通胀粘性带来更久的高实际利率，黄金持有成本会上升。</li><li>GLD 是黄金价格代理，不提供矿企经营杠杆，但也没有矿山成本和政治风险。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026">Gold Demand Trends: Q2 2026</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07">Gold ETF Flows: June 2026</a></li><li><a href="https://www.bls.gov/news.release/eci.nr0.htm">Employment Cost Index, Q2 2026</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">社交广告 AI、超大规模 AI capex 与回报不确定性</p>
+                  <h2>Meta Platforms <span>META</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Wait for reset</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>判断：Meta 的广告收入仍强，但 AI capex 和费用增长速度已经成为主问题；在缺少云业务直接变现口径前，风险回报弱于 Microsoft/Amazon。</p>
+              <p><strong>Why now:</strong> Meta 于 2026-07-29 披露 Q2 2026 收入 608.01 亿美元、同比增长 28%，但成本费用同比增长 55%，经营利润 187.75 亿美元、同比下降 8%，经营利润率从 43% 降至 31%；公司预计 2026 年 capital expenditures including principal payments on finance leases 为 1,300-1,450 亿美元。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10 月 Q3 财报，验证 AI 推荐和广告工具是否能抵消 capex、法律费用和裁员成本。</li><li>管理层若给出更清晰的 AI 商业化路径，例如企业 AI、云算力或订阅产品，估值折价可能收窄。</li><li>Reality Labs 与 AI 眼镜若贡献可见收入，可改善市场对非广告投资的看法。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>资本开支区间 1,300-1,450 亿美元过高，且当前缺少类似 Azure/AWS 的直接云收入验证。</li><li>法律费用、监管和青少年安全问题可能继续侵蚀利润和管理层注意力。</li><li>若广告周期随 GDP 放缓降温，高费用基数会放大盈利波动。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx">Meta Reports Second Quarter 2026 Results</a></li><li><a href="https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Prepared-Remarks.pdf">Meta Q2 2026 Prepared Remarks</a></li><li><a href="https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026">GDP Advance Estimate, Q2 2026</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
