@@ -1,0 +1,448 @@
+{
+  "date": "2026-08-02",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-02（监测版）",
+  "summary": "截至 2026-08-02 08:00（Asia/Shanghai），过去 24 小时未发现比 2026-08-01 简报更强的一级来源增量；投资判断仍由 2026-07-29 至 2026-07-31 的大型云厂商财报、FOMC、EIA 库存、WGC 黄金需求和 Cameco Q2 结果主导。AI 云需求继续被 Microsoft、Amazon 和 Alphabet 的收入/订单数据验证，但资本开支与自由现金流压力要求只在回撤时加仓。黄金和核电/铀维持防守与二阶 AI 电力暴露，Meta 继续等待 AI capex 回报路径更清楚。",
+  "macro": {
+    "regime": "增长未失速、通胀和利率仍限制估值扩张；AI 基建是最强结构性需求，但现金流纪律成为分水岭。",
+    "bullets": [
+      "Federal Reserve 于 2026-07-29 以 9-3 投票维持联邦基金目标区间 3.50%-3.75%，同时继续维持充足准备金政策；这意味着成长股估值修复仍依赖后续通胀缓和，而不是已经出现的宽松拐点。",
+      "BEA 于 2026-07-30 披露美国 2026 年二季度实际 GDP 年化增长 1.5%，低于一季度 2.1%；组合含义是总量温和、AI/设备投资相对突出。",
+      "BLS 于 2026-07-31 披露 Employment Cost Index 二季度环比增长 0.9%、同比增长 3.4%，工资与福利仍对 Fed 快速转鸽构成约束。",
+      "EIA 2026-07-30 天然气库存显示截至 2026-07-24 工作气 3,084 Bcf、周增 28 Bcf，仍高于五年均值 185 Bcf；天然气价格需要天气和发电需求继续确认。",
+      "World Gold Council 于 2026-07-30 披露 Q2 2026 含 OTC 总黄金需求 1,269 吨、H1 需求 2,522 吨，但 Q2 ETF 净流出 45 吨，黄金更像保险仓而非单边追涨信号。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Federal funds target range",
+      "ticker": "FEDFUNDS",
+      "price": "3.50%-3.75%",
+      "change_pct": "held on 2026-07-29",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "name": "US real GDP, Q2 2026 advance",
+      "ticker": "US GDP",
+      "price": "+1.5% annualized",
+      "change_pct": "vs +2.1% in Q1",
+      "source_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+    },
+    {
+      "name": "US working natural gas storage",
+      "ticker": "EIA GAS",
+      "price": "3,084 Bcf",
+      "change_pct": "+28 Bcf weekly",
+      "source_url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "name": "Global gold demand, Q2 2026",
+      "ticker": "Gold",
+      "price": "1,269t",
+      "change_pct": "flat y/y incl. OTC",
+      "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 云、企业软件、可验证 AI 收入与订单积压",
+      "asset": "Microsoft",
+      "ticker": "MSFT",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 84,
+      "thesis": "判断：Microsoft 仍是 AI 基建周期里风险调整后最优的核心仓候选，因为 FY2026 Q4 已经把 Azure、Microsoft Cloud、Copilot 付费席位和剩余履约义务串成了收入证据链。估值和 capex 周期仍限制 A 级评分，适合等回撤或分批配置。",
+      "why_now": "2026-07-29 财报显示 Azure 年收入首次超过 1,000 亿美元，Azure and other cloud services 同比增长 43%，Microsoft Cloud Q4 收入 593 亿美元、同比增长 27%；2026-08-02 未发现更新的一级来源改变该结论。",
+      "catalysts": [
+        "2026-10 附近的 FY2027 Q1 results：验证 Azure 43% 增速能否在高基数上维持。",
+        "Microsoft 10-K 和后续 earnings call 对 cloud/AI capex、折旧年限和 commercial RPO 转收入节奏的披露。",
+        "Copilot 付费席位从 3,000 万继续扩张，将提高市场对 AI 软件货币化的信心。"
+      ],
+      "risks": [
+        "AI 数据中心资本开支过快导致自由现金流转弱，市场可能下调高倍数软件/云估值。",
+        "Azure 增速若主要由少数 frontier model 客户拉动，需求可持续性会被重新折价。",
+        "Fed 维持高利率或进一步偏鹰，将压制长久期成长资产。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "FY26 Q4 Press Release and Webcast",
+          "publisher": "Microsoft Investor Relations",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+        },
+        {
+          "title": "Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call",
+          "publisher": "Microsoft Investor Relations",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+        },
+        {
+          "title": "Form 10-K for Microsoft Corp filed 07/29/2026",
+          "publisher": "Microsoft Investor Relations",
+          "url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693"
+        }
+      ]
+    },
+    {
+      "theme": "AI 云、AWS、Trainium 与数据中心基建",
+      "asset": "Amazon",
+      "ticker": "AMZN",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "判断：Amazon 的 AWS 增速重新加速，说明 AI 算力租赁需求真实；但 TTM 自由现金流转为流出，AI capex 对股东现金回报形成短期压力，因此不追高，只在估值回落时加。",
+      "why_now": "Amazon 于 2026-07-30 披露 Q2 2026 AWS 销售额同比增长 37% 至 422 亿美元，AWS operating income 为 166 亿美元；同时 TTM free cash flow 为流出 76 亿美元，主要因 AI 相关 property and equipment 采购增加。2026-08-02 未见新的一级来源推翻该信号。",
+      "catalysts": [
+        "2026-10 附近 Q3 results：观察 AWS backlog、capex 和 free cash flow 是否改善。",
+        "Anthropic、Bedrock、Trainium 客户需求若继续披露，将确认 AWS AI 基建收入韧性。",
+        "零售端利润率维持可为 AI capex 提供内部资金缓冲。"
+      ],
+      "risks": [
+        "AI capex 与数据中心电力约束可能继续压低自由现金流。",
+        "Anthropic 相关非经营收益抬高净利润，容易掩盖经营现金流压力。",
+        "AWS 若因供给不足或价格竞争减速，估值会重新回到零售周期股框架。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 16
+      },
+      "sources": [
+        {
+          "title": "Amazon.com Announces Second Quarter Results",
+          "publisher": "Amazon Investor Relations",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/"
+        },
+        {
+          "title": "Amazon Q2 2026 8-K exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI 算力、搜索/广告、云与 TPU 基建",
+      "asset": "Alphabet",
+      "ticker": "GOOGL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 78,
+      "thesis": "判断：Alphabet 的 Google Cloud 82% 增速和全栈 AI 叙事改善了 AI 收入可见度，但 2026 年 6 月为 AI infrastructure/global compute 进行大额融资，说明资本强度上升；适合作为 AI 云篮子里的次优配置。",
+      "why_now": "Alphabet 于 2026-07-22 披露 Q2 2026 收入同比增长 24% 至 1,198 亿美元，Google Cloud 收入同比增长 82% 至 248 亿美元；SEC 8-K 还披露 2026 年 6 月股权融资净额 496 亿美元，用于包括 AI infrastructure 和 global compute 在内的一般企业用途。",
+      "catalysts": [
+        "下一季 Google Cloud 增速和 operating income：确认 82% 增长是否可持续。",
+        "Gemini/企业 AI 解决方案收入披露若更细，将提高估值可解释性。",
+        "后续 10-Q/10-K 对 capex、融资和 free cash flow 的细节。"
+      ],
+      "risks": [
+        "大额股权与债务融资显示 AI 基建资本需求上升，可能稀释每股价值。",
+        "搜索广告若被 AI answer/agent 改变流量分配，核心利润池仍有结构性风险。",
+        "资本市场对 Big Tech AI capex 回报周期的容忍度下降。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Alphabet Announces Second Quarter 2026 Results",
+          "publisher": "Alphabet Investor Relations",
+          "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"
+        },
+        {
+          "title": "Alphabet Q2 2026 8-K exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+        },
+        {
+          "title": "Alphabet Q2 2026 Form 10-Q",
+          "publisher": "Alphabet Investor Relations",
+          "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/GOOG-10-Q-Q2-2026.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "核燃料、AI 电力需求、铀供给纪律",
+      "asset": "Cameco",
+      "ticker": "CCJ",
+      "region": "Canada/US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 74,
+      "thesis": "判断：Cameco 是 AI 电力需求和核电重估的二阶暴露，长期供给纪律仍有吸引力；但 Q2 结果受交付节奏和 Westinghouse 权益收益波动影响，当前更适合小仓跟踪而不是追涨。",
+      "why_now": "Cameco 于 2026-07-31 披露 Q2 consolidated adjusted EBITDA 3.91 亿美元；核心 uranium segment Q2 adjusted EBITDA 为 2.52 亿美元，低于 2025 年同期 3.52 亿美元，但 2026 年上半年 uranium adjusted EBITDA 为 6.76 亿美元，高于 2025 年同期 6.41 亿美元。",
+      "catalysts": [
+        "2026 年下半年销售交付节奏恢复，确认上半年 segment EBITDA 改善能否延续。",
+        "美国公用事业、数据中心 PPA 与核电重启/延寿合同更新。",
+        "长期铀价若继续走强，将提高未锁价合同和库存价值。"
+      ],
+      "risks": [
+        "Westinghouse 项目和权益收益波动会扭曲 consolidated earnings。",
+        "铀矿生产、运输、监管和地缘政治风险高于普通工业品。",
+        "AI 电力需求传导到核燃料订单存在时间滞后。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Cameco Reports 2026 Second Quarter Results",
+          "publisher": "Cameco",
+          "url": "https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results"
+        },
+        {
+          "title": "Quarterly Report - 2026 Q2",
+          "publisher": "Cameco",
+          "url": "https://www.cameco.com/invest/financial-information/quarterly-reports/2026/q2"
+        }
+      ]
+    },
+    {
+      "theme": "机器人、手术自动化、耗材与装机扩张",
+      "asset": "Intuitive Surgical",
+      "ticker": "ISRG",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 72,
+      "thesis": "判断：Intuitive 是机器人主题中少数装机、程序量和耗材收入链条可验证的资产；但估值通常较满，缺少 2026-08-02 的新增一级来源，因此维持观察而非主动加仓。",
+      "why_now": "Intuitive 于 2026-07-16 披露 Q2 2026 放置 468 台 da Vinci surgical systems，其中 246 台为 da Vinci 5；系统收入 6.85 亿美元，高于 2025 年同期 5.75 亿美元。",
+      "catalysts": [
+        "下一季 da Vinci 5 placements 和 procedure growth。",
+        "租赁装机向耗材/服务收入转化的速度。",
+        "医院资本开支环境若改善，系统销售弹性会更高。"
+      ],
+      "risks": [
+        "高估值对增长放缓非常敏感。",
+        "医院预算、报销政策或竞争手术机器人会影响装机节奏。",
+        "租赁占比上升可能短期压低一次性系统销售确认。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 18,
+        "valuation_setup": 11,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Intuitive Announces Second Quarter Earnings",
+          "publisher": "Intuitive Surgical Investor Relations",
+          "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/"
+        },
+        {
+          "title": "Form 8-K for Intuitive Surgical filed 07/16/2026",
+          "publisher": "Intuitive Surgical Investor Relations",
+          "url": "https://investor.intuitivesurgical.com/static-files/6ec6dc45-309f-4717-b650-a0179690d8f7"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、真实利率、央行/OTC 需求与 ETF 资金分化",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold insurance position",
+      "score": 67,
+      "thesis": "判断：黄金的长期保险价值仍在，但 WGC Q2 数据显示 ETF 资金转弱；在 Fed 仍维持 3.50%-3.75% 且工资成本未明显降温前，不把 GLD 从保险仓升级为趋势加仓。",
+      "why_now": "World Gold Council 于 2026-07-30 披露 Q2 2026 含 OTC 总需求 1,269 吨，H1 需求 2,522 吨、同比增长 2%；但 Q2 黄金 ETF 净流出 45 吨，说明价格回调和利率预期上调正在压制金融资金。",
+      "catalysts": [
+        "2026-09-16 FOMC：若政策语气转鸽，黄金 ETF 流入可能恢复。",
+        "美元和实际利率走弱可提高 GLD 保险仓收益弹性。",
+        "下一份 WGC ETF 月度流量数据确认 Q2 outflow 是否延续。"
+      ],
+      "risks": [
+        "若 Fed 因工资和通胀压力进一步偏鹰，实际利率上行会压制黄金。",
+        "ETF 资金持续流出会抵消 OTC 或实物需求韧性。",
+        "避险需求下降时，GLD 可能跑输 AI 云和电力链资产。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold Demand Trends: Q2 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026"
+        },
+        {
+          "title": "Gold market shows resilience as price momentum cools in Q2",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/news-and-events/press-releases/gold-market-shows-resilience-price-momentum-cools-q2"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement, 2026-07-29",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "社交广告 AI、超大规模 AI capex 与回报不确定性",
+      "asset": "Meta Platforms",
+      "ticker": "META",
+      "region": "US",
+      "grade": "C",
+      "action": "Wait for reset",
+      "score": 62,
+      "thesis": "判断：Meta 的广告业务仍强，但 AI 基建投入缺少云租赁模式那样的外部收入锚，Q2 自由现金流几乎被 capex 吃掉；相对 Microsoft/Amazon/Alphabet 应降权。",
+      "why_now": "Meta 于 2026-07-29 披露 Q2 2026 收入 608.01 亿美元、同比增长 28%，但 costs and expenses 同比增长 55%，operating margin 从 43% 降至 31%；prepared remarks 将 2026 capex 指引收窄至 1,300-1,450 亿美元。",
+      "catalysts": [
+        "下一季证明 AI 广告工具能持续提升定价或转化率。",
+        "管理层披露 AI infrastructure 外部变现或云化路径。",
+        "capex 增速放缓且 free cash flow 恢复。"
+      ],
+      "risks": [
+        "AI capex 缺少清晰回报周期，估值可能继续被折价。",
+        "法律费用、监管和青少年安全议题抬高费用不确定性。",
+        "若广告周期放缓，高固定资本开支会放大利润波动。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 10,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Meta Reports Second Quarter 2026 Results",
+          "publisher": "Meta Investor Relations",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "title": "Meta Q2 2026 8-K exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm"
+        },
+        {
+          "title": "META Q2 2026 Prepared Remarks",
+          "publisher": "Meta Investor Relations",
+          "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Prepared-Remarks.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "半导体",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "note": "2026-08-26 FY2027 Q2 results 是 AI 算力链下一次一级来源确认点；当前只监测，不在无新财报前上调。"
+    },
+    {
+      "theme": "AI 手机与边缘设备",
+      "asset": "Apple",
+      "ticker": "AAPL",
+      "note": "2026-07-30 Q3 FY2026 收入和 EPS 创 June quarter 记录，但 AI capex 保守和存储成本压力使其不是本轮 AI 基建首选。"
+    },
+    {
+      "theme": "工业机器人",
+      "asset": "ABB/FANUC",
+      "ticker": "ABB/FANUY",
+      "note": "ABB 2026-07-16 称 Q2 orders 创新高，FANUC 已披露 FY2026 Q1 材料；需等待机器人订单持续性。"
+    },
+    {
+      "theme": "能源",
+      "asset": "US natural gas and power",
+      "ticker": "UNG/UTILITIES",
+      "note": "2026-08-06 EIA 天然气库存与公用事业 earnings 是数据中心电力交易的下一个验证点。"
+    },
+    {
+      "theme": "宏观",
+      "asset": "US rates and labor costs",
+      "ticker": "UST/FED",
+      "note": "2026-09-16 FOMC 前，ECI 3.4% 同比使降息交易需要更强通胀证据。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve FOMC statement, 2026-07-29",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "label": "BEA GDP advance estimate, Q2 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+    },
+    {
+      "label": "BLS Employment Cost Index, Q2 2026",
+      "url": "https://www.bls.gov/news.release/archives/eci_07312026.htm"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "label": "World Gold Council Gold Demand Trends: Q2 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026"
+    },
+    {
+      "label": "Microsoft FY26 Q4 earnings release",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "label": "Amazon Q2 2026 results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/"
+    },
+    {
+      "label": "Alphabet Q2 2026 results",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"
+    },
+    {
+      "label": "Meta Q2 2026 results",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "Apple reports third quarter results",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+    },
+    {
+      "label": "Cameco Q2 2026 results",
+      "url": "https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results"
+    },
+    {
+      "label": "Intuitive Q2 2026 earnings",
+      "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/"
+    },
+    {
+      "label": "NVIDIA Q2 FY2027 conference call date",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
