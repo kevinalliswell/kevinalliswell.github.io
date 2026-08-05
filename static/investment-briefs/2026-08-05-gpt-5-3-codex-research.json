@@ -1,0 +1,357 @@
+{
+  "date": "2026-08-05",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-05（监测版）",
+  "summary": "截至 2026-08-05 08:00（Asia/Shanghai），过去 24-72 小时的新增一级信号集中在 AMD 2026-08-04 Q2 财报、BLS 2026-08-04 JOLTS 和美国财政部 2026-08-03 季度再融资文件。判断上，AMD 的数据中心和 AI 加速器可见度上修，但估值和执行风险仍要求回撤买入；黄金和能源维持保险/观察，机器人维持高质量但不追价。",
+  "macro": {
+    "regime": "利率仍偏紧、劳动力降温有限、AI capex 继续分化",
+    "bullets": [
+      "Fed 在 2026-07-29 FOMC 声明中维持联邦基金目标区间 3.50%-3.75%，同时有 3 名委员主张加息 25bp，说明实际利率和美元仍是黄金与高估值成长股的上方约束。",
+      "BLS 于 2026-08-04 发布的 2026 年 6 月 JOLTS 显示职位空缺 740 万、招聘 530 万、离职 540 万，劳动力市场不是衰退式恶化，更像是逐步降温。",
+      "美国财政部 2026-08-03 发布 Q3 再融资相关文件，2026-08-05 还将发布下一批政策文件；在供给不确定期，长端利率对 AI、机器人和黄金仓位的折现影响仍需监测。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Federal Funds Target Range",
+      "ticker": "FOMC",
+      "price": "3.50%-3.75%",
+      "change_pct": "维持不变，3 票反对主张加息",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "name": "JOLTS Job Openings",
+      "ticker": "BLS JOLTS",
+      "price": "7.4 million",
+      "change_pct": "2026-06，little changed",
+      "source_url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+    },
+    {
+      "name": "WTI Cushing Spot",
+      "ticker": "WTI",
+      "price": "$91.74/bbl on 2026-07-24",
+      "change_pct": "+$8.31 w/w",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "name": "Gold ETF Holdings",
+      "ticker": "Global gold ETFs",
+      "price": "4,047t at 2026-06-30",
+      "change_pct": "+18t H1, -74t in June",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure, data center CPU/GPU, rack-scale AI",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 82,
+      "thesis": "AMD 是今天最明确的新增交易信号：2026-08-04 披露 Q2 收入 115.36 亿美元、同比增长 50%，Data Center 业务代表公司收入 58%，管理层称 Data Center 销售将在 2026 下半年加速。判断：这支持 AMD 作为 NVIDIA 之外的 AI 基建二号暴露，但还不足以给 A 级，因为 AI GPU 供给、客户认证、毛利和估值都需要连续验证。",
+      "why_now": "2026-08-04 财报把 AI 需求从合作公告推进到收入和利润表：GAAP 毛利率 54%、非 GAAP 毛利率 56%、非 GAAP operating margin 27%，且 CEO 点名 EPYC 需求、Instinct 部署和 Helios ramp。",
+      "catalysts": [
+        "2026 下半年 Data Center 销售加速是否兑现，特别是 Instinct 和 Helios ramp 的客户部署节奏。",
+        "下一份 10-Q 对客户集中度、库存、采购承诺和 AI 相关 capex/working capital 的披露。",
+        "2026-08-26 NVIDIA FY2027 Q2 财报，用于交叉验证 AI 服务器需求、Blackwell/下一代平台供应和网络瓶颈。"
+      ],
+      "risks": [
+        "如果 Helios 或 Instinct 规模化慢于财报叙述，收入高增长可能被视为一次性补库存。",
+        "AI 加速器毛利低于市场预期会削弱对 NVIDIA 的替代逻辑。",
+        "Fed 偏鹰和长端供给压力会压缩高倍数半导体估值。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+        },
+        {
+          "title": "AMD Q2 2026 earnings exhibit filed with Form 8-K",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+        },
+        {
+          "title": "NVIDIA Sets Conference Call for Second-Quarter FY2027 Financial Results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "AI leaders, accelerated compute, earnings catalyst",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 79,
+      "thesis": "NVIDIA 不是今天的新财报主体，但 2026-07-29 官方确认将在 2026-08-26 发布 FY2027 Q2 结果，这使 AMD 财报后的可验证事件非常近。判断：维持核心 AI 基建观察仓，等待财报验证 Blackwell/下一代平台、数据中心收入、毛利和中国相关限制。",
+      "why_now": "AMD 财报显示非 NVIDIA AI 供应链也在加速，同时 NVIDIA 已给出 2026-08-26 财报时间点；两者组合使 8 月下旬成为 AI 基建定价的关键窗口。",
+      "catalysts": [
+        "2026-08-26 NVIDIA FY2027 Q2 财报及 CFO commentary。",
+        "数据中心收入增速、Blackwell/后续平台供给、网络产品 attach rate。",
+        "H20/中国销售、出口限制和库存准备的后续披露。"
+      ],
+      "risks": [
+        "预期过高导致好财报也难以推动股价。",
+        "客户 capex 消化期、供应链瓶颈或出口管制可能改变收入节奏。",
+        "利率上行对高估值 AI 龙头不利。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 19,
+        "valuation_setup": 11,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+        },
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics, surgical automation, recurring instruments revenue",
+      "asset": "Intuitive Surgical",
+      "ticker": "ISRG",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "机器人板块今天没有新的重大一级披露，因此延续 2026-07-16 Intuitive Q2 结果作为质量锚。公司 Q2 收入同比增长 19% 至 28.9 亿美元，全球 da Vinci/Ion 程序量同比增长约 16%，装机基数继续扩大。判断：这是机器人主题中最可验证的商业模式，但估值通常不便宜，只适合回撤或估值重置时加。",
+      "why_now": "在工业机器人新增信号偏少时，ISRG 的程序量、耗材收入和装机数据仍是机器人自动化中收入可见度最高的一级证据。",
+      "catalysts": [
+        "2026 年全年 da Vinci procedure growth 指引 13.5%-15.5% 是否维持或上修。",
+        "da Vinci 5 装机、租赁占比和 instruments/accessories revenue 的持续性。",
+        "医院资本预算和关税对 2026 non-GAAP gross margin 68.0%-69.0% 指引的影响。"
+      ],
+      "risks": [
+        "高估值对利率和医院预算非常敏感。",
+        "关税、组件采购地和制造地变化可能造成额外毛利压力。",
+        "如果程序量增长回落，耗材收入的复利逻辑会被削弱。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 18,
+        "valuation_setup": 11,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Intuitive Announces Second Quarter Earnings",
+          "publisher": "Intuitive Investor Relations",
+          "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/"
+        },
+        {
+          "title": "ABB Q2 2026 quarterly results page",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/quarterly-results"
+        },
+        {
+          "title": "FANUC Financial Results and Conference Materials",
+          "publisher": "FANUC Investor Relations",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy, oil inventories, refined-product tightness",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 69,
+      "thesis": "能源信号仍偏紧但不是今天新增。EIA 2026-07-29 WPSR 显示截至 2026-07-24 商业原油库存周降 720 万桶至 4.045 亿桶，约低于五年均值 6%；WTI Cushing 现货 91.74 美元/桶，周涨 8.31 美元。判断：油价和成品油数据支持能源保险仓，但 2026-08-05 新周报前不追高。",
+      "why_now": "下一份 EIA 石油周报排在 2026-08-05；在报告前，已有数据更像持仓验证而非新增买点。",
+      "catalysts": [
+        "2026-08-05 EIA WPSR，确认原油、汽油和馏分油库存缺口是否连续。",
+        "中东冲突、制裁和 OPEC 供给纪律对 WTI 90 美元附近价格的影响。",
+        "炼厂利用率是否维持高位，以及产品供应量是否改善。"
+      ],
+      "risks": [
+        "油价已快速反映供给风险，若库存回补或地缘溢价下降，XLE 可能回撤。",
+        "Fed 偏鹰可能压制需求预期和周期股估值。",
+        "天然气库存 3,084 Bcf、周增 28 Bcf，提示能源内部并非全面短缺。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 14,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report, data for week ended July 24, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/storage/"
+        }
+      ]
+    },
+    {
+      "theme": "Gold, real yields, central-bank demand, ETF flows",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold insurance position",
+      "score": 67,
+      "thesis": "黄金仍适合作为组合保险，而不是追涨交易。WGC 2026-07-30 Q2 需求展望认为 2026 年下半年投资需求仍是主要增长来源，央行仍是重要买方；但 WGC 2026-07-08 ETF 数据显示 6 月全球实物支持黄金 ETF 净流出 89 亿美元、持仓下降 74 吨，北美压力最大。判断：持有保险仓，等待实际利率或美元拐点再提高评级。",
+      "why_now": "Fed 2026-07-29 声明偏紧且有 3 位委员主张加息，削弱黄金短线胜率；但地缘、通胀和央行配置仍支持中期保险价值。",
+      "catalysts": [
+        "下一批美国通胀、就业和 Fed 发言是否降低实际利率压力。",
+        "WGC 月度 ETF 流向是否从北美流出转为稳定。",
+        "央行购金和亚洲投资需求能否抵消高金价对珠宝需求的压制。"
+      ],
+      "risks": [
+        "实际利率继续上行会提高持有黄金的机会成本。",
+        "北美黄金 ETF 资金流若继续流出，GLD 会落后于实物和亚洲需求叙事。",
+        "高金价压制珠宝需求，矿山供给和回收虽反应慢但仍可能边际增加。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold Demand Trends: Q2 2026 - Outlook",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook"
+        },
+        {
+          "title": "Gold ETF Flows: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI semiconductors",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "note": "2026-08-26 FY2027 Q2 财报是验证 AMD 信号和 AI capex 持续性的核心事件。"
+    },
+    {
+      "theme": "Macro rates",
+      "asset": "U.S. Treasury refunding",
+      "ticker": "UST",
+      "note": "2026-08-05 财政部下一批季度再融资文件可能影响长端利率和成长股折现率。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA petroleum report",
+      "ticker": "WTI/XLE",
+      "note": "2026-08-05 WPSR 需确认原油库存下降是否延续。"
+    },
+    {
+      "theme": "Gold",
+      "asset": "Gold ETF flows",
+      "ticker": "GLD",
+      "note": "等待 WGC 后续月度 ETF 数据确认北美流出是否停止。"
+    },
+    {
+      "theme": "Robotics",
+      "asset": "ABB/FANUC industrial automation",
+      "ticker": "ABBN/FANUY",
+      "note": "工业机器人仍缺乏过去 24 小时重大增量，继续跟踪订单和中国/汽车需求。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "AMD Q2 2026 results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+    },
+    {
+      "label": "AMD Q2 2026 SEC exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+    },
+    {
+      "label": "BLS JOLTS June 2026",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+    },
+    {
+      "label": "Federal Reserve FOMC statement 2026-07-29",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "label": "Treasury most recent quarterly refunding documents",
+      "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "label": "World Gold Council Gold Demand Trends Q2 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows June 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+    },
+    {
+      "label": "Intuitive Q2 2026 earnings",
+      "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/"
+    },
+    {
+      "label": "ABB Q2 2026 quarterly results",
+      "url": "https://global.abb/group/en/investors/quarterly-results"
+    },
+    {
+      "label": "FANUC financial results materials",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/"
+    },
+    {
+      "label": "NVIDIA FY2027 Q2 earnings date",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}

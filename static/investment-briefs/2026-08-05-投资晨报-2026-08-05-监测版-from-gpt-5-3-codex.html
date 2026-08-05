@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-08-05（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-08-05（监测版）</h1>
+      <p class="meta">2026-08-05 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-08-05 08:00（Asia/Shanghai），过去 24-72 小时的新增一级信号集中在 AMD 2026-08-04 Q2 财报、BLS 2026-08-04 JOLTS 和美国财政部 2026-08-03 季度再融资文件。判断上，AMD 的数据中心和 AI 加速器可见度上修，但估值和执行风险仍要求回撤买入；黄金和能源维持保险/观察，机器人维持高质量但不追价。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>利率仍偏紧、劳动力降温有限、AI capex 继续分化</strong></p>
+      <ul><li>Fed 在 2026-07-29 FOMC 声明中维持联邦基金目标区间 3.50%-3.75%，同时有 3 名委员主张加息 25bp，说明实际利率和美元仍是黄金与高估值成长股的上方约束。</li><li>BLS 于 2026-08-04 发布的 2026 年 6 月 JOLTS 显示职位空缺 740 万、招聘 530 万、离职 540 万，劳动力市场不是衰退式恶化，更像是逐步降温。</li><li>美国财政部 2026-08-03 发布 Q3 再融资相关文件，2026-08-05 还将发布下一批政策文件；在供给不确定期，长端利率对 AI、机器人和黄金仓位的折现影响仍需监测。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Federal Funds Target Range</td>
+          <td>FOMC</td>
+          <td>3.50%-3.75%</td>
+          <td>维持不变，3 票反对主张加息</td>
+          <td><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>JOLTS Job Openings</td>
+          <td>BLS JOLTS</td>
+          <td>7.4 million</td>
+          <td>2026-06，little changed</td>
+          <td><a href="https://www.bls.gov/news.release/jolts.nr0.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>WTI Cushing Spot</td>
+          <td>WTI</td>
+          <td>$91.74/bbl on 2026-07-24</td>
+          <td>+$8.31 w/w</td>
+          <td><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Gold ETF Holdings</td>
+          <td>Global gold ETFs</td>
+          <td>4,047t at 2026-06-30</td>
+          <td>+18t H1, -74t in June</td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure, data center CPU/GPU, rack-scale AI</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>AMD 是今天最明确的新增交易信号：2026-08-04 披露 Q2 收入 115.36 亿美元、同比增长 50%，Data Center 业务代表公司收入 58%，管理层称 Data Center 销售将在 2026 下半年加速。判断：这支持 AMD 作为 NVIDIA 之外的 AI 基建二号暴露，但还不足以给 A 级，因为 AI GPU 供给、客户认证、毛利和估值都需要连续验证。</p>
+              <p><strong>Why now:</strong> 2026-08-04 财报把 AI 需求从合作公告推进到收入和利润表：GAAP 毛利率 54%、非 GAAP 毛利率 56%、非 GAAP operating margin 27%，且 CEO 点名 EPYC 需求、Instinct 部署和 Helios ramp。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 下半年 Data Center 销售加速是否兑现，特别是 Instinct 和 Helios ramp 的客户部署节奏。</li><li>下一份 10-Q 对客户集中度、库存、采购承诺和 AI 相关 capex/working capital 的披露。</li><li>2026-08-26 NVIDIA FY2027 Q2 财报，用于交叉验证 AI 服务器需求、Blackwell/下一代平台供应和网络瓶颈。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>如果 Helios 或 Instinct 规模化慢于财报叙述，收入高增长可能被视为一次性补库存。</li><li>AI 加速器毛利低于市场预期会削弱对 NVIDIA 的替代逻辑。</li><li>Fed 偏鹰和长端供给压力会压缩高倍数半导体估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results">AMD Reports Second Quarter 2026 Financial Results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm">AMD Q2 2026 earnings exhibit filed with Form 8-K</a></li><li><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx">NVIDIA Sets Conference Call for Second-Quarter FY2027 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI leaders, accelerated compute, earnings catalyst</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>NVIDIA 不是今天的新财报主体，但 2026-07-29 官方确认将在 2026-08-26 发布 FY2027 Q2 结果，这使 AMD 财报后的可验证事件非常近。判断：维持核心 AI 基建观察仓，等待财报验证 Blackwell/下一代平台、数据中心收入、毛利和中国相关限制。</p>
+              <p><strong>Why now:</strong> AMD 财报显示非 NVIDIA AI 供应链也在加速，同时 NVIDIA 已给出 2026-08-26 财报时间点；两者组合使 8 月下旬成为 AI 基建定价的关键窗口。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-26 NVIDIA FY2027 Q2 财报及 CFO commentary。</li><li>数据中心收入增速、Blackwell/后续平台供给、网络产品 attach rate。</li><li>H20/中国销售、出口限制和库存准备的后续披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>预期过高导致好财报也难以推动股价。</li><li>客户 capex 消化期、供应链瓶颈或出口管制可能改变收入节奏。</li><li>利率上行对高估值 AI 龙头不利。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx">NVIDIA Sets Conference Call for Second-Quarter Financial Results</a></li><li><a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results">AMD Reports Second Quarter 2026 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics, surgical automation, recurring instruments revenue</p>
+                  <h2>Intuitive Surgical <span>ISRG</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>机器人板块今天没有新的重大一级披露，因此延续 2026-07-16 Intuitive Q2 结果作为质量锚。公司 Q2 收入同比增长 19% 至 28.9 亿美元，全球 da Vinci/Ion 程序量同比增长约 16%，装机基数继续扩大。判断：这是机器人主题中最可验证的商业模式，但估值通常不便宜，只适合回撤或估值重置时加。</p>
+              <p><strong>Why now:</strong> 在工业机器人新增信号偏少时，ISRG 的程序量、耗材收入和装机数据仍是机器人自动化中收入可见度最高的一级证据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 年全年 da Vinci procedure growth 指引 13.5%-15.5% 是否维持或上修。</li><li>da Vinci 5 装机、租赁占比和 instruments/accessories revenue 的持续性。</li><li>医院资本预算和关税对 2026 non-GAAP gross margin 68.0%-69.0% 指引的影响。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高估值对利率和医院预算非常敏感。</li><li>关税、组件采购地和制造地变化可能造成额外毛利压力。</li><li>如果程序量增长回落，耗材收入的复利逻辑会被削弱。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/">Intuitive Announces Second Quarter Earnings</a></li><li><a href="https://global.abb/group/en/investors/quarterly-results">ABB Q2 2026 quarterly results page</a></li><li><a href="https://www.fanuc.co.jp/en/ir/announce/">FANUC Financial Results and Conference Materials</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy, oil inventories, refined-product tightness</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 69/100</p>
+              <div class="bar"><span class="fill" style="width:69%"></span></div>
+              <p>能源信号仍偏紧但不是今天新增。EIA 2026-07-29 WPSR 显示截至 2026-07-24 商业原油库存周降 720 万桶至 4.045 亿桶，约低于五年均值 6%；WTI Cushing 现货 91.74 美元/桶，周涨 8.31 美元。判断：油价和成品油数据支持能源保险仓，但 2026-08-05 新周报前不追高。</p>
+              <p><strong>Why now:</strong> 下一份 EIA 石油周报排在 2026-08-05；在报告前，已有数据更像持仓验证而非新增买点。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-05 EIA WPSR，确认原油、汽油和馏分油库存缺口是否连续。</li><li>中东冲突、制裁和 OPEC 供给纪律对 WTI 90 美元附近价格的影响。</li><li>炼厂利用率是否维持高位，以及产品供应量是否改善。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>油价已快速反映供给风险，若库存回补或地缘溢价下降，XLE 可能回撤。</li><li>Fed 偏鹰可能压制需求预期和周期股估值。</li><li>天然气库存 3,084 Bcf、周增 28 Bcf，提示能源内部并非全面短缺。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf">Weekly Petroleum Status Report, data for week ended July 24, 2026</a></li><li><a href="https://www.eia.gov/naturalgas/storage/">Weekly Natural Gas Storage Report</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold, real yields, central-bank demand, ETF flows</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold insurance position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>黄金仍适合作为组合保险，而不是追涨交易。WGC 2026-07-30 Q2 需求展望认为 2026 年下半年投资需求仍是主要增长来源，央行仍是重要买方；但 WGC 2026-07-08 ETF 数据显示 6 月全球实物支持黄金 ETF 净流出 89 亿美元、持仓下降 74 吨，北美压力最大。判断：持有保险仓，等待实际利率或美元拐点再提高评级。</p>
+              <p><strong>Why now:</strong> Fed 2026-07-29 声明偏紧且有 3 位委员主张加息，削弱黄金短线胜率；但地缘、通胀和央行配置仍支持中期保险价值。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一批美国通胀、就业和 Fed 发言是否降低实际利率压力。</li><li>WGC 月度 ETF 流向是否从北美流出转为稳定。</li><li>央行购金和亚洲投资需求能否抵消高金价对珠宝需求的压制。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续上行会提高持有黄金的机会成本。</li><li>北美黄金 ETF 资金流若继续流出，GLD 会落后于实物和亚洲需求叙事。</li><li>高金价压制珠宝需求，矿山供给和回收虽反应慢但仍可能边际增加。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook">Gold Demand Trends: Q2 2026 - Outlook</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07">Gold ETF Flows: June 2026</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm">Federal Reserve issues FOMC statement</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
