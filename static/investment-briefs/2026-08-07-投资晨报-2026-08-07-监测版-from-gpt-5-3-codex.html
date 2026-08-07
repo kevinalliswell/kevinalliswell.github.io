@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-08-07（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-08-07（监测版）</h1>
+      <p class="meta">2026-08-07 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-08-07 08:00（Asia/Shanghai），过去 24 小时的一级来源增量偏监测性质，没有足以推翻 2026-08-06 排序的重大信号。AI 基建仍由 AMD、NVIDIA 财报窗口和新增存储链财报验证；机器人维持 ISRG 质量锚；能源从原油/成品油库存转向等待天然气与下一份 EIA 周报确认；黄金仍受实际利率约束，维持保险仓而不追价。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增长未明显失速、利率仍约束估值、AI 链条等待 8 月下旬交叉验证</strong></p>
+      <ul><li>BLS 2026-08-06 生产率与单位劳动力成本初值、DOL 2026-08-06 初请失业金周报，都是判断通胀黏性和 Fed 降息空间的新增输入；截至本晨报，结论仍是不要把高估值 AI 和黄金仓位建立在快速宽松的单一假设上。</li><li>ISM 于 2026-08-05 发布的 2026 年 7 月 Services PMI 为 54.1，高于 6 月的 50.8；服务需求没有衰退式断裂，支持“增长韧性但利率约束未解除”的宏观框架。</li><li>EIA 2026-08-05 Weekly Petroleum Status Report 显示截至 2026-07-31 商业原油库存周增 250 万桶至 4.251 亿桶，但汽油库存周降 270 万桶、馏分油库存周降 120 万桶；2026-08-06 天然气库存更新是能源仓位下一项确认点。</li><li>WGC 2026-07-30 Q2 Gold Demand Trends 和 2026 年 6 月 ETF flows 仍是黄金的主要一级来源锚点；缺少新的连续 ETF 流入或实际利率下行信号时，GLD 只适合保险仓。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>ISM Services PMI</td>
+          <td>ISM Services</td>
+          <td>54.1</td>
+          <td>+3.3 points vs 2026-06</td>
+          <td><a href="https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/july/">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>U.S. Commercial Crude Inventories</td>
+          <td>EIA WPSR</td>
+          <td>425.1 million barrels</td>
+          <td>+2.5 million barrels w/w</td>
+          <td><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>BLS Productivity and Costs</td>
+          <td>BLS Productivity</td>
+          <td>Q2 2026 preliminary release</td>
+          <td>2026-08-06 release</td>
+          <td><a href="https://www.bls.gov/news.release/prod2.nr0.htm">source</a></td>
+        </tr>
+        
+        <tr>
+          <td>Weekly Initial Claims</td>
+          <td>DOL UI</td>
+          <td>Weekly release</td>
+          <td>2026-08-06 release</td>
+          <td><a href="https://www.dol.gov/ui/data.pdf">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+      
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure, data center CPU/GPU, rack-scale AI</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 82/100</p>
+              <div class="bar"><span class="fill" style="width:82%"></span></div>
+              <p>AMD 仍是 AI 基建里最清晰的近期基本面增量。2026-08-04 公司披露 Q2 2026 收入 115.36 亿美元、同比增长 50%，Data Center 分部收入 66.70 亿美元、同比增长 107%，并给出 Q3 收入约 130 亿美元、正负 3 亿美元的指引。判断：AI 服务器和数据中心 CPU/GPU 需求已经进入收入表验证阶段，但高预期、毛利结构和客户认证节奏仍限制评级到 B。</p>
+              <p><strong>Why now:</strong> 2026-08-06 至 2026-08-07 没有比 AMD 财报更强的新一级信号；2026-08-26 NVIDIA 财报将成为交叉验证 AMD 需求、供给和 capex 链条的关键日期。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 下半年 Data Center 销售加速是否兑现，尤其是 Instinct 和 Helios 平台的客户部署节奏。</li><li>下一份 AMD 10-Q 对库存、采购承诺、客户集中度和 AI 相关 working capital 的披露。</li><li>2026-08-26 NVIDIA FY2027 Q2 财报，用于验证 AI 服务器需求、GPU/网络供给和客户 capex 持续性。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>AI 加速器毛利低于市场预期会削弱 AMD 作为 NVIDIA 替代暴露的估值空间。</li><li>如果 Q3 指引已经被市场充分定价，强基本面也可能只带来震荡而非趋势上行。</li><li>Fed 偏鹰、长端利率上行或 hyperscaler capex 消化期会压缩高倍数半导体估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results">AMD Reports Second Quarter 2026 Financial Results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm">AMD Q2 2026 earnings exhibit filed with Form 8-K</a></li><li><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx">NVIDIA Sets Conference Call for Second-Quarter FY2027 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI storage, flash memory, data-center infrastructure supply chain</p>
+                  <h2>Sandisk <span>SNDK</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>AI 基建不只看 GPU，存储链条是今天新增监测重点。Sandisk/WDC 的财报窗口提供了 NAND、enterprise SSD 与数据中心存储需求的一级来源线索。判断：若 AI 服务器和推理工作负载继续拉动高速存储需求，SNDK 是更偏周期弹性的二线暴露；但存储周期、价格波动和客户库存使仓位只能小试。</p>
+              <p><strong>Why now:</strong> 2026-08-05 至 2026-08-06 存储链条财报更新，使 AI 基建排序从 GPU/CPU 扩展到 SSD、NAND 和数据中心存储供需。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08 至 2026-10 财报季中 enterprise SSD、NAND ASP 和库存天数是否继续改善。</li><li>hyperscaler capex 对存储、网络和服务器组件的订单传导。</li><li>SanDisk 与 Western Digital 分拆后资本配置、毛利恢复和周期管理的后续披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>存储是强周期行业，若客户提前补库存，收入和价格改善可能快速反转。</li><li>AI 服务器需求强不等于 NAND 价格持续上行，供给恢复会压缩利润弹性。</li><li>公司分拆后的治理、资本开支和资产负债表路径仍需更多季度验证。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-fourth-quarter-2026-financial-results">Sandisk Reports Fiscal Fourth Quarter 2026 Financial Results</a></li><li><a href="https://investor.wdc.com/news-releases">Western Digital Investor Relations News Releases</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI leaders, accelerated compute, earnings catalyst</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>NVIDIA 本身今天没有新的重大一级披露，但 2026-08-26 FY2027 Q2 财报窗口很近，且 AMD 与存储链条的财报已经把 AI capex 验证压力推给 NVIDIA。判断：NVDA 仍是 AI 基建核心资产，但当前动作应以等待财报和回撤条件为主，而不是在高预期下追高。</p>
+              <p><strong>Why now:</strong> 2026-08 上旬 AI 链条的新增财报证据集中在 AMD、存储和 AI 软件，NVIDIA 8 月下旬财报将决定这些信号是否能扩展为全链条确认。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-26 NVIDIA FY2027 Q2 财报及管理层 commentary。</li><li>数据中心收入增速、Blackwell/后续平台供给、网络产品 attach rate。</li><li>H20/中国销售、出口限制和库存准备的后续披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>预期过高导致好财报也难以推动股价。</li><li>客户 capex 消化期、供应链瓶颈或出口管制可能改变收入节奏。</li><li>利率上行对高估值 AI 龙头不利。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx">NVIDIA Sets Conference Call for Second-Quarter Financial Results</a></li><li><a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results">AMD Reports Second Quarter 2026 Financial Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics, surgical automation, recurring instruments revenue</p>
+                  <h2>Intuitive Surgical <span>ISRG</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>机器人板块今天没有新的重大一级披露，因此延续 2026-07-16 Intuitive Q2 结果作为质量锚。公司 Q2 收入同比增长 19% 至 28.9 亿美元，全球 da Vinci/Ion procedure 同比增长约 16%，装机基数继续扩大。判断：这是机器人主题中最可验证的商业模式，但估值通常不便宜，只适合回撤或估值重置时加。</p>
+              <p><strong>Why now:</strong> 在工业机器人新增信号偏少时，ISRG 的程序量、耗材收入和装机数据仍是机器人自动化中收入可见度最高的一级证据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 年全年 da Vinci procedure growth 指引 13.5%-15.5% 是否维持或上修。</li><li>da Vinci 5 装机、租赁占比和 instruments/accessories revenue 的持续性。</li><li>医院资本预算、关税和生产转移对 2026 non-GAAP gross margin 68.0%-69.0% 指引的影响。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高估值对利率和医院预算非常敏感。</li><li>关税、组件采购地和制造地变化可能造成额外毛利压力。</li><li>如果 procedure growth 回落，耗材收入复利逻辑会被削弱。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/">Intuitive Announces Second Quarter Earnings</a></li><li><a href="https://global.abb/group/en/investors/quarterly-results">ABB Q2 2026 quarterly results page</a></li><li><a href="https://www.fanuc.co.jp/en/ir/announce/">FANUC Financial Results and Conference Materials</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">AI software, performance advertising, model-driven bidding</p>
+                  <h2>AppLovin <span>APP</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 69/100</p>
+              <div class="bar"><span class="fill" style="width:69%"></span></div>
+              <p>AppLovin 是今天新增的 AI 软件监测对象：公司财报窗口能观察模型驱动广告投放、软件平台利润率和市场对高增长 AI 软件的估值容忍度。判断：基本面动量若继续强劲，APP 能验证 AI 软件的商业化弹性；但高估值和广告周期使它更适合作为观察标尺，而非无条件加仓。</p>
+              <p><strong>Why now:</strong> 2026-08-05 至 2026-08-06 AppLovin 财报更新，为 AI 软件从企业工作流扩展到广告投放优化提供新的一级来源输入。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一季软件平台收入增长、Adjusted EBITDA margin 和管理层对 AI 模型迭代的披露。</li><li>广告主预算、移动游戏生态和 web/commerce 广告扩张能否提供第二增长曲线。</li><li>高估值成长股若因利率回撤，是否出现更合适的风险回报。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>广告预算具有周期性，宏观降温会直接压制增长。</li><li>AI 软件叙事拥挤，估值对任何增长放缓都高度敏感。</li><li>平台政策、隐私规则和客户集中度变化会影响模型投放效果。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.applovin.com/news-releases">AppLovin Investor Relations News Releases</a></li><li><a href="https://www.investors.palantir.com/news-details/2026/Palantir-Reports-Q2-2026-Results-Revenue-Grew-93-Year-Over-Year-with-U.S.-Commercial-Revenue-Growth-of-149-Year-Over-Year">Palantir Reports Q2 2026 Results</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy, oil inventories, natural gas storage</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>能源不是今天的强加仓方向。EIA 2026-08-05 WPSR 给出混合信号：原油库存增加，但汽油和馏分油库存下降；2026-08-06 天然气库存更新需要与电力需求、LNG 和天气共同判断。判断：XLE 可继续持有观察，但除非下一份 EIA 数据显示成品油和天然气紧张同时强化，否则不追涨。</p>
+              <p><strong>Why now:</strong> 能源信号从原油库存紧张切换到品种分化；下一步需要 2026-08-12 WPSR 和 2026-08-13 天然气库存继续确认。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-12 EIA 下一份 Weekly Petroleum Status Report。</li><li>2026-08-13 EIA 下一份 Weekly Natural Gas Storage Report。</li><li>夏季电力负荷、LNG feedgas、炼厂开工率和成品油库存的同步变化。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>原油库存继续回补会削弱 XLE 的短线油价支撑。</li><li>需求侧若受增长降温影响，成品油库存下降可能只是季节性扰动。</li><li>能源股对油价、美元和地缘风险高度敏感，仓位需要控制波动。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/wpsrsummary.pdf">EIA Weekly Petroleum Status Report Summary</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html">EIA Weekly Natural Gas Storage Report</a></li></ul>
+            </section>
+            
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold, real rates, central-bank demand and ETF flows</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold insurance position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>黄金仍是保险仓，不是动量追涨。WGC 2026-07-30 Q2 Gold Demand Trends 和 2026 年 6 月 ETF flows 说明结构性需求仍在，但 Fed 口径、生产率/劳动力成本和就业数据会影响实际利率路径。判断：缺少新的实际利率下行或 ETF 连续流入确认前，GLD 维持低到中等权重。</p>
+              <p><strong>Why now:</strong> 2026-08-06 BLS 与 DOL 宏观数据更新提供实际利率观察点，但不足以改变黄金仓位动作。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一份 WGC ETF flows，确认黄金 ETF 是否重回连续流入。</li><li>后续 CPI、PCE、生产率和 Fed 讲话对实际利率的影响。</li><li>美元、长端实际收益率和央行购金数据的共振。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>如果实际利率维持高位或美元走强，黄金追价回报不佳。</li><li>ETF 流出可能抵消央行需求和避险需求。</li><li>矿商比 GLD 多出成本、资本开支和司法辖区风险，本晨报不把矿商列为优先。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026">Gold Demand Trends Q2 2026</a></li><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07">Gold ETF Flows June 2026</a></li><li><a href="https://www.bls.gov/news.release/prod2.nr0.htm">BLS Productivity and Costs</a></li></ul>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>
