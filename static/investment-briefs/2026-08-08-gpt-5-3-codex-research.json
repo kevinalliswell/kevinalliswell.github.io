@@ -1,0 +1,342 @@
+{
+  "date": "2026-08-08",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-08（监测版）",
+  "summary": "截至 2026-08-08 08:00（Asia/Shanghai），过去 24 小时没有出现足以改变 AI、机器人、能源和黄金主线排序的重大公司级一级来源增量；本期属于监测简报。新增信号主要来自 BLS 2026-08-07 就业报告、DOL 2026-08-07 失业金申请、EIA 2026-08-07 能源周报入口和 WGC 2026-08-07 黄金 ETF 月度流向：宏观边际偏向“劳动力降温但未失速”，黄金仍有资金流支撑，能源库存信号偏混合，AI 基建进入 NVIDIA 2026-08-26 财报前的观察窗口。",
+  "macro": {
+    "regime": "劳动力降温、利率敏感资产获得边际支撑，但高估值 AI 仍需等待财报确认",
+    "bullets": [
+      "BLS 于 2026-08-07 发布 2026 年 7 月 Employment Situation：非农就业减少 2.3 万人、失业率为 4.1%，同时 2026 年 5 月和 6 月合计下修 10.3 万人。事实层面显示劳动力市场转弱；投资判断上，这降低了追涨高估值 AI 的容错率，但也边际支持黄金和久期资产。",
+      "DOL 于 2026-08-07 发布截至 2026-08-01 当周的失业保险周报：季调初请失业金人数为 19.9 万人、四周均值为 21.15 万人。该数据没有确认快速衰退，更像是就业报告之后的“慢降温”背景。",
+      "EIA 2026-08-07 周报入口显示最新 WPSR 已发布；WPSR 摘要显示截至 2026-08-01 当周美国商业原油库存周增 250 万桶，汽油库存周降 160 万桶，馏分油库存周降 350 万桶。能源信号从单边紧库存转为混合，不支持对 XLE 立即提高评级。",
+      "World Gold Council 于 2026-08-07 发布 2026 年 7 月全球黄金 ETF 流向：当月净流入 32 亿美元，持仓升至 4068 吨；同日中央银行月度统计显示 2026 年 6 月全球央行净买入 22 吨。事实层面支撑黄金保险仓；投资判断上，追价仍要受实际利率和美元波动约束。",
+      "NVIDIA 官方 IR 已确认 FY2027 Q2 财报电话会日期为 2026-08-26。AI 基建链条的下一次强验证来自 NVIDIA 对数据中心收入、Blackwell/Rubin 路线和客户 capex 的表述，而不是 2026-08-08 当天的新标题。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "223.96 USD",
+      "change_pct": 2.251,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvda"
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "price": "483.36 USD",
+      "change_pct": -1.187,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/amd"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "398.47 USD",
+      "change_pct": 2.261,
+      "source_url": "https://www.nasdaq.com/market-activity/etf/gld"
+    },
+    {
+      "name": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "price": "57.50 USD",
+      "change_pct": -1.152,
+      "source_url": "https://www.nasdaq.com/market-activity/etf/xle"
+    },
+    {
+      "name": "Cameco",
+      "ticker": "CCJ",
+      "price": "97.39 USD",
+      "change_pct": 4.059,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/ccj"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI 基建、GPU、数据中心 capex 验证",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "事实：NVIDIA 已将 FY2027 Q2 财报电话会排在 2026-08-26，当前没有新的公司级一级来源改变基本面。判断：AI 基建仍是最强主线，但股价和预期已经提前反映大量乐观情景，适合等财报给出数据中心增长、供应链交付和下一代平台节奏后再提高仓位。",
+      "why_now": "2026-08-07 市场价格显示 NVDA 继续走强，但过去 24 小时的一级来源增量主要是宏观就业转弱和能源/黄金数据，并非 NVIDIA 自身经营更新；下一关键日期明确为 2026-08-26。",
+      "catalysts": [
+        "2026-08-26：NVIDIA FY2027 Q2 financial results conference call，重点看数据中心收入、毛利率、供应约束和大客户 capex 口径。",
+        "2026 年 8 月至 9 月：对照 Microsoft、Amazon、Meta、Alphabet 后续 capex 指引，确认 GPU 需求是否仍由真实云端部署支撑。"
+      ],
+      "risks": [
+        "估值和拥挤度风险：2026-08-07 NVDA 收于 223.96 美元，PE 约 34.1 倍；财报只要不能继续上修预期，短线回撤空间会放大。",
+        "出口管制、先进封装产能、客户集中度和 hyperscaler capex 放缓都可能压缩下一阶段收益率。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Sets Conference Call for Second Quarter Financial Results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+        },
+        {
+          "title": "BLS Employment Situation, July 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/empsit.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI 半导体、GPU 追赶、服务器 CPU",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 74,
+      "thesis": "事实：AMD 2026-08-04 Q2 2026 财报是本周 AI 半导体链最重要的公司级来源之一；过去 24 小时没有新增文件改变该判断。判断：只适合在回撤时小仓位加，而不是追高，因为市场已经给 AMD 的 AI GPU 渗透和服务器份额提升很高预期。",
+      "why_now": "2026-08-07 AMD 收于 483.36 美元、单日下跌 1.187%，价格从财报后高位略有回落；就业数据转弱提高成长股折现率敏感性，入场条件应更严格。",
+      "catalysts": [
+        "2026 年 8 月至 10 月：观察 MI 系列 GPU 客户扩张、服务器 CPU 份额、AI revenue guidance 是否继续上调。",
+        "2026-08-26：NVIDIA 财报将作为 AMD AI GPU 需求强弱的横向验证。"
+      ],
+      "risks": [
+        "2026-08-07 AMD PE 约 124.3 倍，估值对毛利率和 AI GPU 放量节奏高度敏感。",
+        "若 NVIDIA 财报显示供应充足且客户预算集中在 NVIDIA，AMD 的追赶叙事可能被重新定价。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 11,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+        },
+        {
+          "title": "AMD Q2 2026 SEC Exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+        },
+        {
+          "title": "BLS Employment Situation, July 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/empsit.htm"
+        }
+      ]
+    },
+    {
+      "theme": "黄金、实际利率、ETF 流向、央行需求",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold insurance position",
+      "score": 69,
+      "thesis": "事实：WGC 2026-08-07 数据显示 2026 年 7 月全球黄金 ETF 净流入 32 亿美元、持仓 4068 吨，且 2026 年 6 月全球央行净买入 22 吨。判断：黄金保险仓逻辑仍有效，但 GLD 2026-08-07 单日上涨 2.261% 后，新的主动买点更依赖实际利率回落或美元转弱确认。",
+      "why_now": "2026-08-07 就业报告转弱与黄金 ETF 流入同时出现，给 GLD 提供宏观和资金流的双重支撑；但本期仍未看到足以把评级提高到 B 的价格/风险比。",
+      "catalysts": [
+        "2026-08-12：美国 CPI 发布后，确认实际利率是否继续下行。",
+        "下一份 WGC ETF flows：确认 2026 年 7 月流入是否延续为连续性趋势。"
+      ],
+      "risks": [
+        "若 CPI 或 Fed 讲话推高实际利率，黄金 ETF 流入可能反转。",
+        "GLD 已因 2026-08-07 风险偏好和利率预期变化快速上涨，短线追价风险上升。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Global gold ETF flows: July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "Central bank gold statistics: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/08/central-bank-gold-statistics-june-2026"
+        },
+        {
+          "title": "BLS Employment Situation, July 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/empsit.htm"
+        }
+      ]
+    },
+    {
+      "theme": "能源、石油库存、成品油裂解、通胀尾部",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "事实：EIA WPSR 摘要显示截至 2026-08-01 当周美国商业原油库存增加 250 万桶，但汽油和馏分油库存分别下降 160 万桶和 350 万桶。判断：成品油端仍有支撑，但原油库存回补和劳动力数据转弱让能源权益缺少明确上行动能。",
+      "why_now": "2026-08-07 XLE 下跌 1.152%，价格行为与库存混合信号一致；本期没有看到足以把 XLE 从 C 提到 B 的一级来源变化。",
+      "catalysts": [
+        "2026-08-12：下一份 EIA Weekly Petroleum Status Report，确认原油库存回补是否延续。",
+        "2026 年 8 月：关注汽油和馏分油库存是否继续低于季节性水平，以及油价对宏观放缓的敏感度。"
+      ],
+      "risks": [
+        "若就业降温扩散到终端需求，成品油库存支撑可能不足以抵消原油和能源股估值压力。",
+        "OPEC+ 供给、地缘政治和美元变化会让 XLE 的短期收益高度噪声化。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report Summary",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+        },
+        {
+          "title": "Weekly Petroleum Status Report landing page",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "DOL Unemployment Insurance Weekly Claims, 2026-08-07",
+          "publisher": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261679.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "核能、铀、长期电力需求",
+      "asset": "Cameco",
+      "ticker": "CCJ",
+      "region": "US/Canada",
+      "grade": "C",
+      "action": "Watch closely",
+      "score": 62,
+      "thesis": "事实：EIA 2026-08-07 Today in Energy 指出美国电池储能装机近年高速增长，说明电网为可再生和负荷波动配置灵活性；这与 AI 数据中心、工业电气化和核能基荷叙事同属电力投资主线。判断：CCJ 2026-08-07 单日上涨 4.059%，但本期没有 Cameco 自身的新一级来源，因此只保持观察，不追价。",
+      "why_now": "电力系统扩容仍是 AI 和能源的共同约束，但 2026-08-08 的一级来源增量来自 EIA 系统数据而非 Cameco 订单或铀价合同披露。",
+      "catalysts": [
+        "下一份 Cameco 公司级经营更新或季度报告，确认产量、合同价格和成本。",
+        "美国核能政策、数据中心长期 PPA 和电网规划更新。"
+      ],
+      "risks": [
+        "铀股波动通常高于大宗商品本身；若无公司级新催化，短线涨幅可能来自资金拥挤而非基本面改善。",
+        "矿山恢复、合同价格、监管审批和汇率都会影响 Cameco 的盈利兑现。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 14,
+        "valuation_setup": 10,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "U.S. battery storage capacity has grown by two-thirds over the last three years",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=65744"
+        },
+        {
+          "title": "Cameco Q2 2026 Results",
+          "publisher": "Cameco Investor Relations",
+          "url": "https://www.cameco.com/invest/financial-information/quarterly-reports/2026/q2"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "宏观",
+      "asset": "U.S. CPI",
+      "ticker": "CPI",
+      "note": "2026-08-12 发布；若核心通胀高于预期，高估值 AI 与黄金追价都要降风险。"
+    },
+    {
+      "theme": "AI 基建",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "note": "2026-08-26 FY2027 Q2 财报是确认 AI capex 链条的下一关键一级来源。"
+    },
+    {
+      "theme": "能源",
+      "asset": "EIA WPSR",
+      "ticker": "XLE/USO",
+      "note": "2026-08-12 下一份周报；确认原油库存回补与成品油去库谁占主导。"
+    },
+    {
+      "theme": "黄金",
+      "asset": "WGC ETF flows",
+      "ticker": "GLD",
+      "note": "下一份月度流向若继续净流入，黄金保险仓可从持有转为回调买入。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "BLS Employment Situation, July 2026",
+      "url": "https://www.bls.gov/news.release/empsit.htm"
+    },
+    {
+      "label": "DOL Unemployment Insurance Weekly Claims, 2026-08-07",
+      "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261679.pdf"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR summary PDF",
+      "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf"
+    },
+    {
+      "label": "EIA Today in Energy, battery storage",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=65744"
+    },
+    {
+      "label": "World Gold Council July 2026 ETF flows",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    },
+    {
+      "label": "World Gold Council central bank gold statistics, June 2026",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/08/central-bank-gold-statistics-june-2026"
+    },
+    {
+      "label": "NVIDIA FY2027 Q2 earnings date",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx"
+    },
+    {
+      "label": "AMD Q2 2026 results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+    },
+    {
+      "label": "AMD Q2 2026 SEC exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+    },
+    {
+      "label": "Cameco Q2 2026 results",
+      "url": "https://www.cameco.com/invest/financial-information/quarterly-reports/2026/q2"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
