@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-08-16（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-08-16（监测版）</h1>
+      <p class="meta">2026-08-16 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>本轮是周末监测版：截至 2026-08-16 早间（Asia/Shanghai），未发现较 2026-08-15 晨报更强的新增公司级原始披露。近 72 小时的核心信号仍是 Applied Materials 与 Cisco 对 AI 基建链条的确认、U.S. Census 与 University of Michigan 对美国消费转弱的确认，以及 EIA/WGC 对能源和黄金的中性偏防御信号。结论：AI 硬件链继续强于宏观，但不追高；黄金维持保险仓；能源和机器人等待新一轮订单、库存或价格数据。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>AI 基建证据未破坏，但周末缺少新增催化，宏观组合仍压制追高</strong></p>
+      <ul><li>事实：U.S. Census Bureau 2026-08-14 Advance Monthly Sales for Retail and Food Services 显示，2026 年 7 月美国零售和食品服务销售额经季调为 7636 亿美元，环比下降 0.6%（误差 ±0.4%），同比上升 5.0%（误差 ±0.5%）；2026 年 5-7 月销售额同比上升 6.3%。判断：名义同比仍正，但环比走弱降低了可选消费和高 beta 成长股的估值容错。</li><li>事实：University of Michigan 2026-08-14 初值显示，2026 年 8 月消费者信心指数为 51.0，低于 2026 年 7 月的 55.2 和 2025 年 8 月的 58.2；现况指数 51.8，预期指数 50.6。判断：家庭信心的下行使“软着陆 + 估值扩张”的叙事更脆弱。</li><li>事实：BLS 2026-08-13 July PPI 显示最终需求 PPI 7 月环比持平，6 月为下降 0.1%；最终需求服务价格上涨 0.2%，最终需求能源价格下降 3.1%。判断：商品/能源缓和有利于通胀读数，但服务黏性仍限制长久期资产估值扩张。</li><li>事实：Applied Materials 2026-08-13 Q3 FY2026 新闻稿披露收入 91.2 亿美元、同比增长 25%，GAAP 毛利率 50.3%，GAAP EPS 3.17 美元，non-GAAP EPS 3.50 美元；公司 Q4 FY2026 展望收入 102.5 亿美元上下 5 亿美元、non-GAAP EPS 4.02 美元上下 0.20 美元。判断：AI 半导体设备需求仍在兑现，但已是高预期资产，适合等待回撤和 NVIDIA 2026-08-26 验证。</li><li>事实：Cisco 2026-08-12 FY2026 Q4 新闻稿显示 Q4 产品订单同比增长 35%，网络产品订单同比增长 40%；AI infrastructure 来自 hyperscalers 的 Q4 订单为 40 亿美元，FY2026 合计 93 亿美元，并预计 FY2027 AI infrastructure 收入 75 亿美元。判断：AI capex 正在从 GPU 扩散到网络，但 CSCO 更偏质量/现金流型 AI 受益者。</li><li>事实：EIA 2026-08-12 Weekly Petroleum Status Report 覆盖截至 2026-08-07 的一周，下一次发布为 2026-08-19；EIA 2026-08-13 Weekly Natural Gas Storage Report 显示工作气库存 3153 Bcf，周增 36 Bcf。判断：能源暂无足以改评级的新增供需冲击，继续以库存和价格确认处理。</li><li>事实：World Gold Council 2026-08-06 July ETF Flows 显示全球黄金 ETF 7 月净流入约 30 亿美元，持仓增加 23 吨至 4068 吨，AUM 升至约 5300 亿美元。判断：黄金有资金回流和分散化需求支撑，但北美确认度仍不足，维持保险仓而非进攻仓。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>U.S. July retail and food services sales</td>
+          <td>Retail Sales</td>
+          <td>$763.6bn</td>
+          <td>-0.60%</td>
+          <td><a href="https://www.census.gov/retail/sales.html">source</a></td>
+        </tr>
+
+        <tr>
+          <td>University of Michigan August consumer sentiment preliminary</td>
+          <td>UMich</td>
+          <td>51.0</td>
+          <td>-7.60%</td>
+          <td><a href="https://www.sca.isr.umich.edu/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>BLS July final-demand PPI</td>
+          <td>PPI</td>
+          <td>0.0% MoM</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.bls.gov/news.release/archives/ppi_08132026.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Applied Materials Q3 FY2026 revenue</td>
+          <td>AMAT</td>
+          <td>$9.12bn</td>
+          <td>+25.00%</td>
+          <td><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Cisco FY2026 AI infrastructure orders</td>
+          <td>CSCO</td>
+          <td>$9.3bn</td>
+          <td></td>
+          <td><a href="https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Lower 48 working gas storage</td>
+          <td>Natural Gas</td>
+          <td>3,153 Bcf</td>
+          <td></td>
+          <td><a href="https://www.eia.gov/naturalgas/storage/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Global gold ETF July net flow</td>
+          <td>GLD</td>
+          <td>+$3bn</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI GPU、网络、算力融资平台</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>事实：NVIDIA 已公告将在 2026-08-26 14:00 PT 举行 FY2027 Q2 财报电话会。Applied Materials 2026-08-13 财报、Cisco 2026-08-12 FY2026 Q4 财报、TSMC 2026-08-10 7 月营收和 CoreWeave 2026-08-11 Q2 财报共同说明 AI 基建需求仍在 GPU、网络、先进制程、晶圆设备和云算力租赁之间传导。判断：NVDA 仍是质量核心，但财报前预期高、拥挤度高，当前动作是等待 2026-08-26 确认或明显回撤。</p>
+              <p><strong>Why now:</strong> 周末没有新的 NVIDIA 原始披露；因此不因旧信号上调评级。AMAT 与 Cisco 的最新披露提供旁证，但仓位升级必须等 NVIDIA 自身财报中的数据中心收入、毛利率、网络业务和供给节奏。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-26 14:00 PT：NVIDIA FY2027 Q2 财报、CFO commentary 和电话会。</li><li>2026 下半年：AI compute infrastructure financing platform 是否转化为项目、融资成本下降和供应链收入。</li><li>2026-09 起：TSMC 月营收、AMAT 订单和 Cisco AI infrastructure 收入能否继续交叉验证。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>财报前市场可能已预支供应链利好，任何毛利率或交付节奏低于预期都会放大回撤。</li><li>出口管制、客户集中、先进封装瓶颈和数据中心电力许可仍是 thesis breaker。</li><li>美国消费和信心走弱会降低高估值成长资产的风险承受度。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx">NVIDIA 2nd Quarter FY27 Financial Results Event</a></li><li><a href="https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195">NVIDIA Sets Conference Call for Second-Quarter Financial Results</a></li><li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results">Applied Materials Announces Third Quarter 2026 Results</a></li><li><a href="https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx">Cisco Reports Fourth Quarter and Fiscal Year 2026 Earnings</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 半导体设备、DRAM/HBM、先进封装</p>
+                  <h2>Applied Materials <span>AMAT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>事实：Applied Materials 2026-08-13 Q3 FY2026 发布显示收入 91.2 亿美元、同比增长 25%，GAAP EPS 3.17 美元、non-GAAP EPS 3.50 美元；公司给出 Q4 FY2026 收入 102.5 亿美元上下 5 亿美元、non-GAAP EPS 4.02 美元上下 0.20 美元的展望。判断：AMAT 是本轮最清晰的一手 AI 设备链信号，但强财报之后预期已高，维持 B。</p>
+              <p><strong>Why now:</strong> 2026-08-13 财报把 AI 设备链从叙事推进到收入和指引验证；2026-08-16 没有新披露改变评级，入场条件仍应绑定回撤和后续订单能见度。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026 Q4 FY2026：验证 102.5 亿美元收入中枢和 non-GAAP EPS 4.02 美元中枢是否兑现。</li><li>2026-08-26：NVIDIA FY2027 Q2 财报若确认先进封装、HBM 和网络需求，将强化 AMAT 的订单能见度。</li><li>2026 下半年：DRAM/HBM、advanced packaging 和 leading-edge foundry-logic 的客户 ramp。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>半导体设备周期高度资本开支敏感，若 hyperscaler 或存储客户削减 capex，订单预期会快速下修。</li><li>高预期下，即使财报强也可能因毛利率、交付节奏或指引不够强而回撤。</li><li>出口管制、关税、客户集中和供应链交付风险仍需折价。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results">Applied Materials Announces Third Quarter 2026 Results</a></li><li><a href="https://ir.appliedmaterials.com/static-files/9d5d182d-f060-4b22-a32c-4582257fdc9b">Q3 2026 Applied Materials Earnings Presentation</a></li><li><a href="https://ir.appliedmaterials.com/">Applied Materials Investor Relations</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 网络、数据中心交换、安全基础设施</p>
+                  <h2>Cisco <span>CSCO</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>事实：Cisco 2026-08-12 FY2026 Q4 新闻稿披露 Q4 收入 173 亿美元、同比增长 18%，FY2026 收入 633 亿美元、同比增长 12%；Q4 total product orders 同比增长 35%，networking product orders 同比增长 40%；AI infrastructure hyperscaler 订单 Q4 为 40 亿美元、FY2026 合计 93 亿美元，并预计 FY2027 AI infrastructure 收入 75 亿美元。判断：CSCO 是 AI 网络扩散的现金流型受益者，估值和分红属性优于纯高 beta AI，但增长弹性不如 GPU/先进制程链。</p>
+              <p><strong>Why now:</strong> Cisco 的 2026-08-12 财报把 AI 网络订单从观察项推进为可量化指标；周末没有新披露，维持 B 并作为 NVDA/TSM/AMAT 之外的低 beta AI 观察仓。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>FY2027：AI infrastructure 收入能否接近公司预计的 75 亿美元。</li><li>后续季度：网络产品订单是否保持双位数增长，且 hyperscaler 之外需求是否扩散。</li><li>2026-08-26 NVIDIA 财报若确认网络和集群扩张，CSCO AI 订单可信度上升。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Cisco 的 AI 订单可能阶段性集中于 hyperscaler，持续性需要后续季度验证。</li><li>网络设备竞争、价格压力和客户消化周期会影响收入转化。</li><li>作为成熟大盘股，弹性可能弱于半导体设备和 GPU 链。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx">Cisco Reports Fourth Quarter and Fiscal Year 2026 Earnings</a></li><li><a href="https://investor.cisco.com/news/news-details/2026/Cisco-Schedules-Conference-Call-for-Q4-Fiscal-Year-2026-Financial-Results/default.aspx">Cisco Schedules Conference Call for Q4 Fiscal Year 2026 Financial Results</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 半导体、先进制程、供应链验证</p>
+                  <h2>Taiwan Semiconductor Manufacturing <span>TSM</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>事实：TSMC 2026-08-10 公告 7 月合并营收约 4675.80 亿新台币，环比增加 5.6%，同比增加 44.7%；2026 年 1-7 月累计营收约 2.87206 万亿新台币，同比增加 37.0%。判断：TSM 仍是 AI 先进制程最硬的供应链验证，但月营收不拆客户、节点和先进封装结构，且地缘和估值风险让操作以等待确认为主。</p>
+              <p><strong>Why now:</strong> 2026-08-16 没有新的 TSMC 月度数据；7 月营收和 AMAT 设备链披露仍是本轮监测的主要供应链证据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-26：NVIDIA 财报验证 TSMC AI 加速器需求质量。</li><li>2026-09-10 左右：TSMC 8 月月营收，确认 7 月同比高增速能否延续。</li><li>2026 下半年：CoWoS、2nm/3nm、美国厂成本和主要客户订单节奏。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>月营收不能直接判断客户结构、节点结构和毛利率。</li><li>台海地缘风险、汇率和美国制造成本会提高 ADR 风险折价。</li><li>若 NVIDIA 财报低于预期，TSM 作为高质量 AI beta 仍可能回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.tsmc.com/english/monthly-revenue/2026">TSMC 2026 Monthly Revenue</a></li><li><a href="https://pr.tsmc.com/english/news/3329">TSMC July 2026 Revenue Report</a></li><li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results">Applied Materials Announces Third Quarter 2026 Results</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI 加速器、CPU/GPU、半导体竞争</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>事实：AMD 2026-08-04 Q2 财报显示收入 115 亿美元、GAAP 毛利率 54%、净利润 23 亿美元、摊薄 EPS 1.38 美元；非 GAAP 毛利率 56%、非 GAAP EPS 1.66 美元。判断：AMD 有 AI 加速器和 EPYC 双线弹性，且相对 NVIDIA 的估值弹性更大，但生态、软件和客户验证仍是折扣来源。</p>
+              <p><strong>Why now:</strong> AMAT、TSMC 和 Cisco 的披露支持 AI 基建仍在扩张，但 2026-08-14 零售和信心数据提醒高 beta 半导体不能用宏观估值扩张做主要买入理由。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-26：NVIDIA 财报和供应链表述会影响 AMD AI 加速器相对预期。</li><li>2026 下半年：MI 系列客户扩展、EPYC 服务器份额、软件栈和毛利率指引。</li><li>大型云客户 capex 和 AI 集群多供应商策略。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>AI 加速器生态和软件成熟度仍弱于 NVIDIA。</li><li>若云客户把增量预算更多锁定 NVIDIA 或自研 ASIC，AMD 的 AI beta 会被压缩。</li><li>消费走弱和通胀预期偏粘会提高高 beta 半导体的折现率风险。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases/detail/1285/amd-reports-second-quarter-2026-financial-results">AMD Reports Second Quarter 2026 Financial Results</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2488/000119312526186481/d553890dex991.htm">AMD Form 8-K Exhibit 99.1, Q2 2026 Results</a></li><li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results">Applied Materials Announces Third Quarter 2026 Results</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">黄金、真实利率、组合保险</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>事实：World Gold Council 2026-08-06 July ETF Flows 显示全球黄金 ETF 7 月净流入约 30 亿美元，持仓增加 23 吨至 4068 吨，AUM 升至约 5300 亿美元。判断：黄金的组合保险价值仍在，但 2026-08-14 美国消费转弱和通胀预期黏性同时存在，方向更像防御配置而非高置信进攻仓。</p>
+              <p><strong>Why now:</strong> 周末无新增 WGC 或央行储备数据；黄金继续作为 AI 高 beta 暴露的对冲，而不是排名第一的进攻资产。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08 下旬：美国实际利率和美元方向变化。</li><li>下一次 WGC ETF flows 和央行黄金统计，确认北美资金是否从小幅流入转为持续回流。</li><li>若风险资产在 2026-08-26 NVIDIA 财报前后剧烈波动，黄金保险属性上升。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率和美元同步上行，黄金 ETF 资金可能再次转弱。</li><li>7 月 ETF 流入主要由欧洲带动，北美确认度仍不足。</li><li>黄金不产生现金流，若风险偏好恢复，机会成本会重新上升。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08">Gold ETF Flows: July 2026</a></li><li><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">Gold ETFs, holdings and flows data</a></li><li><a href="https://www.bls.gov/news.release/cpi.nr0.htm">Consumer Price Index Summary - July 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">能源、油气现金流、天然气库存</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>事实：EIA 2026-08-12 Weekly Petroleum Status Report 覆盖截至 2026-08-07 的一周，下一次发布为 2026-08-19；EIA 2026-08-13 Weekly Natural Gas Storage Report 显示工作气库存 3153 Bcf，周增 36 Bcf。EIA August 2026 STEO 还预计 2026 年美国 marketed natural gas production 平均 122.5 Bcf/d，高于 2025 年 118.5 Bcf/d 的纪录。判断：能源供给侧不紧缺到足以提高 XLE 评级，现金流和分红属性可保留，但不主动加仓。</p>
+              <p><strong>Why now:</strong> 周末无新 EIA 周报；下一次关键数据在 2026-08-19。当前能源更多是宏观冲击对冲，而非高增长主线。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-08-19：EIA Weekly Petroleum Status Report 更新库存、炼厂开工和成品油需求。</li><li>2026-08-20：EIA Weekly Natural Gas Storage Report 更新库存注入节奏。</li><li>中东/航运风险若抬升油价，会提高短期能源 beta。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>美国天然气产量高位会压制气价和上游利润弹性。</li><li>全球增长走弱会削弱油品需求和炼化价差。</li><li>能源 ETF 持仓较集中，油价回落时防御属性有限。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li><li><a href="https://www.eia.gov/naturalgas/storage/">Weekly Natural Gas Storage Report</a></li><li><a href="https://www.eia.gov/todayinenergy/detail.php?id=67944">United States on track for record natural gas production in 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">机器人、工厂自动化、测试设备</p>
+                  <h2>Teradyne / FANUC / ABB basket <span>TER / 6954.T / ABBNY</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 60/100</p>
+              <div class="bar"><span class="fill" style="width:60%"></span></div>
+              <p>事实：本轮 2026-08-15 至 2026-08-16 周末窗口没有发现 TER、FANUC 或 ABB 较上一轮更强的新订单或财报原始披露。判断：机器人仍是 AI 外溢到实体自动化的长期方向，但短期缺乏订单加速证据，不能因为 AI 主题强而上调。</p>
+              <p><strong>Why now:</strong> 机器人主题需要订单、book-to-bill、工业 PMI 或管理层指引确认；当前更适合列入观察，而不是与 AI 半导体链争夺新增仓位。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次 TER、FANUC、ABB 季度披露中的订单、测试设备需求和机器人业务 margin。</li><li>汽车、电子和物流自动化 capex 是否恢复。</li><li>AI 视觉/边缘推理若进入实际产线项目，将改善机器人需求可见度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>工业自动化订单恢复慢于 AI 数据中心资本开支。</li><li>机器人公司收入周期与制造业 PMI 和汽车 capex 更相关，不一定同步受益于 GPU 需求。</li><li>日元、欧洲工业周期和中国自动化竞争都会影响估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.teradyne.com/">Teradyne Investor Relations</a></li><li><a href="https://www.fanuc.co.jp/en/ir/library/index.html">FANUC IR Library</a></li><li><a href="https://global.abb/group/en/investors/quarterly-results">ABB Quarterly Results</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
