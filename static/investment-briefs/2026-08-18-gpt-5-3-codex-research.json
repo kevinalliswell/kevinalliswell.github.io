@@ -1,0 +1,527 @@
+{
+  "date": "2026-08-18",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-18（监测版）",
+  "summary": "过去 24 小时没有出现足以改变 AI、机器人、能源、黄金排序的新增公司级原始披露。新增监测点主要来自 2026-08-17 的美国财政部 TIC 发布入口、2026-08-17 美联储 H.15 利率表、LBMA 将深圳中恒隆加入黄金 Good Delivery List，以及 EIA 8 月 STEO 对天然气和电力负荷的约束。投资判断维持：AI 硬件链等 NVIDIA 2026-08-26 财报确认，黄金保留保险仓，能源不追高，机器人继续等订单周期。",
+  "macro": {
+    "regime": "长端名义/实际利率仍高，AI 基建强但估值需要财报确认，黄金受避险与央行需求支撑。",
+    "bullets": [
+      "美联储 H.15 在 2026-08-17 更新，表中 10 年期名义 Treasury constant maturity 最近一列为 4.68%，10 年期 TIPS 为 2.41%；高实际利率限制高估值 AI 的即时扩张空间。",
+      "美国财政部页面在 2026-08-17 将 Treasury International Capital Data for June 列为新闻入口；TIC 仍用于观察海外资金对美元资产和美债供给的吸收能力，但单月流入不应被解读为追高信号。",
+      "美联储日历显示 2026-08-19 将公布 2026-07-28/29 FOMC minutes；2026-08-18 将公布 G.17 工业产出和产能利用率，BLS 同日公布 7 月进出口价格指数，均是下一轮宏观确认点。",
+      "EIA 8 月 STEO 指出数据中心需求推升美国发电量，但 Texas 数据中心开发暂停使 EIA 下调 Texas 2027 负荷增速预测；这对 AI 电力链是结构需求和政策约束并存的信号。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "10Y U.S. Treasury constant maturity",
+      "ticker": "DGS10",
+      "price": "4.68% latest H.15 column",
+      "change_pct": "",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "10Y TIPS constant maturity",
+      "ticker": "DFII10",
+      "price": "2.41% latest H.15 column",
+      "change_pct": "",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "LBMA gold analyst survey",
+      "ticker": "XAU",
+      "price": "$4,500 average 2026 year-end forecast",
+      "change_pct": "",
+      "source_url": "https://www.lbma.org.uk/articles/gold-price-lbma-snapshot-survey-of-professional-analysts"
+    },
+    {
+      "name": "TSMC July 2026 revenue",
+      "ticker": "TSM",
+      "price": "NT$467,580mn, +44.7% YoY",
+      "change_pct": "",
+      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "判断：NVIDIA 仍是 AI 基建链的核心确认资产，但 2026-08-18 早间没有新的原始财报/订单披露，且 10 年期 TIPS 仍在 2.4% 附近，估值容错率有限。最佳动作不是追高，而是在 2026-08-26 FY2027 Q2 财报前准备情景表：数据中心收入、网络供给、Blackwell/后续平台节奏和毛利率是决定是否上调到 A 的条件。",
+      "why_now": "NVIDIA IR 确认 2026-08-26 14:00 PT 举行 FY2027 Q2 financial results；EIA 8 月 STEO 同时确认数据中心需求推升电力负荷，但 Texas 政策约束显示 AI 基建扩张仍受电力和审批限制。",
+      "catalysts": [
+        "2026-08-26 14:00 PT：NVIDIA FY2027 Q2 financial results 和 webcast。",
+        "2026-08-19：FOMC minutes 若缓和长端实际利率压力，将改善高估值 AI 的风险调整时点。",
+        "2026-09-10 左右：TSMC 8 月月营收可与 NVIDIA 财报交叉验证 AI 芯片需求。"
+      ],
+      "risks": [
+        "如果 FY2027 Q2 数据中心增速、网络供给或毛利率低于买方预期，当前估值容易被压缩。",
+        "EIA 指出 Texas 数据中心开发暂停影响电力负荷预测，说明 AI capex 不只受芯片供应制约，也受电网和地方政策制约。",
+        "10 年期 TIPS 在美联储 H.15 最新列仍为 2.41%，实际利率高位会降低远期现金流估值弹性。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA 2nd Quarter FY27 Financial Results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Short-Term Energy Outlook, August 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI networking and enterprise infrastructure",
+      "asset": "Cisco Systems",
+      "ticker": "CSCO",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 75,
+      "thesis": "判断：Cisco 是低 beta AI 基建补充仓，而不是高弹性 AI 纯标的。FY2026 Q4 官方披露的 hyperscaler AI infrastructure 订单和 FY2027 AI infrastructure revenue 预期提供真实需求锚，但毛利率和产品组合压力限制评级上修。",
+      "why_now": "Cisco 2026-08-12 FY2026 Q4 release 显示 Q4 product orders 同比 +35%，AI infrastructure Q4 订单 40 亿美元、FY2026 合计 93 亿美元，并预计 FY2027 AI infrastructure revenue 75 亿美元；该信号仍是过去一周最具体的 AI 网络需求原始披露。",
+      "catalysts": [
+        "FY2027 Q1 指引区间：收入 180-182 亿美元，non-GAAP EPS 1.32-1.34 美元。",
+        "FY2027：公司预计 AI infrastructure revenue 约 75 亿美元，需后续季度兑现。",
+        "下一次 earnings/call 中 hyperscaler 订单转收入速度和 gross margin 是评级上修或下修触发点。"
+      ],
+      "risks": [
+        "AI hyperscaler 订单可能比传统企业网络订单毛利率更低，收入质量需要连续验证。",
+        "若 FY2027 增长主要来自一次性网络换代而非持续 AI 集群建设，估值重估空间有限。",
+        "客户集中和 hyperscaler capex 节奏变化会放大订单波动。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Cisco Reports Fourth Quarter and Fiscal Year 2026 Earnings",
+          "publisher": "Cisco Investor Relations",
+          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "Foundry and AI semiconductor supply chain",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "region": "Taiwan/US ADR",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 75,
+      "thesis": "判断：TSMC 的月度营收仍是 AI 半导体需求最干净的高频原始数据之一。7 月营收同比 +44.7% 维持强趋势，但因为该数据已在 2026-08-10 披露，本次只作为监测锚，不因重复信号加仓。",
+      "why_now": "TSMC 2026 月营收页面显示 2026 年 7 月营收 NT$467,580mn、同比 +44.7%，1-7 月累计 NT$2,872,064mn、同比 +37.0%；下一次月营收和 NVIDIA 2026-08-26 财报将形成需求交叉验证。",
+      "catalysts": [
+        "2026-08-26：NVIDIA FY2027 Q2 财报验证先进制程和 CoWoS/先进封装需求。",
+        "2026-09-10 左右：TSMC 8 月月营收，确认 7 月高增速是否延续。",
+        "客户 capex 指引和先进封装产能更新将决定估值能否继续承受高预期。"
+      ],
+      "risks": [
+        "地缘政治和台海风险持续压制估值上限。",
+        "AI 客户集中度提高，若 hyperscaler capex 放缓，月营收弹性会反向放大。",
+        "高基数下的同比增速未来几个月可能自然回落。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "2026 Monthly Revenue",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+        },
+        {
+          "title": "NVIDIA 2nd Quarter FY27 Financial Results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "Semiconductor equipment",
+      "asset": "Applied Materials",
+      "ticker": "AMAT",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 74,
+      "thesis": "判断：AMAT Q3 FY2026 的营收和 EPS 均支持 AI/先进制程设备周期，但股价是否继续扩张取决于客户订单持续性和 2027 年需求可见度。由于本次没有更新的订单披露，继续等回撤或供应链交叉验证。",
+      "why_now": "Applied Materials 2026-08-13 Q3 FY2026 release 显示 revenue 91.2 亿美元、同比 +25%，GAAP EPS 3.17 美元、non-GAAP EPS 3.50 美元；这是 AI 半导体资本开支仍强的直接证据，但不是 2026-08-18 的新增信号。",
+      "catalysts": [
+        "下一季度指引和客户先进制程/先进封装资本开支更新。",
+        "TSMC、NVIDIA 和存储链条财报对 2027 年设备需求的二次确认。",
+        "EPIC Center 合作伙伴扩张若转化为客户研发/量产节奏，可增强长期护城河叙事。"
+      ],
+      "risks": [
+        "半导体设备是强周期资产，AI capex 若被市场视为过度建设，估值会先于基本面回落。",
+        "出口管制和客户地域结构可能影响订单可见度。",
+        "强财报后若缺少新增订单催化，短线风险调整时点一般。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Applied Materials Announces Third Quarter 2026 Results",
+          "publisher": "Applied Materials Investor Relations",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results"
+        }
+      ]
+    },
+    {
+      "theme": "AI accelerators and inference",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 73,
+      "thesis": "判断：AMD 的 AI inference 叙事仍有弹性，Taalas 收购强化全栈推理路线，但相对 NVIDIA 的生态和软件验证仍不充分。适合在波动中试探，不适合把它当作确定性最高的 AI 核心仓。",
+      "why_now": "AMD 2026-08-04 Q2 results 和 2026-08-06 Taalas acquisition 仍是当前原始锚点；2026-08-18 没有新财报级确认，因此评级维持 B。",
+      "catalysts": [
+        "下一次 MI 系列加速器收入、订单和客户披露。",
+        "Taalas 团队整合后是否带来可量化 inference 产品路线图。",
+        "NVIDIA 2026-08-26 财报若显示 AI 总需求继续强于供应，AMD 替代份额叙事会受益。"
+      ],
+      "risks": [
+        "软件生态、客户迁移成本和供应链优先级仍弱于 NVIDIA。",
+        "若 AI accelerator 市场从供不应求转向价格竞争，AMD 的追赶弹性会伴随毛利率风险。",
+        "高 beta 属性使其对长端实际利率和纳指风险偏好更敏感。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases"
+        },
+        {
+          "title": "AMD Acquires Taalas",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases"
+        }
+      ]
+    },
+    {
+      "theme": "AI cloud infrastructure financing",
+      "asset": "CoreWeave",
+      "ticker": "CRWV",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：CoreWeave 提供 AI compute demand 的高弹性读数，但资本开支、融资、客户集中和执行风险都高，暂时更适合作为景气度观察器，而不是低风险组合核心。",
+      "why_now": "CoreWeave 2026-08-11 Q2 2026 release 显示 AI 云需求仍强，且公司在 2026-08-10 宣布关闭 26 亿美元贷款设施；但 2026-08-18 没有新的融资或客户承诺披露。",
+      "catalysts": [
+        "后续季度 backlog 转收入速度和 adjusted EBITDA 质量。",
+        "融资成本和 capex 指引是否稳定。",
+        "大型客户合同是否进一步多元化。"
+      ],
+      "risks": [
+        "重资产扩张要求持续融资，长端利率高位会压缩股权价值。",
+        "客户集中、GPU 供应和数据中心交付延迟会放大基本面波动。",
+        "如果 AI 云供给扩张快于真实需求，收入增长可能伴随定价压力。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 11,
+        "valuation_setup": 10,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "CoreWeave Reports Strong Second Quarter 2026 Results",
+          "publisher": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "title": "CoreWeave Closes $2.6 Billion Loan Facility",
+          "publisher": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com/overview/default.aspx"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：黄金仍适合作为组合保险仓，而不是趋势追涨仓。WGC 7 月 ETF 流入、央行买盘和 LBMA 年中 survey 支撑长期配置逻辑；但高实际利率和单日价格波动使主动加仓需要等待回撤或美联储信号。",
+      "why_now": "LBMA 2026-08-17 将深圳中恒隆加入 Gold Good Delivery List，边际上提升中国回收/精炼供应链在伦敦合格交割体系中的可见度；WGC 2026-08-06 July ETF flows 显示全球黄金 ETF 7 月净流入 30 亿美元、持仓增加 23 吨至 4,068 吨。",
+      "catalysts": [
+        "2026-08-19 FOMC minutes 若降低实际利率路径压力，黄金配置吸引力上升。",
+        "WGC 下一次 ETF flows 和 central bank statistics 更新。",
+        "LBMA vault data 和 Good Delivery List 变化继续观察实物市场深度。"
+      ],
+      "risks": [
+        "10 年期 TIPS 最新 H.15 列为 2.41%，高实际利率会压制无息资产估值。",
+        "如果北美 ETF 仍未持续转入，WGC 7 月流入可能只是反弹而非新趋势。",
+        "地缘风险溢价回落时，黄金短线可能回吐。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "Central bank gold statistics: June 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/08/central-bank-gold-statistics-june-2026"
+        },
+        {
+          "title": "Shenzhen Zhonghenglong Added to LBMA Gold Good Delivery List",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/articles/shenzhen-zhonghenglong-industrial-co-ltd-added-to-lbmas-gold-good-delivery-list"
+        },
+        {
+          "title": "Gold Price: LBMA Snapshot Survey of Professional Analysts",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/articles/gold-price-lbma-snapshot-survey-of-professional-analysts"
+        }
+      ]
+    },
+    {
+      "theme": "Energy, LNG and power demand",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 63,
+      "thesis": "判断：能源短期有油价/地缘和数据中心电力需求支撑，但 EIA 同时指出美国天然气产量 2026 年有望创纪录，供给端会限制天然气价格和上游 beta。XLE 维持观察，等待 2026-08-20 天然气库存和 2026-08-19 石油周报确认。",
+      "why_now": "EIA 2026-08-12 Today in Energy 根据 8 月 STEO 预计美国 marketed natural gas production 2026 年平均 122.5 Bcf/d，超过 2025 年 118.5 Bcf/d 纪录；EIA 还预计 Henry Hub 2026 年均价为 $3.44/MMBtu。",
+      "catalysts": [
+        "2026-08-19：EIA Weekly Petroleum Status Report。",
+        "2026-08-20：EIA Weekly Natural Gas Storage Report。",
+        "LNG 出口、Permian associated gas 和 Haynesville 钻井响应是否改变 2027 供需平衡。"
+      ],
+      "risks": [
+        "创纪录产量会压制天然气价格，能源股收益需要油价和资本纪律支撑。",
+        "数据中心电力需求是结构性利好，但地方审批暂停会导致区域负荷预测下修。",
+        "若油价由地缘溢价驱动，缓和后 XLE 可能缺少基本面支撑。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 13,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "United States on track for record natural gas production in 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944"
+        },
+        {
+          "title": "Short-Term Energy Outlook, August 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics and industrial automation",
+      "asset": "TER / FANUC / ABB basket",
+      "ticker": "TER/6954.T/ABB",
+      "region": "US/Japan/Europe",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 60,
+      "thesis": "判断：机器人和 physical AI 主题长期仍成立，但本轮没有新增订单或财报级原始披露能提高胜率。保持监测，等待工业产出、PMI、FANUC/ABB/TER 订单和汽车/电子终端需求恢复。",
+      "why_now": "2026-08-18 的可验证官方增量偏宏观和能源，机器人链缺少新的公司级披露；Fed 日历显示 2026-08-18 将发布 G.17 工业产出和产能利用率，这是机器人订单周期的近端宏观观察点。",
+      "catalysts": [
+        "2026-08-18：Federal Reserve G.17 Industrial Production and Capacity Utilization。",
+        "下一轮 FANUC、ABB、Teradyne 订单/出货更新。",
+        "汽车、电子和物流自动化资本开支恢复信号。"
+      ],
+      "risks": [
+        "工业周期弱会抵消 physical AI 叙事。",
+        "机器人硬件价格竞争和中国供应链压力可能压缩利润率。",
+        "缺少新增原始披露时，主题交易容易被 AI 芯片主线虹吸资金。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "Federal Reserve Calendar: August 2026",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"
+        },
+        {
+          "title": "Teradyne Quarterly Results",
+          "publisher": "Teradyne Investor Relations",
+          "url": "https://investors.teradyne.com/financials/quarterly-results/default.aspx"
+        },
+        {
+          "title": "FANUC IR Library",
+          "publisher": "FANUC Investor Relations",
+          "url": "https://www.fanuc.co.jp/en/ir/library/index.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "FOMC minutes",
+      "ticker": "Fed",
+      "note": "2026-08-19 公布 2026-07-28/29 会议纪要；重点看通胀/就业权衡和长端利率表述。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "Industrial production and import/export prices",
+      "ticker": "G.17/BLS",
+      "note": "2026-08-18 美国发布工业产出和进出口价格；关系机器人周期、美元通胀和实际利率。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA weekly reports",
+      "ticker": "EIA",
+      "note": "2026-08-19 石油周报、2026-08-20 天然气库存；确认油价和天然气供给压力。"
+    },
+    {
+      "theme": "AI",
+      "asset": "NVIDIA FY2027 Q2",
+      "ticker": "NVDA",
+      "note": "2026-08-26 财报是 AI 基建链下一次主验证日。"
+    },
+    {
+      "theme": "Gold",
+      "asset": "ETF flows and LBMA vault data",
+      "ticker": "GLD/XAU",
+      "note": "观察 WGC 下一次 ETF/央行数据和 LBMA vault/Good Delivery 更新是否确认实物需求。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 Selected Interest Rates",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve Calendar: August 2026",
+      "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"
+    },
+    {
+      "label": "BLS Import/Export Price Index release schedule",
+      "url": "https://www.bls.gov/schedule/news_release/ximpim.htm"
+    },
+    {
+      "label": "U.S. Treasury Interest Rate Statistics and press-release index",
+      "url": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics"
+    },
+    {
+      "label": "EIA Short-Term Energy Outlook, August 2026",
+      "url": "https://www.eia.gov/outlooks/steo/"
+    },
+    {
+      "label": "EIA Today in Energy: record natural gas production",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944"
+    },
+    {
+      "label": "Cisco FY2026 Q4 results",
+      "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+    },
+    {
+      "label": "TSMC 2026 monthly revenue",
+      "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    },
+    {
+      "label": "NVIDIA FY2027 Q2 event",
+      "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx"
+    },
+    {
+      "label": "Applied Materials Q3 FY2026 results",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results"
+    },
+    {
+      "label": "AMD IR press releases",
+      "url": "https://ir.amd.com/news-events/press-releases"
+    },
+    {
+      "label": "CoreWeave Q2 2026 results",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "World Gold Council July 2026 ETF flows",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    },
+    {
+      "label": "World Gold Council central bank gold statistics: June 2026",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/08/central-bank-gold-statistics-june-2026"
+    },
+    {
+      "label": "LBMA Good Delivery List update",
+      "url": "https://www.lbma.org.uk/articles/shenzhen-zhonghenglong-industrial-co-ltd-added-to-lbmas-gold-good-delivery-list"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "monitoring",
+    "GPT-5.3-codex"
+  ]
+}
