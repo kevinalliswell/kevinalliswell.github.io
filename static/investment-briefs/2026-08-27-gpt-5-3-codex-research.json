@@ -1,0 +1,392 @@
+{
+  "date": "2026-08-27",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-27（监测版）",
+  "summary": "本期有实质增量：NVIDIA 于 2026-08-26 发布 FY2027 Q2，收入、数据中心收入和 Q3 指引均继续确认 AI 算力需求，但 SEC 10-Q 同时把供应承诺、客户融资、数据中心电力与项目执行风险抬到更显眼的位置。宏观端，美国耐用品订单反弹、10 年期实际利率仍在 2.32%，能源端 EIA 显示油价和成品油价格压力上行，黄金仍是对冲而非追涨标的。组合判断：AI 核心链可提高关注和小仓试探优先级，但不把 NVIDIA 升为 A；等待 2026-08-27 PT Marvell 财报和 2026-08-27 至 2026-08-29 Jackson Hole 进一步确认。",
+  "macro": {
+    "regime": "AI 基本面强确认，但高实际利率、能源价格和政策事件限制追高空间",
+    "bullets": [
+      "Federal Reserve H.15 于 2026-08-26 发布的最新列显示，2026-08-25 10 年期名义美债收益率为 4.64%，10 年期 TIPS 为 2.32%；这比 2026-08-24 的 4.70%/2.38%回落，但实际利率仍高，压制黄金和高久期成长股的估值弹性。来源：https://www.federalreserve.gov/releases/h15/",
+      "美国 Census 2026-08-26 发布 July 2026 耐用品订单：新订单增加 36 亿美元或 1.1%至 3393 亿美元，剔除运输增长 0.4%，剔除国防增长 1.3%；这缓和了制造业硬着陆担忧，但也降低了马上押注宽松的确定性。来源：https://www.census.gov/manufacturing/m3/adv/current/index.html",
+      "Kansas City Fed 确认 2026 Jackson Hole 会议时间为 2026-08-27 至 2026-08-29，主题为“Financial Innovation: Implications for Payments and Policy”；政策表述是本周利率和黄金的主要事件风险。来源：https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
+      "EIA 2026-08-26 WPSR 显示，WTI 于 2026-08-21 为 87.21 美元/桶，周涨 3.22 美元；全美普通汽油均价于 2026-08-24 升至 4.085 美元/加仑。能源通胀压力对利率和消费仍是负面变量。来源：https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "10Y U.S. Treasury",
+      "ticker": "US10Y",
+      "price": "4.64%",
+      "change_pct": -1.28,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "10Y TIPS",
+      "ticker": "DFII10",
+      "price": "2.32%",
+      "change_pct": -2.52,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "WTI crude oil",
+      "ticker": "WTI",
+      "price": "$87.21/bbl on 2026-08-21",
+      "change_pct": 3.83,
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "name": "Global gold ETF holdings",
+      "ticker": "Gold ETFs",
+      "price": "4,068t as of July 2026",
+      "change_pct": 0.57,
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 83,
+      "thesis": "NVIDIA 的 FY2027 Q2 是本轮 AI 基础设施景气度的强确认：收入 962.21 亿美元、数据中心收入 890 亿美元，Q3 收入指引 1080 亿美元上下 2%。但 10-Q 同时披露供应/产能承诺大幅提高、客户融资和数据中心电力/土地/资本约束成为实质风险，说明商业模式从芯片供给扩展到生态融资和项目执行，风险资产性质变重。",
+      "why_now": "2026-08-26 盘后发布的财报和 10-Q 把“需求是否还在”回答为是，但也把“现金流质量、客户融资、承诺规模”变成本轮新的监控重点。",
+      "catalysts": [
+        "2026-08-27 至 2026-08-29 Jackson Hole 对长端利率和成长股估值的影响。",
+        "2026-10-01 NVIDIA 下次季度现金股息支付日；2026-09-10 为股权登记日。",
+        "FY2027 Q3：收入指引 1080 亿美元上下 2%，毛利率指引 74.0%上下 50bp，是检验需求与内存/系统成本压力的下一节点。",
+        "2027-2028：AWS 与 NVIDIA 计划在 AWS 全球基础设施部署额外 200 万颗 NVIDIA GPU。"
+      ],
+      "risks": [
+        "SEC 10-Q 披露供应和产能承诺由上一季 1190 亿美元升至 2026-07-26 的 2790 亿美元；如果需求、客户资金或数据中心部署节奏偏离预期，利润和现金流波动会被放大。",
+        "NVIDIA 披露客户/伙伴 AI 基础设施建设涉及金融担保、信用支持、数据中心租赁和较长付款安排，交易对手、项目进度、电力、许可和社区反对均可能影响回款与收入时点。",
+        "Q3 毛利率指引 74.0%低于 Q2 的 75.0%，需要观察内存和系统成本压力是否只是阶段性。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 19,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "NVIDIA FY2027 Q2 results press release",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+        },
+        {
+          "title": "NVIDIA FY2027 Q2 results exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+        },
+        {
+          "title": "NVIDIA Form 10-Q for quarter ended July 26, 2026",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "AWS and NVIDIA strategic collaboration expansion",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 78,
+      "thesis": "黄金仍是组合防御资产，但不是追涨资产。WGC 的 July 2026 数据显示全球黄金 ETF 净流入 30 亿美元、持仓增加 23 吨至 4068 吨，LBMA 显示伦敦金库 2026 年 7 月末黄金持仓 9534 吨，实物和 ETF 需求没有破坏；同时 10 年期 TIPS 仍为 2.32%，机会成本仍高。",
+      "why_now": "NVIDIA 强财报强化风险偏好，但高实际利率、能源价格、Jackson Hole 政策不确定性让黄金继续承担对冲角色。",
+      "catalysts": [
+        "2026-08-27 至 2026-08-29 Jackson Hole 若释放更温和政策信号，实际利率回落会利好黄金。",
+        "World Gold Council 下一期月度 ETF flows 将验证 July 2026 的回流是否延续。",
+        "LBMA 下一次月度 vault data 将验证伦敦实物库存是否继续增加。"
+      ],
+      "risks": [
+        "如果 Jackson Hole 强化更高更久利率，10 年期 TIPS 维持在 2.3%以上，GLD 上行弹性会被压制。",
+        "WGC 指出 North America 在年初至今仍为净流出区域，说明美国投资者并未全面回补黄金 ETF。",
+        "AI 财报强确认可能继续吸走防御资金，黄金短期相对收益承压。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "London Vault Data",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Custom silicon and AI networking",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "Marvell 的 Google warrant/定制半导体安排仍是除 NVIDIA 之外最值得跟踪的 AI 基础设施增量，但本次晨报截点在 2026-08-27 08:04 CST，Marvell FY2027 Q2 结果尚未发布；应等待 2026-08-27 13:45 PT 电话会确认数据中心增长、Google 相关收入节奏、毛利率和客户集中风险。",
+      "why_now": "NVIDIA 财报确认 AI capex 仍强，理论上利好定制 ASIC、内存互联和网络链；Marvell 是 24 小时内最接近可验证的新催化剂。",
+      "catalysts": [
+        "2026-08-27 13:45 PT：Marvell FY2027 Q2 earnings call。",
+        "2026-10-06：Marvell Investor Day，管理层将进一步说明 AI/custom silicon 中期路径。",
+        "FY2027 Q3 至 FY2033：Google warrant 的归属与可行权门槛绑定 custom products revenue，需跟踪实际订单兑现。"
+      ],
+      "risks": [
+        "Google warrant 带来客户验证，也带来潜在稀释和客户集中风险。",
+        "若 FY2027 Q2 指引低于市场对 AI custom silicon 的预期，B 级观察应降为 C。",
+        "NVIDIA 自身 NVLink Fusion、NVHBM 与平台化扩张可能压缩独立网络/ASIC 供应商议价权。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Marvell FY2027 Q2 earnings call announcement",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026"
+        },
+        {
+          "title": "Marvell 2026-08-19 Form 8-K",
+          "publisher": "Marvell Investor Relations / SEC filing viewer",
+          "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-356217/d412696d8k.htm"
+        },
+        {
+          "title": "NVIDIA FY2027 Q2 results press release",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+        }
+      ]
+    },
+    {
+      "theme": "Energy and inflation hedge",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 65,
+      "thesis": "EIA 2026-08-26 周报显示油价和成品油价格压力上行，能源股短期可作为通胀风险对冲，但库存结构并非单边紧缺：商业原油库存 4.289 亿桶，较前周基本持平；汽油和馏分油库存下降，支持炼化链但也加大消费压力。",
+      "why_now": "WTI 周涨至 87.21 美元/桶、零售汽油和柴油价格继续上升，使能源重新成为宏观风险变量，而非单纯顺周期配置。",
+      "catalysts": [
+        "2026-09-02：EIA 下一次 Weekly Petroleum Status Report。",
+        "2026-08-27 至 2026-08-29：Jackson Hole 对美元和实际利率的影响会传导至大宗商品。",
+        "炼厂利用率四周均值 96.8%，若高开工仍无法补库存，炼化利润可能获得支撑。"
+      ],
+      "risks": [
+        "油价上涨若主要来自地缘或供给风险，可能压制终端消费并反噬能源股估值。",
+        "商业原油库存周度变化很小，缺乏明确的原油端库存收缩确认。",
+        "高能源价格可能强化通胀预期，推高长端利率，对整体风险资产不利。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report, data for week ending August 21, 2026",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Weekly Petroleum Status Report Highlights",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics and physical AI",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "机器人方向的新增主源更多来自 NVIDIA edge AI 产品，而不是工业机器人订单。Jetson Orin Nano 2 提供 78 TOPS、同形态 2 倍推理性能、同等性能下 40%更低功耗，并计划 2027 年上半年供货，这强化物理 AI 开发者生态，但 ETF 层面仍需要 FANUC/ABB/Teradyne 等订单和利润率验证。",
+      "why_now": "2026-08-25 NVIDIA 发布 Jetson Orin Nano 2，2026-08-26 财报又确认数据中心 AI 需求，边缘机器人与云端训练/推理之间的技术链条更清晰。",
+      "catalysts": [
+        "2027 年上半年：Jetson Orin Nano 2 模组和开发套件预计上市。",
+        "2026-09-02：Census July 2026 full M3 report，可进一步确认制造业订单结构。",
+        "下一轮 ABB、FANUC、Teradyne 季报中的机器人/自动化订单和利润率披露。"
+      ],
+      "risks": [
+        "主题热度与可投资盈利之间仍有时间差；ETF 成分股可能更多受工业周期而非 NVIDIA 边缘 AI 新闻驱动。",
+        "如果高利率压制制造业资本开支，机器人订单确认会滞后。",
+        "NVIDIA 产品新闻偏生态早期信号，不等同于 BOTZ 成分股近期盈利上修。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Jetson Orin Nano 2 announcement",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai"
+        },
+        {
+          "title": "Monthly Advance Report on Durable Goods Manufacturers' Shipments Inventories and Orders",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html"
+        }
+      ]
+    },
+    {
+      "theme": "Nuclear and uranium",
+      "asset": "Global X Uranium ETF",
+      "ticker": "URA",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 59,
+      "thesis": "AI 数据中心电力需求继续支持核电和铀的长期叙事，但过去 24 小时缺少新的主源级长协、许可、产量或政策披露。URA 仍适合放在观察清单，不适合因 NVIDIA 财报直接追高。",
+      "why_now": "NVIDIA 10-Q 明确把 land、power、shell、capital 作为数据中心建设约束，长期上提高电力基础设施关注度，但这不是铀价或铀矿利润的即期确认。",
+      "catalysts": [
+        "下一批公用事业 PPA、核电重启、SMR 许可或铀矿长协披露。",
+        "EIA 与 IEA 后续电力/能源报告对数据中心负荷的增量测算。",
+        "Jackson Hole 后实际利率路径对资源股估值的影响。"
+      ],
+      "risks": [
+        "AI 电力需求到铀矿现金流的传导链条长，中间受监管、建设周期和电价机制影响。",
+        "若风险资产降温，URA 可能同时承受成长股和资源股回撤。",
+        "没有新的 24 小时主源催化，短期持仓理由弱于 NVIDIA、GLD 和 MRVL。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 11,
+        "valuation_setup": 11,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Form 10-Q for quarter ended July 26, 2026",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "Short-Term Energy Outlook, August 2026",
+          "publisher": "EIA",
+          "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI earnings",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "note": "2026-08-27 13:45 PT 财报是本日最重要的下一确认点。"
+    },
+    {
+      "theme": "Macro policy",
+      "asset": "Jackson Hole",
+      "ticker": "Rates",
+      "note": "2026-08-27 至 2026-08-29 关注政策口径、长端利率和实际利率。"
+    },
+    {
+      "theme": "AI infrastructure risk",
+      "asset": "NVIDIA commitments",
+      "ticker": "NVDA",
+      "note": "跟踪 2790 亿美元供应/产能承诺、客户融资和数据中心项目进度。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "NVIDIA FY2027 Q2 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "label": "NVIDIA FY2027 Q2 SEC exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "label": "NVIDIA FY2027 Q2 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "label": "AWS and NVIDIA expanded collaboration",
+      "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
+    },
+    {
+      "label": "NVIDIA Jetson Orin Nano 2",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai"
+    },
+    {
+      "label": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "U.S. Census July 2026 durable goods advance report",
+      "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA WPSR highlights PDF",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows July 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    },
+    {
+      "label": "LBMA London Vault Data",
+      "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+    },
+    {
+      "label": "Marvell FY2027 Q2 earnings call announcement",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026"
+    },
+    {
+      "label": "Kansas City Fed Jackson Hole 2026",
+      "url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
