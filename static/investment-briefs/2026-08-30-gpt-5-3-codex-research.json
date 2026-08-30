@@ -1,0 +1,422 @@
+{
+  "date": "2026-08-30",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-08-30（监测版）",
+  "summary": "本期为周末监测版：过去 24 小时没有比 2026-08-27 Marvell FY2027 Q2、2026-08-26 NVIDIA FY2027 Q2/10-Q 和 2026-08-28 Warsh Jackson Hole 讲话更强的新公司级一手披露。新增实质主源是 EIA 2026-08-28 发布的 2026 年二季度美国国内铀产量报告，显示 U3O8 产量环比回升 4.7%；它强化核燃料供应恢复监测，但不足以把 URA 提升到 B。宏观框架仍是粘性通胀、高实际利率和 Fed 抗通胀口径抬高 AI/机器人高久期资产追价门槛。",
+  "macro": {
+    "regime": "周末主线是高实际利率约束下的监测，而不是新增进攻信号",
+    "bullets": [
+      "Federal Reserve H.15 2026-08-28 的最新列为 2026-08-27：10 年期 Treasury constant maturity 为 4.67%，10 年期 TIPS 为 2.34%；这仍是 AI、机器人和黄金共同面对的折现率约束。",
+      "BEA 2026-08-26 发布 7 月个人收入与支出：个人收入环比增加 0.4%，PCE 环比增加 0.2%，PCE 价格指数环比 0.2%、同比 3.7%，核心 PCE 环比 0.2%、同比 3.3%；通胀数据没有给出明显鸽派确认。",
+      "Federal Reserve 2026-08-28 Jackson Hole 讲稿显示，Warsh 限制常态前瞻指引、强调短端利率工具，并把金融条件、美元、信用和商品价格作为政策观察变量；该口径降低了市场围绕 Fed 转向交易的可见度。",
+      "EIA 2026-08-28 国内铀产量季报显示，2026 年二季度美国 U3O8 产量为 1,087,504 磅，较一季度 1,039,075 磅增加 4.7%，生产来自 Wyoming、Texas、Utah 的 6 个设施；这是 URA 的新增监测信号，但供应恢复本身不是单边价格利好。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "U.S. 10Y Treasury",
+      "ticker": "H15/10Y",
+      "price": "4.67% on 2026-08-27",
+      "change_pct": 0.01,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "U.S. 10Y TIPS",
+      "ticker": "H15/10Y TIPS",
+      "price": "2.34% on 2026-08-27",
+      "change_pct": 0.00,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "U.S. PCE Price Index",
+      "ticker": "BEA PCE",
+      "price": "+3.7% y/y in July 2026",
+      "change_pct": 0.00,
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    },
+    {
+      "name": "U.S. Uranium Concentrate Production",
+      "ticker": "EIA U3O8",
+      "price": "1,087,504 lb in Q2 2026",
+      "change_pct": 4.70,
+      "source_url": "https://www.eia.gov/uranium/production/quarterly/"
+    },
+    {
+      "name": "U.S. Natural Gas Storage",
+      "ticker": "WNGSR",
+      "price": "3,184 Bcf; +15 Bcf w/w",
+      "change_pct": 0.47,
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "name": "Global Gold ETF Holdings",
+      "ticker": "WGC ETF",
+      "price": "4,068t; +23t in July",
+      "change_pct": 0.57,
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure / custom silicon",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 80,
+      "thesis": "判断：MRVL 仍是 AI custom silicon 与连接链第一观察位，但 2026-08-30 周末没有新增公司披露足以把评级升至 A。FY2027 Q2 已确认收入、数据中心增长和 Q3 指引上台阶；Warsh 讲话承认 AI 基础设施资本大量流入，同时高实际利率和融资条件风险要求维持试探仓而不是追价。",
+      "why_now": "2026-08-27 Marvell 发布 FY2027 Q2：收入 27.39 亿美元、同比增长 37%，GAAP/非 GAAP 稀释 EPS 为 0.33/0.94 美元，经营现金流 6.055 亿美元；公司称数据中心收入同比增长加速至 46%，并给出 FY2027 Q3 收入 31.50 亿美元上下 5% 指引。2026-08-28 Warsh 在 Jackson Hole 指出 AI 相关基础设施资本正大量流入，但生产率、资本强度和回报归属仍不确定。",
+      "catalysts": [
+        "2026-10-06 Marvell Investor Day：确认 FY2028 custom silicon 收入路径、客户结构、毛利率、资本回报和 Google warrant 摊薄影响。",
+        "截至 2026-10-31 的 FY2027 Q3：31.50 亿美元收入中值若兑现，将验证下半年 custom business 加速。",
+        "若 NVIDIA/AWS 2026-08-26 AI 基础设施计划继续外溢到网络、光互连和定制芯片订单，MRVL 订单可见度提高。"
+      ],
+      "risks": [
+        "客户集中与 Google warrant 相关摊薄风险可能让增长质量低于 headline。",
+        "高实际利率和 Warsh 偏鹰口径会压缩二线 AI 基础设施 beta 的估值容忍度。",
+        "若 hyperscaler AI capex 或 NVIDIA 生态融资被重新定价，MRVL 订单预期可能先于基本面回撤。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Marvell FY2027 Q2 results",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+        },
+        {
+          "title": "Marvell Investor Relations latest financial results",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/"
+        },
+        {
+          "title": "Warsh Jackson Hole 2026 keynote",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / accelerators",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 78,
+      "thesis": "判断：NVDA 基本面仍是 AI 链核心锚，但今天没有新增财报或 10-Q 之后的更强一手披露。需求确认强，风险也更清晰：供应/产能承诺、客户融资、土地/电力/机房壳体担保和数据中心执行风险使得动作应是回撤买入，而不是突破追高。",
+      "why_now": "NVIDIA 2026-08-26 FY2027 Q2 收入 962.21 亿美元、同比增长 106%，数据中心收入 890 亿美元、同比增长 117%，Q3 收入指引为 1080 亿美元上下 2%。Form 10-Q 披露公司通过长期产能购买义务、金融担保、信用支持、融资安排和数据中心租赁支持客户与伙伴建设 AI 基础设施，并指出这些安排可能影响经营现金流和项目执行风险。",
+      "catalysts": [
+        "2026-09-15 至 2026-09-16 FOMC：若政策口径进一步鹰派，高估值 AI 会先承压；若利率预期缓和，NVDA 回撤买点质量提高。",
+        "2026-08-26 AWS/NVIDIA 公告称 2027-2028 年计划部署 200 万个额外 NVIDIA GPU，是需求可见度的主线确认。",
+        "FY2027 Q3 对 1080 亿美元收入指引和 74.0% 上下 50bp 毛利率指引的兑现，是下一次基本面检验。"
+      ],
+      "risks": [
+        "客户或伙伴若无法完成融资、基建、售卖承诺容量或数据中心交付，NVIDIA 的担保和容量承诺会放大下行风险。",
+        "电力、许可、土地和社区阻力可能推迟或限制数据中心建设。",
+        "2026-08-27 10 年期 TIPS 仍为 2.34%，高实际利率会抬高市场对远期现金流的折现率。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 19,
+        "valuation_setup": 11,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "NVIDIA FY2027 Q2 results",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+        },
+        {
+          "title": "NVIDIA FY2027 Q2 Form 10-Q",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "AWS and NVIDIA expanded AI infrastructure collaboration",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
+        },
+        {
+          "title": "Federal Reserve H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Gold / real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "判断：黄金仍是政策不确定性和通胀粘性的组合保险，但不是单边追涨信号。WGC 7 月 ETF 净流入、LBMA 伦敦库存上升支持实物和资金配置需求；同时 10 年期 TIPS 2.34% 和 Fed 抗通胀口径限制短线弹性。",
+      "why_now": "2026-08-28 Warsh 强调 Fed 仍需围绕 2% PCE 通胀目标行动；同日 H.15 显示 2026-08-27 10 年期 TIPS 仍为 2.34%。WGC 2026-08-06 报告显示 7 月全球黄金 ETF 净流入 30 亿美元、持仓增加 23 吨至 4,068 吨；LBMA 显示截至 2026 年 7 月底伦敦金库黄金 9,534 吨、环比增加 0.74%。",
+      "catalysts": [
+        "2026-09-15 至 2026-09-16 FOMC：若通胀和政策可信度继续扰动市场，保险属性增强；若实际利率再上行，GLD 先受压制。",
+        "WGC 下一次 ETF flow 更新：若 8 月延续 7 月净流入，黄金配置从观察转为更主动保险仓的证据增强。",
+        "10 年期 TIPS 若跌破 2.20% 且美元走弱，GLD 可从 B 观察升为更明确的逢低配置。"
+      ],
+      "risks": [
+        "实际利率高位横盘或上行，会继续压制无息资产。",
+        "Warsh 若在后续数据窗口强化更久更高利率风险，黄金短线可能与成长股一起去杠杆。",
+        "WGC/LBMA 为月度或滞后数据，不足以单独确认日级资金趋势。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 17,
+        "valuation_setup": 15,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "London Vault Data",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+        },
+        {
+          "title": "Federal Reserve H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy / oil and gas",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 67,
+      "thesis": "判断：能源股继续适合做通胀和地缘扰动监测仓，不适合在需求证据不足时主动提高权重。EIA 周报显示成品油库存偏紧、天然气注入偏低；但需求端仍没有给出 B 档确认。",
+      "why_now": "EIA 2026-08-26 WPSR 是最新石油周报，数据截至 2026-08-21，下一次发布时间为 2026-09-02；EIA 2026-08-27 WNGSR 显示工作气库存 3,184 Bcf、周注入 15 Bcf、较去年同期低 30 Bcf、较五年均值高 167 Bcf。周末没有新的石油基本面主源足以改变昨天结论。",
+      "catalysts": [
+        "2026-09-02 下一次 EIA WPSR：若成品油继续去库、需求不再同比下滑，XLE 可上调为 B- 观察。",
+        "2026-09-03 下一次天然气库存更新：若连续低注入，电力燃料成本和天然气链条会重新成为 AI 电力约束的交易点。",
+        "Jackson Hole 后若通胀预期重新上行，能源作为通胀对冲可能受益。"
+      ],
+      "risks": [
+        "需求证据不足时，能源价格上涨可能更像供给或通胀冲击，不一定利好能源股估值。",
+        "商业原油库存若继续高于五年均值，原油端并非全面短缺。",
+        "高油价若压制消费或引发政策干预，能源股估值可能先回吐。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "EIA Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "EIA Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        }
+      ]
+    },
+    {
+      "theme": "Nuclear fuel / AI power demand",
+      "asset": "Global X Uranium ETF",
+      "ticker": "URA",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：URA 今天有新增一手数据，但仍是 C+ 监测。EIA 二季度美国国内铀产量环比回升，说明供给重启正在发生；对铀矿股而言，这同时支持长期核燃料供应链重估，也可能限制现货价格想象空间。真正把 URA 推到 B 的条件仍是核电需求、长期合同价格或政策采购的同步确认。",
+      "why_now": "EIA 2026-08-28 发布 2026 年二季度 Domestic Uranium Production Report：美国 U3O8 产量 1,087,504 磅，较一季度 1,039,075 磅增加 4.7%；当季生产来自 6 个设施，包括 Wyoming 的 Ross CPP、Lost Creek、Smith Ranch-Highland、Willow Creek，Texas 的 Alta Mesa 和 Utah 的 White Mesa。",
+      "catalysts": [
+        "EIA 下一次国内铀产量更新预计 2026 年 10 月：若产量继续爬坡且长期合同价格强，URA 的基本面可见度提高。",
+        "AI 数据中心电力需求若转化为核电重启、PPA 或 SMR 项目融资，铀链条主题强度提高。",
+        "Cameco、Kazatomprom、Sprott Physical Uranium Trust 或美国政策采购如有新披露，将决定是否从供应监测转向价格驱动。"
+      ],
+      "risks": [
+        "产量回升本身可能被市场解读为供应压力，不是单边利好。",
+        "URA 持仓暴露于矿山执行、国家政策、汇率和流动性，而不只是铀价。",
+        "AI 电力约束是长期主题，若缺少核电合同或政策采购，短期交易容易退潮。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 12,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Domestic Uranium Production Report - Quarterly",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/uranium/production/quarterly/"
+        },
+        {
+          "title": "EIA Uranium data table",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/uranium/production/quarterly/qupdtable1.php"
+        },
+        {
+          "title": "Warsh Jackson Hole 2026 keynote",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics / automation",
+      "asset": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 62,
+      "thesis": "判断：机器人仍是 AI 外溢主题，但今天缺少新的订单或盈利主源确认。NVIDIA 物理 AI 生态和 FANUC 2026-07-31 Q1 材料维持观察价值；在 Warsh 口径下，资本开支敏感、估值久期较长的机器人篮子需要先等订单/利润率拐点。",
+      "why_now": "截至 2026-08-30 早间可见的一手来源中，FANUC 最新仍是 2026-07-31 发布截至 2026-06-30 的 Q1 材料；Marvell/NVIDIA 提供的是 AI 基础设施确认，不是工业机器人订单确认。Warsh 2026-08-28 讲话承认 AI 可能改变生产率和资本强度，但强调这些研究不会影响当前政策决策。",
+      "catalysts": [
+        "FANUC 下一次季度材料和 ABB/TER 订单披露：需要看到机器人、机器视觉、伺服和自动化订单改善。",
+        "NVIDIA Jetson/physical AI 生态若转化为客户发布或大订单，BOTZ 的主题强度可提升。",
+        "若实际利率回落，机器人 ETF 久期压力会缓解。"
+      ],
+      "risks": [
+        "工业自动化资本开支对利率和制造业周期敏感。",
+        "AI 叙事可能先进入芯片/云基础设施，机器人上市公司的订单兑现滞后。",
+        "ETF 持仓分散，主题纯度和估值弹性并不等同于 AI 芯片链。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 13,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "FANUC financial results and conference materials",
+          "publisher": "FANUC Investor Relations",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/"
+        },
+        {
+          "title": "Warsh Jackson Hole 2026 keynote",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+        },
+        {
+          "title": "NVIDIA Jetson Orin Nano 2",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI infrastructure financing",
+      "asset": "NVIDIA ecosystem commitments",
+      "ticker": "NVDA",
+      "note": "继续跟踪 10-Q 中客户融资、容量购买、数据中心租赁和第三方资本平台是否转化为现金流压力。"
+    },
+    {
+      "theme": "Custom silicon",
+      "asset": "Marvell Investor Day",
+      "ticker": "MRVL",
+      "note": "2026-10-06 是验证 FY2028 定制芯片收入、毛利率和客户集中风险的关键日期。"
+    },
+    {
+      "theme": "Uranium",
+      "asset": "U.S. domestic uranium production",
+      "ticker": "URA",
+      "note": "2026 年 10 月下一次 EIA 季报若继续爬坡，需要区分供应恢复和价格上涨逻辑。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "September FOMC",
+      "ticker": "Rates",
+      "note": "2026-09-15 至 2026-09-16 FOMC 是高久期 AI、黄金和能源共同的下一政策窗口。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve - Warsh Jackson Hole 2026 keynote",
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    },
+    {
+      "label": "Federal Reserve - H.15 Selected Interest Rates",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "BEA - Personal Income and Outlays, July 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    },
+    {
+      "label": "Marvell - FY2027 Q2 results",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+    },
+    {
+      "label": "Marvell - Investor Relations latest financial results",
+      "url": "https://investor.marvell.com/"
+    },
+    {
+      "label": "NVIDIA - FY2027 Q2 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "label": "NVIDIA - FY2027 Q2 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "label": "EIA - Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA - Weekly Natural Gas Storage Report",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "EIA - Domestic Uranium Production Report, Q2 2026",
+      "url": "https://www.eia.gov/uranium/production/quarterly/"
+    },
+    {
+      "label": "World Gold Council - Gold ETF Flows: July 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    },
+    {
+      "label": "LBMA - London Vault Data",
+      "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+    },
+    {
+      "label": "FANUC - Financial Results and Conference Materials",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "uranium",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
