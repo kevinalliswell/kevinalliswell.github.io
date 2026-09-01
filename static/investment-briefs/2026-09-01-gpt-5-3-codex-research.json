@@ -1,0 +1,470 @@
+{
+  "date": "2026-09-01",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-09-01（监测版）",
+  "summary": "本期有两个可核验的新增主源信号：2026-08-31 AMD、Cisco 与 HUMAIN 宣布沙特 AMD Instinct MI355X AI 基础设施已投产，并计划 2027 年启动最高 250MW 的下一阶段部署；EIA 2026-08-31 天然气月报显示美国 2026 年 6 月干气产量创数据期新高、LNG 出口同比显著上升。投资判断是：AI 基础设施需求仍在从叙事走向投产，但缺少合同金额、利润率和供电成本披露，适合小仓试探/逢低，不适合追涨；高实际利率继续压制黄金和高估值科技资产的上行容错。",
+  "macro": {
+    "regime": "AI 投产确认增强，但高实际利率和能源供给扩张限制追价",
+    "bullets": [
+      "Federal Reserve H.15 在 2026-08-31 发布的最新表格显示，2026-08-28 美国 10 年期名义国债收益率为 4.73%，10 年期 TIPS 为 2.42%；这比前一监测锚点更高，继续抬高 AI 高估值资产和黄金的入场门槛。",
+      "BEA 2026-08-26 July Personal Income and Outlays 显示，2026 年 7 月 PCE 价格指数环比 +0.2%、同比 +3.7%，核心 PCE 环比 +0.2%、同比 +3.3%；下一次 2026 年 8 月 PCE 将在 2026-09-30 08:30 EDT 发布。",
+      "EIA 2026-08-31 Natural Gas Monthly 显示，2026 年 6 月美国干气产量为 112.33 Bcf/d，同比 +4.5%，为 1973 年以来月度数据最高；净天然气出口 19.90 Bcf/d，LNG 出口 17.37 Bcf/d，同比 +28.4%。这支持 LNG/电力需求主题，但也提醒天然气供给仍强。",
+      "EIA 周度石油库存下一关键窗口仍是 2026-09-02，天然气库存下一关键窗口为 2026-09-03；在数据发布前，能源 ETF 维持观察而非加仓。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "10Y U.S. Treasury yield",
+      "ticker": "H15/10Y",
+      "price": "4.73%",
+      "change_pct": 0.06,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "10Y TIPS yield",
+      "ticker": "H15/10Y TIPS",
+      "price": "2.42%",
+      "change_pct": 0.08,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "U.S. dry natural gas production, June 2026",
+      "ticker": "EIA NGM",
+      "price": "112.33 Bcf/d",
+      "change_pct": 4.5,
+      "source_url": "https://www.eia.gov/naturalgas/monthly/"
+    },
+    {
+      "name": "Global physically backed gold ETF inflow, July 2026",
+      "ticker": "WGC ETF flows",
+      "price": "US$3bn inflow; holdings +23t to 4,068t",
+      "change_pct": "",
+      "source_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure / sovereign AI",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 78,
+      "thesis": "判断：AMD 的新增信号比单纯发布路线图更硬，因为 2026-08-31 披露的是 MI355X GPU 基础设施已经投产，并且下一阶段计划使用 MI400、EPYC 与 ROCm。但披露没有给出收入确认节奏、毛利率、采购金额或最终客户结构，所以只能支持小仓试探，不足以升到 A。",
+      "why_now": "2026-08-31 AMD、Cisco 与 HUMAIN 宣布，沙特由 AMD Instinct MI355X、AMD EPYC 和 Cisco Silicon One 网络支撑的 AI compute 已上线服务客户；下一阶段计划自 2027 年开始部署最高 250MW，容量预计 2027 年下半年开始上线，合资平台仍以 2030 年最高 1GW 为目标。",
+      "catalysts": [
+        "2026-09 至 2026-12：关注 AMD 是否在 SEC 文件或财报电话会上量化 HUMAIN 项目的收入确认、供货节奏和毛利影响。",
+        "2027-H2：AMD 披露的下一阶段 250MW 容量预计开始上线，是验证 MI400 平台交付能力的第一个硬节点。",
+        "2030：AMD/Cisco/HUMAIN 联合发布中提到最高 1GW AI 基础设施目标；这只是远期可选项，不能按确定收入折现。"
+      ],
+      "risks": [
+        "AMD 新闻稿本身提示前瞻性陈述受出口管制、关税、竞争、制造良率、供应链、第三方代工、内存/基板供给、客户集中和地缘政治等风险影响。",
+        "HUMAIN/PIF 主导的 sovereign AI 项目存在国家资本开支节奏、监管、数据主权和回款结构不透明风险。",
+        "与 NVIDIA 相比，AMD 在软件生态、供应规模和客户迁移成本上仍需要持续证明。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia's AI Infrastructure as AMD Instinct Systems Go Live",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+        },
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "theme": "AI networking / data-center fabric",
+      "asset": "Cisco Systems",
+      "ticker": "CSCO",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 76,
+      "thesis": "判断：同一 HUMAIN 项目把 Cisco 的 Silicon One、800G optics 与 N9000 系列放进生产级 AI 网络场景，说明 Cisco AI networking 不是只有订单口径。但相比 GPU 供应商，Cisco 的单位经济和可归因收入弹性更难从单个新闻稿推断，因此动作是观察而非主动追买。",
+      "why_now": "2026-08-31 AMD 发布稿明确称 HUMAIN 生产部署使用 Cisco Silicon One-based AI networking、Cisco 800G optics 和 Cisco N9000 Series platform，为 MI355X GPU 集群提供低延迟、可扩展互联。",
+      "catalysts": [
+        "2026 年下一次 Cisco 季报：观察 AI 订单是否转化为产品收入和毛利。",
+        "2027-H2：若 HUMAIN 下一阶段 250MW 容量上线，Cisco 光模块和交换网络需求有机会得到二次验证。",
+        "2026-09-24：ABB 高功率数据中心 webcast 可作为电力/自动化链条对 AI 数据中心建设节奏的交叉验证。"
+      ],
+      "risks": [
+        "新闻稿没有披露 Cisco 合同金额、出货数量或毛利率。",
+        "AI 网络竞争来自 Broadcom、Marvell、Arista 等生态，Cisco 需要证明份额和盈利能力。",
+        "主权 AI 项目可能受政府预算、地缘政治与出口许可节奏影响。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 15,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia's AI Infrastructure as AMD Instinct Systems Go Live",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+        },
+        {
+          "title": "Cisco Forward-Looking Statements in AMD/Cisco/HUMAIN release",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / accelerated compute",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 75,
+      "thesis": "判断：NVIDIA 仍是 AI 基础设施质量最高的核心资产，但 2026-08-31 没有新公司披露足以压过 2026-08-26 业绩和 10-Q 风险层。高实际利率、客户融资和数据中心土地/电力/壳体保证继续要求逢低，而不是在强叙事后追价。",
+      "why_now": "最新硬数据仍是 2026-08-26 NVIDIA FY2027 Q2：收入 96.2B 美元，同比 +106%，Data Center 89.0B 美元，同比 +117%。同一季度 10-Q 披露 2026 年 8 月与 SB Energy 相关的保证上限 105.0B 美元，总保证敞口 108.5B 美元，覆盖 OpenAI 关联客户约 4.25GW IT load 租赁相关的土地、电力和壳体建设。",
+      "catalysts": [
+        "2026-09-10：NVIDIA Goldman Sachs Communacopia + Technology Conference，关注管理层是否补充说明保证敞口、客户融资和 Rubin 供给节奏。",
+        "2026-09-15 至 2026-09-16：FOMC 和 SEP 对实际利率路径的影响将直接影响 NVDA 估值容错。",
+        "FY2027 Q3：验证 Q2 业绩发布中 Q3 收入 108.0B 美元 +/-2% 的指引。"
+      ],
+      "risks": [
+        "10-Q 披露的 SB Energy 保证和 AI cloud 相关保证使市场开始关注 NVIDIA 是否从芯片销售延伸到客户/数据中心融资支持。",
+        "数据中心建设受电力、土地、壳体、许可和项目执行约束；这些约束可能让订单强度与收入确认节奏错配。",
+        "2026-08-28 10Y TIPS 2.42% 使高估值成长股对任何增速放缓更敏感。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 11,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "publisher": "NVIDIA / SEC Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+        },
+        {
+          "title": "NVIDIA Form 10-Q for quarter ended July 26, 2026",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI custom silicon / data infrastructure semis",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 74,
+      "thesis": "判断：MRVL 仍是 AI custom silicon 的重点观察标的，但 2026-09-01 亚洲早盘没有新增公司主源超越 2026-08-27 Q2 披露。Google 相关定制芯片、客户集中、长期指引可信度和毛利压力要等 2026-10-06 Investor Day 才能进一步拆解。",
+      "why_now": "Marvell 2026-08-27 FY2027 Q2 披露季度收入 2.739B 美元，同比 +37%，Data Center 增长 +46%，Q3 收入指引 3.150B 美元 +/-5%；截至 2026-09-01，本次监测未发现更新的 Marvell 主源披露。",
+      "catalysts": [
+        "2026-10-06：Marvell Investor Day 2026，重点看 custom silicon TAM、Google 合作收入桥、毛利率和资本开支。",
+        "FY2027 Q3：验证 3.150B 美元 +/-5% 收入指引是否兑现。",
+        "后续 10-Q：关注 warrant、客户集中和长期供货义务的细节。"
+      ],
+      "risks": [
+        "客户集中和 Google 合作节奏可能导致市场先定价、后兑现。",
+        "定制芯片业务可能牺牲毛利率或带来更高研发/库存风险。",
+        "高实际利率降低远期 AI 收入折现价值。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Marvell Technology Investor Relations - Q2 2027 Quarterly Results",
+          "publisher": "Marvell Technology Investor Relations",
+          "url": "https://investor.marvell.com/"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Gold / real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 68,
+      "thesis": "判断：黄金仍适合作为通胀与政策失误保险，但 2026-08-28 10 年期 TIPS 升至 2.42% 是明确的机会成本压力。7 月全球实物支持黄金 ETF 恢复流入，说明配置需求未坏，但本期没有足够的新主源信号把 GLD 升为主动买入。",
+      "why_now": "World Gold Council 2026-08-06 发布的 July 2026 gold ETF flows 显示，全球实物支持黄金 ETF 7 月吸引约 3B 美元流入，持仓增加 23 吨至 4,068 吨；但 Fed H.15 2026-08-31 表格显示 2026-08-28 10Y TIPS 为 2.42%。",
+      "catalysts": [
+        "2026-09-15 至 2026-09-16：FOMC 若改变实际利率路径，黄金评级可重新评估。",
+        "2026-09 月：等待 WGC 8 月 ETF flows 或央行需求更新。",
+        "美元与 10Y TIPS 同时回落时，GLD 才有从保险仓转为进攻仓的条件。"
+      ],
+      "risks": [
+        "实际利率继续上行会压制无息资产。",
+        "若通胀回落且美元走强，黄金 ETF 流入可能逆转。",
+        "黄金矿企与 GLD 风险不同，本 brief 的 GLD 判断不自动适用于矿企。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy / LNG and power demand",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：EIA 2026-08-31 天然气月报强化了 LNG 出口和电力需求长期主题，但同一份数据也显示供给非常强，短期对天然气价格并非单边利好。XLE 继续作为通胀/能源供需观察，不在周度库存发布前主动加仓。",
+      "why_now": "EIA Natural Gas Monthly 2026-08-31 显示，2026 年 6 月干气产量 112.33 Bcf/d，同比 +4.5%，为数据期最高；净出口 19.90 Bcf/d，LNG 出口 17.37 Bcf/d，同比 +28.4%。",
+      "catalysts": [
+        "2026-09-02：EIA Weekly Petroleum Status Report，确认原油和成品油库存方向。",
+        "2026-09-03：EIA Weekly Natural Gas Storage Report，确认注库速度是否继续压制气价。",
+        "2026-09-09：EIA September Short-Term Energy Outlook，更新 2026/2027 供需假设。"
+      ],
+      "risks": [
+        "供给创高可能抵消 LNG 出口增长对价格的拉动。",
+        "XLE 对油价、炼化利润和大型综合油气公司的权重敏感，不是纯天然气/LNG 暴露。",
+        "若增长数据走弱，能源股可能同时受需求预期下修和风险偏好下降影响。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Natural Gas Monthly, data for June 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/monthly/"
+        },
+        {
+          "title": "EIA Information Releases - WPSR and WNGSR schedules",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics and automation",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 61,
+      "thesis": "判断：AMD/Cisco/HUMAIN 与 NVIDIA 都在强调 physical AI，但本期仍没有新的上市机器人公司订单、利润率或出货数据足以支持单独加仓 BOTZ。机器人链条继续等待工业自动化订单拐点和数据中心电力/自动化供应链交叉验证。",
+      "why_now": "2026-08-31 AMD 发布稿把 sovereign AI 平台定位为服务模型训练、推理和本地化 AI 能力；NVIDIA 2026-08-26 业绩材料继续强调 physical AI，但截至 2026-09-01 本监测未发现 FANUC、ABB 或 Teradyne 等机器人/自动化主源有新的重大结果更新。",
+      "catalysts": [
+        "2026-09-24：ABB webcast - technology & solutions for high-power data centers，观察自动化/电气化对 AI 数据中心建设的暴露。",
+        "2026-10-20：ABB Q3 2026 results，验证 Robotics & Discrete Automation 需求。",
+        "下一批 FANUC/TER 季报：关注机器人订单与半导体测试设备需求是否同步改善。"
+      ],
+      "risks": [
+        "BOTZ 持仓分散，不能精准表达某一条机器人或 physical AI 主线。",
+        "工业自动化周期可能滞后 AI 数据中心资本开支。",
+        "若实际利率保持高位，长久期机器人主题 ETF 估值弹性受限。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 12,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "ABB Investor Calendar",
+          "publisher": "ABB Group",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        },
+        {
+          "title": "FANUC Financial Results and Conference Materials",
+          "publisher": "FANUC",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/"
+        },
+        {
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "publisher": "NVIDIA / SEC Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+        }
+      ]
+    },
+    {
+      "theme": "Uranium / nuclear fuel",
+      "asset": "Global X Uranium ETF",
+      "ticker": "URA",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 60,
+      "thesis": "判断：AI 数据中心长期电力需求继续支撑核电/铀的结构性叙事，但 2026-09-01 没有新的需求合同、监管批准或矿企披露。上一轮 EIA Q2 美国铀产量仍是监测信号，不是买入确认。",
+      "why_now": "EIA 2026-08-28 Quarterly Domestic Uranium Production Report 显示美国 Q2 2026 U3O8 产量为 1,087,504 磅，高于 Q1 2026 的 1,039,075 磅；本期没有更强的新铀需求主源。",
+      "catalysts": [
+        "下一次 EIA uranium production 更新：确认美国供应恢复是否持续。",
+        "核电重启、长期采购合同或公用事业披露：才是 URA 从 C 升 B 的关键。",
+        "AI 数据中心电力 PPA 或核电相关政策更新：作为需求侧交叉验证。"
+      ],
+      "risks": [
+        "供给恢复不等于价格上涨，可能压制边际矿企。",
+        "URA 受铀价、矿企成本、国家风险和流动性共同影响。",
+        "核电项目审批和建设周期长，AI 电力叙事兑现慢。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 10,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Quarterly Domestic Uranium Production Report, Q2 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/uranium/production/quarterly/"
+        },
+        {
+          "title": "Natural Gas Monthly, data for June 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/naturalgas/monthly/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "FOMC / SEP",
+      "ticker": "Rates",
+      "note": "2026-09-15 至 2026-09-16 FOMC 是 AI 估值与黄金机会成本的共同关键日期。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA weekly releases",
+      "ticker": "WPSR/WNGSR",
+      "note": "2026-09-02 WPSR 与 2026-09-03 WNGSR 决定能源主题是否从观察转为交易。"
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "NVIDIA event",
+      "ticker": "NVDA",
+      "note": "2026-09-10 Goldman Sachs Communacopia + Technology Conference 重点听保证敞口、客户融资与 Rubin 供应。"
+    },
+    {
+      "theme": "AI custom silicon",
+      "asset": "Marvell Investor Day",
+      "ticker": "MRVL",
+      "note": "2026-10-06 需要给出 Google/custom silicon 的 FY2028-FY2029 收入桥和毛利解释。"
+    },
+    {
+      "theme": "Power / automation",
+      "asset": "ABB high-power data center webcast",
+      "ticker": "ABBN/ABB",
+      "note": "2026-09-24 可验证 AI 数据中心电气化和自动化供应链暴露。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "AMD Investor Relations - AMD/Cisco/HUMAIN AI infrastructure release, 2026-08-31",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+    },
+    {
+      "label": "Federal Reserve - H.15 Selected Interest Rates, release date 2026-08-31",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "BEA - Personal Income and Outlays, July 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+    },
+    {
+      "label": "EIA - Natural Gas Monthly, data for June 2026, release date 2026-08-31",
+      "url": "https://www.eia.gov/naturalgas/monthly/"
+    },
+    {
+      "label": "EIA - Information Releases for WPSR/WNGSR schedule",
+      "url": "https://ir.eia.gov/"
+    },
+    {
+      "label": "NVIDIA / SEC - FY2027 Q2 results exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "label": "NVIDIA / SEC - Form 10-Q for quarter ended 2026-07-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "label": "Marvell Technology Investor Relations - Q2 2027 quarterly results and Investor Day listing",
+      "url": "https://investor.marvell.com/"
+    },
+    {
+      "label": "World Gold Council - Gold ETF Flows July 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+    },
+    {
+      "label": "ABB Group - Investor calendar",
+      "url": "https://global.abb/group/en/investors/financial-calendar"
+    },
+    {
+      "label": "FANUC - Financial Results and Conference Materials",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/"
+    },
+    {
+      "label": "EIA - Quarterly Domestic Uranium Production Report",
+      "url": "https://www.eia.gov/uranium/production/quarterly/"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "uranium",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
