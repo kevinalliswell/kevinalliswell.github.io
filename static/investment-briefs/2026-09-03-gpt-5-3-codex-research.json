@@ -1,0 +1,539 @@
+{
+  "date": "2026-09-03",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-09-03（监测版）",
+  "summary": "本期没有新的公司级主源披露强到足以改写 AI、机器人、能源、黄金排序；新增信号主要来自 2026-09-02 EIA 周度石油报告、2026-09-02 Fed H.15 和 ADP 8 月就业数据。EIA 显示原油库存下降 4.5 百万桶、炼厂利用率 98%，但四周总产品供应同比下降 4%，能源更像通胀/地缘对冲而不是干净进攻；Fed H.15 显示 2026-09-01 10 年期名义利率升至 4.79%、10 年期 TIPS 维持 2.44%，继续压制高估值 AI 与黄金追价。ADP 官网显示 2026 年 8 月美国私人部门新增就业 38,000，确认劳动力边际降温，但仍需等待 2026-09-04 BLS Employment Situation。",
+  "macro": {
+    "regime": "能源库存偏紧但需求不强，实际利率仍高",
+    "bullets": [
+      "Federal Reserve H.15 于 2026-09-02 发布，最新列为 2026-09-01：10 年期名义国债收益率 4.79%，较 2026-08-31 的 4.75% 上行；10 年期 TIPS 为 2.44%，与 2026-08-31 持平但仍处高位。判断：贴现率没有给 AI 成长股和黄金主动加仓留出宽松空间。",
+      "EIA Weekly Petroleum Status Report 于 2026-09-02 发布，数据周截至 2026-08-28：美国炼厂加工量 17.5 million b/d、产能利用率 98%；商业原油库存下降 4.5 million barrels 至 424.5 million barrels，汽油库存下降 1.2 million barrels，馏分油库存增加 0.8 million barrels。",
+      "同一份 EIA 周报显示，过去四周总产品供应均值为 20.4 million b/d，同比下降 4%；汽油产品供应四周均值 8.9 million b/d，同比下降 2%；馏分油产品供应四周均值 3.7 million b/d，同比下降 6%。判断：库存去化偏利多价格，但需求项不支持追涨 XLE。",
+      "ADP National Employment Report 官网 2026-09-02 显示，美国私人雇主 2026 年 8 月新增 38,000 个岗位；这是 BLS 非农前的降温信号，但 ADP 不是官方非农，不能替代 2026-09-04 BLS Employment Situation。",
+      "WGC 数据页截至本轮检查仍显示 Gold ETF Flows 最新月度下载为 July 2026；LBMA London Vault Data 最新仍为 end-July 2026，伦敦金库黄金 9,534 tonnes、环比增加 0.74%。判断：黄金有资金/实物支撑线索，但 10Y TIPS 2.44% 使 GLD 仍只能观察或保险仓。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "10Y U.S. Treasury yield",
+      "ticker": "H15/10Y",
+      "price": "4.79%",
+      "change_pct": 0.04,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "10Y TIPS yield",
+      "ticker": "H15/10Y TIPS",
+      "price": "2.44%",
+      "change_pct": 0.0,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "Commercial crude inventories",
+      "ticker": "EIA WPSR",
+      "price": "424.5 million barrels; -4.5 million w/w",
+      "change_pct": "",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "name": "Four-week total products supplied",
+      "ticker": "EIA WPSR",
+      "price": "20.4 million b/d; -4% y/y",
+      "change_pct": -4.0,
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "name": "ADP private employment, August 2026",
+      "ticker": "ADP NER",
+      "price": "+38,000 jobs",
+      "change_pct": "",
+      "source_url": "https://adpemploymentreport.com/"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure / accelerated compute",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 73,
+      "thesis": "判断：NVIDIA 仍是 AI 基础设施里质量最高、可验证性最强的核心资产，但 2026-09-02 的新增主源不是新 GPU 订单，而是更高的名义利率和偏弱的私人就业信号。AI capex 需求仍由 2026-08-26 FY2027 Q2 业绩和 10-Q 支撑，电力瓶颈则由 Fervo/Google PPA 侧面确认；但 10Y 名义利率 4.79%、10Y TIPS 2.44% 继续限制追价。",
+      "why_now": "2026-09-02 Fed H.15 把最新 2026-09-01 10Y 名义利率更新到 4.79%，10Y TIPS 为 2.44%；ADP 2026-09-02 显示 8 月私人就业仅 +38,000。增长预期和贴现率同时进入更敏感区间，NVDA 只能逢低而不是追高。",
+      "catalysts": [
+        "2026-09-04：BLS Employment Situation，将验证 ADP 8 月就业降温是否扩散到官方非农。",
+        "2026-09-10：NVIDIA Goldman Sachs Communacopia + Technology Conference，关注客户融资、供电约束、供应承诺和 Rubin 节奏。",
+        "FY2027 Q3：验证 NVIDIA 2026-08-26 业绩稿中 Q3 revenue $108.0B +/-2% 指引。"
+      ],
+      "risks": [
+        "10Y TIPS 2.44% 提高远期现金流折现率，任何增长放缓都会放大估值回撤。",
+        "NVIDIA 10-Q 已提示客户/合作伙伴融资、数据中心租赁、土地/电力/壳体和项目执行风险。",
+        "出口管制、客户集中和供应链节奏仍会影响收入确认。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 10,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "NVIDIA Form 10-Q for quarter ended July 26, 2026",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        },
+        {
+          "title": "ADP National Employment Report",
+          "publisher": "ADP Research",
+          "url": "https://adpemploymentreport.com/"
+        }
+      ]
+    },
+    {
+      "theme": "AI power infrastructure / enhanced geothermal",
+      "asset": "Fervo Energy",
+      "ticker": "FRVO",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position",
+      "score": 72,
+      "thesis": "判断：Fervo/Google 396MW PPA 仍是本周最重要的 AI 电力主源信号，但它已经在 2026-09-02 晨报中反映，今天没有新的融资、审批或项目执行披露。维持 B 级小仓试探，只把它当作 AI 电力瓶颈和 firm clean power 商业化的观察标的。",
+      "why_now": "2026-09-03 本轮检查没有发现 Fervo 在 2026-09-02 之后新增同等量级 SEC/IR 披露；新增的 Fed H.15 高利率反而提高了早期高 capex 项目的融资和估值门槛。",
+      "catalysts": [
+        "2026-Q4：Cape Station Phase I GeoBlock 1 目标 first test power，是最近执行验证点。",
+        "2028-Q3：Google 396MW PPA 的四个 99MW 分批目标商业运营期开始。",
+        "2030-06：若 Google 接受扩容并签署最终协议，总承包 EGS 容量目标不低于约 950MW。"
+      ],
+      "risks": [
+        "扩容仍取决于 Google 接受和最终协议，不应按全部约 950MW 确定性折现。",
+        "Utah SB 132、互联、输电、许可、工程可行性和建设执行均是关键路径风险。",
+        "Fervo Q2 2026 仍呈前商业化财务特征：收入低、亏损高、资本开支需求大。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 12,
+        "valuation_setup": 11,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Fervo Energy Form 8-K, Google Energy PPA",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026059707/frvo-20260826.htm"
+        },
+        {
+          "title": "Fervo Energy and Google Sign 396 MW PPA",
+          "publisher": "Fervo Energy Investor Relations",
+          "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI hyperscaler / power-constrained cloud growth",
+      "asset": "Alphabet",
+      "ticker": "GOOGL",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 72,
+      "thesis": "判断：Google 锁定增强型地热电力说明 AI 云竞争正在从 GPU/网络扩展到长期电力、许可和选址能力。对 Alphabet 是长期正面，但 2026-09-02 以后没有新的数据中心审批、capex 或收入披露，且长端利率上行压制大型成长股估值。",
+      "why_now": "Fervo 8-K 已披露 Google Energy 为 396MW PPA 对手方，Alphabet 提供 parent company guaranty；2026-09-02 H.15 把最新 10Y 名义利率更新到 4.79%，使长周期 AI 基建资产的估值容错下降。",
+      "catalysts": [
+        "2026-09 至 2027：关注 Alphabet/Google 是否披露 Utah 数据中心选址、用电规模、资本开支或监管审批进展。",
+        "2028-Q3：Fervo 396MW PPA 首批目标商业运营期开始。",
+        "下一次 Alphabet 财报：验证 AI capex、云收入增速和自由现金流压力。"
+      ],
+      "risks": [
+        "PPA 不等于数据中心已获批，最终计划仍取决于工程、州/地方审批和商业条件。",
+        "高实际利率会压缩大型成长股估值倍数。",
+        "AI 云竞争仍取决于模型、芯片供应、网络、成本和客户需求。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Fervo Energy Form 8-K, Google Energy PPA",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026059707/frvo-20260826.htm"
+        },
+        {
+          "title": "Fervo Energy and Google Sign 396 MW PPA",
+          "publisher": "Fervo Energy Investor Relations",
+          "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / sovereign AI and networking",
+      "asset": "AMD + Cisco basket",
+      "ticker": "AMD / CSCO",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely",
+      "score": 71,
+      "thesis": "判断：2026-08-31 AMD/Cisco/HUMAIN 投产信号仍有效，但本轮新增主源没有给出新的合同金额、毛利率、收入确认或客户扩展。ADP 显示制造业 8 月就业偏弱，对工业/硬件周期不是加分项；组合维持观察，等待公司财报或 SEC 文件量化。",
+      "why_now": "AMD IR 最新列表仍显示 2026-08-31 HUMAIN/AMD/Cisco AI infrastructure go-live 为最近重大 AI 基建公告；2026-09-02 新增宏观数据偏利率和就业，不足以提升 AMD/CSCO 排名。",
+      "catalysts": [
+        "2026-09 至 2026-12：等待 AMD 或 Cisco 在 SEC 文件/财报电话会中量化 HUMAIN 收入确认、供货节奏和毛利影响。",
+        "2027-H2：HUMAIN 下一阶段最高 250MW 容量预计开始上线。",
+        "2026-09-24：ABB 高功率数据中心 webcast 可交叉验证电力/自动化链建设节奏。"
+      ],
+      "risks": [
+        "HUMAIN 披露缺少合同金额、出货数量、客户结构和毛利率。",
+        "主权 AI 项目受出口许可、国家 capex、地缘政治和数据主权约束。",
+        "制造业就业疲软可能削弱硬件链短期周期弹性。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia's AI Infrastructure as AMD Instinct Systems Go Live",
+          "publisher": "AMD Investor Relations",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+        },
+        {
+          "title": "Cisco Reports Fourth Quarter and Fiscal Year 2026 Earnings",
+          "publisher": "Cisco Investor Relations",
+          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+        },
+        {
+          "title": "ADP National Employment Report",
+          "publisher": "ADP Research",
+          "url": "https://adpemploymentreport.com/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy / oil inventories and LNG",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 68,
+      "thesis": "判断：EIA 2026-09-02 周报给能源价格提供库存端支撑，但需求项偏弱。商业原油库存下降 4.5 million barrels、汽油库存下降 1.2 million barrels 有利于价格；但四周总产品供应同比 -4%、汽油 -2%、馏分油 -6%，说明这不是干净的需求扩张。XLE 更适合作为通胀/地缘对冲和观察仓。",
+      "why_now": "EIA WPSR 于 2026-09-02 发布截至 2026-08-28 的数据，是本轮最明确的新增能源主源。",
+      "catalysts": [
+        "2026-09-03：EIA Weekly Natural Gas Storage Report，关注地下储气注入和 Henry Hub 压力。",
+        "2026-09-10：因 Labor Day 假期，EIA 下一期 WPSR 将在周四 12:00 p.m. ET 发布。",
+        "2026-H2 至 2027-H1：EIA 预计美国 LNG 出口从 17.3 Bcf/d 升至 18.7 Bcf/d，关注 Plaquemines、Corpus Christi Stage 3 和 Golden Pass 爬坡。"
+      ],
+      "risks": [
+        "四周产品供应同比下降，显示需求不强，可能抵消库存下降的价格利多。",
+        "美国天然气供应仍强，可能压制上游天然气 beta。",
+        "XLE 权重集中于大型综合油气，与 LNG 和电力需求主题并不完全对应。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report Highlights, week ending August 28, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+        },
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "U.S. LNG exports rose 23% in the first half of 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=68064"
+        }
+      ]
+    },
+    {
+      "theme": "Gold / real rates and ETF flows",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 66,
+      "thesis": "判断：黄金仍适合作为保险仓，但不是主动追价信号。WGC 月度 ETF 数据仍显示 July 2026 为最新正式下载，July 全球黄金 ETF 流入 US$3bn、持仓增加 23t 至 4,068t；LBMA end-July London vault gold 为 9,534t。但 10Y TIPS 仍在 2.44%，实际利率没有配合黄金升到 B 以上。",
+      "why_now": "2026-09-02 H.15 显示 10Y TIPS 最新 2026-09-01 仍为 2.44%；WGC 数据页本轮检查显示黄金现货价格数据更新到 2026-09-01，但 ETF 月度下载仍是 July 2026。",
+      "catalysts": [
+        "2026-09 前十日：WGC 通常更新央行储备月度文件，关注是否有新的官方购金信号。",
+        "2026-09-11：美国 CPI 和 Real Earnings 发布，直接影响实际利率和美元。",
+        "2026-09-15 至 2026-09-16：FOMC/SEP 对实际利率路径的影响。"
+      ],
+      "risks": [
+        "高实际利率通常压制无息资产估值。",
+        "如果风险资产反弹且美元走强，黄金 ETF 资金可能重新流出。",
+        "GLD 是金价代理，不提供矿企经营杠杆，也不能捕捉单矿利润改善。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 16,
+        "valuation_setup": 12,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Gold ETFs, holdings and flows",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows"
+        },
+        {
+          "title": "Gold ETF Flows: July 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+        },
+        {
+          "title": "London Vault Data",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics / factory automation",
+      "asset": "Global X Robotics & AI ETF",
+      "ticker": "BOTZ",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 61,
+      "thesis": "判断：机器人主题仍有长期结构性需求，但今天没有新的 FANUC、Teradyne、ABB 或 IFR 主源订单/利润率数据足以提高评级。ISM 制造业仍扩张，但 ADP 8 月制造业就业为负，短期周期信号混合。",
+      "why_now": "本轮检查显示 FANUC IR 最新材料仍以截至 2026-06-30 的季度披露为锚，ABB 下一次可交易事件是 2026-09-24 高功率数据中心 webcast；IFR 当前公开统计仍以 World Robotics 2025 为主。",
+      "catalysts": [
+        "2026-09-24：ABB's technology & solutions for high-power data centers webcast。",
+        "2026-09-28 至 2026-09-29：IFR CORA 2026 机器人与自动化经济影响会议。",
+        "下一轮 FANUC/Teradyne/ABB 财报：验证订单、库存和机器人/自动化利润率。"
+      ],
+      "risks": [
+        "BOTZ 持仓分散且包含 AI/自动化混合暴露，主题纯度有限。",
+        "制造业就业和订单若转弱，工业自动化 beta 可能承压。",
+        "日元、欧洲工业周期和中国需求影响主要机器人公司盈利。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Financial Results and Conference Materials",
+          "publisher": "FANUC Investor Relations",
+          "url": "https://www.fanuc.co.jp/en/ir/announce/"
+        },
+        {
+          "title": "Calendar: Webcast - ABB's technology & solutions for high-power data centers",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        },
+        {
+          "title": "International Federation of Robotics",
+          "publisher": "IFR",
+          "url": "https://ifr.org/"
+        },
+        {
+          "title": "ADP National Employment Report",
+          "publisher": "ADP Research",
+          "url": "https://adpemploymentreport.com/"
+        }
+      ]
+    },
+    {
+      "theme": "Nuclear / uranium and AI power demand",
+      "asset": "Global X Uranium ETF",
+      "ticker": "URA",
+      "region": "Global",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 60,
+      "thesis": "判断：AI 电力需求继续支持核电/铀的长期叙事，但今天没有新的核电 PPA、铀采购、矿山产量或政策审批主源信号。维持 C 级观察，等待明确采购或政策事件，而不是把地热 PPA 直接映射为铀需求。",
+      "why_now": "新增主源集中在石油库存、利率和 ADP 就业；Fervo/Google PPA 强化的是 firm clean power 需求，但不是核电或铀采购披露。",
+      "catalysts": [
+        "下一次 EIA uranium production 或 nuclear fuel 数据更新：验证美国本土铀供给恢复节奏。",
+        "大型科技公司或公用事业新的核电/SMR/铀采购 PPA 披露。",
+        "2026-09-15 至 2026-09-16 FOMC：利率路径影响长久期能源基建估值。"
+      ],
+      "risks": [
+        "铀价、矿山重启和政策支持不同步，ETF 可能承受高波动。",
+        "AI 电力需求可以流向气电、地热、储能、输电和能效，并不必然流向铀。",
+        "URA 持仓存在矿山执行、国家风险和估值波动。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 11,
+        "valuation_setup": 11,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Quarterly Domestic Uranium Production Report - Second Quarter 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/uranium/production/quarterly/"
+        },
+        {
+          "title": "Fervo Energy Form 8-K, Google Energy PPA",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026059707/frvo-20260826.htm"
+        },
+        {
+          "title": "H.15 Selected Interest Rates",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "BLS Employment Situation",
+      "ticker": "NFP",
+      "note": "2026-09-04 08:30 ET 发布 2026 年 8 月就业报告，验证 ADP 降温信号。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA Weekly Natural Gas Storage",
+      "ticker": "Henry Hub / UNG",
+      "note": "2026-09-03 发布，关注注入量是否缓解或加重天然气供给压力。"
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "NVIDIA conference",
+      "ticker": "NVDA",
+      "note": "2026-09-10 Goldman Sachs 会议，关注客户融资、供电与供应承诺。"
+    },
+    {
+      "theme": "Inflation",
+      "asset": "BLS PPI and CPI",
+      "ticker": "Rates / GLD",
+      "note": "2026-09-10 PPI、2026-09-11 CPI 将影响 TIPS、美元和黄金。"
+    },
+    {
+      "theme": "Automation / power",
+      "asset": "ABB data center webcast",
+      "ticker": "ABB",
+      "note": "2026-09-24 高功率数据中心 webcast，用于交叉验证数据中心电力链。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve - H.15 Selected Interest Rates, release date 2026-09-02",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "EIA - Weekly Petroleum Status Report, release date 2026-09-02",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "EIA - WPSR Highlights PDF, week ending 2026-08-28",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf"
+    },
+    {
+      "label": "EIA - Weekly Natural Gas Storage Report",
+      "url": "https://www.eia.gov/naturalgas/storage/"
+    },
+    {
+      "label": "ADP - National Employment Report",
+      "url": "https://adpemploymentreport.com/"
+    },
+    {
+      "label": "BLS - Weekly Update and upcoming releases",
+      "url": "https://www.bls.gov/opub/update.htm"
+    },
+    {
+      "label": "NVIDIA - Q2 FY2027 results",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "label": "NVIDIA - FY2027 Q2 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "label": "Fervo Energy - Google Energy PPA Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1853868/000162828026059707/frvo-20260826.htm"
+    },
+    {
+      "label": "AMD - HUMAIN/Cisco AI infrastructure release",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live"
+    },
+    {
+      "label": "Cisco - FY2026 Q4 earnings release",
+      "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+    },
+    {
+      "label": "World Gold Council - Gold ETFs, holdings and flows",
+      "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows"
+    },
+    {
+      "label": "LBMA - London Vault Data",
+      "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+    },
+    {
+      "label": "FANUC - Financial results and conference materials",
+      "url": "https://www.fanuc.co.jp/en/ir/announce/"
+    },
+    {
+      "label": "ABB - Investor financial calendar",
+      "url": "https://global.abb/group/en/investors/financial-calendar"
+    },
+    {
+      "label": "IFR - World Robotics public data",
+      "url": "https://ifr.org/"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "uranium",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
