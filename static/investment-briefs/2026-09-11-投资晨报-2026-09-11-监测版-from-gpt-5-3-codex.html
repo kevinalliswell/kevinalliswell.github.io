@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-09-11（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-09-11（监测版）</h1>
+      <p class="meta">2026-09-11 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-09-11 13:58（Asia/Shanghai），过去 24 小时的最大新增一手信号来自 Oracle FY2027 Q1 8-K：OCI 收入同比增长 121% 至 73.88 亿美元，云收入同比增长 62% 至 116.07 亿美元，RPO 同比增加 2090 亿美元至 6640 亿美元，并称 Q1 新签超过 300 亿美元 AI 云合同；这强力确认 AI 云需求，但同时伴随 284.99 亿美元资本开支、-53.96 亿美元自由现金流、199.09 亿美元 ATM 增发和高杠杆/租赁负担。宏观侧 BLS 2026-09-10 PPI 显示 8 月最终需求 PPI 环比 +0.4%、同比 +5.4%，能源、柴油和运输仓储是主要压力；EIA 同日显示原油商业库存小降 40 万桶、汽油/馏分油库存上升，天然气库存升至 3,254 Bcf、高于五年均值 4.8%。判断：AI 基础设施需求得到更硬确认，但利率、通胀和资本密集度风险同步上升，适合保留 B 级配置纪律而非追价。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>AI 云订单很强，但 PPI、能源运输成本和资本开支强度限制追价</strong></p>
+      <ul><li>BLS 2026-09-10 发布的 August 2026 PPI 显示，最终需求价格环比上涨 0.4%，7 月为 +0.1%、6 月为 -0.1%；未季调口径最终需求同比上涨 5.4%。</li><li>PPI 的结构偏成本压力：最终需求商品环比 +1.1%，其中能源 +4.2%；柴油价格跳升 24.1%。最终需求服务环比 +0.1%，但运输和仓储服务 +2.3%，货运卡车运输 +2.0%。这对能源链条和物流成本敏感行业是更直接的信号。</li><li>BLS 同一份 PPI 显示，剔除食品、能源和贸易服务的最终需求 PPI 环比 +0.3%、同比 +4.7%；这意味着通胀压力不只是单点油价扰动，仍会影响 2026-09-15/16 FOMC 前的折现率预期。</li><li>EIA WPSR 2026-09-10（week ending 2026-09-04）显示，美国商业原油库存为 424.1 百万桶，较前周少 0.4 百万桶；汽油库存 206.9 百万桶、较前周多 1.3 百万桶；馏分油库存 106.3 百万桶、较前周多 2.1 百万桶。原油不是紧缺冲击，成品油/柴油成本压力更值得看。</li><li>EIA WNGSR 2026-09-10 显示 Lower 48 工作天然气库存为 3,254 Bcf，周增 40 Bcf；较 2025-09-04 低 2.4%，但较 2021-2025 五年均值高 4.8%。天然气库存不支持立刻追涨能源，但对电力/AI 数据中心成本仍是监控项。</li><li>Oracle 2026-09-10 8-K/Exhibit 99.1 是今天最强公司级信号：Q1 FY2027 IaaS 收入 73.88 亿美元、同比 +121%，云收入 116.07 亿美元、同比 +62%，RPO 6640 亿美元，并披露 Q1 新签超过 300 亿美元 AI 云合同与交付 30 万颗以上 GPU。需求强度确认，但资本开支和融资需求也被同步放大。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Final demand PPI</td>
+          <td>BLS PPI</td>
+          <td>+0.4% MoM / +5.4% YoY in Aug 2026</td>
+          <td></td>
+          <td><a href="https://www.bls.gov/news.release/ppi.nr0.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Final demand energy PPI</td>
+          <td>BLS PPI</td>
+          <td>+4.2% MoM in Aug 2026</td>
+          <td></td>
+          <td><a href="https://www.bls.gov/news.release/ppi.nr0.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>U.S. commercial crude oil stocks</td>
+          <td>EIA WPSR</td>
+          <td>424.1 million barrels, -0.4 million WoW</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/wpsr/overview.pdf">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Lower 48 working gas storage</td>
+          <td>EIA WNGSR</td>
+          <td>3,254 Bcf, +40 Bcf WoW</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/ngs/ngs.html">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Oracle cloud infrastructure revenue</td>
+          <td>ORCL</td>
+          <td>$7.388B, +121% YoY in Q1 FY2027</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Oracle remaining performance obligations</td>
+          <td>ORCL</td>
+          <td>$664B, +$209B YoY</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI cloud infrastructure</p>
+                  <h2>Oracle <span>ORCL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Watch financing risk</span>
+                </div>
+              </header>
+              <p class="score-line">Score 80/100</p>
+              <div class="bar"><span class="fill" style="width:80%"></span></div>
+              <p>判断：Oracle 是今天最强新增公司级信号，但不是无约束买入。FY2027 Q1 8-K 显示总收入 193.45 亿美元、同比 +30%，云收入 116.07 亿美元、同比 +62%，其中 IaaS 收入 73.88 亿美元、同比 +121%；RPO 同比增加 2090 亿美元至 6640 亿美元，Q1 新签超过 300 亿美元 AI 云合同，且交付 30 万颗以上 GPU。这证明 AI 云训练/推理需求仍明显大于供给。约束同样清楚：Q1 资本开支 284.99 亿美元，自由现金流 -53.96 亿美元，公司还完成 200 亿美元 ATM 普通股发行（扣佣前），这意味着上涨质量取决于合同预付款、融资成本和数据中心执行，而不只是订单数字。</p>
+              <p><strong>Why now:</strong> 2026-09-10 Oracle 向 SEC 提交 8-K 和 Exhibit 99.1，首次把 FY2027 Q1 的 AI 云需求、RPO、GPU 交付、资本开支和股权融资放在同一份一手文件里。它给整个 AI 基础设施链条提供了需求确认，也把“资本开支过重、客户预付款、增发摊薄、债务/租赁负担”推到前台。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-10 之后的 Oracle 财报电话会回放/文字稿：核验 RPO 转收入速度、AI 云合同客户集中度、GPU 供应与电力容量。</li><li>FY2027 Q2 指引：总收入预计同比 +30% 至 +34%，云收入预计同比 +65% 至 +71%（美元口径），若兑现会继续支撑 AI 云供应链。</li><li>后续 10-Q：核验债务、租赁、客户预付款、资本开支融资和自由现金流路径。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Q1 资本开支 284.99 亿美元、自由现金流 -53.96 亿美元，AI 云扩张是重资产融资驱动，不是轻资本软件增长。</li><li>公司 Q1 通过 ATM 完成约 199.09 亿美元净普通股融资；若资本开支持续超现金流，摊薄风险可能反复出现。</li><li>非流动债务 1177.12 亿美元、经营租赁负债 305.94 亿美元，利率维持高位会放大估值与融资敏感性。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm">Oracle 2026-09-10 Form 8-K</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI semiconductors and networking</p>
+                  <h2>Broadcom <span>AVGO</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 77/100</p>
+              <div class="bar"><span class="fill" style="width:77%"></span></div>
+              <p>判断：AVGO 继续是 AI ASIC 与网络链条的高质量表达，今天因为 Oracle RPO/IaaS/GPU 交付数据得到需求侧确认，但没有新的 Broadcom 自身披露足以升 A。上一轮 FY2026 Q3 基本面仍是锚：AI 半导体收入与 Q4 指引支撑主线；今天的增量是 Oracle 证明 hyperscaler/OCI 仍在抢云算力供给。</p>
+              <p><strong>Why now:</strong> Oracle 2026-09-10 8-K 把 AI 云合同、GPU 交付和数据中心容量扩张放大到可量化层面，这间接强化网络、定制芯片、互连和交换需求。但 BLS PPI +0.4% 且能源/运输成本上行，使 AI 高倍数资产不宜在 CPI/FOMC 前追价。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>Oracle 后续 10-Q/电话会和其他 hyperscaler capex 更新：确认 AI 云扩张是否继续超预期。</li><li>Broadcom 下一次财报：关注 AI 半导体收入、AI networking 订单和 VMware 现金流。</li><li>2026-09-11 CPI 与 2026-09-15/16 FOMC：影响高质量成长资产估值容忍度。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>PPI 能源和运输压力若传导到 CPI，会继续压制高倍数 AI 资产。</li><li>定制 ASIC 客户集中和先进封装/内存供给仍可能造成收入波动。</li><li>Oracle 类重资产 AI 云扩张若需要更多股权或债务融资，供应链估值会被重新审视。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial">Broadcom FY2026 Q3 financial results release</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li><li><a href="https://www.bls.gov/news.release/ppi.nr0.htm">Producer Price Indexes - August 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI accelerators and platform</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：NVDA 的需求侧证据今天更强，原因不是公司发布新财报，而是 Oracle 披露 Q1 向 AI 云客户交付 30 万颗以上 GPU，且交付容量接近 FY2026 Q4 的三倍。这支持 GPU 需求仍大于供给的判断。评分仍停在 B，因为 NVIDIA 自身此前披露的供给承诺、客户融资和数据中心执行风险，与 Oracle 披露的重资本扩张彼此印证：需求强，但生态链资本负担也强。</p>
+              <p><strong>Why now:</strong> Oracle 8-K 是对 NVIDIA 生态需求的外部一手验证：AI 云合同超过 300 亿美元、IaaS +121%、GPU 交付显著增加。与此同时，PPI 能源/运输项偏热，使高久期成长股继续面临利率事件风险。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>NVIDIA 2026-09-10 Goldman Sachs Communacopia 管理层窗口的后续材料/回放。</li><li>Oracle 后续 10-Q：确认 GPU 供应、客户预付款和资本开支融资细节。</li><li>2026-09-11 CPI 与 FOMC：决定强需求能否抵消估值折现率压力。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Oracle 的负自由现金流和股权融资显示 AI 云需求需要大量外部资本承接，若融资成本上行会反噬 GPU 订单节奏。</li><li>客户集中、长期供给承诺、电力和数据中心交付风险仍是 NVDA 估值的关键折扣。</li><li>AMD、Broadcom、Marvell 和 hyperscaler 自研 ASIC 继续分流部分增量叙事。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx">NVIDIA Events &amp; Presentations</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li><li><a href="https://www.bls.gov/news.release/ppi.nr0.htm">Producer Price Indexes - August 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold and real assets</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Buy only near support</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>判断：GLD 的防御价值仍在，但今天排序略让位给 AI 基础设施的硬订单确认。昨天 WGC 的 8 月 ETF 流入和创纪录持仓仍是核心支撑；今天新增的 PPI +0.4%、同比 +5.4% 与能源/柴油/运输压力，理论上支持通胀对冲需求。但如果 CPI 强、FOMC 更鹰，实际利率上行会压制黄金，所以维持 B 而非升 A。</p>
+              <p><strong>Why now:</strong> PPI 数据强化了“通胀未完全退潮”的对冲逻辑，也解释能源链条成本压力；但金价/GLD 更敏感的是实际利率和美元。2026-09-11 CPI 才是更直接的下一步验证。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-11 08:30 ET CPI 和 Real Earnings。</li><li>2026-09-15/16 FOMC 点阵图、声明和发布会。</li><li>WGC 后续 9 月 ETF 流量：确认 8 月强流入是否延续。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>强 CPI 或鹰派 FOMC 可能推高实际利率并触发黄金回撤。</li><li>8 月 WGC 已显示 ETF、期货和期权共同推动动量，短期拥挤风险仍高。</li><li>如果 AI 风险偏好被 Oracle 订单继续点燃，防御资产相对表现可能短期落后。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09">Gold ETF Flows: August 2026</a></li><li><a href="https://www.gold.org/goldhub/research/gold-market-commentary-august-2026">Gold Market Commentary: Paved with good interventions</a></li><li><a href="https://www.bls.gov/news.release/ppi.nr0.htm">Producer Price Indexes - August 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI connectivity and custom silicon</p>
+                  <h2>Marvell Technology <span>MRVL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：MRVL 继续是 AI connectivity/custom silicon 的 B 级观察仓位。Oracle 的 AI 云订单和 GPU 交付验证了数据中心互连、交换、内存扩展和光互连需求的大方向；Marvell 2026-09-09 AI Infra Summit 展示稿也给出产品层催化。但 MRVL 自身还缺少今天这样强的订单/RPO/现金流披露，所以排序仍低于 ORCL、AVGO、NVDA。</p>
+              <p><strong>Why now:</strong> Oracle 把 AI 云扩张的规模公开量化，强化整个网络/互连供应链需求；同时 BLS PPI 和 Oracle 资本开支数据提醒市场，AI 数据中心经济性会被能源、运输、融资和供应链成本反复检验。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-15 至 2026-09-17 AI Infra Summit 2026：观察 Marvell 产品线、客户和生态证据。</li><li>2026-10-06 Marvell Investor Day：验证 AI custom silicon、networking TAM、Google warrant 稀释和客户集中度。</li><li>Oracle/其他云厂商后续 capex 与 AI 云订单披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>产品展示不等于订单或毛利确认；仍需财务数据验证。</li><li>Google warrant、客户集中和定制芯片议价压力仍可能压制上行质量。</li><li>高 PPI/高资本开支环境降低中小 AI 基础设施标的的估值容错。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.marvell.com/news-events/press-releases/detail/1032/marvell-to-showcase-end-to-end-ai-data-center-connectivity-portfolio-at-ai-infra-summit-2026">Marvell to Showcase End-to-End AI Data Center Connectivity Portfolio at AI Infra Summit 2026</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy and inflation hedge</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>判断：XLE 获得 PPI 能源项和柴油项支撑，但 EIA 库存结构不足以把它升为 B。PPI 显示最终需求能源 +4.2%、柴油 +24.1%，这对能源现金流和通胀对冲叙事有利；但 EIA 2026-09-10 显示商业原油库存仅小幅下降，汽油和馏分油库存反而上升，天然气库存也高于五年均值 4.8%。因此能源更像组合对冲而非进攻主线。</p>
+              <p><strong>Why now:</strong> PPI 和 EIA 同日落地，给出了更完整的能源判断：价格压力在生产端明显，但库存没有同步给出强紧缺信号。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一份 EIA WPSR：确认柴油/馏分油库存和炼厂开工是否继续收紧。</li><li>OPEC/IEA/EIA 月报：判断供需缺口是否扩大。</li><li>CPI 能源项与 FOMC 后实际利率路径。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>汽油和馏分油库存上升削弱短期供应紧缺叙事。</li><li>天然气库存高于五年均值，限制天然气链条上行。</li><li>如果 PPI 能源压力引发更鹰派利率预期，能源股估值也会承压。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/overview.pdf">Weekly Petroleum Status Report overview, week ending 2026-09-04</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage Report, week ending 2026-09-04</a></li><li><a href="https://www.bls.gov/news.release/ppi.nr0.htm">Producer Price Indexes - August 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics and automation</p>
+                  <h2>Global X Robotics &amp; AI ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>判断：机器人链条仍是 C 级观察。Oracle 和 AI 数据中心需求会拉动自动化测试、封装、光模块、数据中心运维和工业自动化的间接需求，但今天没有 FANUC、ABB、Teradyne 或核心机器人公司级订单更新足以改变评级。PPI 运输/能源压力可能推动自动化 ROI 讨论，但这仍是推论。</p>
+              <p><strong>Why now:</strong> AI 云重资本扩张和 PPI 成本压力都提高了企业对自动化效率的兴趣，但投资动作需要等订单、出货或利润率证据，而不是只买主题。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-24 ABB 高功率数据中心 webcast。</li><li>Teradyne 后续关于 AI/data center test 需求的订单或财务数据。</li><li>机器人核心公司下一轮季度订单和毛利率。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>BOTZ 成分复杂，不能精准表达 AI 数据中心自动化。</li><li>工业自动化仍受制造周期和资本开支预算约束。</li><li>若利率事件打压成长/主题 ETF，机器人 beta 可能先跌。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investors.teradyne.com/news-events/press-releases/detail/447/teradyne-launches-advanced-ultraflexplus-instruments-engineered-for-ai-and-data-center-computing-devices">Teradyne launches UltraFLEXplus instruments for AI and data center computing devices</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Nuclear power and uranium</p>
+                  <h2>Global X Uranium ETF <span>URA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 60/100</p>
+              <div class="bar"><span class="fill" style="width:60%"></span></div>
+              <p>判断：URA 继续保留在 AI 电力需求的长期观察项。Oracle 的数据中心扩张强化“AI 需要大量可靠电力”的长期命题，但今天没有新的核电合同、铀矿供需或电力政策一手材料。EIA Q2 2026 美国 U3O8 产量仍是最近的铀供给锚，不能单独构成买入升级。</p>
+              <p><strong>Why now:</strong> AI 云订单越大，电力主题越重要；但投资 URA 需要核电政策、铀价、矿山产量或公用事业 PPA 的直接证据。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>新核电/PPA/数据中心供电协议。</li><li>EIA 下一份铀生产或电力数据。</li><li>铀矿公司季度生产、合同价格和库存披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>AI 电力需求到铀价格的传导链条很长，时间差和政策风险高。</li><li>供应恢复不一定利好铀价。</li><li>主题 ETF 估值可能受利率和风险偏好拖累。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/uranium/production/quarterly/">Domestic Uranium Production Report, Q2 2026</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
