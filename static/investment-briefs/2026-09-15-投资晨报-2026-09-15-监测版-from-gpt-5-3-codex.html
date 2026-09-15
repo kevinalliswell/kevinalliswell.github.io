@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-09-15（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-09-15（监测版）</h1>
+      <p class="meta">2026-09-15 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-09-15 08:00（Asia/Shanghai），今天不是纯监测日：Oracle 2026-09-11 10-Q 和 2026-09-14 8-K 补上了 AI 云合同兑现、capex、自由现金流、租赁和融资风险的硬细节；Broadcom 2026-09-10 10-Q/S-4 也确认 AI 半导体收入、1792 亿美元 RPO 和客户集中风险。宏观上，Fed H.15 2026-09-14 显示 2026-09-11 的 10Y 名义收益率升至 4.96%、10Y TIPS 升至 2.60%，FOMC 前实际利率压力进一步上行。结论：AI 基建主线仍强，但今天更应把 ORCL/AVGO/NVDA 放在“需求确认、融资和估值约束加重”的框架；GLD 仍有 ETF 流入支撑但不追；能源继续是柴油偏紧、天然气偏宽松的监测项。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>FOMC 前实际利率上行，AI 需求确认与融资约束同时增强</strong></p>
+      <ul><li>Fed H.15 2026-09-14 的最新列为 2026-09-11：有效联邦基金利率 3.63%，2Y 4.63%，10Y 4.96%，30Y 5.35%，10Y TIPS 2.60%，30Y TIPS 3.07%。10Y TIPS 较 2026-09-10 的 2.55% 继续上行，是 AI 长久期估值和黄金追涨的共同约束。</li><li>Fed 官方日历确认 2026-09-15/16 FOMC 是带 Summary of Economic Projections 的会议。今天的仓位动作应优先服务于会后再定价，而不是在会前用满仓表达方向。</li><li>BLS 2026-09-11 CPI 显示 2026 年 8 月 CPI-U 季调环比 +0.4%、未季调同比 +3.4%，核心 CPI 环比 +0.3%、同比 +2.4%；汽油环比 +3.9%、能源环比 +2.1%。这使 FOMC 前的通胀风险仍不能忽略。</li><li>Oracle 2026-09-11 10-Q 把 AI 云需求和融资压力同时具象化：RPO 6640 亿美元，其中约 13% 预计 12 个月内确认；Q1 经营现金流 231.03 亿美元，但 capex 284.99 亿美元，自由现金流 -53.96 亿美元。</li><li>Oracle 10-Q 还显示截至 2026-08-31 现金及等价物 363.69 亿美元，流动 notes/borrowings 76.25 亿美元、非流动 notes/borrowings 1177.12 亿美元，经营租赁负债合计 346.21 亿美元；公司称 FY2027 capex 将高于 FY2026，用于扩充和新建数据中心。</li><li>Oracle 2026-09-14 8-K 披露 Larry Ellison 取消 10b5-1 减持计划，且计划终止前没有卖出 Oracle 股票。这是情绪面支持，但不能替代融资质量和合同兑现证据。</li><li>Broadcom 2026-09-10 10-Q 显示截至 2026-08-02 的季度总收入 295.91 亿美元，同比 +86%；半导体解决方案收入 208.39 亿美元，同比 +127%，主要由 custom AI accelerators 和 AI networking 产品带动。</li><li>Broadcom 10-Q 还披露半导体解决方案客户 RPO 约 1792 亿美元，包括 2026-05-03 季度签署的长期 custom AI accelerator 合同；但单一半导体分销客户占季度净收入 50%，前五大终端客户约占季度净收入 55%，集中度风险很高。</li><li>EIA 2026-09-09 STEO 预计 2026 年 Brent 均价 91 美元/桶、2H26 约 90 美元/桶；馏分油库存 9 月跌破 1 亿桶并在 2027 年大部分时间低于五年低位；但天然气库存预计 2026-10-31 达 3,969 Bcf、较五年均值高 5%。</li><li>EIA 同一份 STEO 预计美国电力销售 2026 年 4,135 BkWh、2027 年 4,211 BkWh，驱动来自数据中心开发和制造业活动。它强化 AI 电力链观察，但还不是单一电力设备公司的订单确认。</li><li>WGC 2026-09-09 August 2026 gold ETF flows 显示全球黄金 ETF 8 月流入 180 亿美元，AUM 环比 +16% 至 6150 亿美元，持仓 +121 吨至 4,189 吨纪录高位；但 10Y TIPS 2.60% 使 GLD 仍适合回撤买/对冲，而不是追涨升 A。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10Y Treasury yield</td>
+          <td>Fed H.15</td>
+          <td>4.96% on 2026-09-11</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>10Y TIPS yield</td>
+          <td>Fed H.15</td>
+          <td>2.60% on 2026-09-11</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Oracle RPO</td>
+          <td>ORCL</td>
+          <td>$664B as of 2026-08-31</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Oracle free cash flow</td>
+          <td>ORCL</td>
+          <td>-$5.396B in FY2027 Q1</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Broadcom quarterly net revenue</td>
+          <td>AVGO</td>
+          <td>$29.591B in quarter ended 2026-08-02</td>
+          <td>+86.00%</td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Broadcom semiconductor RPO</td>
+          <td>AVGO</td>
+          <td>About $179.2B as of 2026-08-02</td>
+          <td></td>
+          <td><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>EIA STEO Brent forecast</td>
+          <td>Brent</td>
+          <td>2026 avg $91/b; 2H26 around $90/b</td>
+          <td></td>
+          <td><a href="https://www.eia.gov/outlooks/steo/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Global gold ETF holdings</td>
+          <td>WGC</td>
+          <td>4,189t, +121t MoM in Aug 2026</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI cloud infrastructure</p>
+                  <h2>Oracle <span>ORCL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Watch financing risk</span>
+                </div>
+              </header>
+              <p class="score-line">Score 79/100</p>
+              <div class="bar"><span class="fill" style="width:79%"></span></div>
+              <p>判断：ORCL 仍是 AI 云需求确认度最高的标的之一，但 2026-09-11 10-Q 让风险也更清楚。RPO 6640 亿美元、其中约 13% 预计 12 个月内确认，说明订单池很硬；但 Q1 capex 284.99 亿美元、自由现金流 -53.96 亿美元、非流动 notes/borrowings 1177.12 亿美元、经营租赁负债 346.21 亿美元，说明它正在把 AI 需求转化为重资产、重融资、重交付周期的资产负债表问题。2026-09-14 8-K 中 Larry Ellison 取消 10b5-1 减持计划能改善情绪，但不改变融资和兑现验证。</p>
+              <p><strong>Why now:</strong> 新增的 10-Q/8-K 是今天最重要的一手披露：需求更可验证，但融资、租赁、capex 和自由现金流压力也更可验证。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-15/16 FOMC：若 SEP 或发布会推高实际利率，ORCL 的重资产 AI 云估值容忍度会下降。</li><li>FY2027 Q2 指引兑现：此前公司预计总收入同比 +30% 至 +34%，云收入同比 +65% 至 +71%。</li><li>后续电话会、债务发行或客户预付款细节：决定 RPO 是否能以可接受现金回报率转收入。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>RPO 很强但资本开支、租赁和融资需求同步放大。</li><li>自由现金流为负且 FY2027 capex 将高于 FY2026，市场可能从收入倍数转向融资质量定价。</li><li>客户集中、GPU/电力/数据中心交付约束可能影响合同转收入节奏。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle FY2027 Q1 Form 10-Q</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm">Oracle 2026-09-14 Form 8-K on Larry Ellison 10b5-1 plan cancellation</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm">Oracle FY2027 Q1 results press release, Exhibit 99.1</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates - September 14, 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI semiconductors and networking</p>
+                  <h2>Broadcom <span>AVGO</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 78/100</p>
+              <div class="bar"><span class="fill" style="width:78%"></span></div>
+              <p>判断：AVGO 的一手证据比昨天更强。2026-09-10 10-Q 显示季度总收入 295.91 亿美元，同比 +86%；半导体解决方案收入 208.39 亿美元，同比 +127%，增长主要来自 custom AI accelerators 和 AI networking 产品；半导体客户 RPO 约 1792 亿美元，并包括一份 2026-05-03 季度签署的长期 custom AI accelerator 合同。限制也同样明确：单一半导体分销客户占季度净收入 50%，前五大终端客户约占季度净收入 55%，且 AI 部署时点会放大季度波动。</p>
+              <p><strong>Why now:</strong> 10-Q 把 AVGO 从“高质量 AI 供应链表达”推进为“已有硬 RPO 和 AI 收入解释的 B+ 候选”，但客户集中和高实际利率仍压住 A。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次 Broadcom 财报：验证 custom AI accelerator、AI networking 和 VMware 现金流是否继续同向。</li><li>RPO 转收入节奏：10-Q 称约 25% 的 1792 亿美元半导体 RPO 预计未来 12 个月确认。</li><li>FOMC 后实际利率走势决定高质量 AI 供应链估值空间。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>单一半导体分销客户占季度净收入 50%，前五大终端客户约占 55%，集中度高。</li><li>客户 AI 基建计划若削减、取消或延后，custom AI accelerators、XPUs 和网络产品需求会受冲击。</li><li>S-4 是 6.54004 亿美元 2037 年票据交换注册，不增加债务，但提醒 AVGO 仍需管理 VMware 后的债务结构。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">Broadcom quarterly report for period ended August 2, 2026</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1730168/000119312526387881/d154803ds4.htm">Broadcom 2026 Form S-4 exchange offer registration</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates - September 14, 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI accelerators and platform</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：NVDA 仍是 AI 主线核心，但今天新增信息更多来自客户和供应链披露，而非 NVIDIA 自身。Oracle 的 AI Cloud GPU 交付、RPO 和 capex 说明加速器需求仍真实；Broadcom 的 AI accelerator/networking RPO 说明 AI capex 正扩散到定制芯片和网络层；EIA 电力需求预测说明数据中心约束进入宏观能源系统。但 10Y TIPS 升至 2.60% 后，市场会更严厉地审视 AI capex 的现金回收期和客户融资质量。</p>
+              <p><strong>Why now:</strong> 新增的一手信息确认 AI 基建需求宽度，但会前利率压力更高；NVDA 策略仍是等回撤而非追涨。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-15/16 FOMC 对长端实际利率和成长股估值的影响。</li><li>Oracle 后续 RPO 转收入和数据中心投建细节，对 GPU 需求持续性形成外部验证。</li><li>hyperscaler capex/RPO 披露是否继续支持 GPU 需求。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>客户 AI 云建设依赖重资本融资，利率上行会压制订单可持续性叙事。</li><li>NVIDIA 自身长期供应承诺、客户融资和数据中心交付风险仍是估值折扣来源。</li><li>Broadcom ASIC、Marvell custom silicon、AMD 和 hyperscaler 自研继续分流边际叙事。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm">NVIDIA 2026-09-03 Form 8-K</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle FY2027 Q1 Form 10-Q</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">Broadcom quarterly report for period ended August 2, 2026</a></li><li><a href="https://www.eia.gov/outlooks/steo/">Short-Term Energy Outlook - September 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold and real assets</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Buy only near support</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>判断：GLD 的中期对冲价值仍在，但 10Y TIPS 升至 2.60% 后不应追涨升 A。WGC 2026-09-09 披露全球黄金 ETF 8 月流入 180 亿美元，AUM 环比 +16% 至 6150 亿美元，持仓 +121 吨至 4,189 吨纪录高位；同页还显示数据截至 2026-09-11 的金价约 4,288.01 美元/盎司。资金流、财政/货币信用担忧和通胀扰动支持 GLD，但高实际利率意味着买点要看回撤和 FOMC 后利率确认。</p>
+              <p><strong>Why now:</strong> 黄金 ETF 流入是强一手支撑，但最新 H.15 的实际利率继续上行，风险调整后的动作只能是回撤买/对冲观察。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-15/16 FOMC 后实际利率是否回落。</li><li>9 月 WGC/ETF 周度数据是否显示机构资金继续流入。</li><li>美元和长端国债波动是否继续强化财政/货币信用对冲需求。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续上行会压制无息资产估值。</li><li>ETF 持仓和 COMEX 净多若拥挤，FOMC 后可能出现快速回撤。</li><li>若通胀回落且美元走强，GLD 的短期动量可能被反噬。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">Gold ETF Flows: August 2026</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates - September 14, 2026</a></li><li><a href="https://www.bls.gov/news.release/cpi.nr0.htm">BLS Consumer Price Index - August 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI data center connectivity</p>
+                  <h2>Marvell Technology <span>MRVL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>判断：MRVL 的本周催化清晰，但仍缺订单和财务量化。Marvell 2026-09-09 官方新闻稿确认将在 2026-09-15 至 17 日 AI Infra Summit 展示 AI 数据中心连接、交换和内存方案，包括 Photonic Fabric、RELIANT telemetry、102 Tbps Teralynx T100、PCIe 6.0 scale-up switching、CXL memory 和 AI storage。今天 AVGO 10-Q 也从侧面验证 AI networking/custom silicon 的需求强度，但这不是 MRVL 自身订单。</p>
+              <p><strong>Why now:</strong> 事件窗口从观察进入当周，但缺乏新的收入/订单证据；适合等峰会信息和回撤。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-15 至 17 日 Marvell AI Infra Summit 2026。</li><li>2026-10-06 Marvell Investor Day：若能给出 custom silicon、optical/networking 的量化路径，才有上调空间。</li><li>hyperscaler 对 AI networking、CXL、PCIe 6.0 和 optical interconnect 的采购节奏。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>峰会产品展示不是订单、收入或毛利率确认。</li><li>客户预算可能在 GPU、ASIC、networking 和自研方案之间再分配。</li><li>高实际利率压制缺乏即时自由现金流支撑的 AI 配套估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.marvell.com/news-events/press-releases/detail/1032/marvell-to-showcase-end-to-end-ai-data-center-connectivity-portfolio-at-ai-infra-summit-2026">Marvell to Showcase End-to-End AI Data Center Connectivity Portfolio at AI Infra Summit 2026</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm">Marvell FY2027 Q2 Form 10-Q</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">Broadcom quarterly report for period ended August 2, 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI accelerators challenger</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 70/100</p>
+              <div class="bar"><span class="fill" style="width:70%"></span></div>
+              <p>判断：AMD 维持 B- 观察。SEC 最新增量主要是 2026-09-14 Form 4，并不是订单或财务披露；9 月早些时候 AMD/HUMAIN/Cisco 的 AI 基础设施上线仍是核心需求锚，但今天没有新增可以上调的硬证据。AVGO 和 ORCL 的披露说明 AI capex 真实，但也显示客户和供应链竞争会更激烈。</p>
+              <p><strong>Why now:</strong> 没有新公司级订单/收入披露；用 AI 基建扩张作为观察逻辑，而不是在 FOMC 前追价。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>MI355X/后续 Instinct 平台客户部署进度。</li><li>hyperscaler 和主权 AI 客户是否给出更多 AMD 订单确认。</li><li>FOMC 后若实际利率回落，AMD 的弹性可能改善。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>NVIDIA 生态优势和 Broadcom custom ASIC 可能压制 AMD 加速器份额。</li><li>主权 AI 项目交付周期、地缘政治和供应链不确定性较高。</li><li>缺乏最新量化披露时，估值弹性容易被宏观利率主导。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://data.sec.gov/submissions/CIK0000002488.json">AMD 2026-09-14 Form 4 filing index</a></li><li><a href="https://ir.amd.com/news-events/ir-calendar">AMD Investor Relations calendar</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates - September 14, 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy and inflation hedge</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>判断：XLE 继续是 C 级宏观对冲观察，而不是明确加仓。EIA STEO 支持油价和馏分油偏紧：2026 年 Brent 均价 91 美元/桶、2H26 约 90 美元/桶，馏分油库存 9 月跌破 1 亿桶并在 2027 年大部分时间低于五年低位。但同一份 STEO 也预计美国天然气库存 2026-10-31 达 3,969 Bcf、较五年均值高 5%，说明能源内部不是全面短缺。</p>
+              <p><strong>Why now:</strong> 能源增量仍是官方预测和库存结构，不是油气股盈利/资本回报重新定价。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-16 EIA Weekly Petroleum Status Report。</li><li>2026-09-17 EIA Weekly Natural Gas Storage Report。</li><li>柴油裂解价差、Brent 现货和天然气库存是否继续分化。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>天然气库存偏高会压制综合能源叙事。</li><li>若中东出口约束缓解且库存重建，EIA 预计 2027 年 Brent 均价回落至 74 美元/桶。</li><li>高利率和经济放缓可能压制周期股估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/outlooks/steo/">Short-Term Energy Outlook - September 2026</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage Report</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
