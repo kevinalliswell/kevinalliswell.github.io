@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-09-18（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-09-18（监测版）</h1>
+      <p class="meta">2026-09-18 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-09-18 08:02（Asia/Shanghai），过去 24 小时的新增一手信号主要来自宏观与能源，而非新的公司财报级披露：DOL 2026-09-17 周度失业金显示初请降至 196,000，FRED/Fed H.15 最新 2026-09-16 列显示 10Y TIPS 升至 2.68%，EIA WNGSR 显示截至 2026-09-11 天然气库存增加 44 Bcf 至 3,298 Bcf、高于五年均值 3.7%。这组合意味着 AI 基建需求仍强，但折现率和融资成本压力没有缓和；黄金 ETF 需求仍强却被实际利率压制；能源内部继续分化，油强而天然气宽松。NVIDIA 9 月 16 日披露 MLPerf/AI 电力效率与 AEMA 联盟，增强“电力成为 AI 约束”的主题确认，但不是订单或收入披露，因此不把 NVDA 或电力链标的升到 A。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>FOMC 加息后高实际利率延续，AI 电力约束更清晰，能源与黄金保留对冲属性但不追价</strong></p>
+      <ul><li>DOL 2026-09-17 Unemployment Insurance Weekly Claims 显示，截至 2026-09-12 的季调初请失业金为 196,000，较前周未修正值 206,000 下降 10,000；四周均值 203,250，下降 2,750；截至 2026-09-05 的季调续请为 1,730,000，下降 39,000。劳动力市场短线仍未显著转弱，支持 FOMC 后“利率更高更久”的风险。</li><li>FRED 分发的 Fed H.15 官方序列显示，2026-09-16：2Y 4.74%，10Y 名义 5.01%，30Y 5.35%，10Y TIPS 2.68%，30Y TIPS 3.09%。相较 2026-09-15，2Y +7bp、10Y TIPS +6bp，高实际利率继续压制 AI 久期、数据中心融资和黄金追价。</li><li>EIA WNGSR 2026-09-17 显示，截至 2026-09-11，美国工作气库存总量 3,298 Bcf，周增 44 Bcf；库存较去年低 3.6%，但较五年均值高 3.7%。天然气供应缓冲仍在，XLE 的能源逻辑更偏油价和馏分油，而不是天然气全面短缺。</li><li>NVIDIA 2026-09-16 公布 Vera Rubin NVL72 MLPerf Inference v6.1 preview、GB300 NVL72 99% scaling efficiency，并和 Emerald AI、Google 推出 AI Energy Management Alliance。判断：这是 AI 电力效率/并网约束的主题确认，利好 NVDA 与电力链叙事，但不是短期财务确认。</li><li>SEC submissions 扫描显示：AVGO、NVDA、AMD、MSFT、META 在 2026-09-17 的新增项主要是 Form 4/144；MRVL 有 2026-09-17 Microsoft/Utimaco/Azure Payment HSM v2 合作公告，但偏支付安全云服务，不是 AI 数据中心订单；未发现强于 ORCL 9 月 10-Q/8-K 和 AVGO 9 月 10-Q/S-4 的公司级新增披露。</li><li>WGC 最新核心黄金 ETF 月度信号仍是 2026-09-09 发布的 August 2026：全球黄金 ETF 净流入 180 亿美元，AUM 环比 +16% 至 6150 亿美元，持仓 +121 吨至 4,189 吨纪录高位；LBMA 最新伦敦金库数据仍为 2026 年 8 月底黄金 9,632 吨、环比 +1.03%。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Initial jobless claims</td>
+          <td>DOL UI</td>
+          <td>196,000 for week ending 2026-09-12</td>
+          <td></td>
+          <td><a href="https://www.dol.gov/ui/data.pdf">source</a></td>
+        </tr>
+
+        <tr>
+          <td>10Y Treasury yield</td>
+          <td>Fed H.15 / FRED</td>
+          <td>5.01% on 2026-09-16</td>
+          <td></td>
+          <td><a href="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10">source</a></td>
+        </tr>
+
+        <tr>
+          <td>10Y TIPS yield</td>
+          <td>Fed H.15 / FRED</td>
+          <td>2.68% on 2026-09-16</td>
+          <td></td>
+          <td><a href="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Lower 48 working gas storage</td>
+          <td>EIA WNGSR</td>
+          <td>3,298 Bcf as of 2026-09-11; +44 Bcf WoW</td>
+          <td></td>
+          <td><a href="https://ir.eia.gov/ngs/wngsr.txt">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Global gold ETF holdings</td>
+          <td>WGC</td>
+          <td>4,189t, +121t MoM in Aug 2026</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">source</a></td>
+        </tr>
+
+        <tr>
+          <td>NVIDIA Vera Rubin MLPerf preview</td>
+          <td>NVDA</td>
+          <td>Up to 3.7x throughput vs GB300 NVL72 in preview</td>
+          <td></td>
+          <td><a href="https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI cloud infrastructure</p>
+                  <h2>Oracle <span>ORCL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Watch financing risk</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：ORCL 仍是 AI 云需求确认度最高的标的之一，但今天新增信息继续把焦点推向融资能力，而不是追 RPO headline。Oracle FY2027 Q1 10-Q 的 RPO 6640 亿美元、约 13% 预计 12 个月内确认，继续证明订单池很硬；同一文件也显示 FY2027 Q1 capex 284.99 亿美元、自由现金流 -53.96 亿美元、非流动 notes/borrowings 1177.12 亿美元和经营租赁负债 346.21 亿美元。10Y TIPS 升到 2.68% 后，这个故事更需要等待现金回报和融资成本验证。</p>
+              <p><strong>Why now:</strong> 2026-09-17/18 的新增宏观数据是失业金下降与实际利率继续上行，而不是 ORCL 自身新订单。ORCL 仍排第一，但分数从昨天小幅下调，策略是小仓试探或等融资风险更清楚。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>FY2027 Q2 云收入、capex、自由现金流、债务和租赁负债更新。</li><li>后续 AI 云合同的预付款、交付节奏、客户集中度披露。</li><li>2026-10-28 FOMC 与后续通胀/利率数据是否缓解数据中心融资成本。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高 RPO 与高 capex 同时存在，自由现金流为负。</li><li>10Y TIPS 2.68% 抬高数据中心融资成本和成长股折现率。</li><li>GPU、电力、并网和数据中心施工瓶颈可能拖慢合同转收入。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm">Oracle FY2027 Q1 Form 10-Q</a></li><li><a href="https://data.sec.gov/submissions/CIK0001341439.json">Oracle SEC submissions</a></li><li><a href="https://www.dol.gov/ui/data.pdf">DOL UI Weekly Claims - September 17, 2026</a></li><li><a href="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10">FRED/Fed H.15 10-Year TIPS Yield</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI semiconductors and networking</p>
+                  <h2>Broadcom <span>AVGO</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：AVGO 的 AI accelerator/networking 证据仍是硬证据，但 2026-09-17 的新增 SEC 项主要是 Form 4，不是新 8-K 或订单。2026-09-10 10-Q 仍是核心锚点：截至 2026-08-02 季度总收入 295.91 亿美元、同比 +86%，半导体解决方案收入 208.39 亿美元、同比 +127%，增长主要由 custom AI accelerators 与 AI networking 产品带动；半导体客户 RPO 约 1792 亿美元，约 25% 预计未来 12 个月确认。</p>
+              <p><strong>Why now:</strong> AVGO 仍有比大多数 AI 叙事更硬的收入/RPO证据，但 10Y TIPS 上行、客户集中度和高预期使它维持 B，而不是升级 A。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次财报验证 AI accelerator/networking 和 VMware 现金流是否继续同向。</li><li>RPO 转收入节奏，尤其一年内确认部分的兑现质量。</li><li>若实际利率回落，硬订单属性可能优先获得重估。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>单一半导体分销客户占季度净收入 50%，前五大终端客户约占 55%。</li><li>客户 AI capex 若推迟，custom AI accelerator 订单波动会被放大。</li><li>VMware 后债务结构和整合风险仍需跟踪。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm">Broadcom quarterly report for period ended August 2, 2026</a></li><li><a href="https://data.sec.gov/submissions/CIK0001730168.json">Broadcom SEC submissions</a></li><li><a href="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10">FRED/Fed H.15 10-Year Treasury Yield</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI accelerators, networking and AI factory efficiency</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>判断：NVDA 今天的增量是主题质量更强，而不是财务披露更硬。NVIDIA 2026-09-16 披露 Vera Rubin NVL72 在 MLPerf Inference v6.1 preview 中相对 GB300 NVL72 最高 3.7 倍吞吐，GB300 NVL72 四机架 288 GPU 提交达到 99% scaling efficiency，并强调 AI 基础设施评价正在从峰值性能转向 tokens per megawatt。AEMA 联盟也把电力/并网从隐性约束变成显性产业议题。</p>
+              <p><strong>Why now:</strong> 电力约束、推理经济性和 tokens per megawatt 的证据增强了 NVDA 的长期护城河，但 SEC 最新新增主要是 Form 144，且实际利率升至 2.68%，所以只把分数小幅上调到与 ORCL/AVGO接近，不升 A。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>后续客户 capex、AI factory、NVL72/GB300/Vera Rubin 订单和供给节奏披露。</li><li>MLPerf/MLCommons 与客户生产环境验证是否转化为更高单机架经济性。</li><li>AEMA 或类似并网机制是否缩短 AI 数据中心接入周期。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>NVIDIA 博客属于公司披露，需等待客户采购、收入确认或第三方财务数据验证。</li><li>高实际利率和客户融资成本可能压缩 AI capex 预期。</li><li>ASIC、AMD 和 hyperscaler 自研继续稀释部分增量预期。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/">NVIDIA Vera Rubin NVL72 MLPerf Inference v6.1 blog</a></li><li><a href="https://blogs.nvidia.com/blog/ai-energy-management-alliance/">Emerald AI, Google and NVIDIA launch AI Energy Management Alliance</a></li><li><a href="https://data.sec.gov/submissions/CIK0001045810.json">NVIDIA SEC submissions</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold and real assets</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Buy only near support</span>
+                </div>
+              </header>
+              <p class="score-line">Score 71/100</p>
+              <div class="bar"><span class="fill" style="width:71%"></span></div>
+              <p>判断：黄金的结构性需求证据仍好，但今天的实际利率增量是负面。WGC 8 月黄金 ETF 月报显示全球黄金 ETF 净流入 180 亿美元，AUM 环比 +16% 至 6150 亿美元，持仓 +121 吨至 4,189 吨纪录高位；LBMA 8 月伦敦金库黄金 9,632 吨、环比 +1.03%。但 10Y TIPS 2.68% 表明持有非生息资产的机会成本继续上升。</p>
+              <p><strong>Why now:</strong> 失业金下降和高实际利率使黄金更像保险仓位或回撤买入，而不是趋势追涨。维持 B，但分数低于昨天。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次 WGC ETF flow 与央行购金数据。</li><li>2026-09-30 BEA August PCE 是否让实际利率压力缓和。</li><li>若 10Y TIPS 从高位回落，GLD 的 ETF 流入信号更容易被市场重估。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续上行会压制无息资产估值。</li><li>ETF 持仓已创新高，短线拥挤度和获利了结风险上升。</li><li>美元走强会抵消部分避险需求。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows">ETF Flows Commentary - August 2026</a></li><li><a href="https://www.lbma.org.uk/prices-and-data/london-vault-data">London Vault Data for August 2026</a></li><li><a href="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10">FRED/Fed H.15 10-Year TIPS Yield</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI data center connectivity and security silicon</p>
+                  <h2>Marvell Technology <span>MRVL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 71/100</p>
+              <div class="bar"><span class="fill" style="width:71%"></span></div>
+              <p>判断：MRVL 有新增合作披露，但它更偏云支付安全服务，不是 AI 数据中心订单。2026-09-17 Marvell、Microsoft、Utimaco 公布 Azure Payment HSM v2，结合 Marvell LiquidSecurity HSM、Utimaco Atalla Payments Module 和 Microsoft Azure，2026-09-17 起在美国西部和西欧 public preview。它证明 Marvell 在云端安全硬件模块仍有客户合作，但对 AI connectivity 收入的直接读数有限。</p>
+              <p><strong>Why now:</strong> 新增公告提升 Marvell 云基础设施合作能见度；同时 9 月 9 日 AI Infra Summit connectivity portfolio 仍是 AI 相关催化。但缺少订单金额/收入节奏，不能越过 ORCL/AVGO/NVDA。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-06 Marvell Investor Day 是否给出 AI connectivity、custom silicon 或 security silicon 的收入路径。</li><li>Azure Payment HSM v2 public preview 后续区域扩展和商业化更新。</li><li>客户订单、交换芯片/光互连和定制芯片披露。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>新增公告没有披露收入、订单或毛利率影响。</li><li>AI connectivity 竞争强，客户自研和 Broadcom/NVIDIA 生态挤压仍在。</li><li>高实际利率降低小中盘成长硬件股估值容忍度。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.marvell.com/news-events/press-releases/detail/1033/microsoft-marvell-and-utimaco-to-deliver-industry-first-secure-cloud-scale-payments-solution">Microsoft, Marvell and Utimaco to deliver Azure Payment HSM v2</a></li><li><a href="https://investor.marvell.com/news-events/press-releases/detail/1032/marvell-to-showcase-end-to-end-ai-data-center-connectivity-portfolio-at-ai-infra-summit-2026">Marvell to showcase end-to-end AI data center connectivity portfolio at AI Infra Summit 2026</a></li><li><a href="https://data.sec.gov/submissions/CIK0001835632.json">Marvell SEC submissions</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI accelerator challenger</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 70/100</p>
+              <div class="bar"><span class="fill" style="width:70%"></span></div>
+              <p>判断：AMD 的中长期 AI accelerator 替代逻辑仍在，但 2026-09-17 的新增 SEC 项为 Form 4，AMD IR 最新核心新闻仍是 2026-08-31 AMD/Cisco/HUMAIN 沙特 AI infrastructure go-live。没有新的订单金额、云客户部署量或财务披露时，AMD 不能排在具备更硬 RPO/收入证据的 ORCL、AVGO、NVDA 前面。</p>
+              <p><strong>Why now:</strong> NVIDIA 的 MLPerf/推理效率披露反而提高了 AMD 作为挑战者的验证门槛；AMD 需要下一轮客户部署或财务指引来证明份额扩张。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次财报的数据中心 GPU 收入、毛利率和客户集中度。</li><li>MI450/Instinct 相关客户部署、Anthropic/Microsoft/HUMAIN 类合作的交付更新。</li><li>如果客户明确追求第二供应商，AMD 有相对收益空间。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>NVDA 生态和软件优化速度仍是高门槛。</li><li>若 AI capex 被利率或电力约束拖慢，挑战者订单更容易被推迟。</li><li>缺少新的 8-K/10-Q 量化披露。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.amd.com/news-events/press-releases">AMD press releases</a></li><li><a href="https://data.sec.gov/submissions/CIK0000002488.json">AMD SEC submissions</a></li><li><a href="https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/">NVIDIA Vera Rubin NVL72 MLPerf Inference v6.1 blog</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy equities and inflation hedge</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>判断：XLE 仍是宏观对冲观察，而不是干净进攻。昨天 WPSR 给出油价和馏分油偏紧信号，但今天 WNGSR 更新显示天然气库存 3,298 Bcf，周增 44 Bcf，且高于五年均值 3.7%。这使能源内部继续分化：油和馏分油强，天然气供应缓冲仍在。</p>
+              <p><strong>Why now:</strong> EIA 天然气库存更新削弱“能源全面短缺”的简单叙事；XLE 仍可作为油价/通胀对冲，但缺乏升级 B 的一致性。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-09-23 EIA WPSR 是否继续显示原油/馏分油紧张。</li><li>OPEC/IEA/EIA 后续月报是否确认库存去化和需求韧性。</li><li>若天然气库存相对五年均值收窄，能源链评分可重新评估。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>天然气库存高于五年均值，供应缓冲仍在。</li><li>油价高位若压制需求，能源股进攻性会下降。</li><li>FOMC 后高利率环境可能压制周期股估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/ngs/wngsr.txt">EIA Weekly Natural Gas Storage Report text</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/">EIA Weekly Petroleum Status Report</a></li><li><a href="https://www.dol.gov/ui/data.pdf">DOL UI Weekly Claims - September 17, 2026</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
