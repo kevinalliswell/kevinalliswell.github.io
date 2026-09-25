@@ -1,0 +1,451 @@
+{
+  "date": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-09-25（监测版）",
+  "summary": "过去 72 小时出现了两个值得写进排序的增量：ABB 在 2026-09-23 发布 AI 数据中心 source-to-rack DC 供电组合，Marvell 在 2026-09-20/21 披露 ECOC 2026 的 2nm 光互连演示；但 2026-09-24 Fed H.15 显示 10Y 名义利率升至 5.11%、10Y TIPS 升至 2.76%，对 AI 长久期估值和黄金追涨都形成硬约束。能源端，EIA 2026-09-23/24 数据显示原油商业库存回升、馏分油仍低、天然气库存高于五年均值，维持分化判断。结论：把 AI 电力/互连链条放到更靠前观察位，但所有新增暴露仍以回撤买入或小仓试探为主。",
+  "macro": {
+    "regime": "AI 供给链有产品进展，但高实际利率压制追涨",
+    "bullets": [
+      "Federal Reserve H.15 于 2026-09-24 发布的表格显示，2026-09-24 美国 10Y 名义收益率为 5.11%，10Y TIPS 为 2.76%，30Y TIPS 为 3.14%；这比 2026-09-21/22 附近明显更紧，对高估值 AI 和黄金都不是友好贴现率。",
+      "DOL 2026-09-24 UI Claims 显示，截至 2026-09-19 当周初请失业金 197,000，较修正后的前值少 1,000，四周均值 202,250；劳动力市场尚未给出快速降息交易的确认。",
+      "EIA WPSR 的 2026-09-18 周数据：商业原油库存 426.4 百万桶，周增 3.0 百万桶；馏分油库存 107.4 百万桶，周降 0.4 百万桶且同比低 12.7%；能源链条仍是产品端偏紧、原油端不单边紧。",
+      "EIA WNGSR 2026-09-24 发布的截至 2026-09-18 工作气库存为 3,351 Bcf，周增 53 Bcf，高于五年均值 95 Bcf；这继续削弱天然气上游的全板块加仓逻辑。",
+      "BEA 当前页面显示 Q2 2026 GDP 第二次估计为 +1.5%，个人消费/PCE 的下一次 August 2026 更新在 2026-09-30；Census 耐用品订单在 2026-09-25 08:30 ET 发布，属于当天稍后的监测项。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "US 10Y Treasury",
+      "ticker": "DGS10",
+      "price": "5.11%",
+      "change_pct": 0.15,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "US 10Y TIPS",
+      "ticker": "DFII10",
+      "price": "2.76%",
+      "change_pct": 0.13,
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "Commercial crude stocks",
+      "ticker": "EIA WPSR",
+      "price": "426.4 million bbl",
+      "change_pct": 0.7,
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf"
+    },
+    {
+      "name": "Working gas storage",
+      "ticker": "EIA WNGSR",
+      "price": "3,351 Bcf",
+      "change_pct": 1.6,
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "name": "London vault gold",
+      "ticker": "LBMA",
+      "price": "9,632 tonnes",
+      "change_pct": 1.03,
+      "source_url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI power infrastructure",
+      "asset": "ABB Ltd ADR",
+      "ticker": "ABB",
+      "region": "US/Switzerland",
+      "grade": "B",
+      "action": "Pilot position / Buy on weakness",
+      "score": 78,
+      "thesis": "ABB 的 Infinitus DC 组合把 AI 数据中心从芯片算力问题延伸到供电架构问题，且产品明确覆盖 source-to-rack、固态变压器、DC 配电和保护。它不是短期订单披露，但比单纯概念更靠近可销售产品，适合作为 AI 电力瓶颈的低 beta 观察仓。",
+      "why_now": "ABB 在 2026-09-23 发布 Infinitus，并称 IEA 预计全球数据中心用电到 2030 年超过翻倍，ABB 估计 2030 年新增容量中约 25%-40% 可能使用 DC distribution；下一步要看 2026-10-16 ABB Q3 订单和 Electrification 业务口径是否验证。",
+      "catalysts": [
+        "2026-10-16 ABB Q3 2026 results：关注 Electrification 订单、margin 和 data center 相关表述。",
+        "AI 机柜功率从约 200 kW 走向 1 MW+ 的架构升级若被更多客户确认，将提高 DC 供电链条的可见度。",
+        "与 NVIDIA 800V DC 架构合作若出现客户/项目披露，将把主题从产品发布推进到收入证据。"
+      ],
+      "risks": [
+        "2026-09-23 发布是产品/架构信号，不是订单金额或收入指引，短期财务贡献不可外推。",
+        "高利率会压制资本开支折现和工业股估值倍数。",
+        "数据中心 DC 架构切换速度存在标准化、客户验证和安全认证不确定性。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "ABB Infinitus DC portfolio for AI data centers",
+          "publisher": "ABB News Center",
+          "url": "https://new.abb.com/news/detail/139013/abbs-new-direct-current-portfolio-aims-to-rewire-ai-data-center-energy-infrastructure"
+        },
+        {
+          "title": "ABB Q2 2026 results and calendar",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors"
+        }
+      ]
+    },
+    {
+      "theme": "AI optical connectivity",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely / Pilot only after pullback",
+      "score": 76,
+      "thesis": "Marvell 的 2nm optical PAM4、800G ZR/ZR+ with MACsec、1.6T ZR/coherent-lite 和 102.4T CPO 演示强化了 AI scale-up/scale-out 网络瓶颈逻辑。产品路线强，但这仍是技术展示，缺少客户订单、ASP 或毛利率量化，不能升到 A。",
+      "why_now": "Marvell 在 2026-09-20/21 披露 ECOC 2026 展示 38 项 advanced technology demos，时间窗口覆盖 2026-09-20 至 2026-09-24；同时 2026-10-06 Investor Day 将给出更关键的中长期 AI 收入路径。",
+      "catalysts": [
+        "2026-10-06 Marvell Investor Day 2026：等待 AI data center revenue、custom silicon、optics 和 margin bridge 的量化。",
+        "ECOC 2026 技术展示若跟随客户/生态伙伴公告，可改善收入可见度。",
+        "下一财报验证 data center 增速是否延续并转化为盈利质量。"
+      ],
+      "risks": [
+        "技术领先不等于订单转化；本次公告不是 backlog 或财务指引。",
+        "客户集中和 hyperscaler 设计周期可能放大业绩波动。",
+        "高估值半导体在 10Y TIPS 2.76% 环境下不宜追高。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Marvell 2nm optical technology demos at ECOC 2026",
+          "publisher": "Marvell Newsroom",
+          "url": "https://www.marvell.com/company/newsroom/marvell-industry-first-2nm-optical-technology-ai-data-center-infrastructure-ecoc-2026.html"
+        },
+        {
+          "title": "Marvell Investor Day 2026 calendar",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/ir-calendar"
+        }
+      ]
+    },
+    {
+      "theme": "AI cloud infrastructure",
+      "asset": "Oracle",
+      "ticker": "ORCL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position / Watch financing risk",
+      "score": 74,
+      "thesis": "Oracle 仍是 AI cloud backlog 的高弹性标的，但 2026-09-22/23 新增 SEC 文件主要是 Form 144/Form 4，没有新的经营披露。上一轮 10-Q 已显示 capex 和融资压力，因此本轮在高利率环境下继续用小仓而非追高处理。",
+      "why_now": "SEC recent submissions 显示 ORCL 在 2026-09-22 有 Form 144、2026-09-23 有多份 Form 4；最新核心经营锚仍是 2026-09-10 8-K 和 2026-09-11 10-Q。",
+      "catalysts": [
+        "后续客户/合同披露若能把 RPO 转成 near-term revenue，会提升评分。",
+        "下一季 OCI revenue、capex 和 free cash flow 的组合决定是否能升到 A。",
+        "融资成本或 equity issuance 放缓是解除估值折价的重要条件。"
+      ],
+      "risks": [
+        "AI cloud 增长高度资本密集，高实际利率抬高融资/折现压力。",
+        "Form 4/144 不提供新经营信息，不能当成基本面催化。",
+        "若订单集中在少数客户，履约、定价和信用风险会被放大。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Oracle recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001341439.json"
+        },
+        {
+          "title": "Oracle FY2027 Q1 Form 10-Q",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+        },
+        {
+          "title": "Oracle Q1 FY2027 results 8-K exhibit",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI accelerators and networking",
+      "asset": "Broadcom",
+      "ticker": "AVGO",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness / Do not chase",
+      "score": 73,
+      "thesis": "Broadcom 的 AI semiconductor/custom accelerator 结构性质量仍高，但 2026-09-18 424B3 是 senior notes exchange prospectus，2026-09-23 新增为 Form 144，不是新增 AI 订单。高利率跳升后，等待回撤比追价更优。",
+      "why_now": "SEC recent submissions 显示 AVGO 在 2026-09-23 有三份 Form 144，最新经营锚仍是 2026-09-10 10-Q 与 2026-09-02 8-K；没有新的客户订单或财务指引。",
+      "catalysts": [
+        "下一季 AI semiconductor revenue guidance 和 backlog 口径。",
+        "大客户 custom silicon 设计胜出或量产节点披露。",
+        "VMware/software margin 与 AI 半导体增长同时兑现。"
+      ],
+      "risks": [
+        "近期文件主要是注册/持股披露，基本面增量有限。",
+        "AI custom silicon 订单集中度和客户议价权高。",
+        "10Y 名义收益率 5.11% 会压缩高估值科技股容错率。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 17,
+        "valuation_setup": 12,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Broadcom recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001730168.json"
+        },
+        {
+          "title": "Broadcom 424B3 prospectus",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm"
+        },
+        {
+          "title": "Broadcom FY2026 Q3 Form 10-Q",
+          "publisher": "SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+        }
+      ]
+    },
+    {
+      "theme": "AI accelerator platform",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness",
+      "score": 72,
+      "thesis": "NVIDIA 仍是 AI 基础设施质量最高的核心资产；Vera Rubin NVL72 的 MLPerf Inference v6.1 预览强化了 tokens-per-watt 与平台效率逻辑。但 2026-09-22/23 新增 SEC 文件仍主要是 Form 4/144，没有新的经营披露，且利率上行压低追高性价比。",
+      "why_now": "NVIDIA 2026-09-16 披露 Vera Rubin NVL72 在 Qwen3-VL 上最高 3.7x GB300 NVL72 throughput、DeepSeek-R1 最高 2.5x；截至本轮，2026-09-22/23 SEC recent submissions 未见新的 8-K/10-Q 经营文件。",
+      "catalysts": [
+        "下一次财报验证 Vera Rubin/GB 系列订单、供应链和毛利。",
+        "AI Energy Management Alliance 或 800V DC 生态若出现客户项目，利好 NVIDIA 生态粘性。",
+        "MLPerf 后续正式结果与客户部署案例。"
+      ],
+      "risks": [
+        "产品性能新闻不是新增收入确认。",
+        "出口管制、客户集中和供应链约束仍是核心风险。",
+        "实际利率上行会压缩高质量成长股估值。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 10,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Vera Rubin NVL72 MLPerf Inference v6.1",
+          "publisher": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
+        },
+        {
+          "title": "NVIDIA recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch / Buy only near support",
+      "score": 69,
+      "thesis": "黄金的结构性保险逻辑仍在，WGC 2026-09-21 周报称黄金上涨更像跨参与者的 broad-based structural conviction，LBMA end-August vault gold 9,632 tonnes 且月增 1.03%。但 10Y TIPS 在 2026-09-24 升至 2.76%，足以把 GLD 从 B 边缘压回 C+：保留保险仓，不追涨。",
+      "why_now": "2026-09-24 的实际利率跳升是本轮信号里的最大逆风；同时 WGC/LBMA 的实物流和 ETF 需求仍提供底层支撑。",
+      "catalysts": [
+        "2026-09-30 BEA PCE 和后续通胀数据若强化实际利率见顶，GLD 可重新上调至 B。",
+        "WGC 下一次 ETF flow 月报和 LBMA September vault data。",
+        "地缘冲突或美元信用冲击导致避险需求扩大。"
+      ],
+      "risks": [
+        "10Y TIPS 2.76% 与美元走强可能继续压制黄金。",
+        "ETF/期货拥挤交易若逆转，GLD 回撤会很快。",
+        "黄金没有现金流，估值锚主要依赖宏观和资金流。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Weekly Markets Monitor - All together now",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/09/weekly-markets-monitor-all-together-now"
+        },
+        {
+          "title": "Gold ETF Commentary",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/etf-flows"
+        },
+        {
+          "title": "London Vault Data",
+          "publisher": "LBMA",
+          "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+        },
+        {
+          "title": "Federal Reserve H.15",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy and refined products",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch",
+      "score": 64,
+      "thesis": "能源链条继续分化：EIA 2026-09-18 周数据显示馏分油库存同比低 12.7%，但商业原油库存周增 3.0 百万桶、天然气库存高于五年均值 95 Bcf。XLE 可作为通胀/油价风险对冲，但缺少全链条同步紧缺的 A/B 级信号。",
+      "why_now": "2026-09-23 WPSR 与 2026-09-24 WNGSR 都已更新；数据给出的是 refined-products tightness + natural gas cushion，而不是广谱能源短缺。",
+      "catalysts": [
+        "2026-09-30 EIA 下一次 WPSR：关注馏分油是否继续去库。",
+        "2026-10-01 EIA 下一次 WNGSR：若 South Central salt storage 继续弱于五年均值，天然气风险溢价可能回升。",
+        "中东供应扰动或冬季取暖需求预期变化。"
+      ],
+      "risks": [
+        "商业原油库存回升削弱短线油价弹性。",
+        "天然气总库存高于五年均值，不支持全面加仓上游。",
+        "高利率环境会压制周期股估值和需求预期。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report table 1",
+          "publisher": "U.S. EIA",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report",
+          "publisher": "U.S. EIA",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro calendar",
+      "asset": "BEA PCE / GDP annual update",
+      "ticker": "PCE",
+      "note": "2026-09-30 08:30 ET 是下一次关键通胀和收入锚。"
+    },
+    {
+      "theme": "AI connectivity",
+      "asset": "Marvell Investor Day",
+      "ticker": "MRVL",
+      "note": "2026-10-06 等待 AI optics/custom silicon 长期目标。"
+    },
+    {
+      "theme": "AI power chain",
+      "asset": "ABB Q3 2026",
+      "ticker": "ABB",
+      "note": "2026-10-16 看 data center 订单是否跟上 Infinitus 叙事。"
+    },
+    {
+      "theme": "Robotics",
+      "asset": "BOTZ / TER / FANUC / ABB robotics",
+      "ticker": "BOTZ",
+      "note": "本轮无新一手订单强信号，继续等工业订单周期确认。"
+    },
+    {
+      "theme": "Uranium and nuclear power",
+      "asset": "URA / uranium miners",
+      "ticker": "URA",
+      "note": "本轮无新 EIA/公司级增量，维持观察。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 - 2026-09-24",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "DOL UI Weekly Claims - 2026-09-24",
+      "url": "https://www.dol.gov/ui/data.pdf"
+    },
+    {
+      "label": "EIA WPSR table 1 - week ending 2026-09-18",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf"
+    },
+    {
+      "label": "EIA WNGSR - released 2026-09-24",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "ABB Infinitus DC data center portfolio - 2026-09-23",
+      "url": "https://new.abb.com/news/detail/139013/abbs-new-direct-current-portfolio-aims-to-rewire-ai-data-center-energy-infrastructure"
+    },
+    {
+      "label": "Marvell 2nm optical demos at ECOC 2026",
+      "url": "https://www.marvell.com/company/newsroom/marvell-industry-first-2nm-optical-technology-ai-data-center-infrastructure-ecoc-2026.html"
+    },
+    {
+      "label": "SEC Oracle submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001341439.json"
+    },
+    {
+      "label": "SEC Broadcom submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json"
+    },
+    {
+      "label": "SEC NVIDIA submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+    },
+    {
+      "label": "World Gold Council Weekly Markets Monitor - 2026-09-21",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/09/weekly-markets-monitor-all-together-now"
+    },
+    {
+      "label": "LBMA London Vault Data - August 2026",
+      "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data"
+    },
+    {
+      "label": "BEA GDP current page",
+      "url": "https://bea.gov/data/gdp/gross-domestic-product"
+    },
+    {
+      "label": "Census economic indicator calendar",
+      "url": "https://www.census.gov/economic-indicators/calendar-listview.html"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
