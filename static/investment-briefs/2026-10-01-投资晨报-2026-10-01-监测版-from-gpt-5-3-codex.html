@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-10-01（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-10-01（监测版）</h1>
+      <p class="meta">2026-10-01 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>本轮主要增量来自 2026-09-30 BEA 年度更新与 8 月 PCE、EIA 周度石油库存，而不是新的 AI 公司级订单披露。美国 Q2 实际 GDP 第三估计上修至 2.2%，8 月名义 PCE 环比 0.9%、实际 PCE 环比 0.6%、PCE 通胀同比 3.4%，同时 Fed H.15 显示 2026-09-29 10Y TIPS 仍在 2.91%。结论：AI 算力链长期主线仍强，但利率与估值纪律更重要；能源产品库存偏紧给 XLE 边际支撑；黄金继续是保险仓而非追涨仓。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>增长上修、通胀粘性、实际利率高位：风险资产不追价，等待回调确认</strong></p>
+      <ul><li>BEA 2026-09-30 发布 Q2 2026 GDP 第三估计：实际 GDP 年化增长 2.2%，较第二估计上修 0.7 个百分点；Q1 2026 实际 GDP 修订为 2.5%。</li><li>同一 BEA GDP 发布显示，Q2 实际最终销售给私人国内购买者增长 4.6%，实际 GDI 增长 2.6%，企业利润按当前生产口径增加 3840 亿美元；这说明基本面不弱，但也降低了快速宽松的确定性。</li><li>BEA 2026-09-30 个人收入与支出发布显示，8 月个人收入 +666 亿美元（+0.2% m/m）、DPI +686 亿美元（+0.3%）、名义 PCE +1908 亿美元（+0.9%）、实际 PCE +0.6%；PCE 价格指数 +0.3% m/m、核心 +0.2%，同比 PCE +3.4%、核心 +3.0%。</li><li>Federal Reserve H.15 2026-09-30 发布显示，2026-09-29 10Y 名义 Treasury 5.26%、30Y 5.59%、10Y TIPS 2.91%、30Y TIPS 3.29%，高实际利率继续压制高久期估值和黄金追涨胜率。</li><li>EIA WPSR 2026-09-30 显示，截至 2026-09-25 美国商业原油库存 427.320 百万桶，周增 0.922 百万桶；汽油库存 204.362 百万桶，周降 1.683 百万桶，同比低 7.4%；馏分油库存 105.180 百万桶，周降 2.251 百万桶，同比低 14.9%。</li><li>EIA WNGSR 最新仍为 2026-09-24 发布、截至 2026-09-18 的 Lower 48 working gas 3,351 Bcf，周增 53 Bcf，比五年均值高 95 Bcf；下一次释放在 2026-10-01 10:30 ET，当前天然气端仍不是紧缺确认。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10Y Treasury nominal yield</td>
+          <td>UST10Y</td>
+          <td>5.26%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>10Y TIPS real yield</td>
+          <td>UST10Y_REAL</td>
+          <td>2.91%</td>
+          <td>+0.00%</td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Q2 2026 real GDP third estimate</td>
+          <td>US_GDP</td>
+          <td>+2.2% SAAR</td>
+          <td>+0.70%</td>
+          <td><a href="https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd">source</a></td>
+        </tr>
+
+        <tr>
+          <td>August 2026 PCE price index</td>
+          <td>US_PCE</td>
+          <td>+3.4% YoY</td>
+          <td>+0.30%</td>
+          <td><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Commercial crude oil stocks</td>
+          <td>EIA_WPSR</td>
+          <td>427.320 million bbl</td>
+          <td>+0.20%</td>
+          <td><a href="https://ir.eia.gov/wpsr/table1.csv">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness / Do not chase</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>NVIDIA 仍是 AI 训练与推理资本开支的最高质量杠杆之一，但今天新增的宏观证据并不是估值扩张信号。BEA 上修 GDP 和 8 月 PCE 偏强说明需求仍韧，Fed H.15 的 10Y TIPS 2.91% 则继续提高高久期成长股的折现率门槛。没有新的 NVDA 经营性 8-K 或 10-Q，现阶段应把它当作核心观察标的，等待回调或下一个订单/业绩确认。</p>
+              <p><strong>Why now:</strong> 2026-09-30 BEA 数据把美国增长与消费动能向上修正，但 2026-09-29 10Y TIPS 仍在 2.91%；SEC 最新 NVDA 条目截至本轮仍主要是 Form 4/Form 144，不构成新经营催化。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一份 NVIDIA 季度业绩、数据中心收入、毛利率和供应约束更新。</li><li>2026-10-27/28 FOMC 对实际利率路径的再定价。</li><li>下游 hyperscaler capex 指引、网络/电力瓶颈缓解与 Blackwell/后续平台供给节奏。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>10Y TIPS 长时间维持接近 3%，估值倍数可能继续受压。</li><li>AI 资本开支若由订单转为融资压力，供应链收入预期可能下修。</li><li>出口管制、客户集中、先进封装/电力瓶颈仍是 thesis breaker。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates, release date September 30, 2026</a></li><li><a href="https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd">GDP third estimate, Q2 2026</a></li><li><a href="https://data.sec.gov/submissions/CIK0001045810.json">NVIDIA recent SEC submissions</a></li><li><a href="https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf">NVIDIA FY2027 Q2 Form 10-Q</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI networking and custom silicon</p>
+                  <h2>Marvell Technology <span>MRVL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 73/100</p>
+              <div class="bar"><span class="fill" style="width:73%"></span></div>
+              <p>Marvell 的 AI 网络、光互连和定制硅逻辑仍然清晰，且 2026-10-06 Investor Day 是未来一周最明确的单公司催化。今天没有新的经营性 SEC 披露，9 月 25 日 8-K 主要是季度股息；因此评级仍为 B，重点是等 Investor Day 是否给出更硬的长期收入、利润率和客户项目可见度。</p>
+              <p><strong>Why now:</strong> Marvell 官方 IR 日历显示 2026-10-06 将在纽约举行 Investor Day；2026-09-30 宏观数据抬高估值门槛，使事件前追涨风险上升。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-06 Marvell Investor Day，关注 AI 数据中心长期收入路径、定制硅项目数量和毛利率目标。</li><li>下一季 10-Q 对数据中心、库存、客户集中和现金流的更新。</li><li>OCP/AI 网络生态事件中对 2nm 光技术和互连需求的验证。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Investor Day 若只讲长期叙事而缺少量化项目，估值可能承压。</li><li>客户集中和定制项目节奏可能导致收入波动。</li><li>高实际利率环境下，中小型 AI 半导体估值弹性反而可能放大下行。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.marvell.com/news-events/ir-calendar">IR Calendar: Marvell Investor Day 2026</a></li><li><a href="https://data.sec.gov/submissions/CIK0001835632.json">Marvell recent SEC submissions</a></li><li><a href="https://investor.marvell.com/">Marvell Investor Relations latest news</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure power and industrial electrification</p>
+                  <h2>ABB Ltd ADR <span>ABBNY</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Pilot position / Buy on weakness</span>
+                </div>
+              </header>
+              <p class="score-line">Score 72/100</p>
+              <div class="bar"><span class="fill" style="width:72%"></span></div>
+              <p>AI 数据中心瓶颈继续从 GPU 扩散到配电、直流架构、自动化与电气设备。ABB 的 Infinitus 直流数据中心组合仍是近期最贴近 AI 电力链的公司级证据；同时 BEA 在 Q2 GDP 技术说明中提到非住宅结构投资上修由商业和医疗结构带动，主要是数据中心，这给电力设备链提供了宏观旁证。评级维持 B，因为仍缺少订单金额和利润率量化。</p>
+              <p><strong>Why now:</strong> BEA 2026-09-30 GDP 技术说明将 Q2 私人固定投资上修的一部分归因于非住宅结构中的商业和医疗结构，主要是数据中心；ABB 官方日历显示 Q3 2026 业绩将在 2026-10-20 发布。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-20 ABB Q3 2026 results，关注电气化订单、数据中心相关 backlog 和 margin。</li><li>AI 数据中心直流配电、UPS、开关设备订单披露。</li><li>美国和欧洲电网投资、数据中心并网审批与电力紧张度数据。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>数据中心项目从规划到订单确认存在时滞。</li><li>欧洲工业周期、汇率与自动化需求可能抵消电气化强项。</li><li>若资本开支因融资成本推迟，电力设备订单兑现会慢于股价预期。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://new.abb.com/news/detail/138967/abbs-new-direct-current-portfolio-aims-to-rewire-ai-data-center-energy-infrastructure">ABB&#x27;s new direct current portfolio aims to rewire AI data center energy infrastructure</a></li><li><a href="https://global.abb/group/en/investors/financial-calendar">ABB financial calendar</a></li><li><a href="https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd">GDP third estimate technical notes, Q2 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy and refined product tightness</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Add only on oil-product confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 68/100</p>
+              <div class="bar"><span class="fill" style="width:68%"></span></div>
+              <p>今天 XLE 的边际信号比昨天好：EIA 截至 2026-09-25 的周报显示汽油和馏分油库存继续下降，尤其馏分油同比低 14.9%，产品端紧张度更明确。但商业原油小幅累库、天然气库存仍高于五年均值，能源不是一致性 A/B 信号。更适合作为通胀韧性与产品紧张的观察仓，而不是主动追高。</p>
+              <p><strong>Why now:</strong> EIA 2026-09-30 WPSR 显示汽油库存周降 1.683 百万桶、馏分油库存周降 2.251 百万桶；但商业原油库存周增 0.922 百万桶，天然气最新 working gas 仍比五年均值高 95 Bcf。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-01 EIA WNGSR，确认天然气库存是否继续宽松。</li><li>2026-10-07 EIA WPSR，观察馏分油是否继续低于去年和五年区间。</li><li>油价、炼厂利用率、柴油裂解价差与冬季需求预期。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>原油累库或需求走弱会抵消产品库存偏紧。</li><li>天然气库存高于五年均值，削弱能源板块整体紧缺叙事。</li><li>若 PCE 偏热带来更高利率而非更高商品需求，能源股估值也会承压。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ir.eia.gov/wpsr/table1.csv">Weekly Petroleum Status Report Table 1 CSV, week ending September 25, 2026</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/?scr=email">Weekly Petroleum Status Report</a></li><li><a href="https://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage Report, week ending September 18, 2026</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold and real assets</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Buy only near support</span>
+                </div>
+              </header>
+              <p class="score-line">Score 66/100</p>
+              <div class="bar"><span class="fill" style="width:66%"></span></div>
+              <p>黄金的结构性需求证据仍然强，World Gold Council 的 8 月 ETF 数据显示全球实物黄金 ETF 资金流入和持仓创高；但今天的增量宏观不是黄金追涨信号。实际消费和 GDP 上修叠加 10Y TIPS 2.91%，说明机会成本仍高。GLD 更适合作为尾部风险和政策错误保险，而非在高实际利率下追动量。</p>
+              <p><strong>Why now:</strong> BEA 8 月 PCE 同比 3.4%、核心 3.0%，Fed H.15 10Y TIPS 2.91%；这支持保险仓存在，但压低了 A/B 级买入胜率。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-14 September CPI 与 2026-10-29 September PCE。</li><li>Fed 2026-10-27/28 FOMC 是否改变实际利率路径。</li><li>World Gold Council 下一次 ETF flows 与央行黄金统计。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>实际利率继续上行会压制无息资产估值。</li><li>美元走强或风险偏好回升会削弱短期避险需求。</li><li>ETF 流入若从历史高位回落，金价拥挤交易可能回撤。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/etf-flows?page=0">Gold ETF Commentary: Global demand drives record holdings</a></li><li><a href="https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows">Gold ETFs holdings and flows</a></li><li><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026">Personal Income and Outlays, August 2026</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics and automation</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Build only on order confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 65/100</p>
+              <div class="bar"><span class="fill" style="width:65%"></span></div>
+              <p>机器人主题的长期需求证据继续积累。IFR 2026-09-24 工业机器人报告显示 2025 年全球工业机器人运营存量达 500 万台、年安装量超过 60 万台；IFR 2026-09-30 又披露专业服务机器人 2025 年出货量增长 24% 至近 25 万台。但这仍是行业数据，不是 BOTZ 成分股订单或盈利上修。维持 C，等待自动化公司业绩或订单确认。</p>
+              <p><strong>Why now:</strong> 2026-09-30 IFR 服务机器人报告提供了新的行业增量，但缺少可直接转化为上市公司盈利的订单金额；高实际利率也限制主题 ETF 估值扩张。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>ABB 2026-10-20 Q3 results 对 Robotics &amp; Discrete Automation 订单的披露。</li><li>FANUC、Teradyne、Keyence 等自动化标的后续季度订单和库存周期。</li><li>服务机器人商业应用从物流运输扩散到医疗、清洁、检验等垂直场景。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>IFR 行业数据与 ETF 成分股收益之间存在传导滞后。</li><li>制造业资本开支如果受高利率压制，自动化订单可能后移。</li><li>机器人主题 ETF 成分复杂，AI/自动化叙事容易被估值和流动性主导。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ifr.org/">Global Sales of Professional Service Robots Surge 24%</a></li><li><a href="https://ifr.org/">Five Million Robots now Operate in Factories Globally</a></li><li><a href="https://global.abb/group/en/investors/financial-calendar">ABB financial calendar</a></li><li><a href="https://data.sec.gov/submissions/CIK0000097210.json">Teradyne recent SEC submissions</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">AI optionality and physical AI</p>
+                  <h2>Advanced Micro Devices <span>AMD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Pilot only after pullback</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>AMD 的 World Labs 并购仍是本周最明确的公司级 AI 选项信号，但 2026-09-28 8-K 披露的是约 82 亿美元股票支付交易，尚未量化收入、利润或产品路线贡献。今天新增宏观数据提高了股票支付和估值整合的要求，因此 AMD 从 B- 边缘下调到 C+ 观察：等管理层给出更清晰的 physical AI 商业化路径。</p>
+              <p><strong>Why now:</strong> AMD 最新重要披露仍是 2026-09-28 Form 8-K：2026-09-26 签署收购 World Labs Technologies 协议，约 82 亿美元以 AMD 普通股支付；2026-09-30 没有新经营性披露改变财务可见度。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>AMD 对 World Labs 交易的投资者沟通、关闭条件和整合路线。</li><li>MI 系列 GPU、服务器 CPU、边缘/机器人 AI 相关客户订单。</li><li>下一季 10-Q 对库存、毛利率和 AI 加速器收入的更新。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>股票支付并购会带来稀释和整合风险。</li><li>physical AI 叙事商业化周期可能长于市场预期。</li><li>高实际利率环境下，远期可选性折现更重。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm">AMD Form 8-K filed September 28, 2026</a></li><li><a href="https://data.sec.gov/submissions/CIK0000002488.json">AMD recent SEC submissions</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">H.15 Selected Interest Rates</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
