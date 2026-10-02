@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-10-02（监测版）",
+  "summary": "本轮增量主要来自 2026-10-01 ISM 制造业 PMI、EIA 天然气库存和美国财政部 10 月 1 日利率曲线，而不是新的 AI 公司级订单或业绩披露。ISM 9 月制造业 PMI 54.5 仍处扩张区间，新订单、就业、积压订单改善，但价格指数升至 77.9，说明制造业需求韧性与成本压力同步存在。EIA 天然气库存增至 3,415 Bcf、仍高于五年均值 79 Bcf；10Y TIPS 从 2026-09-30 的 2.93% 回落到 2026-10-01 的 2.88%，但绝对水平仍高。结论：AI/电力链继续优于多数周期主题，但当前仍是买弱不追强；能源维持产品端偏紧、天然气端偏松的 C+ 监测；黄金保留保险仓属性。",
+  "macro": {
+    "regime": "制造业扩张但价格压力再起，实际利率略回落但仍高：风险偏好可修复，估值纪律不能放松",
+    "bullets": [
+      "ISM 2026-10-01 发布的 9 月 Manufacturing PMI 为 54.5，较 8 月 54.6 小降 0.1 个百分点，制造业连续第 9 个月扩张，整体经济连续第 23 个月扩张。",
+      "同一 ISM 报告显示，新订单指数 55.3，较 8 月上升 1.6 个百分点；就业指数 52.7，较 8 月上升 1.5 个百分点；积压订单指数 56.4，较 8 月上升 4.6 个百分点，对工业自动化、电子、机械需求是正面信号。",
+      "ISM 价格指数从 8 月的 71.1 升至 9 月的 77.9，报告列明钢铝、关税以及中东冲突相关石油产品价格是主要驱动；这对利润率和降息预期都不是纯利好。",
+      "EIA 2026-10-01 WNGSR 显示，截至 2026-09-25 Lower 48 working gas 为 3,415 Bcf，周增 64 Bcf，较去年同期低 138 Bcf，但较五年均值 3,336 Bcf 高 79 Bcf，即 +2.4%。",
+      "美国财政部 2026-10-01 Daily Treasury Par Yield Curve 显示 10Y 名义收益率 5.24%、30Y 5.61%；Daily Treasury Par Real Yield Curve 显示 10Y real yield 2.88%、30Y real yield 3.31%，相较 9 月 30 日略回落但仍处高位。",
+      "BLS Employment Situation for September 2026 计划于 2026-10-02 08:30 ET 发布；按 Asia/Shanghai 时间是 2026-10-02 晚间，本次晨报生成时尚未发布，不能作为已知数据使用。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "ISM Manufacturing PMI",
+      "ticker": "ISM_MFG",
+      "price": "54.5",
+      "change_pct": -0.1,
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+    },
+    {
+      "name": "ISM New Orders",
+      "ticker": "ISM_ORDERS",
+      "price": "55.3",
+      "change_pct": 1.6,
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+    },
+    {
+      "name": "ISM Prices Index",
+      "ticker": "ISM_PRICES",
+      "price": "77.9",
+      "change_pct": 6.8,
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+    },
+    {
+      "name": "10Y Treasury nominal yield",
+      "ticker": "UST10Y",
+      "price": "5.24%",
+      "change_pct": -0.05,
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "10Y TIPS real yield",
+      "ticker": "UST10Y_REAL",
+      "price": "2.88%",
+      "change_pct": -0.05,
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+    },
+    {
+      "name": "Lower 48 working gas",
+      "ticker": "EIA_WNGSR",
+      "price": "3,415 Bcf",
+      "change_pct": 1.9,
+      "source_url": "https://ir.eia.gov/ngs/ngs.html"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness / Do not chase",
+      "score": 76,
+      "thesis": "NVIDIA 仍是 AI 算力资本开支和软件生态最优质的核心资产，但 2026-10-01 的新增证据是宏观扩张与价格压力并存，而非新的公司订单或业绩上修。10Y TIPS 回落到 2.88% 对长久期成长股有边际缓和，但绝对利率仍高；SEC 最近 NVDA 条目仍以 Form 4/Form 144 为主。因此维持 B：核心候选，等待回调或公司级经营确认。",
+      "why_now": "ISM 9 月制造业扩张、Computer & Electronic Products 在新订单和产出中均为增长行业，支持 AI/电子供需韧性；但价格指数 77.9 与高实际利率继续限制追涨胜率。",
+      "catalysts": [
+        "下一份 NVIDIA 季度业绩，重点看数据中心收入、毛利率、Blackwell/后续平台供应和客户集中度。",
+        "2026-10-27/28 FOMC 对实际利率和金融条件的重新定价。",
+        "hyperscaler capex 指引、AI networking、先进封装、电力并网瓶颈的缓解证据。"
+      ],
+      "risks": [
+        "10Y TIPS 若重新上行并维持接近 3%，估值倍数可能继续被压缩。",
+        "AI capex 若从增长故事切换为融资和电力约束故事，订单能见度会被市场重估。",
+        "出口管制、客户集中、先进封装和电力可得性仍是 thesis breaker。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 12,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "September 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+        },
+        {
+          "title": "Daily Treasury Par Real Yield Curve Rates, 2026-10-01",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+        },
+        {
+          "title": "NVIDIA recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        },
+        {
+          "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+          "publisher": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+        }
+      ]
+    },
+    {
+      "theme": "AI networking and custom silicon",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely / Pilot only after pullback",
+      "score": 74,
+      "thesis": "Marvell 是未来一周最有明确日期催化的 AI 半导体标的：2026-10-06 Investor Day 将检验 AI 数据中心、定制硅和高速互连的长期可见度。10 月 1 日 SEC 新增为 Form 144，不是经营披露；9 月 25 日 8-K 为股息。维持 B，原因是催化近、主题强，但追涨前仍需要量化收入、客户、毛利率和资本回报框架。",
+      "why_now": "ISM 报告中 Computer & Electronic Products 同时出现在新订单、产出、就业、积压和出口增长行业中，给电子供应链需求提供宏观旁证；Marvell Investor Day 距本次晨报只有 4 个自然日。",
+      "catalysts": [
+        "2026-10-06 Marvell Investor Day，关注 AI 数据中心长期收入路径、定制硅项目、光互连路线图和毛利率目标。",
+        "下一份 10-Q 对数据中心收入、库存、客户集中与现金流的更新。",
+        "OCP、云厂商 capex 与高速网络平台更新。"
+      ],
+      "risks": [
+        "Investor Day 若缺少量化目标，事件后可能变成卖事实。",
+        "定制硅项目节奏和客户集中会放大收入波动。",
+        "高实际利率环境对中型 AI 半导体估值弹性不友好。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "Marvell recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+        },
+        {
+          "title": "IR Calendar: Marvell Investor Day 2026",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/ir-calendar"
+        },
+        {
+          "title": "September 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure power and industrial electrification",
+      "asset": "ABB Ltd ADR",
+      "ticker": "ABBNY",
+      "region": "Switzerland / US ADR",
+      "grade": "B",
+      "action": "Pilot position / Buy on weakness",
+      "score": 73,
+      "thesis": "ABB 的电气化和自动化逻辑受到两条一手信号支撑：AI 数据中心电力瓶颈继续明确，ISM 显示 Electrical Equipment, Appliances & Components 为 9 月增长最强的制造行业之一，且新订单、就业、供应商交付均有扩张信号。维持 B，因为公司级订单金额和利润率贡献仍需 2026-10-20 Q3 业绩确认。",
+      "why_now": "ISM 报告将 Electrical Equipment, Appliances & Components 列为 9 月增长行业和新订单增长行业；ABB 2026-10-20 Q3 业绩是电气化订单和数据中心需求验证窗口。",
+      "catalysts": [
+        "2026-10-20 ABB Q3 2026 results，关注电气化订单、数据中心相关 backlog、机器人需求和 margin。",
+        "数据中心直流配电、开关设备、UPS、自动化系统的订单披露。",
+        "美国与欧洲并网审批、批发电价、电网投资与数据中心建设进度。"
+      ],
+      "risks": [
+        "数据中心项目从规划到订单确认存在时滞，股价可能先行过度反映。",
+        "欧洲工业周期、汇率和传统自动化需求疲软可能抵消电气化强项。",
+        "高成本压力若不能转嫁，会压缩设备链利润率。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 14,
+        "catalyst_path": 16,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "September 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+        },
+        {
+          "title": "ABB's new direct current portfolio aims to rewire AI data center energy infrastructure",
+          "publisher": "ABB",
+          "url": "https://new.abb.com/news/detail/138967/abbs-new-direct-current-portfolio-aims-to-rewire-ai-data-center-energy-infrastructure"
+        },
+        {
+          "title": "ABB financial calendar",
+          "publisher": "ABB Group",
+          "url": "https://global.abb/group/en/investors/financial-calendar"
+        }
+      ]
+    },
+    {
+      "theme": "Physical AI and automation",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global ETF",
+      "grade": "C",
+      "action": "Hold/Watch / Wait for company order confirmation",
+      "score": 67,
+      "thesis": "机器人主题的产业数据继续变好，但可投资性仍不如 AI 算力和电力链直接。IFR 2026-09-30 报告显示 2025 年专业服务机器人出货增长 24% 至接近 25 万台，运输物流机器人 117,500 台、同比增长 21%，全尺寸人形机器人约 7,000 台；ISM 也显示自动化相关制造行业需求扩张。问题是 BOTZ 持仓分散、公司兑现节奏不均，缺少新的订单级证据，因此维持 C。",
+      "why_now": "IFR 的服务机器人数据刚在 2026-09-30 发布，且 ISM 9 月制造业报告显示 Electrical Equipment、Computer & Electronic Products、Machinery 等行业继续扩张。",
+      "catalysts": [
+        "机器人龙头季度订单、book-to-bill、机器视觉和伺服系统需求恢复。",
+        "仓储物流、医疗、工业移动机器人公司披露更明确的商业化订单。",
+        "人形机器人从试点进入可重复交付的量产合同。"
+      ],
+      "risks": [
+        "IFR 是行业数据，不等于 BOTZ 主要持仓短期盈利上修。",
+        "人形机器人关注度高但商业化仍偏早，容易形成叙事拥挤。",
+        "高利率会压制长周期自动化 capex 和主题 ETF 估值。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 12,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Global Sales of Professional Service Robots Surge 24%",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/ifr-press-releases/news/robot-installations-in-china-top-50-of-global-total"
+        },
+        {
+          "title": "September 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+        }
+      ]
+    },
+    {
+      "theme": "Energy and refined product tightness",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch / Add only on oil-product confirmation",
+      "score": 67,
+      "thesis": "能源的投资信号仍是分裂的：截至 2026-09-25 的 EIA 石油周报显示汽油和馏分油库存偏紧，ISM 价格项也确认石油产品仍推升成本；但 2026-10-01 EIA 天然气库存显示 working gas 高于五年均值 79 Bcf，天然气不是紧缺确认。XLE 可以作为通胀和产品端紧张的观察仓，但尚不足以升级为 B。",
+      "why_now": "EIA WNGSR 10 月 1 日发布后，天然气从上一周 3,351 Bcf 增至 3,415 Bcf；EIA WPSR 9 月 30 日已显示汽油库存同比 -7.4%、馏分油同比 -14.9%。",
+      "catalysts": [
+        "2026-10-07 EIA WPSR，确认汽油和馏分油是否继续去库。",
+        "2026-10-08 EIA WNGSR，观察天然气是否继续高于五年均值。",
+        "WTI/Brent、柴油裂解价差、炼厂利用率和冬季天气预期。"
+      ],
+      "risks": [
+        "天然气库存仍高于五年均值，削弱能源整体紧缺叙事。",
+        "原油或产品需求若走弱，库存偏紧可能快速缓解。",
+        "高利率若压制工业需求，能源股可能不受益于通胀项。"
+      ],
+      "components": {
+        "theme_strength": 14,
+        "business_quality": 14,
+        "valuation_setup": 14,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Weekly Natural Gas Storage Report, week ending September 25, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        },
+        {
+          "title": "Weekly Petroleum Status Report Table 1, week ending September 25, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf"
+        },
+        {
+          "title": "September 2026 ISM Manufacturing PMI Report",
+          "publisher": "Institute for Supply Management",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch / Insurance only, do not chase",
+      "score": 65,
+      "thesis": "黄金的结构性支撑仍在：World Gold Council 9 月资料显示 8 月全球黄金 ETF 流入 180 亿美元、持仓升至 4,189 吨纪录高位，7 月央行净买入 23 吨。但 2026-10-01 10Y real yield 仍为 2.88%，机会成本很高；ISM 价格压力上升虽有利于通胀对冲叙事，却也可能限制降息预期。因此 GLD 维持 C，作为保险仓和回撤买入标的，而非追高主线。",
+      "why_now": "10Y TIPS 从 2026-09-30 的 2.93% 回落至 2026-10-01 的 2.88%，边际利好黄金；但仍显著高于普通低实际利率黄金牛市所偏好的环境。",
+      "catalysts": [
+        "2026-10-14 September CPI 与 2026-10-29 September PCE，确认实际利率压力是否缓和。",
+        "World Gold Council 9 月 ETF flow 月度更新。",
+        "美元、长端财政风险、央行购金数据和地缘风险。"
+      ],
+      "risks": [
+        "实际利率重新上行会直接压制无息资产估值。",
+        "ETF 大额流入可能已反映避险需求，短线拥挤。",
+        "若美元走强且通胀预期回落，黄金可能出现回撤。"
+      ],
+      "components": {
+        "theme_strength": 15,
+        "business_quality": 14,
+        "valuation_setup": 12,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: August 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09"
+        },
+        {
+          "title": "Central Bank Gold Statistics: central banks make positive headlines on gold",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold"
+        },
+        {
+          "title": "Daily Treasury Par Real Yield Curve Rates, 2026-10-01",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "AI compute challengers and physical AI",
+      "asset": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "region": "US",
+      "grade": "C",
+      "action": "Hold/Watch / Pilot only after pullback",
+      "score": 64,
+      "thesis": "AMD 收购 World Labs 是战略上重要的 AI/physical AI 期权，但本轮没有新增经营披露来改善短期收入、利润或竞争格局。2026-09-28 8-K 明确交易总价约 82 亿美元、以 AMD 普通股支付，股数基于交割前第 2 个交易日结束的连续 10 个交易日 VWAP；这提升长期路线图可选性，也带来稀释和整合不确定性。维持 C。",
+      "why_now": "截至 2026-10-02 晨报生成时，AMD 最新材料仍是 2026-09-28 World Labs 8-K/新闻稿；10 月 1 日未见新的经营性披露。",
+      "catalysts": [
+        "交易监管审批和 2026 年底前交割进度。",
+        "MI 系列 GPU、EPYC、网络与软件生态在 hyperscaler 客户中的部署进度。",
+        "下一季业绩中 AI 数据中心收入、毛利率和库存更新。"
+      ],
+      "risks": [
+        "约 82 亿美元全股票交易可能造成稀释，且短期收入贡献不明确。",
+        "World Labs 的模型研究能力转化为硬件路线图优势需要时间。",
+        "与 NVIDIA 生态差距、供应链和软件成熟度仍是主要风险。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 13,
+        "valuation_setup": 11,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "AMD Form 8-K dated September 28, 2026",
+          "publisher": "AMD Investor Relations / SEC EDGAR",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm"
+        },
+        {
+          "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+          "publisher": "AMD Newsroom",
+          "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/"
+        },
+        {
+          "title": "AMD recent SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0000002488.json"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "BLS Employment Situation",
+      "ticker": "US_PAYROLLS",
+      "note": "2026-10-02 08:30 ET 发布；确认劳动力是否支持软着陆与高利率共存。"
+    },
+    {
+      "theme": "AI networking",
+      "asset": "Marvell Investor Day",
+      "ticker": "MRVL",
+      "note": "2026-10-06；需要量化 AI 数据中心收入、客户项目和毛利率。"
+    },
+    {
+      "theme": "AI power chain",
+      "asset": "ABB Q3 2026 results",
+      "ticker": "ABBNY",
+      "note": "2026-10-20；验证电气化订单和数据中心 backlog。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA WPSR/WNGSR",
+      "ticker": "XLE",
+      "note": "2026-10-07 石油、2026-10-08 天然气；看产品去库与气库宽松是否分化。"
+    },
+    {
+      "theme": "Gold",
+      "asset": "September CPI / PCE",
+      "ticker": "GLD",
+      "note": "2026-10-14 CPI、2026-10-29 PCE；决定实际利率压力是否缓和。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "ISM September 2026 Manufacturing PMI",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report Table 1",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf"
+    },
+    {
+      "label": "U.S. Treasury Daily Par Yield Curve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "label": "U.S. Treasury Daily Par Real Yield Curve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_real_yield_curve"
+    },
+    {
+      "label": "SEC NVIDIA submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+    },
+    {
+      "label": "SEC AMD submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000002488.json"
+    },
+    {
+      "label": "SEC Marvell submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+    },
+    {
+      "label": "IFR Service Robots 2026 press release",
+      "url": "https://ifr.org/ifr-press-releases/news/robot-installations-in-china-top-50-of-global-total"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows August 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro"
+  ]
+}
