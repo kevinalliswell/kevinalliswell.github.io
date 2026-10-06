@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>投资晨报 2026-10-06（监测版）</title>
+  <style>
+    :root {
+      --bg: #f6f1e7;
+      --panel: #fffaf2;
+      --ink: #1f1c17;
+      --muted: #6a6256;
+      --accent: #9b6b21;
+      --good: #20543b;
+      --mid: #8b6b15;
+      --bad: #8a2f2f;
+      --line: #ddcfb4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      background:
+        radial-gradient(circle at top left, rgba(155, 107, 33, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f2e9 0%, #f3ecdf 100%);
+      color: var(--ink);
+    }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 18px 60px; }
+    .hero, .panel, .card {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 32px rgba(63, 47, 23, 0.08);
+    }
+    .hero { padding: 26px; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.4rem); }
+    .meta { color: var(--muted); margin-bottom: 16px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { padding: 20px; }
+    .card header {
+      display: flex; justify-content: space-between; gap: 16px; align-items: start;
+    }
+    .card h2 { margin: 2px 0 8px; font-size: 1.6rem; }
+    .card h2 span { color: var(--muted); font-size: 1rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin: 0; font-size: 0.78rem; }
+    .grade-block { text-align: right; }
+    .grade-block strong { display: block; font-size: 2rem; }
+    .grade-A .grade-block strong { color: var(--good); }
+    .grade-B .grade-block strong { color: var(--mid); }
+    .grade-C .grade-block strong, .grade-D .grade-block strong { color: var(--bad); }
+    .score-line { margin-bottom: 8px; color: var(--muted); }
+    .bar { width: 100%; height: 10px; background: #eadfc9; border-radius: 999px; overflow: hidden; }
+    .fill { display: block; height: 100%; background: linear-gradient(90deg, #9b6b21, #20543b); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+    a { color: #215f93; }
+    @media (max-width: 760px) {
+      .cols, .card header { grid-template-columns: 1fr; display: block; }
+      .grade-block { text-align: left; margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Thematic Investment Brief</p>
+      <h1>投资晨报 2026-10-06（监测版）</h1>
+      <p class="meta">2026-10-06 · Asia/Shanghai · GPT-5.3-codex</p>
+      <p>截至 2026-10-06 早间（Asia/Shanghai），过去 24-72 小时的一手增量主要来自 2026-10-05 ISM 服务业 PMI：服务需求仍扩张，但价格项升至 74.0、为 2022-07 以来最高附近，使“增长未塌、通胀未松”的组合继续压制追价。AI、机器人、能源、黄金没有出现足以把单一标的上调为 A 级的新订单或盈利披露；本期维持监测版，重点等待 Marvell 2026-10-06 投资者日、TSMC 2026-10-08 9 月销售、EIA 2026-10-08 天然气库存。</p>
+    </section>
+    <section class="panel">
+      <h2>Macro Regime</h2>
+      <p><strong>服务业仍扩张、价格压力反弹、实际利率偏高；风险资产只做事件确认，不追价</strong></p>
+      <ul><li>ISM 于 2026-10-05 发布 2026 年 9 月服务业 PMI：Services PMI 为 54.9，较 8 月 55.4 回落 0.5 个百分点；Business Activity 56.5、New Orders 59.8、Employment 50.1，显示需求尚未失速。</li><li>同一份 ISM 服务业报告中，Prices Index 为 74.0，较 8 月 72.6 上升 1.4 个百分点，并为 2022 年 7 月以来最高附近；这削弱了“就业降温后利率快速下行”的交易基础。</li><li>Federal Reserve H.15 于 2026-10-05 发布的最新日度利率仍只覆盖到 2026-10-02：10Y nominal 为 5.28%，10Y TIPS 为 2.92%，30Y TIPS 为 3.34%；长端实际利率仍高，对 AI 久期资产和黄金追涨都不友好。</li><li>EIA 最新 WPSR 截至 2026-09-25 显示商业原油库存 427.320 百万桶、周增 0.922 百万桶；汽油库存 204.362 百万桶、同比 -7.4%；馏分油 105.180 百万桶、同比 -14.9%。油品偏紧但气库偏宽，能源维持分散观察。</li><li>本期为个人研究记录，不构成个性化投资建议；未获得用户持仓信息，因此排序按单一资产风险收益而非组合适配度给出。</li></ul>
+    </section>
+    <section class="panel">
+      <h2>Market Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Ticker</th><th>Price</th><th>Change</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>ISM Services PMI</td>
+          <td>ISM Services</td>
+          <td>54.9 in Sep 2026</td>
+          <td></td>
+          <td><a href="https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/september/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>ISM Services Prices Index</td>
+          <td>ISM Prices</td>
+          <td>74.0 in Sep 2026</td>
+          <td></td>
+          <td><a href="https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/september/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>10Y TIPS yield</td>
+          <td>H.15</td>
+          <td>2.92% on 2026-10-02</td>
+          <td></td>
+          <td><a href="https://www.federalreserve.gov/releases/h15/">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Lower 48 working gas</td>
+          <td>EIA NG storage</td>
+          <td>3,415 Bcf on 2026-09-25</td>
+          <td></td>
+          <td><a href="https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm">source</a></td>
+        </tr>
+
+        <tr>
+          <td>TSMC Aug. revenue</td>
+          <td>TSM/2330</td>
+          <td>NT$514,806m; +53.3% YoY</td>
+          <td></td>
+          <td><a href="https://investor.tsmc.com/english/monthly-revenue/2026">source</a></td>
+        </tr>
+
+        <tr>
+          <td>Global gold ETF holdings</td>
+          <td>WGC</td>
+          <td>4,189t as of 2026-08-31</td>
+          <td></td>
+          <td><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09">source</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="grid">
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure / custom silicon</p>
+                  <h2>Marvell Technology <span>MRVL</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after Investor Day confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 76/100</p>
+              <div class="bar"><span class="fill" style="width:76%"></span></div>
+              <p>Marvell 是本期最值得盯的事件型标的，因为 2026-10-06 纽约上午投资者日可能更新 AI custom silicon、optical interconnect 和数据中心收入节奏。证据还未足够上调为 A：截至本次晨报，IR 日历只确认活动时间，SEC 最新 2026-10-01 为 Form 4/144，2026-09-25 8-K 为派息相关，尚无新的订单金额或中长期财务目标披露。</p>
+              <p><strong>Why now:</strong> 2026-10-06 是 Marvell Investor Day 2026 的官方日程；适合作为当日盘中/盘后复核对象，但不在材料发布前预先提高仓位。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-06 Marvell Investor Day 2026：关注 AI ASIC backlog、客户集中度、光互连路线图、FY2028/FY2029 目标。</li><li>下一次 10-Q 或业绩电话会对 data center、custom silicon、gross margin 的分项披露。</li><li>云厂商 capex 与 NVIDIA/AWS 等基础设施扩张是否向 Marvell 光电互连和定制芯片形成可验证传导。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>投资者日如果只有长期叙事、缺少订单或利润率框架，短线可能兑现预期。</li><li>客户集中度和 ASIC 项目节奏可能导致收入波动。</li><li>服务业价格压力和高实际利率使高估值半导体的风险调整时点仍一般。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.marvell.com/news-events/ir-calendar">Marvell Investor Day 2026 calendar</a></li><li><a href="https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026">Marvell Q2 FY2027 call announcement and Investor Day notice</a></li><li><a href="https://data.sec.gov/submissions/CIK0001835632.json">Marvell SEC company submissions</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI infrastructure</p>
+                  <h2>NVIDIA <span>NVDA</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Buy on weakness / Do not chase</span>
+                </div>
+              </header>
+              <p class="score-line">Score 77/100</p>
+              <div class="bar"><span class="fill" style="width:77%"></span></div>
+              <p>NVIDIA 仍是 AI 基础设施主线核心，但本期新增宏观数据并不支持追涨：ISM 服务业价格项升至 74.0，Fed H.15 最新 10Y TIPS 仍为 2.92%。公司层面，AWS 与 NVIDIA 2026-08-26 披露 2027-2028 年额外部署 200 万颗 NVIDIA GPU，并推进 federal AI factories、Vera CPU、NVLink Fusion 和 physical AI；这确认中期需求，但不是过去 24 小时的新财务披露。</p>
+              <p><strong>Why now:</strong> AI demand 证据仍强，但 2026-10-05 ISM Prices 和 2026-10-02 高实际利率使估值扩张空间受限；维持 B 级等待回调或新订单兑现。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>下一次 NVIDIA 季报和数据中心收入指引。</li><li>AWS 2027-2028 额外 GPU 部署计划的供应链订单、交付和融资进度。</li><li>电力、土地、机柜、先进封装与 HBM 供给是否继续限制或支撑收入确认。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>高实际利率和服务业价格压力压制长久期成长股估值。</li><li>客户 capex 过度集中于少数 hyperscaler，若预算节奏变化可能造成回撤。</li><li>出口管制、供应链瓶颈和数据中心电力约束仍是核心风险。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.nvidia.com/news/press-release-details/2026/AWS-and-NVIDIA-to-Deliver-2-Million-Additional-GPUs-and-Next-Generation-Infrastructure-for-Agentic-and-Physical-AI/default.aspx">AWS and NVIDIA to deliver 2 million additional GPUs</a></li><li><a href="https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf">NVIDIA FY2027 Q2 Form 10-Q</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">Federal Reserve H.15, October 5 2026 release</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">AI foundry / semiconductors</p>
+                  <h2>TSMC <span>TSM / 2330 TT</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Add only on monthly-sales confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 75/100</p>
+              <div class="bar"><span class="fill" style="width:75%"></span></div>
+              <p>TSMC 的结构性位置仍好：2026 年 1-8 月未审计合并收入为 NT$3,386,870 百万元、同比 +39.3%，8 月单月 NT$514,806 百万元、同比 +53.3%。但 9 月月销售在 2026-10-08 13:30 Asia/Taipei 才发布，本期没有新的收入数据，因此只保留事件前观察。</p>
+              <p><strong>Why now:</strong> 2026-10-08 9 月月销售和 2026-10-15 3Q26 法说会是近端硬催化；在结果出来前不把强趋势当作新增信号。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-08 TSMC September 2026 monthly sales。</li><li>2026-10-15 TSMC 3Q26 earnings conference：关注 AI/HPC、先进制程、CoWoS/先进封装产能和 2027 capex。</li><li>AI GPU、ASIC、HBM 与先进封装供给是否继续验证上游景气。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若 9 月月销售不及市场预期，强势趋势可能被重新定价。</li><li>汇率、台海地缘政治、客户集中度和高 capex 都可能影响估值。</li><li>高实际利率环境降低市场愿意支付的半导体周期估值。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://investor.tsmc.com/english/monthly-revenue/2026">TSMC 2026 monthly revenue</a></li><li><a href="https://investor.tsmc.com/english/financial-calendar">TSMC financial calendar</a></li></ul>
+            </section>
+
+            <section class="card grade-B">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics / physical AI</p>
+                  <h2>FANUC <span>6954 JP / FANUY</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>B</strong>
+                  <span>Watch closely / Pilot only after order evidence</span>
+                </div>
+              </header>
+              <p class="score-line">Score 71/100</p>
+              <div class="bar"><span class="fill" style="width:71%"></span></div>
+              <p>FANUC 与 Hitachi 2026-09-30 宣布 Physical AI 战略合作，以 Hitachi 工厂作为 Customer Zero，计划在 FY2027 起面向全球客户联合部署。这是机器人从传统自动化走向 Physical AI 的强主题确认；但本期没有订单金额、收入目标或利润率披露，仍只能给 B 级观察仓。</p>
+              <p><strong>Why now:</strong> 该合作仍是过去一周最清晰的机器人一手信号；2026-10-06 尚无新的商业化数字更新。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>FY2027 开始联合部署后的首批客户、订单金额、应用场景和 takt time/质量改善数据。</li><li>IFR 2026 服务机器人数据后续是否转化为工业机器人厂商订单。</li><li>FANUC 后续季度财报对机器人订单、FA 需求和中国/日本/美国地区需求的说明。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>Physical AI 商业化可能慢于叙事，尤其在复杂工厂环境中验证周期长。</li><li>工业自动化需求受制造业 PMI、资本开支和汇率周期影响。</li><li>若缺少量产订单，主题热度可能先于基本面回落。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html">Hitachi and FANUC physical AI partnership</a></li><li><a href="https://ifr.org/ifr-press-releases/global-sales-of-professional-service-robots-surge-24-percent">Global sales of professional service robots surge 24%</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Gold / real assets</p>
+                  <h2>SPDR Gold Shares <span>GLD</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Insurance only, do not chase</span>
+                </div>
+              </header>
+              <p class="score-line">Score 67/100</p>
+              <div class="bar"><span class="fill" style="width:67%"></span></div>
+              <p>黄金中期保险属性仍在：WGC 2026-09 月 ETF 报告显示，8 月全球黄金 ETF 净流入 US$18bn，AUM 升至 US$615bn，持仓增加 121 吨至 4,189 吨并创纪录。但 2026-10-05 的新增宏观信号是服务业价格项更强，而 10Y TIPS 最新仍为 2.92%；这支持保险仓，却不支持无条件追涨。</p>
+              <p><strong>Why now:</strong> 资金流证据强但滞后至 8 月，最新利率环境仍不友好；维持 C 级保险仓，而非交易性加仓。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>WGC 下一次月度 ETF flow 更新，确认 9 月是否继续净流入。</li><li>10Y TIPS 是否从 2.9% 附近持续回落。</li><li>美元、财政担忧和央行购金数据是否继续强化实物需求。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>若实际利率继续上行，黄金估值压力会抵消 ETF 流入。</li><li>强势美元或风险偏好回升可能压制避险需求。</li><li>8 月资金流是滞后数据，不能单独作为 10 月追涨依据。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09">Gold ETF flows: August 2026</a></li><li><a href="https://www.federalreserve.gov/releases/h15/">Federal Reserve H.15, October 5 2026 release</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Energy / oil and gas</p>
+                  <h2>Energy Select Sector SPDR Fund <span>XLE</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Prefer diversified exposure</span>
+                </div>
+              </header>
+              <p class="score-line">Score 64/100</p>
+              <div class="bar"><span class="fill" style="width:64%"></span></div>
+              <p>能源信号仍分裂：EIA WPSR 截至 2026-09-25 显示汽油和馏分油库存同比明显偏低，支持油品链；但 EIA 天然气库存同周 Lower 48 working gas 为 3,415 Bcf，周增 64 Bcf，且下一次 2026-10-08 才更新。服务业 PMI 仍扩张对需求不是坏事，但价格压力和气库偏宽使 XLE 只能维持 C 级分散配置。</p>
+              <p><strong>Why now:</strong> 最新可用 EIA 数据没有给出足够单边信号；等待 2026-10-08 气库和 2026-10-15 因假期调整的 WPSR。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>2026-10-08 EIA Weekly Natural Gas Storage Report。</li><li>2026-10-15 EIA WPSR for week ending 2026-10-09；该周因假期调整发布。</li><li>汽油、馏分油和炼厂利用率是否继续支持下游利润。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>天然气库存偏宽压制综合能源 beta。</li><li>若服务业价格压力迫使利率维持高位，周期资产估值承压。</li><li>原油库存周增和需求放缓担忧可能抵消油品低库存利好。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://www.eia.gov/petroleum/supply/weekly/">EIA Weekly Petroleum Status Report</a></li><li><a href="https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm">EIA Weekly Working Gas in Underground Storage</a></li><li><a href="https://www.eia.gov/petroleum/supply/weekly/schedule.php">EIA Weekly Petroleum Status Report schedule</a></li></ul>
+            </section>
+
+            <section class="card grade-C">
+              <header>
+                <div>
+                  <p class="eyebrow">Robotics ETF / automation basket</p>
+                  <h2>Global X Robotics &amp; Artificial Intelligence ETF <span>BOTZ</span></h2>
+                </div>
+                <div class="grade-block">
+                  <strong>C</strong>
+                  <span>Hold/Watch / Wait for order confirmation</span>
+                </div>
+              </header>
+              <p class="score-line">Score 62/100</p>
+              <div class="bar"><span class="fill" style="width:62%"></span></div>
+              <p>BOTZ 能捕捉 Physical AI、服务机器人和工业自动化主题，但 ETF 层面缺少本期新的一手净流入或盈利驱动。IFR 2026-09-30 数据显示 2025 年专业服务机器人出货量增长 24% 至近 25 万台，运输物流机器人约 11.7 万台；主题强，但对 ETF 成分股盈利传导仍需订单和财报验证。</p>
+              <p><strong>Why now:</strong> 机器人主题有确认，但没有比 FANUC 单一事件更强的可交易增量；作为篮子维持观察。</p>
+              <div class="cols">
+                <div>
+                  <h3>Catalysts</h3>
+                  <ul><li>IFR World Robotics 后续细分数据与主要工业自动化公司订单确认。</li><li>FANUC/ABB/Teradyne 等成分或相关公司的季度订单、margin 和区域需求。</li><li>物流、仓储和制造业客户将 physical AI 从试点转成规模化部署。</li></ul>
+                </div>
+                <div>
+                  <h3>Risks</h3>
+                  <ul><li>ETF 成分分散，主题上涨未必直接转化为净值超额收益。</li><li>高利率环境压制机器人和自动化成长估值。</li><li>服务机器人数据偏行业回看，短线交易时效不足。</li></ul>
+                </div>
+              </div>
+              <h3>Sources</h3>
+              <ul><li><a href="https://ifr.org/ifr-press-releases/global-sales-of-professional-service-robots-surge-24-percent">Global sales of professional service robots surge 24%</a></li><li><a href="https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html">Hitachi and FANUC physical AI partnership</a></li></ul>
+            </section>
+
+    </section>
+  </main>
+</body>
+</html>
