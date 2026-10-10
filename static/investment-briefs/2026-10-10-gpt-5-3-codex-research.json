@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-10-10（监测版）",
+  "source_label": "GPT-5.3-codex",
+  "summary": "过去 24-72 小时的新增主线是 TSMC 2026-10-08 发布的 9 月营收：单月 NT$5118.6 亿、同比 +54.6%，确认 AI 半导体需求仍强，但 2026-10-15 3Q26 法说会前仍需验证毛利率和 4Q 展望。宏观端，Fed H.15 2026-10-09 发布的最新完成日 2026-10-08 数据显示 10Y 名义利率 5.22%、10Y TIPS 2.87%，高实际利率继续压制长久期 AI 与黄金追价。能源端 EIA 2026-10-08 WNGSR 显示 Lower 48 工作气库存 3,500 Bcf、周增 85 Bcf、较五年均值高 2.0%，XLE 继续偏观察。黄金 ETF 流入仍是中期支撑，但在高实际利率下更像保险仓而不是短线追涨信号。",
+  "macro": {
+    "regime": "AI 基本面强，但高实际利率和能源库存缓冲压制追价",
+    "bullets": [
+      "Fed H.15 于 2026-10-09 发布，最新完成日 2026-10-08 的 10Y 名义利率为 5.22%，30Y 为 5.60%；10Y TIPS 为 2.87%，30Y TIPS 为 3.31%。事实含义是折现率仍高，判断上 AI、机器人与黄金都应等待回撤或业绩确认。",
+      "美国劳工部 2026-10-08 UI Claims 显示，截至 2026-10-03 当周初请失业金为 197,000，四周均值为 198,000；劳动力市场没有给出衰退式避险信号。",
+      "EIA 2026-10-08 Weekly Natural Gas Storage Report 显示，截至 2026-10-02 Lower 48 工作气库存 3,500 Bcf，周增 85 Bcf，低于去年同期 3.6%，但高于五年均值 2.0%；能源主题有区域紧张但天然气库存不是强多。",
+      "World Gold Council 2026-10-07 9 月黄金 ETF 更新显示全球 ETF 9 月净流入约 100 亿美元、Q3 净流入约 310 亿美元、总持仓升至 4,256 吨纪录高位；这是战略配置需求强的事实，但不抵消实际利率仍高的交易约束。"
+    ]
+  },
+  "ideas": [
+    {
+      "theme": "AI infrastructure / Foundry",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM / 2330 TT",
+      "region": "Taiwan / US ADR",
+      "grade": "B",
+      "action": "Watch closely / Buy on weakness after 3Q confirmation",
+      "score": 80,
+      "thesis": "TSMC 是今天最清晰的一手新增经营信号。9 月营收 NT$5118.6 亿，同比 +54.6%，1-9 月累计营收 NT$3.8987 兆、同比 +41.1%，确认先进制程和 AI 供应链需求仍然很强。投资判断维持 B 而不是 A：3Q26 法说会将在 2026-10-15 14:00 Asia/Taipei 举行，真正决定能否上调的是毛利率、先进封装供给、2026Q4/2027 capex 与客户集中风险。",
+      "why_now": "2026-10-08 TSMC 6-K/月营收报告已经落地，解决了昨天晨报的待确认事项；同一日 SEC 还显示多份 Form 4，但经营性增量来自 6-K 月营收，不是内部人交易表。",
+      "catalysts": [
+        "2026-10-15 14:00 Asia/Taipei：TSMC 3Q26 Results earnings conference，重点看 3Q 实际毛利率、4Q revenue guide、CoWoS/先进封装供给。",
+        "2026-11-10 13:30 Asia/Taipei：TSMC 2026 年 10 月月度销售，验证 4Q 初期需求是否延续。",
+        "若 2026-10-15 管理层确认 AI/HPC 需求强且毛利率没有明显下修，TSM 可从 B+ 向 A- 观察。"
+      ],
+      "risks": [
+        "10Y TIPS 仍在 2.87% 附近，高折现率会压缩高质量成长股的估值容错。",
+        "若 3Q26 gross margin 或 4Q 指引低于市场对 AI 需求的高预期，强营收也可能被解释为周期高点。",
+        "地缘政治、台币/美元、先进封装瓶颈和单一 AI 客户 capex 调整仍是主要尾部风险。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 14,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "TSMC September 2026 Revenue Report / Form 6-K",
+          "publisher": "SEC EDGAR / TSMC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm"
+        },
+        {
+          "title": "TSMC 2026 Q3 Quarterly Results page",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+        },
+        {
+          "title": "TSMC Financial Calendar",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/financial-calendar"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / Custom silicon and networking",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position / Buy only on weakness",
+      "score": 78,
+      "thesis": "MRVL 仍是 AI custom silicon / optical interconnect 中弹性最大的标的之一，但今天没有新的经营披露把结论从 B 推到 A。2026-10-06 Investor Day 是最近最强催化，官方 IR 页面已发布 deck；SEC 最新新增项为 2026-10-08 Form 144，非订单或指引。判断上可保留小仓或等回撤，避免在长期目标已经被市场快速定价后追高。",
+      "why_now": "今天的新增信息是“没有新的经营性 SEC/IR 披露”，这本身降低了追涨理由；但 2026-10-06 Investor Day 仍是 1-4 个季度内的重要基本面锚。",
+      "catalysts": [
+        "下一次财报/管理层更新中，验证 FY2028/FY2029 custom silicon 和数据中心收入目标是否被订单、客户扩展或毛利率支撑。",
+        "大型 hyperscaler capex 与自研 ASIC 节奏若继续上调，MRVL 的 custom silicon 叙事会更强。",
+        "OCP Global Summit 2026-10-12 至 2026-10-15 可观察光互连、scale-up networking 与机柜级架构信号。"
+      ],
+      "risks": [
+        "长期目标高度依赖 hyperscaler 客户集中、执行节奏和 AI capex 持续性。",
+        "估值对远期目标敏感；若订单节奏慢于 Investor Day 叙事，股价回撤会很快。",
+        "高实际利率环境会惩罚远期现金流占比高的成长股。"
+      ],
+      "components": {
+        "theme_strength": 18,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 15
+      },
+      "sources": [
+        {
+          "title": "Marvell Investor Day 2026",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261006-marvell-investor-day-2026"
+        },
+        {
+          "title": "Marvell SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / Accelerators",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness / Do not chase",
+      "score": 77,
+      "thesis": "NVIDIA 的业务质量和 AI capex 暴露仍是本轮 AI 基建最强核心之一。官方 Q2 FY2027 结果显示收入同比 +106%，并且公司披露 AWS 从当前季度到 FY2029 Q2 将增加部署 200 万颗 GPU。今天 SEC 最新新增为 2026-10-09 Form 4，不是经营催化；因此结论是核心关注但不追价。",
+      "why_now": "TSMC 9 月营收确认供应链需求仍强，间接支持 NVIDIA 供给链；但 NVDA 本身过去 24 小时没有新的订单、10-Q 或业绩指引披露。",
+      "catalysts": [
+        "下一次 NVIDIA 财报和 hyperscaler capex 指引，验证 GPU 供需与 Blackwell/Rubin 过渡。",
+        "OCP 2026 期间关注 Spectrum、networking、rack-scale AI factory 架构更新。",
+        "若 10Y TIPS 从 2.87% 明显回落，同时订单/交付继续上修，才适合提高主动加仓权重。"
+      ],
+      "risks": [
+        "估值和仓位拥挤度高，对任何交付节奏、China revenue 或客户 capex 下修都敏感。",
+        "ASIC 自研、网络架构替代和供应链瓶颈会影响中期毛利率和收入节奏。",
+        "高实际利率继续压制长久期成长股估值。"
+      ],
+      "components": {
+        "theme_strength": 20,
+        "business_quality": 20,
+        "valuation_setup": 11,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Q2 FY2027 results",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+        },
+        {
+          "title": "NVIDIA Q2 FY2027 earnings call transcript",
+          "publisher": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf"
+        },
+        {
+          "title": "NVIDIA SEC submissions",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        }
+      ]
+    },
+    {
+      "theme": "Gold and real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Hold core insurance / Add only on pullback",
+      "score": 72,
+      "thesis": "WGC 2026-10-07 的 9 月 ETF 数据仍支持黄金作为组合保险：全球黄金 ETF 当月净流入约 100 亿美元，Q3 流入约 310 亿美元，持仓升至 4,256 吨纪录高位。问题是 10Y TIPS 仍为 2.87%，机会成本没有真正消失；因此更适合维持核心保险仓，等待收益率回落或价格回撤再加。",
+      "why_now": "黄金 ETF 流入与高实际利率同时存在，说明战略配置需求强，但短线定价不便宜。",
+      "catalysts": [
+        "2026-10-14 美国 September CPI：若通胀降温且实际利率回落，GLD 的 B 可上调。",
+        "2026-10-27/28 FOMC：若政策措辞转向更谨慎，黄金可能获得利率端支持。",
+        "下一次 WGC 周度/月度 ETF 数据确认流入是否延续。"
+      ],
+      "risks": [
+        "若名义利率和美元继续上行，黄金价格可能继续承压，即便 ETF 有流入。",
+        "COMEX 净多仓位下降说明交易型多头并不坚定。",
+        "若股市风险偏好继续强，保险仓可能短期跑输。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "黄金ETF走势：2026年9月",
+          "publisher": "World Gold Council",
+          "url": "https://china.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
+        },
+        {
+          "title": "Gold ETF holdings and flows",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows"
+        },
+        {
+          "title": "H.15 Selected Interest Rates, October 09 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/releases/h15/"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics / Physical AI",
+      "asset": "FANUC",
+      "ticker": "6954 JP / FANUY",
+      "region": "Japan / US ADR",
+      "grade": "B",
+      "action": "Watch closely / Pilot only after order evidence",
+      "score": 71,
+      "thesis": "机器人主题有结构性支撑：IFR 称 2025 年专业服务机器人出货增长 24% 至近 25 万台，物流是最大应用；FANUC 与 Hitachi 2026-09-30 宣布面向 Physical AI 实装的战略合作。但今天没有新的订单、财报或量化收入披露，因此只能维持观察仓位。",
+      "why_now": "AI 从数字基础设施扩展到工厂自动化的方向明确，但本周新增信号仍是行业数据和合作公告，不是短期利润确认。",
+      "catalysts": [
+        "2026-10-30 IFR service/mobile/humanoid robot statistics webinar，观察是否有更细分的商业化数据。",
+        "FANUC 后续订单、FA/Robot segment margin 和 Hitachi customer-zero 验证进展。",
+        "若日本/全球制造业 PMI 与资本开支改善，机器人订单弹性会更好。"
+      ],
+      "risks": [
+        "Physical AI 商业化仍在早期，合作到收入确认存在时间差。",
+        "工业自动化周期对全球制造业资本开支敏感。",
+        "ETF 型机器人敞口容易混入高估值 AI 软件/硬件噪音。"
+      ],
+      "components": {
+        "theme_strength": 17,
+        "business_quality": 16,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Hitachi and FANUC Physical AI partnership",
+          "publisher": "FANUC",
+          "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html"
+        },
+        {
+          "title": "Global Sales of Professional Service Robots Surge 24%",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/news/global-sales-of-professional-service-robots-surge-24-percent/1st"
+        }
+      ]
+    },
+    {
+      "theme": "Energy / US integrated energy",
+      "asset": "Energy Select Sector SPDR Fund",
+      "ticker": "XLE",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch / Add only after tighter inventory signal",
+      "score": 64,
+      "thesis": "能源并非空头，但今天的 EIA 天然气库存不支持追多。Lower 48 工作气库存 3,500 Bcf，周增 85 Bcf，较五年均值高 2.0%；结合此前 EIA STEO 对天然气库存缓冲的描述，XLE 更适合作为通胀/地缘风险对冲，而不是基于供给短缺立即加仓。",
+      "why_now": "2026-10-08 WNGSR 已发布，完成昨天晨报的待确认事项；库存仍有缓冲，信号偏中性。",
+      "catalysts": [
+        "2026-10-15 EIA WPSR holiday-adjusted release，观察原油、汽油、馏分油库存是否继续偏紧。",
+        "冬季气温预期和 LNG feedgas demand 若上修，天然气相关标的可重新评估。",
+        "油价若由库存收紧而非地缘溢价驱动，XLE 的 C 可上调至 B。"
+      ],
+      "risks": [
+        "天然气库存高于五年均值会压制上游价格弹性。",
+        "若全球增长放缓，油品需求和炼油利润率可能下修。",
+        "XLE 受油价、美元、利率和大型权重股资本纪律共同影响。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 14,
+        "valuation_setup": 13,
+        "catalyst_path": 12,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Weekly Natural Gas Storage Report for week ending October 2, 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        },
+        {
+          "title": "WNGSR summary text",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/ngs/wngsr.txt"
+        },
+        {
+          "title": "Short-Term Energy Outlook October 2026",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/outlooks/steo/archives/oct26.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics / AI ETF basket",
+      "asset": "Global X Robotics & Artificial Intelligence ETF",
+      "ticker": "BOTZ",
+      "region": "Global ETF",
+      "grade": "C",
+      "action": "Hold/Watch / Wait for order confirmation",
+      "score": 62,
+      "thesis": "BOTZ 能覆盖机器人和 AI 自动化主题，但当前证据更多来自行业数据和合作公告，缺少 ETF 内主要成分股的同步订单/利润确认。主题强，交易边际一般；更适合作为观察仓而非主动加仓对象。",
+      "why_now": "IFR 和 FANUC-Hitachi 支持长期方向，但今天没有新的 ETF 成分层面经营催化。",
+      "catalysts": [
+        "IFR 2026-10-30 统计发布会和后续公司三季报订单。",
+        "工厂自动化、物流机器人和 machine vision 公司若出现订单拐点，可提高 BOTZ 权重。",
+        "若利率回落且制造业 PMI 改善，ETF 型机器人敞口的胜率会提高。"
+      ],
+      "risks": [
+        "ETF 成分混杂，可能持有部分估值高但订单慢的 AI 概念股。",
+        "机器人商业化节奏慢于市场叙事时，主题 ETF 容易回撤。",
+        "日元、欧洲工业周期和美国利率都会影响组合表现。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 12,
+        "valuation_setup": 11,
+        "catalyst_path": 11,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Global Sales of Professional Service Robots Surge 24%",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/news/global-sales-of-professional-service-robots-surge-24-percent/1st"
+        },
+        {
+          "title": "Hitachi and FANUC Physical AI partnership",
+          "publisher": "FANUC",
+          "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "AI infrastructure",
+      "asset": "OCP Global Summit",
+      "ticker": "N/A",
+      "note": "2026-10-12 至 2026-10-15：关注 rack-scale AI、光互连、networking 和电力架构披露。"
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "TSMC 3Q26 earnings",
+      "ticker": "TSM / 2330 TT",
+      "note": "2026-10-15 14:00 Asia/Taipei：今天最重要的后续确认点。"
+    },
+    {
+      "theme": "Macro",
+      "asset": "US September CPI",
+      "ticker": "N/A",
+      "note": "2026-10-14：决定 10Y TIPS 是否能从 2.87% 附近回落。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA WPSR",
+      "ticker": "XLE",
+      "note": "2026-10-15 holiday-adjusted release：看原油/汽油/馏分油库存是否改善能源评分。"
+    },
+    {
+      "theme": "Robotics",
+      "asset": "IFR service/mobile/humanoid statistics webinar",
+      "ticker": "BOTZ / FANUY",
+      "note": "2026-10-30：行业数据能否从主题叙事转向订单验证。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "Federal Reserve H.15 Selected Interest Rates, October 09 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "Federal Reserve FOMC calendar, September 15-16 2026 minutes released October 07",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "label": "DOL Unemployment Insurance Weekly Claims, October 08 2026",
+      "url": "https://www.dol.gov/ui/data.pdf"
+    },
+    {
+      "label": "EIA Weekly Natural Gas Storage Report, October 08 2026",
+      "url": "https://ir.eia.gov/ngs/ngs.html"
+    },
+    {
+      "label": "TSMC September 2026 Revenue Report / Form 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm"
+    },
+    {
+      "label": "TSMC 3Q26 Quarterly Results",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    {
+      "label": "World Gold Council September 2026 ETF flows",
+      "url": "https://china.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
+    },
+    {
+      "label": "NVIDIA Q2 FY2027 results",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+    },
+    {
+      "label": "Marvell Investor Day 2026",
+      "url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261006-marvell-investor-day-2026"
+    },
+    {
+      "label": "FANUC-Hitachi Physical AI partnership",
+      "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260930.html"
+    },
+    {
+      "label": "IFR professional service robots 2026 release",
+      "url": "https://ifr.org/news/global-sales-of-professional-service-robots-surge-24-percent/1st"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro",
+    "GPT-5.3-codex"
+  ]
+}
