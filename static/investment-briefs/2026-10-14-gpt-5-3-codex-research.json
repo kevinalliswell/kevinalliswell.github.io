@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "title": "投资晨报 2026-10-14（监测版）",
+  "source_label": "GPT-5.3-codex",
+  "summary": "截至 2026-10-14 上海早间，本轮一手资料巡检没有发现 AI、机器人、能源或黄金方向足以改变仓位等级的新增订单、业绩指引或监管经营披露。主要增量仍是事件路径：BLS 将在 2026-10-14 08:30 ET 发布美国 9 月 CPI，TSMC 将在 2026-10-15 14:00 Asia/Taipei 举行 3Q26 法说会，OCP Global Summit 2026 继续把 AI factory、Ethernet networking、CXL memory fabric、800 VDC 和 liquid cooling 推到前台。美国财政部 2026-10-13 曲线显示 10Y nominal 5.21%、10Y TIPS 2.88%，高实际利率虽较 2026-10-09 小幅回落但仍压制追高容错；结论是维持 B 档观察和回撤买入纪律。",
+  "macro": {
+    "regime": "CPI 前高实际利率约束仍在，OCP 继续提供 AI 基建事件信号",
+    "bullets": [
+      "U.S. Treasury XML 于 2026-10-13T15:45Z 更新，2026-10-13 日曲线显示 10Y nominal 5.21%、30Y nominal 5.56%；10Y TIPS 2.88%、30Y TIPS 3.28%。事实层面，较 2026-10-09 的 10Y nominal 5.24% 和 10Y TIPS 2.91% 小幅回落；判断层面，绝对水平仍不支持对高估值 AI/机器人资产追价。",
+      "BLS 2026 年 10 月日程列明，Consumer Price Index for September 2026 和 Real Earnings for September 2026 均定于 2026-10-14 08:30 ET 发布，Producer Price Index for September 2026 定于 2026-10-15 08:30 ET 发布。CPI 是本日最可能改变美元、TIPS、黄金和成长股估值框架的数据。",
+      "OCP Global Summit 2026 官方页面显示会议为 2026-10-12 至 2026-10-15、地点为 San Jose，且登记已售罄。NVIDIA 页面列出 2026-10-13 至 2026-10-15 的 logical digital twins、800 VDC、network fabrics、liquid cooling、MGX power rack 和 GPU management 议程；这强化 AI factory 工程瓶颈主线，但不是新增财务确认。",
+      "SEC submissions 巡检显示：NVDA 2026-10-13 最新项为 Form 4/A；MRVL 2026-10-09/10-08 最新项为 Form 4/Form 144；AVGO 最新主要仍为 2026-09-25 Form 4 与 9 月注册/招股文件；AMD 最新经营性披露仍是 2026-09-28 World Labs 8-K。未发现新的经营性订单、收入或业绩指引披露。",
+      "EIA Weekly Petroleum Status Report 最新为 2026-10-07 发布、数据截至 2026-10-02：commercial crude stocks 424.134 million barrels，周减 3.186 million barrels；下一次因 2026-10-12 联邦假日延至 2026-10-15 12:00/14:00 ET。World Gold Council 2026-10-07 9 月黄金 ETF 报告仍是黄金主锚：9 月流入 US$10bn，Q3 流入 US$31bn，持仓 4,256t。"
+    ]
+  },
+  "market_snapshot": [
+    {
+      "name": "Taiwan Semiconductor ADR",
+      "ticker": "TSM",
+      "price": "445.12 USD",
+      "change_pct": 0.05,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/tsm"
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "price": "268.73 USD",
+      "change_pct": 1.04,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/mrvl"
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "price": "357.31 USD",
+      "change_pct": 0.74,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/avgo"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "price": "228.52 USD",
+      "change_pct": 0.97,
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvda"
+    },
+    {
+      "name": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "price": "381.67 USD",
+      "change_pct": -0.13,
+      "source_url": "https://www.nasdaq.com/market-activity/funds-and-etfs/gld"
+    },
+    {
+      "name": "Energy Select Sector SPDR",
+      "ticker": "XLE",
+      "price": "67.20 USD",
+      "change_pct": 1.78,
+      "source_url": "https://www.nasdaq.com/market-activity/funds-and-etfs/xle"
+    }
+  ],
+  "ideas": [
+    {
+      "theme": "AI infrastructure / Foundry",
+      "asset": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM / 2330 TT",
+      "region": "Taiwan / US ADR",
+      "grade": "B",
+      "action": "Watch closely / Buy on weakness after 3Q confirmation",
+      "score": 82,
+      "thesis": "TSMC 仍是本周 AI 供应链最关键的基本面确认点。TSMC 2026-10-08 公告显示，2026 年 9 月合并营收约 NT$511.86 billion，环比 -0.6%、同比 +54.6%；2026 年 1-9 月累计营收 NT$3,898.73 billion，同比 +41.1%。这是强经营信号，但 2026-10-15 14:00 Asia/Taipei 的 3Q26 法说会才会验证毛利率、先进封装供给、4Q 指引和 2027 capex。",
+      "why_now": "今天没有比 9 月营收和 2026-10-15 法说会更强的 foundry 原始信号；在 CPI 和法说会前维持第一观察位，但不追价。",
+      "catalysts": [
+        "2026-10-15 14:00-15:30 Asia/Taipei：TSMC 3Q26 earnings conference，重点看 gross margin、4Q revenue guide、CoWoS/advanced packaging 供给和 2027 capex。",
+        "2026-11-10 13:30 Asia/Taipei：TSMC 10 月月度销售，验证 4Q 初期需求延续性。",
+        "若法说会确认 AI/HPC 需求强且毛利率没有下修，TSM 可从 B+ 向 A- 观察。"
+      ],
+      "risks": [
+        "10Y TIPS 2026-10-13 仍为 2.88%，高实际利率压缩成长股估值容错。",
+        "若 3Q26 gross margin 或 4Q 指引低于市场对 AI 需求的高预期，强营收可能被解释为阶段性高点。",
+        "地缘政治、台币/美元、先进封装瓶颈和单一 AI 客户 capex 调整仍是主要尾部风险。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 19,
+        "valuation_setup": 15,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "TSMC September 2026 Revenue Report",
+          "publisher": "TSMC",
+          "url": "https://pr.tsmc.com/english/news/3343"
+        },
+        {
+          "title": "TSMC Third Quarter 2026 Earnings Conference Call",
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/teleconference"
+        },
+        {
+          "title": "U.S. Treasury Daily Real Yield Curve",
+          "publisher": "U.S. Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / Memory fabric",
+      "asset": "Marvell Technology",
+      "ticker": "MRVL",
+      "region": "US",
+      "grade": "B",
+      "action": "Pilot position / Buy only on weakness",
+      "score": 81,
+      "thesis": "Marvell 2026-10-12 发布第二代 Structera X，称其为 six-channel CXL 3.2 memory expander for AI inference，并列出 Alibaba、Samsung DDR memory、SK hynix memory validation 等协作或验证口径；公司表示 Structera X 3406 / 3506 预计 2027 年 Q1 sampling。判断上，这是本周最明确的公司级新增 AI infrastructure 产品信号，因为它把 inference memory wall、CXL memory expansion 和云端开放架构连接起来；但仍是产品路线图和生态背书，不是订单或收入确认。",
+      "why_now": "OCP 期间 Marvell 官方日程在 2026-10-14 继续覆盖 SONiC memory-semantic AI fabrics、direct XPU access 和 optical reliability；事件催化存在，但缺量产、ASP、客户采购或财务指引。",
+      "catalysts": [
+        "2026-10-14：Marvell OCP sessions 包括 Beyond Scale-out: SONiC's Path to Memory-semantic AI Fabrics、Bridging Compute and Memory Fabric: Data Services for Direct XPU Access 等。",
+        "2027 年 Q1：Structera X 3406 / 3506 sampling，验证 CXL 3.2 memory expansion 是否进入真实平台设计。",
+        "下一次财报/Investor Day follow-up：观察 custom silicon、optics、CXL memory、storage controller 是否转化为 backlog 或 revenue guide。"
+      ],
+      "risks": [
+        "Marvell 2026-10-12 新闻稿没有披露订单、价格、收入贡献或毛利率影响，评级必须限制在 B。",
+        "SEC latest submissions 截至本次检查显示 MRVL 最新经营性 filing 仍是 2026-09-25 dividend 8-K；2026-10-08/09 新增主要为 Form 144/Form 4。",
+        "CXL memory pooling 仍面临软件栈、平台验证周期、客户自研、竞争芯片和 hyperscaler capex 节奏风险。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 16,
+        "valuation_setup": 13,
+        "catalyst_path": 19,
+        "risk_adjusted_timing": 14
+      },
+      "sources": [
+        {
+          "title": "Marvell Unveils Second-generation Structera X",
+          "publisher": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/press-releases/detail/1037/adding-and-replacing-marvell-unveils-second-generation-structera-x-industry-first-six-channel-cxl-3-2-memory-expanders-for-ai-inference"
+        },
+        {
+          "title": "Marvell OCP Global Summit 2026 Events",
+          "publisher": "Marvell",
+          "url": "https://www.marvell.com/company/events/ocp-global-summit-2026.html"
+        },
+        {
+          "title": "SEC Company Submissions - Marvell Technology",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / Ethernet networking",
+      "asset": "Broadcom",
+      "ticker": "AVGO",
+      "region": "US",
+      "grade": "B",
+      "action": "Watch closely / Buy only on weakness",
+      "score": 80,
+      "thesis": "Broadcom 的 2026-10-08 OCP 官方发布仍是 AI networking 最强事件催化之一。公司称将在 OCP 展示 Tomahawk 6、Tomahawk Ultra、Jericho 4 Ethernet switches、Thor Ultra 800G / Thor 2 400G AI Ethernet NICs 和第三代 TH6-Davisson CPO，并围绕 ORV3 rack-based solutions 展示 scale-up、scale-out、scale-across 网络。判断上，这强化 AI 集群网络从 GPU 附属环节变成核心瓶颈的方向，但还不是订单或财务上修。",
+      "why_now": "OCP 主事件继续进行，Broadcom 2026-10-12 keynote 后，市场需要等待客户验证或财务指引；本次 SEC 巡检未发现新增经营披露。",
+      "catalysts": [
+        "2026-10-12 至 2026-10-15：Broadcom OCP technical sessions 和 partner demonstrations，关注 CPO、deep buffers、precision time 与开放 rack 设计是否出现客户验证。",
+        "下一次财报中验证 AI semiconductor revenue、AI networking backlog 和毛利率是否继续兑现。",
+        "若 hyperscaler 或 ODM 在 OCP 期间确认采用 Tomahawk/Thor/CPO 方案，可提高 catalyst path 评分。"
+      ],
+      "risks": [
+        "OCP 预告是产品/生态事件，不是订单或收入确认，事件后若没有客户证据容易回吐。",
+        "AI networking 竞争来自 NVIDIA Spectrum-X、Marvell、专有互连和 hyperscaler 自研。",
+        "AVGO 估值已包含较高 AI 预期，10Y TIPS 2.88% 下追价容错低。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 18,
+        "valuation_setup": 13,
+        "catalyst_path": 18,
+        "risk_adjusted_timing": 12
+      },
+      "sources": [
+        {
+          "title": "Broadcom Redefines AI Infrastructure at 2026 OCP Global Summit",
+          "publisher": "Broadcom Investor Relations",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-redefines-ai-infrastructure-industry-leading-networking"
+        },
+        {
+          "title": "2026 OCP Global Summit",
+          "publisher": "Open Compute Project",
+          "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/"
+        },
+        {
+          "title": "SEC Company Submissions - Broadcom",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001730168.json"
+        }
+      ]
+    },
+    {
+      "theme": "AI infrastructure / Accelerated compute",
+      "asset": "NVIDIA",
+      "ticker": "NVDA",
+      "region": "US",
+      "grade": "B",
+      "action": "Buy on weakness / Do not chase",
+      "score": 78,
+      "thesis": "NVIDIA OCP 页面列出 2026-10-12 17:45 keynote 'AI Factories at Scale: Advancing Open Infrastructure for Agentic AI'，并称超过 200 个生态伙伴采用 MGX designs；页面还列出 2026-10-13 至 2026-10-15 的 AI factory design、800 VDC、FBOSS network fabrics、liquid cooling、GPU management 和 MGX power rack sessions。判断上，NVIDIA 仍是 AI factory 标准化的核心平台，但最新 SEC 检查仅见 2026-10-13 Form 4/A，缺少新的订单或业绩披露。",
+      "why_now": "OCP 把 NVIDIA 的叙事从 GPU 本身推向 power/cooling/networking/reference design；这是结构性利好，但不是新的可量化盈利增量。",
+      "catalysts": [
+        "2026-10-13 至 2026-10-15：OCP sessions 聚焦 logical digital twins、800 VDC、network fabrics、MGX power rack、liquid cooling 和 GPU management。",
+        "下一次 NVIDIA 财报/10-Q：验证 data center revenue、gross margin、networking attach rate 和客户集中度。",
+        "若 OCP 期间出现更多 OEM/ODM/utility/customer adoption 证据，可提高 NVIDIA ecosystem 的确定性评分。"
+      ],
+      "risks": [
+        "SEC latest submissions 截至本次检查显示 NVDA 最新为 2026-10-13 Form 4/A，非经营更新。",
+        "高估值叠加 10Y TIPS 2.88%，任何 CPI 上行或毛利率担忧都会放大波动。",
+        "AI capex 集中度、出口限制、客户自研 ASIC、供电和交付瓶颈仍是主要风险。"
+      ],
+      "components": {
+        "theme_strength": 19,
+        "business_quality": 20,
+        "valuation_setup": 11,
+        "catalyst_path": 17,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "NVIDIA at OCP Global Summit 2026",
+          "publisher": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/events/ocp-summit/"
+        },
+        {
+          "title": "2026 OCP Global Summit",
+          "publisher": "Open Compute Project",
+          "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/"
+        },
+        {
+          "title": "SEC Company Submissions - NVIDIA",
+          "publisher": "SEC EDGAR",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        }
+      ]
+    },
+    {
+      "theme": "Gold / Real assets",
+      "asset": "SPDR Gold Shares",
+      "ticker": "GLD",
+      "region": "US ETF",
+      "grade": "B",
+      "action": "Core insurance / Add only on pullbacks",
+      "score": 73,
+      "thesis": "World Gold Council 2026-10-07 的 9 月黄金 ETF 报告仍支持黄金保险仓：全球黄金 ETF 9 月吸引 US$10bn 流入，Q3 流入达到纪录 US$31bn；尽管金价下跌，全球持仓仍增加 67t 至 4,256t，AUM 降至 US$574bn。判断上，这是跨区域真实资金需求信号，但 2026-10-13 10Y TIPS 仍为 2.88%，CPI 前不宜把 GLD 从保险仓变成追涨仓。",
+      "why_now": "黄金的资金流信号强于价格动量信号；CPI 将决定实际利率是否继续压制金价。",
+      "catalysts": [
+        "2026-10-14 08:30 ET：美国 9 月 CPI；若低于预期并压低实际利率，GLD 可提高战术权重。",
+        "World Gold Council weekly/monthly ETF 更新，确认 10 月流入是否延续。",
+        "FOMC 2026-10-27/28：政策语气将影响美元和实际利率。"
+      ],
+      "risks": [
+        "若 CPI 上行导致 10Y TIPS 重新上破 2.9%-3.0%，黄金可能再次承压。",
+        "ETF 流入可以反映战略配置，也可能在价格回撤中放慢或反转。",
+        "GLD 本身无现金流，仓位应按组合保险功能而不是成长资产逻辑管理。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 15,
+        "valuation_setup": 14,
+        "catalyst_path": 15,
+        "risk_adjusted_timing": 13
+      },
+      "sources": [
+        {
+          "title": "Gold ETF Flows: September 2026",
+          "publisher": "World Gold Council",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
+        },
+        {
+          "title": "Schedule of Selected Releases 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        },
+        {
+          "title": "U.S. Treasury Daily Real Yield Curve",
+          "publisher": "U.S. Treasury",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve"
+        }
+      ]
+    },
+    {
+      "theme": "Robotics / Automation",
+      "asset": "FANUC",
+      "ticker": "6954 JP / FANUY",
+      "region": "Japan / US ADR",
+      "grade": "B",
+      "action": "Hold/Watch / Pilot only on weakness",
+      "score": 70,
+      "thesis": "机器人方向今天没有新的订单或利润率披露。维持 FANUC 观察位的理由仍来自 2026-09-30 FANUC-Hitachi Physical AI 合作与 IFR 2026-09-24/09-30 的行业数据：全球工业机器人存量已达 500 万台，专业服务机器人 2025 年出货接近 25 万台、同比 +24%。判断上，Physical AI 和工业自动化是 AI 外溢方向，但短期缺少公司级订单确认。",
+      "why_now": "AI factory 事件窗口会带动 Physical AI 叙事，但机器人链条需要等待 ABB 2026-10-20 Q3、IFR 2026-10-30 webinar 或公司订单数据确认。",
+      "catalysts": [
+        "2026-10-20：ABB Q3 2026 results，观察 robotics/orders/margins 对自动化周期的读数。",
+        "2026-10-30：IFR service/mobile/humanoid statistics webinar，验证服务机器人和 humanoid 方向的行业增速。",
+        "FANUC/Hitachi 后续若披露真实客户试点、订单或生产效率指标，可提高评分。"
+      ],
+      "risks": [
+        "机器人订单周期通常滞后于 AI 主题情绪，主题热度不等于订单。",
+        "日本出口链受日元、全球制造 PMI、汽车/电子 capex 影响较大。",
+        "若 ABB 或 IFR 数据显示订单放缓，BOTZ/FANUC 主题仓位应下调。"
+      ],
+      "components": {
+        "theme_strength": 16,
+        "business_quality": 16,
+        "valuation_setup": 13,
+        "catalyst_path": 14,
+        "risk_adjusted_timing": 11
+      },
+      "sources": [
+        {
+          "title": "World Robotics 2026",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/ifr-press-releases/news/world-robotics-2026"
+        },
+        {
+          "title": "FANUC and Hitachi Begin Collaboration Toward Realization of Physical AI",
+          "publisher": "FANUC",
+          "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/newsrelease20260930.html"
+        },
+        {
+          "title": "ABB Q3 2026 Results Calendar",
+          "publisher": "ABB Investor Relations",
+          "url": "https://global.abb/group/en/investors/calendar-events"
+        }
+      ]
+    },
+    {
+      "theme": "Energy / Oil and gas",
+      "asset": "Energy Select Sector SPDR",
+      "ticker": "XLE",
+      "region": "US ETF",
+      "grade": "C",
+      "action": "Hold/Watch / Add only after inventory confirmation",
+      "score": 64,
+      "thesis": "能源方向今天没有新的 EIA 周报。EIA WPSR 最新数据截至 2026-10-02，commercial crude stocks 为 424.134 million barrels，较前周减少 3.186 million barrels；EIA 同页说明下一次 WPSR 因 2026-10-12 联邦假日延至 2026-10-15 12:00/14:00 ET。天然气方面，上一轮 WNGSR 显示 working gas 3,500 Bcf，周增 85 Bcf，较五年均值高 68 Bcf。判断上，油品库存偏紧但天然气库存不紧，XLE 仍不具备主动加仓等级。",
+      "why_now": "等待 2026-10-15 WPSR/WNGSR 和 PPI，同日数据会同时影响能源实际需求、通胀和利率预期。",
+      "catalysts": [
+        "2026-10-15：EIA WPSR/WNGSR，确认原油、汽油、馏分油和天然气库存方向。",
+        "2026-10-15 08:30 ET：美国 9 月 PPI，观察能源价格对上游通胀的传导。",
+        "若原油/成品油库存继续去化且天然气库存相对五年均值回落，可把 XLE 从 C 提到 B- 观察。"
+      ],
+      "risks": [
+        "天然气库存仍高于五年均值，削弱能源整体紧缺叙事。",
+        "油价下跌或全球增长预期下修会快速压缩 XLE 盈利预期。",
+        "政策、OPEC+、地缘冲突和美元走强都会带来非基本面波动。"
+      ],
+      "components": {
+        "theme_strength": 13,
+        "business_quality": 15,
+        "valuation_setup": 13,
+        "catalyst_path": 13,
+        "risk_adjusted_timing": 10
+      },
+      "sources": [
+        {
+          "title": "Weekly Petroleum Status Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/"
+        },
+        {
+          "title": "Weekly Natural Gas Storage Report",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://ir.eia.gov/ngs/ngs.html"
+        },
+        {
+          "title": "Schedule of Selected Releases 2026",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "theme": "Macro",
+      "asset": "U.S. September CPI",
+      "ticker": "CPI",
+      "note": "2026-10-14 08:30 ET；决定是否提高 GLD 或降低高估值 AI 追价风险。"
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "TSMC 3Q26 earnings",
+      "ticker": "TSM / 2330 TT",
+      "note": "2026-10-15 14:00 Asia/Taipei；验证先进封装、毛利率、4Q 指引和 2027 capex。"
+    },
+    {
+      "theme": "AI infrastructure",
+      "asset": "OCP Global Summit 2026",
+      "ticker": "NVDA / AVGO / MRVL",
+      "note": "2026-10-12 至 2026-10-15；关注是否从产品议程升级为客户采用或订单信号。"
+    },
+    {
+      "theme": "Energy",
+      "asset": "EIA WPSR/WNGSR",
+      "ticker": "XLE / NG",
+      "note": "2026-10-15；联邦假日顺延，等待库存数据确认能源仓位。"
+    },
+    {
+      "theme": "Robotics",
+      "asset": "ABB Q3 2026 results",
+      "ticker": "ABBNY",
+      "note": "2026-10-20；观察 robotics/orders/margins 是否支持机器人链条。"
+    }
+  ],
+  "source_log": [
+    {
+      "label": "BLS Schedule of Selected Releases 2026",
+      "url": "https://www.bls.gov/schedule/2026/home.htm"
+    },
+    {
+      "label": "U.S. Treasury Daily Treasury Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+    },
+    {
+      "label": "U.S. Treasury Daily Real Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value_month=202610"
+    },
+    {
+      "label": "NVIDIA at OCP Global Summit 2026",
+      "url": "https://www.nvidia.com/en-us/events/ocp-summit/"
+    },
+    {
+      "label": "Broadcom OCP Global Summit 2026 release",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-redefines-ai-infrastructure-industry-leading-networking"
+    },
+    {
+      "label": "Marvell OCP Global Summit 2026 events",
+      "url": "https://www.marvell.com/company/events/ocp-global-summit-2026.html"
+    },
+    {
+      "label": "Open Compute Project 2026 Global Summit",
+      "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/"
+    },
+    {
+      "label": "EIA Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
+    },
+    {
+      "label": "World Gold Council Gold ETF Flows: September 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10"
+    },
+    {
+      "label": "SEC Company Submissions - NVIDIA",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+    },
+    {
+      "label": "SEC Company Submissions - Marvell",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+    },
+    {
+      "label": "SEC Company Submissions - Broadcom",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json"
+    },
+    {
+      "label": "SEC Company Submissions - AMD",
+      "url": "https://data.sec.gov/submissions/CIK0000002488.json"
+    }
+  ],
+  "tags": [
+    "investing",
+    "daily-brief",
+    "ai",
+    "robotics",
+    "energy",
+    "gold",
+    "macro"
+  ]
+}
