@@ -2,8 +2,6 @@
      节点 = 文章 + 共享标签（≥2 篇文章使用才入图，孤儿标签只会变成视觉噪音）；
      边   = 打标关系（kind=tag） + 文章正文里的站内互链（kind=ref）。 */ -}}
 {{- $posts := where site.RegularPages "Type" "posts" -}}
-{{- /* posts/news/ 下是自动生成的投资晨报，不属于手写知识网络 */ -}}
-{{- $posts = where $posts "File.Dir" "ne" "posts/news/" -}}
 {{- $nodes := slice -}}
 {{- $links := slice -}}
 

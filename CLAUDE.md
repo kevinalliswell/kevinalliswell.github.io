@@ -143,6 +143,9 @@ git push origin main
     `HOT_REPOS_LLM_MODEL`（这两项存成 Variable 或 Secret 均可）。三者缺一或调用失败时自动退回无点评版式。
   - 测试：`python3 -m unittest discover -s scripts/tests`
 - **部署**: push 到 main 分支自动构建部署 (`.github/workflows/hugo.yml`)
+- **投资晨报**: 由本机自动化生成后推送（非 GitHub Actions），文章一律放 `content/news/investment-brief-*.md`，
+  附件放 `static/investment-briefs/`。不要放进 `content/posts/`（会出现在首页和归档）。
+  2026-06-26 之后的文章曾放在 `content/posts/news/`，已迁回并用 `aliases` 保留旧网址。
 
 ## 维护检查清单
 
