@@ -65,5 +65,18 @@ class CollectCandidatesTest(unittest.TestCase):
             collect({"x": "nope", "y": "nope"}, ["x", "y"])
 
 
+class DecodeBodyTest(unittest.TestCase):
+    def test_unrequested_gzip_is_decompressed(self):
+        import gzip
+
+        packed = gzip.compress(GOOD_FEED.encode("utf-8"))
+        self.assertEqual(a.decode_body(packed, "gzip", "utf-8"), GOOD_FEED)
+        self.assertEqual(a.decode_body(packed, None, "utf-8"), GOOD_FEED)  # header missing
+
+    def test_plain_body_and_mislabelled_body_pass_through(self):
+        self.assertEqual(a.decode_body(GOOD_FEED.encode("utf-8"), None, "utf-8"), GOOD_FEED)
+        self.assertEqual(a.decode_body(b"<rss/>", "gzip", "utf-8"), "<rss/>")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import html
 import json
 import re
@@ -90,7 +91,18 @@ def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=30) as response:
         charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace")
+        return decode_body(response.read(), response.headers.get("Content-Encoding"), charset)
+
+
+def decode_body(body: bytes, content_encoding: str | None, charset: str) -> str:
+    # Some servers (deepmind.google) send gzip even when it was not asked for,
+    # and urllib does not undo it. Trust the magic bytes over the header.
+    if body[:2] == b"\x1f\x8b" or (content_encoding or "").lower() == "gzip":
+        try:
+            body = gzip.decompress(body)
+        except (OSError, EOFError):
+            pass
+    return body.decode(charset, errors="replace")
 
 
 def local_name(tag: str) -> str:

@@ -39,8 +39,9 @@ jobs:
       HOT_REPOS_NEW_REPO_DAYS: ${{ vars.HOT_REPOS_NEW_REPO_DAYS }}
       # Optional LLM commentary via any OpenAI-compatible endpoint.
       # Leave unset to publish the template layout without commentary.
-      HOT_REPOS_LLM_BASE_URL: ${{ vars.HOT_REPOS_LLM_BASE_URL }}
-      HOT_REPOS_LLM_MODEL: ${{ vars.HOT_REPOS_LLM_MODEL }}
+      # Base URL and model may be stored as either Variables or Secrets.
+      HOT_REPOS_LLM_BASE_URL: ${{ vars.HOT_REPOS_LLM_BASE_URL || secrets.HOT_REPOS_LLM_BASE_URL }}
+      HOT_REPOS_LLM_MODEL: ${{ vars.HOT_REPOS_LLM_MODEL || secrets.HOT_REPOS_LLM_MODEL }}
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       HUGO_VERSION: 0.157.0
     steps:
