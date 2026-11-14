@@ -34,6 +34,13 @@ jobs:
       HOT_REPOS_PER_OWNER_LIMIT: ${{ vars.HOT_REPOS_PER_OWNER_LIMIT }}
       HOT_REPOS_TOP_N: ${{ vars.HOT_REPOS_TOP_N }}
       HOT_REPOS_MAX_PER_OWNER: ${{ vars.HOT_REPOS_MAX_PER_OWNER }}
+      HOT_REPOS_COOLDOWN_DAYS: ${{ vars.HOT_REPOS_COOLDOWN_DAYS }}
+      HOT_REPOS_WATCH_N: ${{ vars.HOT_REPOS_WATCH_N }}
+      HOT_REPOS_NEW_REPO_DAYS: ${{ vars.HOT_REPOS_NEW_REPO_DAYS }}
+      # Optional LLM commentary via any OpenAI-compatible endpoint.
+      # Leave unset to publish the template layout without commentary.
+      HOT_REPOS_LLM_BASE_URL: ${{ vars.HOT_REPOS_LLM_BASE_URL }}
+      HOT_REPOS_LLM_MODEL: ${{ vars.HOT_REPOS_LLM_MODEL }}
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       HUGO_VERSION: 0.157.0
     steps:
@@ -55,6 +62,7 @@ jobs:
       - name: Generate digest post
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOT_REPOS_LLM_API_KEY: ${{ secrets.HOT_REPOS_LLM_API_KEY }}
         run: |
           python3 scripts/generate_github_hot_digest.py \
             "${{ steps.vars.outputs.publish_date }}" \
@@ -64,7 +72,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "content/news/github-hot-${{ steps.vars.outputs.publish_date }}.md"
+          git add "content/news/github-hot-${{ steps.vars.outputs.publish_date }}.md" \
+            data/github_hot_stars.json data/github_hot_featured.json
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
