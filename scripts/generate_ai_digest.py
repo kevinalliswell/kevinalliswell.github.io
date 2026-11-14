@@ -5,6 +5,8 @@ import argparse
 import html
 import json
 import re
+import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field, replace
@@ -244,14 +246,44 @@ def parse_ai_digest_sections(
     return items
 
 
-def collect_candidates(sources: list[SourceConfig], tz: ZoneInfo, now: datetime) -> list[CandidateItem]:
+def collect_source(source: SourceConfig, tz: ZoneInfo, now: datetime) -> list[CandidateItem]:
+    # A leading BOM or blank line is harmless to a reader but fatal to the XML parser.
+    feed_xml = fetch_text(source.feed_url).lstrip("\ufeff \t\r\n")
+    if source.mode == "ai_digest_sections":
+        return parse_ai_digest_sections(feed_xml, source, tz, now)
+    return parse_feed_items(feed_xml, source, tz, now)
+
+
+def collect_candidates(
+    sources: list[SourceConfig], tz: ZoneInfo, now: datetime, attempts: int = 2, retry_delay: float = 5.0
+) -> list[CandidateItem]:
+    """Gather items from every source, skipping the ones that are down.
+
+    Feeds occasionally answer with an error page, a bot challenge or a truncated
+    body. One bad source must not cost the whole day's digest, so each source is
+    retried once and then skipped; the run only fails when every source fails.
+    """
     candidates: list[CandidateItem] = []
+    failed: list[str] = []
     for source in sources:
-        feed_xml = fetch_text(source.feed_url)
-        if source.mode == "ai_digest_sections":
-            candidates.extend(parse_ai_digest_sections(feed_xml, source, tz, now))
-        else:
-            candidates.extend(parse_feed_items(feed_xml, source, tz, now))
+        for attempt in range(1, attempts + 1):
+            try:
+                candidates.extend(collect_source(source, tz, now))
+                break
+            except (ET.ParseError, OSError, ValueError) as exc:
+                print(
+                    f"[ai-digest] {source.name}: attempt {attempt}/{attempts} failed: "
+                    f"{type(exc).__name__}: {exc}",
+                    file=sys.stderr,
+                )
+                if attempt == attempts:
+                    failed.append(source.name)
+                else:
+                    time.sleep(retry_delay)
+    if failed:
+        print(f"[ai-digest] skipped sources: {', '.join(failed)}", file=sys.stderr)
+    if sources and len(failed) == len(sources):
+        raise RuntimeError("Every AI digest source failed; see the errors above.")
     return candidates
 
 
