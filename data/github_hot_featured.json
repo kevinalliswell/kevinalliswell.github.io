@@ -11,6 +11,24 @@
   ],
   "release_tag": ""
  },
+ "Graphify-Labs/graphify": {
+  "dates": [
+   "2026-11-15"
+  ],
+  "release_tag": "v0.9.109"
+ },
+ "JuneYaooo/rea-video": {
+  "dates": [
+   "2026-11-15"
+  ],
+  "release_tag": "v0.1.0"
+ },
+ "alibaba/open-code-review": {
+  "dates": [
+   "2026-11-15"
+  ],
+  "release_tag": "v1.13.9"
+ },
  "anthropics/claude-agent-sdk-python": {
   "dates": [
    "2026-11-01",
@@ -61,6 +79,18 @@
    "2026-11-06"
   ],
   "release_tag": ""
+ },
+ "ccch1mneyyy/dsh-Go": {
+  "dates": [
+   "2026-11-15"
+  ],
+  "release_tag": "v1.0.16"
+ },
+ "deepseek-ai/chat-demo": {
+  "dates": [
+   "2026-11-15"
+  ],
+  "release_tag": "v0.1.1"
  },
  "github/app": {
   "dates": [
