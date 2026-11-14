@@ -139,8 +139,8 @@ git push origin main
     版式为「1 个主推 + 4 个速览 + 持续关注表」。
   - `data/github_hot_featured.json` 是已推荐台账：推荐过的仓库 30 天内不再进正文（发布新大版本除外）。
     这两个 JSON 由 workflow 自动提交，勿手动编辑；删除台账会从已发布日报重新引导。
-  - LLM 点评可选：Secret `HOT_REPOS_LLM_API_KEY` + Variables `HOT_REPOS_LLM_BASE_URL`（OpenAI 兼容，含 `/v1`）、
-    `HOT_REPOS_LLM_MODEL`。三者缺一或调用失败时自动退回无点评版式。
+  - LLM 点评可选：Secret `HOT_REPOS_LLM_API_KEY` + `HOT_REPOS_LLM_BASE_URL`（OpenAI 兼容，含 `/v1`）、
+    `HOT_REPOS_LLM_MODEL`（这两项存成 Variable 或 Secret 均可）。三者缺一或调用失败时自动退回无点评版式。
   - 测试：`python3 -m unittest discover -s scripts/tests`
 - **部署**: push 到 main 分支自动构建部署 (`.github/workflows/hugo.yml`)
 

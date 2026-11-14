@@ -748,7 +748,10 @@ def llm_commentary(config: LLMConfig, repo: RepositorySnapshot, readme: str) -> 
             payload = json.loads(response.read().decode("utf-8"))
         return parse_llm_json(payload["choices"][0]["message"]["content"] or "")
     except Exception as exc:  # noqa: BLE001 - a broken relay must never block the digest
-        print(f"LLM commentary failed for {repo.full_name}: {type(exc).__name__}", file=sys.stderr)
+        detail = ""
+        if isinstance(exc, urllib.error.HTTPError):
+            detail = f" HTTP {exc.code}: {exc.read()[:200].decode('utf-8', errors='replace')}"
+        print(f"LLM commentary failed for {repo.full_name}: {type(exc).__name__}{detail}", file=sys.stderr)
         return None
 
 
@@ -985,6 +988,11 @@ def main(argv: list[str]) -> int:
             review = llm_commentary(llm, repo, readmes[repo.full_name])
             if review:
                 reviews[repo.full_name] = review
+
+    if llm:
+        print(f"LLM commentary: {len(reviews)}/{len(selection.featured)} repos reviewed", file=sys.stderr)
+    else:
+        print("LLM commentary: not configured, using the plain layout", file=sys.stderr)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
