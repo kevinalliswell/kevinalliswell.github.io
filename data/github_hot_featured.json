@@ -23,6 +23,18 @@
   ],
   "release_tag": "v0.1.0"
  },
+ "NVIDIA/SkillEvaluator": {
+  "dates": [
+   "2026-11-17"
+  ],
+  "release_tag": "v0.9.0"
+ },
+ "ag-ui-protocol/ag-ui": {
+  "dates": [
+   "2026-11-17"
+  ],
+  "release_tag": "release/2026-11-13"
+ },
  "alibaba/open-code-review": {
   "dates": [
    "2026-11-15"
@@ -223,6 +235,12 @@
   ],
   "release_tag": ""
  },
+ "hitkeeen/blender-ai-mcp-addon": {
+  "dates": [
+   "2026-11-17"
+  ],
+  "release_tag": "v1.0.0"
+ },
  "huamidev/GestaltX": {
   "dates": [
    "2026-11-14"
@@ -249,6 +267,18 @@
    "2026-11-12"
   ],
   "release_tag": ""
+ },
+ "kajisho5/ffmpeg-skill": {
+  "dates": [
+   "2026-11-17"
+  ],
+  "release_tag": "v3.10.1"
+ },
+ "libracoder/kiri": {
+  "dates": [
+   "2026-11-17"
+  ],
+  "release_tag": "v0.2.1"
  },
  "microsoft/Dataverse-skills": {
   "dates": [
