@@ -53,6 +53,12 @@
   ],
   "release_tag": "v0.4.0"
  },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "dates": [
+   "2026-11-21"
+  ],
+  "release_tag": "v4.5.11"
+ },
  "affaan-m/ECC": {
   "dates": [
    "2026-11-19"
@@ -134,6 +140,12 @@
   ],
   "release_tag": "v0.28.65"
  },
+ "bookwjitchieni1986/blender-ai-mcp-addon": {
+  "dates": [
+   "2026-11-21"
+  ],
+  "release_tag": "v1.0.0"
+ },
  "ccch1mneyyy/dsh-Go": {
   "dates": [
    "2026-11-15"
@@ -166,9 +178,10 @@
  },
  "erkamyaman/rust-anything": {
   "dates": [
-   "2026-11-19"
+   "2026-11-19",
+   "2026-11-21"
   ],
-  "release_tag": "v1.5.1"
+  "release_tag": "v2.1.0"
  },
  "firecrawl/firecrawl": {
   "dates": [
@@ -294,6 +307,12 @@
    "2026-11-19"
   ],
   "release_tag": ""
+ },
+ "haydenschmitty/floorplan": {
+  "dates": [
+   "2026-11-21"
+  ],
+  "release_tag": "floorplan--v0.11.0"
  },
  "heygen-com/hyperframes": {
   "dates": [
@@ -541,5 +560,11 @@
    "2026-10-29"
   ],
   "release_tag": ""
+ },
+ "zhouxiaoka/autoclip": {
+  "dates": [
+   "2026-11-21"
+  ],
+  "release_tag": "v1.5.8"
  }
 }
