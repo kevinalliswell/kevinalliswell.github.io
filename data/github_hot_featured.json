@@ -23,11 +23,23 @@
   ],
   "release_tag": "v1.1.11"
  },
+ "ItsNotRexed/Leonida": {
+  "dates": [
+   "2026-11-22"
+  ],
+  "release_tag": ""
+ },
  "JuneYaooo/rea-video": {
   "dates": [
    "2026-11-15"
   ],
   "release_tag": "v0.1.0"
+ },
+ "Minireel/HGhub": {
+  "dates": [
+   "2026-11-22"
+  ],
+  "release_tag": "v0.0.4"
  },
  "NVIDIA/SkillEvaluator": {
   "dates": [
@@ -179,9 +191,10 @@
  "erkamyaman/rust-anything": {
   "dates": [
    "2026-11-19",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
-  "release_tag": "v2.1.0"
+  "release_tag": "v3.1.0"
  },
  "firecrawl/firecrawl": {
   "dates": [
@@ -353,6 +366,12 @@
   ],
   "release_tag": ""
  },
+ "iamajmeena/neonclipping": {
+  "dates": [
+   "2026-11-22"
+  ],
+  "release_tag": "v1.1.0"
+ },
  "kajisho5/ffmpeg-skill": {
   "dates": [
    "2026-11-17"
@@ -370,6 +389,12 @@
    "2026-11-17"
   ],
   "release_tag": "v0.2.1"
+ },
+ "mdiri-ai/SoduWork": {
+  "dates": [
+   "2026-11-22"
+  ],
+  "release_tag": "v1.13.19"
  },
  "microsoft/Dataverse-skills": {
   "dates": [
