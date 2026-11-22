@@ -1,4 +1,10 @@
 {
+ "EL4CTEO/fast-anything": {
+  "dates": [
+   "2026-11-23"
+  ],
+  "release_tag": "v0.7.0"
+ },
  "Gathin23/cleanyourtv": {
   "dates": [
    "2026-11-14"
@@ -52,6 +58,12 @@
    "2026-11-20"
   ],
   "release_tag": "v0.23.2"
+ },
+ "R0Y00/Xbox2Windows": {
+  "dates": [
+   "2026-11-23"
+  ],
+  "release_tag": "gpu-check-v0.1.0"
  },
  "RoutineMiku/apkstart": {
   "dates": [
@@ -315,6 +327,12 @@
   ],
   "release_tag": ""
  },
+ "google-labs-code/stitch-skills": {
+  "dates": [
+   "2026-11-23"
+  ],
+  "release_tag": "v1.0"
+ },
  "google-research/paper-orchestra": {
   "dates": [
    "2026-11-19"
@@ -326,6 +344,12 @@
    "2026-11-21"
   ],
   "release_tag": "floorplan--v0.11.0"
+ },
+ "headroomlabs-ai/headroom": {
+  "dates": [
+   "2026-11-23"
+  ],
+  "release_tag": "v0.45.0"
  },
  "heygen-com/hyperframes": {
   "dates": [
@@ -583,6 +607,12 @@
    "2026-10-20",
    "2026-10-28",
    "2026-10-29"
+  ],
+  "release_tag": ""
+ },
+ "sybil-solutions/inference-optimisation-skill": {
+  "dates": [
+   "2026-11-23"
   ],
   "release_tag": ""
  },
