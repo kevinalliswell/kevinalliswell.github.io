@@ -1,4 +1,10 @@
 {
+ "BaaRai/ARTEX": {
+  "dates": [
+   "2026-11-24"
+  ],
+  "release_tag": "v0.7.0"
+ },
  "EL4CTEO/fast-anything": {
   "dates": [
    "2026-11-23"
@@ -22,6 +28,12 @@
    "2026-11-15"
   ],
   "release_tag": "v0.9.109"
+ },
+ "INK-Q/agy-fast": {
+  "dates": [
+   "2026-11-24"
+  ],
+  "release_tag": "v0.3.0"
  },
  "Immortal-Protocols/lastbook": {
   "dates": [
@@ -58,6 +70,12 @@
    "2026-11-20"
   ],
   "release_tag": "v0.23.2"
+ },
+ "ProjectLeonida/Leonida": {
+  "dates": [
+   "2026-11-24"
+  ],
+  "release_tag": ""
  },
  "R0Y00/Xbox2Windows": {
   "dates": [
@@ -169,6 +187,12 @@
    "2026-11-21"
   ],
   "release_tag": "v1.0.0"
+ },
+ "cathrynlavery/diagram-design": {
+  "dates": [
+   "2026-11-24"
+  ],
+  "release_tag": ""
  },
  "ccch1mneyyy/dsh-Go": {
   "dates": [
@@ -395,6 +419,12 @@
    "2026-11-22"
   ],
   "release_tag": "v1.1.0"
+ },
+ "janestreet/agent_skills": {
+  "dates": [
+   "2026-11-24"
+  ],
+  "release_tag": ""
  },
  "kajisho5/ffmpeg-skill": {
   "dates": [
