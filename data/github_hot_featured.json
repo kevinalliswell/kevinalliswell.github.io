@@ -1,4 +1,10 @@
 {
+ "AFK-surf/xnulinux": {
+  "dates": [
+   "2026-11-25"
+  ],
+  "release_tag": ""
+ },
  "BaaRai/ARTEX": {
   "dates": [
    "2026-11-24"
@@ -7,9 +13,10 @@
  },
  "EL4CTEO/fast-anything": {
   "dates": [
-   "2026-11-23"
+   "2026-11-23",
+   "2026-11-25"
   ],
-  "release_tag": "v0.7.0"
+  "release_tag": "v0.8.7"
  },
  "Gathin23/cleanyourtv": {
   "dates": [
@@ -52,6 +59,12 @@
    "2026-11-15"
   ],
   "release_tag": "v0.1.0"
+ },
+ "Marvisak/VIctory": {
+  "dates": [
+   "2026-11-25"
+  ],
+  "release_tag": ""
  },
  "Minireel/HGhub": {
   "dates": [
@@ -231,6 +244,12 @@
    "2026-11-22"
   ],
   "release_tag": "v3.1.0"
+ },
+ "ersinkoc/phonebox": {
+  "dates": [
+   "2026-11-25"
+  ],
+  "release_tag": "v0.9.29"
  },
  "firecrawl/firecrawl": {
   "dates": [
@@ -643,6 +662,12 @@
  "sybil-solutions/inference-optimisation-skill": {
   "dates": [
    "2026-11-23"
+  ],
+  "release_tag": ""
+ },
+ "xcl-dev/xcl": {
+  "dates": [
+   "2026-11-25"
   ],
   "release_tag": ""
  },
