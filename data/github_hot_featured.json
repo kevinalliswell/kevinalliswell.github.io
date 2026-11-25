@@ -1,4 +1,10 @@
 {
+ "4lwayz/portwatch-vi": {
+  "dates": [
+   "2026-11-26"
+  ],
+  "release_tag": ""
+ },
  "AFK-surf/xnulinux": {
   "dates": [
    "2026-11-25"
@@ -241,9 +247,10 @@
   "dates": [
    "2026-11-19",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-26"
   ],
-  "release_tag": "v3.1.0"
+  "release_tag": "v4.2.0"
  },
  "ersinkoc/phonebox": {
   "dates": [
@@ -256,6 +263,12 @@
    "2026-11-20"
   ],
   "release_tag": "v2.11.0"
+ },
+ "fxceless/victory-fork": {
+  "dates": [
+   "2026-11-26"
+  ],
+  "release_tag": ""
  },
  "github/app": {
   "dates": [
@@ -577,6 +590,12 @@
   ],
   "release_tag": "npm-v0.10.0"
  },
+ "openai/math": {
+  "dates": [
+   "2026-11-26"
+  ],
+  "release_tag": ""
+ },
  "openai/openai-agents-js": {
   "dates": [
    "2026-11-02",
@@ -625,6 +644,12 @@
    "2026-11-13"
   ],
   "release_tag": ""
+ },
+ "pierridotite/mobile-agent-testers": {
+  "dates": [
+   "2026-11-26"
+  ],
+  "release_tag": "v0.2.0"
  },
  "simonw/llm": {
   "dates": [
