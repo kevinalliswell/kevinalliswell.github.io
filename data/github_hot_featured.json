@@ -17,6 +17,12 @@
   ],
   "release_tag": "v0.7.0"
  },
+ "DietrichGebert/ponytail": {
+  "dates": [
+   "2026-11-27"
+  ],
+  "release_tag": "v5.3.3"
+ },
  "EL4CTEO/fast-anything": {
   "dates": [
    "2026-11-23",
@@ -41,6 +47,12 @@
    "2026-11-15"
   ],
   "release_tag": "v0.9.109"
+ },
+ "Hut-hzf/ung220z-tool": {
+  "dates": [
+   "2026-11-27"
+  ],
+  "release_tag": ""
  },
  "INK-Q/agy-fast": {
   "dates": [
@@ -195,6 +207,12 @@
   ],
   "release_tag": ""
  },
+ "avatarmanz/VIctory-7900XTX": {
+  "dates": [
+   "2026-11-27"
+  ],
+  "release_tag": ""
+ },
  "backnotprop/plannotator": {
   "dates": [
    "2026-11-16"
@@ -317,6 +335,12 @@
    "2026-11-13"
   ],
   "release_tag": ""
+ },
+ "github/spec-kit": {
+  "dates": [
+   "2026-11-27"
+  ],
+  "release_tag": "v1.4.5"
  },
  "google-gemini/cookbook": {
   "dates": [
@@ -569,6 +593,12 @@
    "2026-11-18"
   ],
   "release_tag": "v4.3.2"
+ },
+ "nightly-labs/openbot": {
+  "dates": [
+   "2026-11-27"
+  ],
+  "release_tag": "v0.80.0"
  },
  "obra/superpowers": {
   "dates": [
