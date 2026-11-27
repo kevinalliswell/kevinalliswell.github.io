@@ -102,6 +102,12 @@
   ],
   "release_tag": "v0.23.2"
  },
+ "Pixel679-cmyk/windows-titlebar-blur-customizer": {
+  "dates": [
+   "2026-11-28"
+  ],
+  "release_tag": "v4.4.2"
+ },
  "ProjectLeonida/Leonida": {
   "dates": [
    "2026-11-24"
@@ -143,6 +149,12 @@
    "2026-11-17"
   ],
   "release_tag": "release/2026-11-13"
+ },
+ "alesha-pro/llm.asm": {
+  "dates": [
+   "2026-11-28"
+  ],
+  "release_tag": ""
  },
  "alibaba/open-code-review": {
   "dates": [
@@ -681,6 +693,12 @@
   ],
   "release_tag": "v0.2.0"
  },
+ "qianyiai/KuroCat": {
+  "dates": [
+   "2026-11-28"
+  ],
+  "release_tag": "v5.1.3"
+ },
  "simonw/llm": {
   "dates": [
    "2026-11-04"
@@ -720,11 +738,23 @@
   ],
   "release_tag": ""
  },
+ "trustno1-coder/VIctory-NVIDIA": {
+  "dates": [
+   "2026-11-28"
+  ],
+  "release_tag": "v2026.11.27.7"
+ },
  "xcl-dev/xcl": {
   "dates": [
    "2026-11-25"
   ],
   "release_tag": ""
+ },
+ "yetone/magpie": {
+  "dates": [
+   "2026-11-28"
+  ],
+  "release_tag": "v0.1.4985"
  },
  "zhouxiaoka/autoclip": {
   "dates": [
